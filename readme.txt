@@ -18,7 +18,7 @@ WPSSO extension to manage multiple Organizations / Publishers and additional pro
 
 <p><img src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png" width="256" height="256" style="width:33%;min-width:128px;max-width:256px;float:left;margin:0 40px 20px 0;" /></p>
 
-WPSSO Organization Markup (WPSSO ORG) works in conjunction with the [WordPress Social Sharing Optimization (WPSSO)](https://wordpress.org/plugins/wpsso/) plugin, extending its features with additional settings pages, tabs, and options.
+WPSSO Organization Markup (WPSSO ORG) works in conjunction with the [WordPress Social Sharing Optimization (WPSSO)](https://wordpress.org/plugins/wpsso/) plugin, extending its features with additional settings pages, tabs, and options to manage multiple Organizations / Publishers.
 
 = Quick List of Features =
 
@@ -64,7 +64,8 @@ WPSSO Organization Markup (WPSSO ORG) works in conjunction with the [WordPress S
 		* MySpace Business Page URL
 		* Pinterest Company Page URL
 		* Twitter Business @username
-* Include Place / Location information in your Schema Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta (WPSSO PLM)](https://wordpress.org/plugins/wpsso-plm/) extension.
+* Select a more specific Schema Organization sub-type for Google's Organization markup.
+* Include Place / Location information in your Schema / Google Organization markup, when used in combination with the [WPSSO Place / Location and Local Business Meta (WPSSO PLM)](https://wordpress.org/plugins/wpsso-plm/) extension.
 
 **WPSSO ORG Pro / Power-User Features**
 
