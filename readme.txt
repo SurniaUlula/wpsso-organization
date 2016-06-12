@@ -5,7 +5,7 @@ Text Domain: wpsso-organization
 Domain Path: /languages
 Contributors: jsmoriss
 Donate Link: https://wpsso.com/
-Tags: wpsso, organization, schema, markup, properties, local business, corporation
+Tags: wpsso, organization, schema, markup, properties, local business, publisher, article
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
 Requires At Least: 3.1
@@ -64,12 +64,13 @@ WPSSO Organization Markup (WPSSO ORG) works in conjunction with the [WordPress S
 		* MySpace Business Page URL
 		* Pinterest Company Page URL
 		* Twitter Business @username
+* Include Place / Location information in your Schema Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta (WPSSO PLM)](https://wordpress.org/plugins/wpsso-plm/) extension.
 
 **WPSSO ORG Pro / Power-User Features**
 
 * Extends the features of WPSSO Pro (requires a licensed and active WPSSO Pro plugin).
-* Manage multiple Organizations for use by the [WPSSO Schema JSON-LD Markup (WPSSO JSON) Pro](http://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension:
-	* Select an alternate publisher for the Schema Article type:
+* Manage multiple Organizations / Publishers for the [WPSSO Schema JSON-LD Markup (WPSSO JSON) Pro](http://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension:
+	* Select an alternate publisher for the Schema Article type and its sub-types:
 		* [schema.org/Article](http://schema.org/Article)
 			* [schema.org/BlogPosting](http://schema.org/BlogPosting)
 			* [schema.org/NewsArticle](http://schema.org/NewsArticle)
@@ -82,11 +83,15 @@ WPSSO Organization Markup (WPSSO ORG) works in conjunction with the [WordPress S
 
 = Available in Multiple Languages =
 
+* English (US)
+* French (France)
+* More to come...
+
 = Extends the WPSSO Plugin =
 
 The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO ORG extension.
 
-You can use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO, but the [WPSSO ORG Pro](http://wpsso.com/extend/plugins/wpsso-organization/) version requires the use of the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/) version as well.
+Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO. The [WPSSO ORG Pro](http://wpsso.com/extend/plugins/wpsso-organization/) extension (along with all WPSSO Pro extensions) requires the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/) plugin as well.
 
 Purchase the [WPSSO Organization Markup (WPSSO ORG) Pro](http://wpsso.com/extend/plugins/wpsso-organization/) extension (includes a *No Risk 30 Day Refund Policy*).
 
