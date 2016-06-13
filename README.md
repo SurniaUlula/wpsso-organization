@@ -14,9 +14,9 @@
 
 <h2>Description</h2>
 
-<p align="center"><img src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png" width="256" height="256" /></p><p></p>
+<p align="center"><img src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png" width="256" height="256" /></p><p>Would you like more control over the Organization markup for Google's Knowledge Graph? Perhaps selecting a more specific Schema Organization sub-type, or add Place / Location information to your Organization markup? How about selecting a different Publisher for the Schema Article markup on Posts, Pages, and custom post types?</p>
 
-<p>WPSSO Organization Markup (WPSSO ORG) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages, tabs, and options to manage multiple Organizations / Publishers.</p>
+<p>WPSSO Organization Markup (WPSSO ORG) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages and options to manage multiple Organizations / Publishers and additional Schema properties.</p>
 
 <h4>Quick List of Features</h4>
 
@@ -34,6 +34,9 @@
 <li>Organization Logo Image URL</li>
 <li>Organization Banner (600x60px) URL</li>
 <li>Organization Schema Type:
+
+<ul>
+<li><a href="http://schema.org/Organization">schema.org/Organization</a>
 
 <ul>
 <li><a href="http://schema.org/Airline">schema.org/Airline</a></li>
@@ -57,7 +60,6 @@
 <li><a href="http://schema.org/Physician">schema.org/Physician</a></li>
 </ul></li>
 <li><a href="http://schema.org/NGO">schema.org/NGO</a></li>
-<li><a href="http://schema.org/Organization">schema.org/Organization</a></li>
 <li><a href="http://schema.org/PerformingGroup">schema.org/PerformingGroup</a>
 
 <ul>
@@ -69,6 +71,7 @@
 
 <ul>
 <li><a href="http://schema.org/SportsTeam">schema.org/SportsTeam</a></li>
+</ul></li>
 </ul></li>
 </ul></li>
 <li>Organization Place / Location (<a href="https://wpsso.com/extend/plugins/wpsso-plm/">WPSSO PLM</a> extension required) </li>
@@ -95,7 +98,7 @@
 <li>Manage multiple Organizations / Publishers for the <a href="http://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup (WPSSO JSON) Pro</a> extension:
 
 <ul>
-<li>Select an alternate publisher for the Schema Article type and its sub-types:
+<li>Allows selecting alternate Publisher information for the Schema Article type and sub-types:
 
 <ul>
 <li><a href="http://schema.org/Article">schema.org/Article</a>
@@ -111,8 +114,6 @@
 </ul></li>
 </ul></li>
 </ul>
-
-<h4>Example Meta Tags and Markup</h4>
 
 <h4>Available in Multiple Languages</h4>
 
