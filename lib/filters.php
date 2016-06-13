@@ -101,6 +101,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		}
 
 		public function filter_save_options( $opts, $options_name, $network ) {
+
 			$org_names = SucomUtil::get_multi_key_locale( 'org_name', $opts, false );	// $add_none = false
 			list( $first_num, $last_num, $next_num ) = SucomUtil::get_first_last_next_nums( $org_names );
 

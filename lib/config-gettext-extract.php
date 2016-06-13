@@ -3,5 +3,5 @@
 _x( '[New Organization]', 'option value', 'wpsso-organization' );
 _x( '[None]', 'option value', 'wpsso-organization' );
 _x( 'Organization', 'lib file description', 'wpsso-organization' );
-_x( 'WPSSO extension to provide additional Schema Organization types and markup properties.', 'plugin description', 'wpsso-organization' );
+_x( 'WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.).', 'plugin description', 'wpsso-organization' );
 ?>

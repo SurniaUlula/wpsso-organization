@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.0-dev1\n"
+"Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.0-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2016-MO-DA HO:MI+ZONE\n"
@@ -31,50 +31,50 @@ msgstr ""
 #: lib/config-gettext-extract.php:6
 msgctxt "plugin description"
 msgid ""
-"WPSSO extension to provide additional Schema Organization types and markup "
-"properties."
+"WPSSO extension to manage multiple Organizations / Publishers and additional "
+"properties for the Schema Article types (BlogPosting, etc.)."
 msgstr ""
 
-#: lib/filters.php:121
+#: lib/filters.php:122
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:135
+#: lib/filters.php:136
 msgid ""
 "Include Organization schema markup in the home page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:138
+#: lib/filters.php:139
 msgid "Select an organization to edit, or add a new organization."
 msgstr ""
 
-#: lib/filters.php:141
+#: lib/filters.php:142
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:144
+#: lib/filters.php:145
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:147
+#: lib/filters.php:148
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:150
+#: lib/filters.php:151
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:153
+#: lib/filters.php:154
 msgid ""
 "If appropriate, you may select an optional Organization sub-type for your "
 "home page (default is Organization)."
 msgstr ""
 
-#: lib/filters.php:158
+#: lib/filters.php:159
 msgid ""
 "Select an optional Place / Location address for this Organization (requires "
 "the %s extension)."
@@ -209,8 +209,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"WPSSO extension to provide additional Schema Organization types and markup "
-"properties."
+"WPSSO extension to manage multiple Organizations / Publishers and additional "
+"properties for the Schema Article types (BlogPosting, etc.)."
 msgstr ""
 
 #. Author of the plugin/theme

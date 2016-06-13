@@ -25,8 +25,13 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		public static function get_org_id( $id, $mixed = 'current' ) {
 
 			$wpsso =& Wpsso::get_instance();
-			if ( $wpsso->debug->enabled )
-				$wpsso->debug->mark();
+
+			if ( $wpsso->debug->enabled ) {
+				$wpsso->debug->args( array( 
+					'id' => $id,
+					'mixed' => $mixed,
+				) );
+			}
 
 			$org_opts = array();
 
@@ -42,6 +47,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 					'org_place_id' => 'org_place_id',		// Organization Place / Location
 				) as $org_key => $site_key ) {
 					$org_opts[$org_key] = SucomUtil::get_locale_opt( $site_key, $wpsso->options, $mixed );
+
 					if ( $org_key === 'org_alt_name' && empty( $org_opts[$org_key] ) )	// fallback to the schema options value
 						$org_opts[$org_key] = SucomUtil::get_locale_opt( 'schema_alt_name', $wpsso->options, $mixed );
 				}
@@ -55,6 +61,9 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 					$wpsso->options, false, '$1' ) as $key => $value )
 						$org_opts[$key] = SucomUtil::get_locale_opt( $key.'_'.$id, $wpsso->options, $mixed );
 			}
+
+			if ( $wpsso->debug->enabled )
+				$wpsso->debug->log( $org_opts );
 
 			if ( empty( $org_opts ) )
 				return false; 
