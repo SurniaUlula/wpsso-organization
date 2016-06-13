@@ -1,4 +1,4 @@
-=== WPSSO Organization Markup - More Organizations / Publishers and Additional Properties ===
+=== WPSSO Organization Markup - Manage Organizations / Publishers + Schema Properties ===
 Plugin Name: WPSSO Organization Markup (WPSSO ORG)
 Plugin Slug: wpsso-organization
 Text Domain: wpsso-organization
