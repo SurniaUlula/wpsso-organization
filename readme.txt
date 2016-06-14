@@ -124,7 +124,7 @@ Purchase the [WPSSO Organization Markup (WPSSO ORG) Pro](http://wpsso.com/extend
 
 = Changelog / Release Notes =
 
-**Version 1.0.0-1 (2016/06/13)**
+**Version 1.0.0-1 (2016/06/14)**
 
 Official announcement: N/A
 
@@ -141,5 +141,5 @@ Official announcement: N/A
 
 = 1.0.0-1 =
 
-(2016/06/13) Initial release.
+(2016/06/14) Initial release.
 
