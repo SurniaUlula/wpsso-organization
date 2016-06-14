@@ -1,0 +1,206 @@
+# Copyright (C) 2016 WPSSO Organization Markup (WPSSO ORG)
+# This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.0-1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
+"POT-Creation-Date: 2016-06-13 09:35-0400\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-06-13 11:24-0400\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#: lib/config-gettext-extract.php:3
+msgctxt "option value"
+msgid "[New Organization]"
+msgstr "[Nouvelle organisation]"
+
+#: lib/config-gettext-extract.php:4
+msgctxt "option value"
+msgid "[None]"
+msgstr "[Aucun]"
+
+#: lib/config-gettext-extract.php:5
+msgctxt "lib file description"
+msgid "Organization"
+msgstr "Organisation"
+
+#: lib/config-gettext-extract.php:6
+msgctxt "plugin description"
+msgid "WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.)."
+msgstr "Une extension WPSSO pour gérer multiples organisations / éditeurs et propriétés supplémentaires pour les Schémas d'Articles (BlogPosting, etc.)."
+
+#: lib/filters.php:122
+msgctxt "option value"
+msgid "Organization #%d"
+msgstr "Organisation #%d"
+
+#: lib/filters.php:136
+msgid "Include Organization schema markup in the home page for Google's Knowledge Graph."
+msgstr ""
+
+#: lib/filters.php:139
+msgid "Select an organization to edit, or add a new organization."
+msgstr "Sélectionnez une organisation a modifier ou ajouter une nouvelle organisation."
+
+#: lib/filters.php:142
+msgid "The complete name for the organization."
+msgstr "Le nom complet de l'organisation."
+
+#: lib/filters.php:145
+msgid "An alternate name for the organization that you would like Google to consider."
+msgstr "Un autre nom pour l’organisation que vous souhaitez que Google considère."
+
+#: lib/filters.php:148
+msgid "A description for the organization."
+msgstr "Une description de l'organisation."
+
+#: lib/filters.php:151
+msgid "The website URL for the organization."
+msgstr "L'URL du site Web de l'organisation."
+
+#: lib/filters.php:154
+msgid "If appropriate, you may select an optional Organization sub-type for your home page (default is Organization)."
+msgstr ""
+
+#: lib/filters.php:159
+msgid "Select an optional Place / Location address for this Organization (requires the %s extension)."
+msgstr ""
+
+#: lib/gpl/admin/org-general.php:34 lib/pro/admin/org-general.php:47
+#: lib/submenu/org-general.php:61
+msgctxt "option comment"
+msgid "%s extension required"
+msgstr "%s extension requise"
+
+#: lib/gpl/admin/org-general.php:44 lib/pro/admin/org-general.php:61
+msgctxt "option label"
+msgid "Edit an Organization"
+msgstr "Modifier une organisation"
+
+#: lib/gpl/admin/org-general.php:51 lib/pro/admin/org-general.php:72
+msgctxt "option comment"
+msgid "delete this organization"
+msgstr "supprimer cet organisme"
+
+#: lib/gpl/admin/org-general.php:53 lib/pro/admin/org-general.php:74
+msgctxt "option label"
+msgid "Organization Name"
+msgstr "Nom de l'organisation"
+
+#: lib/gpl/admin/org-general.php:57 lib/pro/admin/org-general.php:78
+msgctxt "option label"
+msgid "Organization Alternate Name"
+msgstr "Autre nom de l'organisation"
+
+#: lib/gpl/admin/org-general.php:61 lib/pro/admin/org-general.php:82
+msgctxt "option label"
+msgid "Organization Description"
+msgstr "Description de l’organisation"
+
+#: lib/gpl/admin/org-general.php:65 lib/pro/admin/org-general.php:86
+msgctxt "option label"
+msgid "Organization Website URL"
+msgstr "URL du site de l'organisation"
+
+#: lib/gpl/admin/org-general.php:71 lib/pro/admin/org-general.php:92
+#: lib/submenu/org-general.php:98
+msgctxt "option label"
+msgid "Organization Logo Image URL"
+msgstr "URL de l'image logo de l'organisation"
+
+#: lib/gpl/admin/org-general.php:75 lib/pro/admin/org-general.php:96
+#: lib/submenu/org-general.php:102
+msgctxt "option label"
+msgid "Organization Banner (600x60px) URL"
+msgstr "URL bannière (600x60px) de l'organisation"
+
+#: lib/gpl/admin/org-general.php:79 lib/pro/admin/org-general.php:100
+#: lib/submenu/org-general.php:105
+msgctxt "option label"
+msgid "Organization Schema Type"
+msgstr "Type de Schéma d'organisation"
+
+#: lib/gpl/admin/org-general.php:83 lib/pro/admin/org-general.php:105
+#: lib/pro/admin/org-general.php:111 lib/submenu/org-general.php:110
+#: lib/submenu/org-general.php:116
+msgctxt "option label"
+msgid "Organization Place / Location"
+msgstr "Place / position de l'organisation"
+
+#: lib/gpl/admin/org-general.php:89 lib/pro/admin/org-general.php:118
+#: lib/submenu/org-general.php:122
+msgctxt "metabox title"
+msgid "Google Knowledge Graph"
+msgstr "Google Knowledge Graph"
+
+#: lib/submenu/org-general.php:28
+msgctxt "metabox title"
+msgid "Organizations and Knowledge Graph"
+msgstr "Organisations et Knowledge Graph"
+
+#: lib/submenu/org-general.php:65
+msgctxt "option label"
+msgid "Google Knowledge Graph"
+msgstr "Google Knowledge Graph"
+
+#: lib/submenu/org-general.php:69
+msgid " Include <a href=\"%s\">Organization Social Profile</a>"
+msgstr "Inclure le <a href=\"%s\">profil sociale d'Organisation</a>"
+
+#: lib/submenu/org-general.php:73
+msgctxt "option label"
+msgid "Website Name"
+msgstr "Nom du site Web"
+
+#: lib/submenu/org-general.php:79
+msgctxt "option label"
+msgid "Website Alternate Name"
+msgstr "Autre nom du site Web"
+
+#: lib/submenu/org-general.php:85
+msgctxt "option label"
+msgid "Website Description"
+msgstr "Description du site Web"
+
+#: lib/submenu/org-general.php:91
+msgctxt "option label"
+msgid "Website URL"
+msgstr "URL du site Web"
+
+#: wpsso-organization.php:80
+msgid "The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin before trying to re-activate the %4$s extension."
+msgstr "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer l'extension %3$s avant d'essayer de re-activer %4$s."
+
+#: wpsso-organization.php:82
+msgid "The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin."
+msgstr "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer l'extension %3$s."
+
+#: wpsso-organization.php:129
+msgid "The %1$s extension version %2$s requires the use of %3$s version %4$s or newer (version %5$s is currently installed)."
+msgstr "L'extension %1$s version %2$s requiert l'utilisation de %3$s version %4$s ou plus récente (la version %5$s est actuellement installée)."
+
+#. Plugin Name of the plugin/theme
+msgid "WPSSO Organization Markup (WPSSO ORG)"
+msgstr "WPSSO Organization Markup (WPSSO ORG)"
+
+#. Plugin URI of the plugin/theme
+msgid "http://surniaulula.com/extend/plugins/wpsso-organization/"
+msgstr "http://surniaulula.com/extend/plugins/wpsso-organization/"
+
+#. Description of the plugin/theme
+msgid "WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.)."
+msgstr "Une extension WPSSO pour gérer multiples organisations / éditeurs et propriétés supplémentaires pour les Schémas d'Articles (BlogPosting, etc.)."
+
+#. Author of the plugin/theme
+msgid "JS Morisset"
+msgstr "JS Morisset"
+
+#. Author URI of the plugin/theme
+msgid "http://surniaulula.com/"
+msgstr "http://surniaulula.com/"
