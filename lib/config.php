@@ -98,7 +98,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 				if ( file_exists( $filepath ) ) {
 					require_once( $filepath );
 					if ( empty( $classname ) )
-						return SucomUtil::sanitize_classname( 'wpssoorg'.$filespec );
+						return SucomUtil::sanitize_classname( 'wpssoorg'.$filespec, false );	// $underscore = false
 					else return $classname;
 				}
 			}
