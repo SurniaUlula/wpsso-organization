@@ -16,9 +16,9 @@ WPSSO extension to manage multiple Organizations / Publishers and additional pro
 
 == Description ==
 
-<p><img src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png" width="256" height="256" style="width:33%;min-width:128px;max-width:256px;float:left;margin:0 40px 20px 0;" />Would you like more control over the Organization markup for Google's Knowledge Graph? Perhaps selecting a more specific Schema Organization sub-type, or add Place / Location information to your Organization markup? How about selecting a different Publisher for the Schema Article markup on Posts, Pages, and custom post types?</p>
+<p><img src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png" width="256" height="256" style="width:33%;min-width:128px;max-width:256px;float:left;margin:0 40px 20px 0;" /><strong>Would you like more control over the Organization markup for Google's Knowledge Graph?</strong> Perhaps selecting a more specific Schema Organization sub-type, or add Place / Location information to your Organization markup? How about selecting a different Publisher for the Schema Article markup on Posts, Pages, and custom post types?</p>
 
-WPSSO Organization Markup (WPSSO ORG) works in conjunction with the [WordPress Social Sharing Optimization (WPSSO)](https://wordpress.org/plugins/wpsso/) plugin, extending its features with additional settings pages and options to manage multiple Organizations / Publishers and additional Schema properties.
+<p>WPSSO Organization Markup (WPSSO ORG) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages and options to manage multiple Organizations / Publishers and additional Schema properties.</p>
 
 = Quick List of Features =
 
