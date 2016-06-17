@@ -119,6 +119,10 @@ Purchase the [WPSSO Organization Markup (WPSSO ORG) Pro](http://wpsso.com/extend
 
 == Screenshots ==
 
+01. Settings for the Website (Home Page) Organization &mdash; Includes the Website name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
+02. Settings for the Other Organizations / Publishers &mdash; Includes the Organization name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
+03. Article Publisher selection when combined with the WPSSO Schema JSON-LD Markup (WPSSO JSON) extension.
+
 == Changelog ==
 
 = Free / Basic Version Repository =
