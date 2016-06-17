@@ -12,7 +12,7 @@ Requires At Least: 3.1
 Tested Up To: 4.5.2
 Stable Tag: 1.0.0-1
 
-WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types and sub-types.
+WPSSO extension to manage Organizations / Publishers and additional properties for the Schema Article type and its sub-types.
 
 == Description ==
 
