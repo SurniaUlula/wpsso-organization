@@ -1,4 +1,4 @@
-=== WPSSO Organization Markup - Manage Organizations / Publishers + Schema Properties ===
+=== WPSSO Organization Markup - Manage Multiple Organizations / Publishers for Schema ===
 Plugin Name: WPSSO Organization Markup (WPSSO ORG)
 Plugin Slug: wpsso-organization
 Text Domain: wpsso-organization
@@ -12,7 +12,7 @@ Requires At Least: 3.1
 Tested Up To: 4.5.2
 Stable Tag: 1.0.0-1
 
-WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.).
+WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types and sub-types.
 
 == Description ==
 
