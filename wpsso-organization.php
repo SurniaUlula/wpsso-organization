@@ -12,7 +12,7 @@
  * Description: WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.).
  * Requires At Least: 3.1
  * Tested Up To: 4.5.2
- * Version: 1.0.0-1
+ * Version: 1.0.1-dev1
  * 
  * Version Numbers: {major}.{minor}.{bugfix}-{stage}{level}
  *
@@ -38,7 +38,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 		private static $instance = null;
 		private static $wpsso_short = 'WPSSO';
 		private static $wpsso_name = 'WordPress Social Sharing Optimization (WPSSO)';
-		private static $wpsso_min_version = '3.32.4-1';
+		private static $wpsso_min_version = '3.33.0-dev3';
 		private static $wpsso_has_min_ver = true;
 
 		public static function &get_instance() {

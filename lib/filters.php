@@ -34,7 +34,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$this->p->util->add_plugin_filters( $this, array( 
 				'get_defaults' => 1,			// $def_opts
 				'json_array_type_ids' => 2,		// $type_ids, $mod
-				'organization_options' => 3,		// $org_opts, $mod, $org_id
+				'get_organization_options' => 3,	// $org_opts, $mod, $org_id
 			) );
 
 			if ( is_admin() ) {
@@ -63,7 +63,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			return $type_ids;
 		}
 
-		public function filter_organization_options( $org_opts, $mod, $org_id ) {
+		public function filter_get_organization_options( $org_opts, $mod, $org_id ) {
 			if ( $org_id === 'site' || is_numeric( $org_id ) )	// just in case
 				return WpssoOrgOrganization::get_org_id( $org_id, $mod );
 			else return $org_opts;
