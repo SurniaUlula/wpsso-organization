@@ -20,6 +20,29 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				$this->p->debug->mark();
 		}
 
+		public static function get_org_names( $parent_type = false ) {
+
+			$wpsso =& Wpsso::get_instance();
+
+			if ( $wpsso->check->aop( 'wpssoorg', true, $wpsso->is_avail['aop'] ) )
+				$org_names = SucomUtil::get_multi_key_locale( 'org_name', $wpsso->options, false );
+			else $org_names = array();
+
+			if ( ! empty( $parent_type ) ) {
+				$children = $wpsso->schema->get_schema_type_children( $parent_type );
+				if ( ! empty( $children ) ) {	// just in case
+					foreach ( $org_names as $num => $name ) {
+						if ( ! empty( $wpsso->options['org_type_'.$num] ) &&
+							in_array( $wpsso->options['org_type_'.$num], $children ) )
+								continue;
+						else unset( $org_names[$num] );
+					}
+				}
+			}
+
+			return $org_names;
+		}
+
 		// get a specific organization id
 		// $mixed = 'default' | 'current' | post ID | $mod array
 		public static function get_org_id( $id, $mixed = 'current' ) {
@@ -33,7 +56,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				) );
 			}
 
-			$org_opts = array();
+			$opts = array();
 
 			if ( $id === 'site' ) {
 				foreach ( array(
@@ -46,28 +69,28 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 					'org_type' => 'org_type',			// Organization Schema Type
 					'org_place_id' => 'org_place_id',		// Organization Place / Location
 				) as $org_key => $site_key ) {
-					$org_opts[$org_key] = SucomUtil::get_locale_opt( $site_key, $wpsso->options, $mixed );
+					$opts[$org_key] = SucomUtil::get_locale_opt( $site_key, $wpsso->options, $mixed );
 
-					if ( $org_key === 'org_alt_name' && empty( $org_opts[$org_key] ) )	// fallback to the schema options value
-						$org_opts[$org_key] = SucomUtil::get_locale_opt( 'schema_alt_name', $wpsso->options, $mixed );
+					if ( $org_key === 'org_alt_name' && empty( $opts[$org_key] ) )	// fallback to the schema options value
+						$opts[$org_key] = SucomUtil::get_locale_opt( 'schema_alt_name', $wpsso->options, $mixed );
 				}
 				
 				foreach ( apply_filters( $wpsso->cf['lca'].'_social_accounts', 
 					$wpsso->cf['form']['social_accounts'] ) as $key => $label )
-						$org_opts['org_sameas_'.$key] = SucomUtil::get_locale_opt( $key, $wpsso->options, $mixed );
+						$opts['org_sameas_'.$key] = SucomUtil::get_locale_opt( $key, $wpsso->options, $mixed );
 
-			} elseif ( is_numeric( $id ) ) {
+			} elseif ( is_numeric( $id ) && $wpsso->check->aop( 'wpssoorg', true, $wpsso->is_avail['aop'] ) ) {
 				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*)_'.$id.'(#.*)?$/',
 					$wpsso->options, false, '$1' ) as $key => $value )
-						$org_opts[$key] = SucomUtil::get_locale_opt( $key.'_'.$id, $wpsso->options, $mixed );
+						$opts[$key] = SucomUtil::get_locale_opt( $key.'_'.$id, $wpsso->options, $mixed );
 			}
 
 			if ( $wpsso->debug->enabled )
-				$wpsso->debug->log( $org_opts );
+				$wpsso->debug->log( $opts );
 
-			if ( empty( $org_opts ) )
+			if ( empty( $opts ) )
 				return false; 
-			else return $org_opts;
+			else return $opts;
 		}
 	}
 }
