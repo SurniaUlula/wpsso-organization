@@ -132,7 +132,7 @@ Purchase the [WPSSO Organization Markup (WPSSO ORG) Pro](http://wpsso.com/extend
 
 = Changelog / Release Notes =
 
-**Version 1.0.1-dev1 (2016/06/19)**
+**Version 1.0.1-dev2 (2016/06/20)**
 
 Official announcement: N/A
 
@@ -144,6 +144,7 @@ Official announcement: N/A
 	* None
 * *Developer Notes*
 	* Renamed the 'wpsso_organization_options' filter to 'wpsso_get_organization_options'.
+	* Added a new `WpssoOrgOrganization::get_org_names()` method.
 
 **Version 1.0.0-1 (2016/06/14)**
 
@@ -160,9 +161,9 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
-= 1.0.1-dev1 =
+= 1.0.1-dev2 =
 
-(2016/06/19) Renamed the 'wpsso_organization_options' filter to 'wpsso_get_organization_options'.
+(2016/06/20) Renamed the 'wpsso_organization_options' filter to 'wpsso_get_organization_options'.
 
 = 1.0.0-1 =
 
