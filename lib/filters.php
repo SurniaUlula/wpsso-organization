@@ -64,7 +64,9 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		}
 
 		public function filter_get_organization_options( $org_opts, $mod, $org_id ) {
-			if ( $org_id === 'site' || is_numeric( $org_id ) )	// just in case
+			if ( $org_opts !== false )	// first come, first served
+				return $org_opts;
+			elseif ( $org_id === 'site' || is_numeric( $org_id ) )
 				return WpssoOrgOrganization::get_org_id( $org_id, $mod );
 			else return $org_opts;
 		}
