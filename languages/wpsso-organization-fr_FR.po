@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.0-1\n"
+"Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.1-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2016-06-14 15:49-0400\n"
-"PO-Revision-Date: 2016-06-14 15:49-0400\n"
+"POT-Creation-Date: 2016-06-21 15:39-0400\n"
+"PO-Revision-Date: 2016-06-21 15:39-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -35,40 +35,40 @@ msgctxt "plugin description"
 msgid "WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.)."
 msgstr "Une extension WPSSO pour gérer multiples organisations / éditeurs et propriétés supplémentaires pour les Schémas d'Articles (BlogPosting, etc.)."
 
-#: lib/filters.php:122
+#: lib/filters.php:124
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr "Organisation #%d"
 
-#: lib/filters.php:136
+#: lib/filters.php:138
 msgid "Include Organization schema markup in the home page for Google's Knowledge Graph."
 msgstr ""
 
-#: lib/filters.php:139
+#: lib/filters.php:141
 msgid "Select an organization to edit, or add a new organization."
 msgstr "Sélectionnez une organisation a modifier ou ajouter une nouvelle organisation."
 
-#: lib/filters.php:142
+#: lib/filters.php:144
 msgid "The complete name for the organization."
 msgstr "Le nom complet de l'organisation."
 
-#: lib/filters.php:145
+#: lib/filters.php:147
 msgid "An alternate name for the organization that you would like Google to consider."
 msgstr "Un autre nom pour l’organisation que vous souhaitez que Google considère."
 
-#: lib/filters.php:148
+#: lib/filters.php:150
 msgid "A description for the organization."
 msgstr "Une description de l'organisation."
 
-#: lib/filters.php:151
+#: lib/filters.php:153
 msgid "The website URL for the organization."
 msgstr "L'URL du site Web de l'organisation."
 
-#: lib/filters.php:154
+#: lib/filters.php:156
 msgid "If appropriate, you may select an optional Organization sub-type for your home page (default is Organization)."
 msgstr ""
 
-#: lib/filters.php:159
+#: lib/filters.php:161
 msgid "Select an optional Place / Location address for this Organization (requires the %s extension)."
 msgstr ""
 
