@@ -179,16 +179,12 @@ Official announcement: N/A
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* Renamed the 'wpsso_organization_options' filter to 'wpsso_get_organization_options'.
 	* Added a new `WpssoOrgOrganization::get_org_names()` method.
+	* Renamed the 'wpsso_organization_options' filter to 'wpsso_get_organization_options'.
 
 == Upgrade Notice ==
 
 = 1.0.2-1 =
 
 (2016/06/22) Fixed the "Organization Place / Location" default value.
-
-= 1.0.1-1 =
-
-(2016/06/21) Renamed the 'wpsso_organization_options' filter to 'wpsso_get_organization_options'.
 
