@@ -12,7 +12,7 @@
  * Description: WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.).
  * Requires At Least: 3.1
  * Tested Up To: 4.5.3
- * Version: 1.0.1-1
+ * Version: 1.0.2-1
  * 
  * Version Numbers: {major}.{minor}.{bugfix}-{stage}{level}
  *

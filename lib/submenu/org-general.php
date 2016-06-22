@@ -50,17 +50,17 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 			switch ( $metabox.'-'.$key ) {
 				case 'organization-site':
 
-					$all_types = $this->p->schema->get_schema_types( false );	// $flatten = false
-					$org_types = $this->p->schema->get_schema_types_select( $all_types['organization'], false );	// $add_none = false
+					$this->form->__address_names = SucomUtil::get_multi_key_locale( 'plm_addr_name', $this->p->options, true );
+					$this->form->__all_types = $this->p->schema->get_schema_types( false );
+					$this->form->__org_types = $this->p->schema->get_schema_types_select( $this->form->__all_types['organization'], false );
 
 					if ( ! empty( $this->p->cf['plugin']['wpssoplm'] ) &&
 						empty( $this->p->cf['plugin']['wpssoplm']['version'] ) ) {
 		
-						$info = $this->p->cf['plugin']['wpssoplm'];
-						$plm_req_msg = ' <em><a href="'.$info['url']['download'].'" target="_blank">'.
+						$plm_req_msg = ' <em><a href="'.$this->p->cf['plugin']['wpssoplm']['url']['download'].'" target="_blank">'.
 							sprintf( _x( '%s extension required', 'option comment', 'wpsso-plm' ),
-								$info['short'] ).'</a></em>';
-					} else $plm_req_msg = '';
+								$this->p->cf['plugin']['wpssoplm']['short'] ).'</a></em>';
+					} else $plm_req_msg = false;
 
 					$table_rows['schema_social_json'] = $this->form->get_th_html( _x( 'Google Knowledge Graph',
 						'option label', 'wpsso' ), null, 'org_json' ).
@@ -104,19 +104,12 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					$table_rows['org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
 						'option label', 'nextgen-facebook' ), '', 'org_type' ).
-					'<td>'.$this->form->get_select( 'org_type', $org_types, 'long_name' ).'</td>';
+					'<td>'.$this->form->get_select( 'org_type', $this->form->__org_types, 'long_name' ).'</td>';
 
-					if ( $plm_req_msg ) {
-						$table_rows['org_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
-							'option label', 'wpsso-organization' ), '', 'org_place_id' ).
-						'<td>'.$this->form->get_no_select( 'org_place_id', array( 'none' ), 'long_name' ).$plm_req_msg.'</td>';
-					} else {
-						$address_names = SucomUtil::get_multi_key_locale( 'plm_addr_name', $this->p->options, true );	// $add_none = true
-						$this->form->defaults['org_place_id'] = $this->p->options['org_place_id'];	// set default value
-						$table_rows['org_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
-							'option label', 'wpsso-organization' ), '', 'org_place_id' ).
-						'<td>'.$this->form->get_select( 'org_place_id', $address_names, 'long_name' ).'</td>';
-					}
+					$table_rows['org_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
+						'option label', 'wpsso-organization' ), '', 'org_place_id' ).
+					'<td>'.$this->form->get_select( 'org_place_id', $this->form->__address_names, 'long_name', '', true,
+						( $plm_req_msg ? true : false ) ).$plm_req_msg.'</td>';
 
 					$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
 						_x( 'Google Knowledge Graph', 'metabox title', 'wpsso' ).'</h4></td>';
