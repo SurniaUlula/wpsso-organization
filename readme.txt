@@ -18,13 +18,12 @@ WPSSO extension to manage Organizations / Publishers and additional properties f
 
 <p><img src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png" width="256" height="256" style="width:33%;min-width:128px;max-width:256px;float:left;margin:0 40px 20px 0;" /><strong>Control your Organization markup for Google's Knowledge Graph.</strong></p>
 
-<p><strong>Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.).</strong></p>
-
-<p><strong>Add Place / Location information to your Schema Organization markup.</strong></p>
-
-<p><strong>Select a different Publisher for the Schema Article markup.</strong></p>
-
-<p><strong>Select an Organizer or Performer for the Schema Event markup.</strong></p>
+<ul>
+<li>Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), Organization logo and/or banner.</li>
+<li>Add Place / Location information to your Schema Organization markup.</li>
+<li>Select a different Publisher for the Schema Article markup.</li>
+<li>Select an Organizer or Performer for the Schema Event markup.</li>
+</ul>
 
 <p>WPSSO Organization Markup (WPSSO ORG) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages and options to manage multiple Organizations / Publishers and additional Schema properties.</p>
 
@@ -78,8 +77,8 @@ WPSSO extension to manage Organizations / Publishers and additional properties f
 **WPSSO ORG Pro / Power-User Features**
 
 * Extends the features of WPSSO Pro (requires a licensed and active WPSSO Pro plugin).
-* Manage multiple Organizations / Publishers for the [WPSSO Schema JSON-LD Markup (WPSSO JSON) Pro](http://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension:
-	* Allows selecting alternate Publisher information for the Schema Article type and sub-types:
+* Manage multiple Organizations with the [WPSSO Schema JSON-LD Markup (WPSSO JSON) Pro](http://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension:
+	* Allows selecting an alternate Publisher for the Schema Article type and sub-types:
 		* [schema.org/Article](http://schema.org/Article)
 			* [schema.org/BlogPosting](http://schema.org/BlogPosting)
 			* [schema.org/NewsArticle](http://schema.org/NewsArticle)
@@ -87,6 +86,25 @@ WPSSO extension to manage Organizations / Publishers and additional properties f
 			* [schema.org/ScholarlyArticle](http://schema.org/ScholarlyArticle)
 			* [schema.org/SocialMediaPosting](http://schema.org/SocialMediaPosting)
 			* [schema.org/TechArticle](http://schema.org/TechArticle)
+	* Allows selecting an Organizer and/or Performer for the Schema Event type and sub-types:
+		* [schema.org/Event](http://schema.org/Event)
+			* [schema.org/BusinessEvent](http://schema.org/BusinessEvent)
+			* [schema.org/ChildrensEvent](http://schema.org/ChildrensEvent)
+			* [schema.org/DanceEvent](http://schema.org/DanceEvent)
+			* [schema.org/DeliveryEvent](http://schema.org/DeliveryEvent)
+			* [schema.org/EducationEvent](http://schema.org/EducationEvent)
+			* [schema.org/ExhibitionEvent](http://schema.org/ExhibitionEvent)
+			* [schema.org/Festival](http://schema.org/Festival)
+			* [schema.org/FoodEvent](http://schema.org/FoodEvent)
+			* [schema.org/LiteraryEvent](http://schema.org/LiteraryEvent)
+			* [schema.org/MusicEvent](http://schema.org/MusicEvent)
+			* [schema.org/PublicationEvent](http://schema.org/PublicationEvent)
+			* [schema.org/SaleEvent](http://schema.org/SaleEvent)
+			* [schema.org/ScreeningEvent](http://schema.org/ScreeningEvent)
+			* [schema.org/SocialEvent](http://schema.org/SocialEvent)
+			* [schema.org/SportsEvent](http://schema.org/SportsEvent)
+			* [schema.org/TheaterEvent](http://schema.org/TheaterEvent)
+			* [schema.org/VisualArtsEvent](http://schema.org/VisualArtsEvent)
 
 = Available in Multiple Languages =
 
