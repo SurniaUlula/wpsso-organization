@@ -155,6 +155,19 @@ Purchase the [WPSSO Organization Markup (WPSSO ORG) Pro](http://wpsso.com/extend
 
 = Changelog / Release Notes =
 
+**Version 1.0.2-1 (2016/06/22)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* Fixed the "Organization Place / Location" default value.
+* *Developer Notes*
+	* None
+
 **Version 1.0.1-1 (2016/06/21)**
 
 Official announcement: N/A
@@ -169,26 +182,13 @@ Official announcement: N/A
 	* Renamed the 'wpsso_organization_options' filter to 'wpsso_get_organization_options'.
 	* Added a new `WpssoOrgOrganization::get_org_names()` method.
 
-**Version 1.0.0-1 (2016/06/14)**
-
-Official announcement: N/A
-
-* *New Features*
-	* Initial release.
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* None
-
 == Upgrade Notice ==
+
+= 1.0.2-1 =
+
+(2016/06/22) Fixed the "Organization Place / Location" default value.
 
 = 1.0.1-1 =
 
 (2016/06/21) Renamed the 'wpsso_organization_options' filter to 'wpsso_get_organization_options'.
-
-= 1.0.0-1 =
-
-(2016/06/14) Initial release.
 
