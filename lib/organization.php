@@ -23,6 +23,8 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		public static function get_org_names( $parent_type = false ) {
 
 			$wpsso =& Wpsso::get_instance();
+			if ( $wpsso->debug->enabled )
+				$wpsso->debug->mark();
 
 			if ( $wpsso->check->aop( 'wpssoorg', true, $wpsso->is_avail['aop'] ) )
 				$org_names = SucomUtil::get_multi_key_locale( 'org_name', $wpsso->options, false );
@@ -48,7 +50,6 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		public static function get_org_id( $id, $mixed = 'current' ) {
 
 			$wpsso =& Wpsso::get_instance();
-
 			if ( $wpsso->debug->enabled ) {
 				$wpsso->debug->args( array( 
 					'id' => $id,

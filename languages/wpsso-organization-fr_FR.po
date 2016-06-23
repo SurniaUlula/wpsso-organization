@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.1-1\n"
+"Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.2-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2016-06-21 15:39-0400\n"
-"PO-Revision-Date: 2016-06-21 15:39-0400\n"
+"POT-Creation-Date: 2016-06-22 17:35-0400\n"
+"PO-Revision-Date: 2016-06-22 17:35-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -72,69 +72,68 @@ msgstr ""
 msgid "Select an optional Place / Location address for this Organization (requires the %s extension)."
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:34 lib/pro/admin/org-general.php:47
+#: lib/gpl/admin/org-general.php:31 lib/pro/admin/org-general.php:42
 #: lib/submenu/org-general.php:61
 msgctxt "option comment"
 msgid "%s extension required"
 msgstr "%s extension requise"
 
-#: lib/gpl/admin/org-general.php:44 lib/pro/admin/org-general.php:61
+#: lib/gpl/admin/org-general.php:41 lib/pro/admin/org-general.php:53
 msgctxt "option label"
 msgid "Edit an Organization"
 msgstr "Modifier une organisation"
 
-#: lib/gpl/admin/org-general.php:51 lib/pro/admin/org-general.php:72
+#: lib/gpl/admin/org-general.php:51 lib/pro/admin/org-general.php:68
 msgctxt "option comment"
 msgid "delete this organization"
 msgstr "supprimer cet organisme"
 
-#: lib/gpl/admin/org-general.php:53 lib/pro/admin/org-general.php:74
+#: lib/gpl/admin/org-general.php:53 lib/pro/admin/org-general.php:70
 msgctxt "option label"
 msgid "Organization Name"
 msgstr "Nom de l'organisation"
 
-#: lib/gpl/admin/org-general.php:57 lib/pro/admin/org-general.php:78
+#: lib/gpl/admin/org-general.php:57 lib/pro/admin/org-general.php:74
 msgctxt "option label"
 msgid "Organization Alternate Name"
 msgstr "Autre nom de l'organisation"
 
-#: lib/gpl/admin/org-general.php:61 lib/pro/admin/org-general.php:82
+#: lib/gpl/admin/org-general.php:61 lib/pro/admin/org-general.php:78
 msgctxt "option label"
 msgid "Organization Description"
 msgstr "Description de l’organisation"
 
-#: lib/gpl/admin/org-general.php:65 lib/pro/admin/org-general.php:86
+#: lib/gpl/admin/org-general.php:65 lib/pro/admin/org-general.php:82
 msgctxt "option label"
 msgid "Organization Website URL"
 msgstr "URL du site de l'organisation"
 
-#: lib/gpl/admin/org-general.php:71 lib/pro/admin/org-general.php:92
+#: lib/gpl/admin/org-general.php:71 lib/pro/admin/org-general.php:88
 #: lib/submenu/org-general.php:98
 msgctxt "option label"
 msgid "Organization Logo Image URL"
 msgstr "URL de l'image logo de l'organisation"
 
-#: lib/gpl/admin/org-general.php:75 lib/pro/admin/org-general.php:96
+#: lib/gpl/admin/org-general.php:75 lib/pro/admin/org-general.php:92
 #: lib/submenu/org-general.php:102
 msgctxt "option label"
 msgid "Organization Banner (600x60px) URL"
 msgstr "URL bannière (600x60px) de l'organisation"
 
-#: lib/gpl/admin/org-general.php:79 lib/pro/admin/org-general.php:100
+#: lib/gpl/admin/org-general.php:78 lib/pro/admin/org-general.php:95
 #: lib/submenu/org-general.php:105
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr "Type de Schéma d'organisation"
 
-#: lib/gpl/admin/org-general.php:83 lib/pro/admin/org-general.php:105
-#: lib/pro/admin/org-general.php:111 lib/submenu/org-general.php:110
-#: lib/submenu/org-general.php:116
+#: lib/gpl/admin/org-general.php:82 lib/pro/admin/org-general.php:99
+#: lib/submenu/org-general.php:109
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr "Place / position de l'organisation"
 
-#: lib/gpl/admin/org-general.php:89 lib/pro/admin/org-general.php:118
-#: lib/submenu/org-general.php:122
+#: lib/gpl/admin/org-general.php:87 lib/pro/admin/org-general.php:106
+#: lib/submenu/org-general.php:115
 msgctxt "metabox title"
 msgid "Google Knowledge Graph"
 msgstr "Google Knowledge Graph"
