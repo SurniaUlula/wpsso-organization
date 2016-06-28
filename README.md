@@ -101,7 +101,7 @@
 <p><strong>WPSSO ORG Pro / Power-User Features</strong></p>
 
 <ul>
-<li>Extends the features of WPSSO Pro (requires a licensed and active WPSSO Pro plugin).</li>
+<li>Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).</li>
 <li>Manage multiple Organizations with the <a href="http://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup (WPSSO JSON) Pro</a> extension:
 
 <ul>
