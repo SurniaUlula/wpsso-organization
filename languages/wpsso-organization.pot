@@ -31,8 +31,8 @@ msgstr ""
 #: lib/config-gettext-extract.php:6
 msgctxt "plugin description"
 msgid ""
-"WPSSO extension to manage multiple Organizations / Publishers and additional "
-"properties for the Schema Article types (BlogPosting, etc.)."
+"WPSSO extension to manage Organizations and additional Schema Article / "
+"Event properties (Publisher, Organizer, Performer, etc.)."
 msgstr ""
 
 #: lib/filters.php:124
