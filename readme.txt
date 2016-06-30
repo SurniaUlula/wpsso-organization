@@ -116,9 +116,9 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO ORG extension.
 
-Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO. The [WPSSO ORG Pro](http://wpsso.com/extend/plugins/wpsso-organization/) extension (along with all WPSSO Pro extensions) requires the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/) plugin as well.
+Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO. The [WPSSO ORG Pro](http://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends) extension (along with all WPSSO Pro extensions) requires the [WPSSO Pro](http://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends) plugin as well.
 
-Purchase the [WPSSO Organization Markup (WPSSO ORG) Pro](http://wpsso.com/extend/plugins/wpsso-organization/) extension (includes a *No Risk 30 Day Refund Policy*).
+[Purchase the WPSSO Organization Markup (WPSSO ORG) Pro extension](http://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-purchase) (includes a *No Risk 30 Day Refund Policy*).
 
 == Installation ==
 

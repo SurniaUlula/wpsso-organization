@@ -159,9 +159,9 @@
 
 <p>The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO ORG extension.</p>
 
-<p>Use the Free version of WPSSO ORG with <em>both</em> the Free and Pro versions of WPSSO. The <a href="http://wpsso.com/extend/plugins/wpsso-organization/">WPSSO ORG Pro</a> extension (along with all WPSSO Pro extensions) requires the <a href="http://wpsso.com/extend/plugins/wpsso/">WPSSO Pro</a> plugin as well.</p>
+<p>Use the Free version of WPSSO ORG with <em>both</em> the Free and Pro versions of WPSSO. The <a href="http://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro</a> extension (along with all WPSSO Pro extensions) requires the <a href="http://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends">WPSSO Pro</a> plugin as well.</p>
 
-<p>Purchase the <a href="http://wpsso.com/extend/plugins/wpsso-organization/">WPSSO Organization Markup (WPSSO ORG) Pro</a> extension (includes a <em>No Risk 30 Day Refund Policy</em>).</p>
+<p><a href="http://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-purchase">Purchase the WPSSO Organization Markup (WPSSO ORG) Pro extension</a> (includes a <em>No Risk 30 Day Refund Policy</em>).</p>
 
 
 <h2>Installation</h2>
