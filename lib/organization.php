@@ -71,7 +71,6 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 					'org_place_id' => 'org_place_id',		// Organization Place / Location
 				) as $org_key => $site_key ) {
 					$opts[$org_key] = SucomUtil::get_locale_opt( $site_key, $wpsso->options, $mixed );
-
 					if ( $org_key === 'org_alt_name' && empty( $opts[$org_key] ) )	// fallback to the schema options value
 						$opts[$org_key] = SucomUtil::get_locale_opt( 'schema_alt_name', $wpsso->options, $mixed );
 				}
