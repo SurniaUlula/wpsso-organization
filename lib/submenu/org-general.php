@@ -73,20 +73,17 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$table_rows['org_name'] = $this->form->get_th_html( _x( 'Website Name',
 						'option label', 'nextgen-facebook' ), '', 'org_name', array( 'is_locale' => true ) ).
 					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'org_name', $this->p->options ),
-						'long_name', null, null, SucomUtil::get_locale_opt( 'og_site_name', $this->p->options,
-							'current', get_bloginfo( 'name', 'display' ) ) ).'</td>';	// $mixed = current
+						'long_name', null, null, SucomUtil::get_site_name( $this->p->options ) ).'</td>';
 
 					$table_rows['org_alt_name'] = $this->form->get_th_html( _x( 'Website Alternate Name',
 						'option label', 'nextgen-facebook' ), '', 'schema_alt_name', array( 'is_locale' => true ) ).
 					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'org_alt_name', $this->p->options ),
-						'long_name', null, null, SucomUtil::get_locale_opt( 'schema_alt_name', $this->p->options,
-							'current', '' ) ).'</td>';	// $mixed = current
+						'long_name', null, null, SucomUtil::get_locale_opt( 'schema_alt_name', $this->p->options ) ).'</td>';
 
 					$table_rows['org_desc'] = $this->form->get_th_html( _x( 'Website Description',
 						'option label', 'nextgen-facebook' ), '', 'org_desc', array( 'is_locale' => true ) ).
 					'<td>'.$this->form->get_textarea( SucomUtil::get_key_locale( 'org_desc', $this->p->options ),
-						null, null, null, SucomUtil::get_locale_opt( 'og_site_description', $this->p->options,
-							'current', get_bloginfo( 'description', 'display' ) ) ).'</td>';	// $mixed = current
+						null, null, null, SucomUtil::get_site_description( $this->p->options ) ).'</td>';
 
 					$table_rows['org_url'] = $this->form->get_th_html( _x( 'Website URL',
 						'option label', 'wpsso' ), '', 'org_url', array( 'is_locale' => true ) ).
