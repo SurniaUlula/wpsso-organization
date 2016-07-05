@@ -155,6 +155,19 @@ Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO
 
 = Changelog / Release Notes =
 
+**Version 1.0.3-dev1 (2016/07/05)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Updated the `SucomUtil::get_locale_opt()` method arguments for WPSSO v3.33.4-1.
+
 **Version 1.0.2-1 (2016/06/22)**
 
 Official announcement: N/A
@@ -183,6 +196,10 @@ Official announcement: N/A
 	* Renamed the 'wpsso_organization_options' filter to 'wpsso_get_organization_options'.
 
 == Upgrade Notice ==
+
+= 1.0.3-dev1 =
+
+(2016/07/05) Updated the `SucomUtil::get_locale_opt()` method arguments for WPSSO v3.33.4-1.
 
 = 1.0.2-1 =
 
