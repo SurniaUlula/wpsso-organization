@@ -155,7 +155,7 @@ Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO
 
 = Changelog / Release Notes =
 
-**Version 1.0.3-rc1 (2016/07/05)**
+**Version 1.0.3-1 (2016/07/06)**
 
 Official announcement: N/A
 
@@ -197,9 +197,9 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
-= 1.0.3-rc1 =
+= 1.0.3-1 =
 
-(2016/07/05) Updated the `SucomUtil::get_locale_opt()` method arguments for WPSSO v3.33.4-1.
+(2016/07/06) Updated the `SucomUtil::get_locale_opt()` method arguments for WPSSO v3.33.4-1.
 
 = 1.0.2-1 =
 
