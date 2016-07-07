@@ -78,7 +78,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 * Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).
 * Manage multiple Organizations with the [WPSSO Schema JSON-LD Markup (WPSSO JSON) Pro](http://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension:
-	* Allows selecting an alternate Publisher for the Schema Article type and sub-types:
+	* Allows selecting an alternate Publisher for the Schema Article type and sub-types ([WPSSO JSON](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension required):
 		* [schema.org/Article](http://schema.org/Article)
 			* [schema.org/BlogPosting](http://schema.org/BlogPosting)
 			* [schema.org/NewsArticle](http://schema.org/NewsArticle)
@@ -86,7 +86,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 			* [schema.org/ScholarlyArticle](http://schema.org/ScholarlyArticle)
 			* [schema.org/SocialMediaPosting](http://schema.org/SocialMediaPosting)
 			* [schema.org/TechArticle](http://schema.org/TechArticle)
-	* Allows selecting an Organizer and/or Performer for the Schema Event type and sub-types:
+	* Allows selecting an Organizer and/or Performer for the Schema Event type and sub-types ([WPSSO JSON](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension required):
 		* [schema.org/Event](http://schema.org/Event)
 			* [schema.org/BusinessEvent](http://schema.org/BusinessEvent)
 			* [schema.org/ChildrensEvent](http://schema.org/ChildrensEvent)
