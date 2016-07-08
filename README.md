@@ -102,7 +102,7 @@
 
 <ul>
 <li>Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).</li>
-<li>Manage multiple Organizations with the <a href="http://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup (WPSSO JSON) Pro</a> extension:
+<li>Manage multiple Organizations with the <a href="http://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup (WPSSO JSON)</a> extension:
 
 <ul>
 <li>Allows selecting an alternate Publisher for the Schema Article type and sub-types (<a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO JSON</a> extension required):
