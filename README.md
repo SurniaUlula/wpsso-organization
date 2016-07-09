@@ -81,7 +81,7 @@
 </ul></li>
 </ul></li>
 </ul></li>
-<li>Organization Place / Location (<a href="https://wpsso.com/extend/plugins/wpsso-plm/">WPSSO PLM</a> extension required) </li>
+<li>Organization Place / Location (<a href="https://wordpress.org/plugins/wpsso-plm/">WPSSO PLM</a> extension required) </li>
 <li>Google Knowledge Graph:
 
 <ul>
@@ -105,7 +105,7 @@
 <li>Manage multiple Organizations with the <a href="http://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup (WPSSO JSON)</a> extension:
 
 <ul>
-<li>Allows selecting an alternate Publisher for the Schema Article type and sub-types (<a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO JSON</a> extension required):
+<li>Allows selecting an alternate Publisher for the Schema Article type and sub-types (<a href="https://wordpress.org/plugins/wpsso-schema-json-ld/">WPSSO JSON</a> extension required):
 
 <ul>
 <li><a href="http://schema.org/Article">schema.org/Article</a>
@@ -119,7 +119,7 @@
 <li><a href="http://schema.org/TechArticle">schema.org/TechArticle</a></li>
 </ul></li>
 </ul></li>
-<li>Allows selecting an Organizer and/or Performer for the Schema Event type and sub-types (<a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO JSON</a> extension required):
+<li>Allows selecting an Organizer and/or Performer for the Schema Event type and sub-types (<a href="https://wordpress.org/plugins/wpsso-schema-json-ld/">WPSSO JSON</a> extension required):
 
 <ul>
 <li><a href="http://schema.org/Event">schema.org/Event</a>
