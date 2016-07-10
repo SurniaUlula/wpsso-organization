@@ -199,5 +199,5 @@ Official announcement: N/A
 
 = 1.0.3-1 =
 
-(2016/07/06) Updated the `SucomUtil::get_locale_opt()` method arguments for WPSSO v3.33.4-1.
+(2016/07/06) Updated the SucomUtil get_locale_opt() method arguments for WPSSO v3.33.4-1.
 
