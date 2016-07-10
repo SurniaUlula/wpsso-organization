@@ -201,7 +201,3 @@ Official announcement: N/A
 
 (2016/07/06) Updated the `SucomUtil::get_locale_opt()` method arguments for WPSSO v3.33.4-1.
 
-= 1.0.2-1 =
-
-(2016/06/22) Fixed the "Organization Place / Location" default value.
-
