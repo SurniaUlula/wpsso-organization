@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.3-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2016-07-09 15:49-0400\n"
-"PO-Revision-Date: 2016-07-09 15:49-0400\n"
+"POT-Creation-Date: 2016-07-14 12:00-0400\n"
+"PO-Revision-Date: 2016-07-14 12:01-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -33,7 +33,7 @@ msgstr "Organisation"
 #: lib/config-gettext-extract.php:6
 msgctxt "plugin description"
 msgid "WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.)."
-msgstr "Une extension WPSSO pour gérer des Organisations et propriétés Schéma d'Articles / d'Evénements supplémentaires (Organisateur, Interprète, etc.)."
+msgstr "Extension WPSSO pour gérer des Organisations et propriétés Schéma d'Articles / d'Evénements supplémentaires (Organisateur, Interprète, etc.)."
 
 #: lib/filters.php:124
 msgctxt "option value"
@@ -194,7 +194,7 @@ msgstr "http://surniaulula.com/extend/plugins/wpsso-organization/"
 
 #. Description of the plugin/theme
 msgid "WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.)."
-msgstr "Une extension WPSSO pour gérer multiples organisations / éditeurs et propriétés supplémentaires pour les Schémas d'Articles (BlogPosting, etc.)."
+msgstr "Extension WPSSO pour gérer multiples organisations / éditeurs et propriétés supplémentaires pour les Schémas d'Articles (BlogPosting, etc.)."
 
 #. Author of the plugin/theme
 msgid "JS Morisset"
