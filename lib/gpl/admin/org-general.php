@@ -47,8 +47,8 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			$form->defaults['org_place_id_'.$id] = $form->defaults['org_place_id'];	// set default value
 
 			$table_rows['org_delete_'.$id] = $form->get_th_html().
-			'<td class="blank">'.$form->get_no_checkbox( 'org_delete_'.$id ).' '.
-			_x( 'delete this organization', 'option comment', 'wpsso-organization' ).'</td>';
+			'<td class="blank">'.$form->get_no_checkbox( 'org_delete_'.$id ).' <em>'.
+			_x( 'delete this organization', 'option comment', 'wpsso-organization' ).'</em></td>';
 
 			$table_rows['org_name_'.$id] = $form->get_th_html( _x( 'Organization Name',
 				'option label', 'wpsso-organization' ), '', 'org_name', array( 'is_locale' => true ) ). 
