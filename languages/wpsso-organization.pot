@@ -192,7 +192,7 @@ msgid ""
 "activate the %3$s plugin."
 msgstr ""
 
-#: wpsso-organization.php:129
+#: wpsso-organization.php:131
 msgid ""
 "The %1$s extension version %2$s requires the use of %3$s version %4$s or "
 "newer (version %5$s is currently installed)."
