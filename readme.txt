@@ -155,7 +155,7 @@ Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO
 
 = Changelog / Release Notes =
 
-**Version 1.0.4-rc1 (2016/07/17)**
+**Version 1.0.4-1 (2016/07/17)**
 
 Official announcement: N/A
 
@@ -210,7 +210,7 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
-= 1.0.4-rc1 =
+= 1.0.4-1 =
 
 (2016/07/17) Updated the 'wpsso_get_config' filter to use the new version argument in WPSSO v3.33.5-1.
 
