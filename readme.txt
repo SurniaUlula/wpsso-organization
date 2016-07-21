@@ -168,53 +168,9 @@ Official announcement: N/A
 * *Developer Notes*
 	* Updated the 'wpsso_get_config' filter to use the new version argument in WPSSO v3.33.5-1.
 
-**Version 1.0.3-1 (2016/07/06)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Updated the `SucomUtil::get_locale_opt()` method arguments for WPSSO v3.33.4-1.
-
-**Version 1.0.2-1 (2016/06/22)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* Fixed the "Organization Place / Location" default value.
-* *Developer Notes*
-	* None
-
-**Version 1.0.1-1 (2016/06/21)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Added a new `WpssoOrgOrganization::get_org_names()` method.
-	* Renamed the 'wpsso_organization_options' filter to 'wpsso_get_organization_options'.
-
 == Upgrade Notice ==
 
 = 1.0.4-1 =
 
 (2016/07/18) Updated the 'wpsso_get_config' filter to use the new version argument in WPSSO v3.33.5-1.
-
-= 1.0.3-1 =
-
-(2016/07/06) Updated the SucomUtil get_locale_opt() method arguments for WPSSO v3.33.4-1.
 
