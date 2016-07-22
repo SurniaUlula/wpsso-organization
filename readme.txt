@@ -155,6 +155,19 @@ Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO
 
 = Changelog / Release Notes =
 
+**Version 1.0.5-dev1 (2016/07/22)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Renamed the SucomDebug `args()` method calls to `log_args()`.
+
 **Version 1.0.4-1 (2016/07/18)**
 
 Official announcement: N/A
@@ -170,6 +183,11 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
+= 1.0.5-dev1 =
+
+(2016/07/22) Renamed the SucomDebug args() method calls to log_args().
+
+= 3.33.6-1 =
 = 1.0.4-1 =
 
 (2016/07/18) Updated the 'wpsso_get_config' filter to use the new version argument in WPSSO v3.33.5-1.
