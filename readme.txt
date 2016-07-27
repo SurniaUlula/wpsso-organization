@@ -187,7 +187,3 @@ Official announcement: N/A
 
 (2016/07/23) Renamed the SucomDebug args() method calls to log_args().
 
-= 1.0.4-1 =
-
-(2016/07/18) Updated the 'wpsso_get_config' filter to use the new version argument in WPSSO v3.33.5-1.
-
