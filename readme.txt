@@ -150,7 +150,7 @@ Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO
 
 = Free / Basic Version Repository =
 
-* [GitHub](https://github.com/SurniaUlula/wpsso-organization)
+* [GitHub](https://surniaulula.github.io/wpsso-organization/)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-organization/developers/)
 
 = Changelog / Release Notes =
