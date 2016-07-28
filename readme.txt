@@ -9,7 +9,7 @@ Tags: wpsso, organization, schema, markup, properties, local business, publisher
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
 Requires At Least: 3.1
-Tested Up To: 4.5.3
+Tested Up To: 4.6
 Stable Tag: 1.0.5-1
 
 WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
