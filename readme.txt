@@ -3,11 +3,12 @@ Plugin Name: WPSSO Organization Markup (WPSSO ORG)
 Plugin Slug: wpsso-organization
 Text Domain: wpsso-organization
 Domain Path: /languages
-Contributors: jsmoriss
-Donate Link: https://wpsso.com/?utm_source=wpssoorg-readme-donate
-Tags: wpsso, organization, schema, markup, properties, local business, publisher, article
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
+Donate Link: https://wpsso.com/?utm_source=wpssoorg-readme-donate
+Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
+Tags: wpsso, organization, schema, markup, properties, local business, publisher, article
+Contributors: jsmoriss
 Requires At Least: 3.1
 Tested Up To: 4.6
 Stable Tag: 1.0.5-1
