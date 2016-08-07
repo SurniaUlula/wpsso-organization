@@ -5,6 +5,7 @@
  * Text Domain: wpsso-organization
  * Domain Path: /languages
  * Plugin URI: http://surniaulula.com/extend/plugins/wpsso-organization/
+ * Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
  * Author: JS Morisset
  * Author URI: http://surniaulula.com/
  * License: GPLv3
