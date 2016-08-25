@@ -52,7 +52,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 
 			require_once ( dirname( __FILE__ ).'/lib/config.php' );
 			WpssoOrgConfig::set_constants( __FILE__ );
-			WpssoOrgConfig::require_libs( __FILE__ );
+			WpssoOrgConfig::require_libs( __FILE__ );	// includes the register.php class library
 			$this->reg = new WpssoOrgRegister();		// activate, deactivate, uninstall hooks
 
 			if ( is_admin() ) {
