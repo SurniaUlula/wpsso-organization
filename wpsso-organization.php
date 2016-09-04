@@ -13,7 +13,7 @@
  * Description: WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.).
  * Requires At Least: 3.1
  * Tested Up To: 4.6
- * Version: 1.0.5-1
+ * Version: 1.0.6-dev1
  * 
  * Version Numbers: {major}.{minor}.{bugfix}-{stage}{level}
  *
@@ -39,7 +39,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 		private static $instance = null;
 		private static $req_short = 'WPSSO';
 		private static $req_name = 'WordPress Social Sharing Optimization (WPSSO)';
-		private static $req_min_version = '3.33.7-1';
+		private static $req_min_version = '3.35.0-dev1';
 		private static $req_has_min_ver = true;
 
 		public static function &get_instance() {
@@ -57,7 +57,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 
 			if ( is_admin() ) {
 				load_plugin_textdomain( 'wpsso-organization', false, 'wpsso-organization/languages/' );
-				add_action( 'admin_init', array( &$this, 'check_for_wpsso' ) );
+				add_action( 'admin_init', array( &$this, 'required_check' ) );
 			}
 
 			add_filter( 'wpsso_get_config', array( &$this, 'wpsso_get_config' ), 20, 2 );
@@ -66,12 +66,12 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			add_action( 'wpsso_init_plugin', array( &$this, 'wpsso_init_plugin' ), 20 );
 		}
 
-		public function check_for_wpsso() {
+		public function required_check() {
 			if ( ! class_exists( 'Wpsso' ) )
-				add_action( 'all_admin_notices', array( __CLASS__, 'wpsso_missing_notice' ) );
+				add_action( 'all_admin_notices', array( __CLASS__, 'required_notice' ) );
 		}
 
-		public static function wpsso_missing_notice( $deactivate = false ) {
+		public static function required_notice( $deactivate = false ) {
 			$info = WpssoOrgConfig::$cf['plugin']['wpssoorg'];
 
 			if ( $deactivate === true ) {
@@ -135,7 +135,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 					self::$req_min_version.' or newer ('.$have_version.' installed)' );
 
 			if ( is_admin() )
-				$this->p->notice->err( sprintf( __( 'The %1$s extension version %2$s requires the use of %3$s version %4$s or newer (version %5$s is currently installed).', 'wpsso-organization' ), $info['name'], $info['version'], self::$req_short, self::$req_min_version, $have_version ), true );
+				$this->p->notice->err( sprintf( __( 'The %1$s extension version %2$s requires the use of %3$s version %4$s or newer (version %5$s is currently installed).', 'wpsso-organization' ), $info['name'], $info['version'], self::$req_short, self::$req_min_version, $have_version ) );
 		}
 	}
 
