@@ -11,7 +11,7 @@ Tags: wpsso, organization, schema, markup, properties, local business, publisher
 Contributors: jsmoriss
 Requires At Least: 3.1
 Tested Up To: 4.6
-Stable Tag: 1.0.5-1
+Stable Tag: 1.0.6-1
 
 WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
 
