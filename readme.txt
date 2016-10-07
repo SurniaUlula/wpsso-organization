@@ -7,7 +7,7 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.txt
 Donate Link: https://wpsso.com/?utm_source=wpssoorg-readme-donate
 Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
-Tags: wpsso, organization, schema, markup, properties, local business, publisher, article
+Tags: wpsso, organization, schema, schema.org, markup, local business, publisher, article
 Contributors: jsmoriss
 Requires At Least: 3.1
 Tested Up To: 4.6.1
