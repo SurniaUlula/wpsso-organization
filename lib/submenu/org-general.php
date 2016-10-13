@@ -96,7 +96,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					'<td>'.$this->form->get_input( 'schema_logo_url', 'wide' ).'</td>';
 
 					$table_rows['schema_banner_url'] = $this->form->get_th_html( 
-						_x( 'Organization Banner (600x60px) URL', 'option label', 'wpsso' ), '', 'schema_banner_url' ).
+						_x( 'Organization Banner (600x60) URL', 'option label', 'wpsso' ), '', 'schema_banner_url' ).
 					'<td>'.$this->form->get_input( 'schema_banner_url', 'wide' ).'</td>';
 
 					$table_rows['org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',

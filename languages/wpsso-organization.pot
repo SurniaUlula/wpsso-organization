@@ -125,7 +125,7 @@ msgstr ""
 #: lib/gpl/admin/org-general.php:75 lib/pro/admin/org-general.php:93
 #: lib/submenu/org-general.php:99
 msgctxt "option label"
-msgid "Organization Banner (600x60px) URL"
+msgid "Organization Banner (600x60) URL"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:78 lib/pro/admin/org-general.php:96

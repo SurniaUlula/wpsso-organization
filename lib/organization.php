@@ -66,7 +66,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 					'org_desc' => 'org_desc',			// Organization Description
 					'org_url' => 'org_url',				// Organization Website URL
 					'org_logo_url' => 'schema_logo_url',		// Organization Logo Image URL
-					'org_banner_url' => 'schema_banner_url',	// Organization Banner (600x60px) URL
+					'org_banner_url' => 'schema_banner_url',	// Organization Banner (600x60) URL
 					'org_type' => 'org_type',			// Organization Schema Type
 					'org_place_id' => 'org_place_id',		// Organization Place / Location
 				) as $org_key => $site_key ) {
