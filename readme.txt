@@ -39,7 +39,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 	* Website Description
 	* Website URL
 	* Organization Logo Image URL
-	* Organization Banner (600x60px) URL
+	* Organization Banner (600x60) URL
 	* Organization Schema Type:
 		* [schema.org/Organization](http://schema.org/Organization)
 			* [schema.org/Airline](http://schema.org/Airline)

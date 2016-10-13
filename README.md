@@ -39,7 +39,7 @@
 <li>Website Description</li>
 <li>Website URL</li>
 <li>Organization Logo Image URL</li>
-<li>Organization Banner (600x60px) URL</li>
+<li>Organization Banner (600x60) URL</li>
 <li>Organization Schema Type:
 
 <ul>
