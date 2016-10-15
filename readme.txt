@@ -4,7 +4,7 @@ Plugin Slug: wpsso-organization
 Text Domain: wpsso-organization
 Domain Path: /languages
 License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl.txt
+License URI: https://www.gnu.org/licenses/gpl.txt
 Donate Link: https://wpsso.com/?utm_source=wpssoorg-readme-donate
 Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
 Tags: wpsso, organization, schema, schema.org, markup, local business, publisher, article
