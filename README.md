@@ -23,7 +23,9 @@
 <li>Select an Organizer or Performer for the Schema Event markup.</li>
 </ul>
 
-<p>WPSSO Organization Markup (WPSSO ORG) works in conjunction with the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, extending its features with additional settings pages and options to manage multiple Organizations / Publishers and additional Schema properties.</p>
+<blockquote>
+<p><strong>Prerequisite</strong> &mdash; WPSSO Organization Markup (WPSSO ORG) is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, which <em>automatically</em> creates complete and accurate meta tags and Schema markup for Social Sharing Optimization (SSO) and SEO.</p>
+</blockquote>
 
 <h4>Quick List of Features</h4>
 
@@ -159,7 +161,7 @@
 
 <p>The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO ORG extension.</p>
 
-<p>Use the Free version of WPSSO ORG with <em>both</em> the Free and Pro versions of WPSSO. The <a href="http://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro</a> extension (along with all WPSSO Pro extensions) requires the <a href="http://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends">WPSSO Pro</a> plugin as well.</p>
+<p>Use the Free version of WPSSO ORG with <em>both</em> the Free and Pro versions of WPSSO. The <a href="http://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro extension</a> (along with all WPSSO Pro extensions) requires the <a href="http://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends">WPSSO Pro plugin</a> as well.</p>
 
 <p><a href="http://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-purchase">Purchase the WPSSO Organization Markup (WPSSO ORG) Pro extension</a> (includes a <em>No Risk 30 Day Refund Policy</em>).</p>
 
