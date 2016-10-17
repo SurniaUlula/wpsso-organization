@@ -42,7 +42,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 						'codex' => 'https://wpsso.com/codex/plugins/wpsso-organization/',
 						'faq' => 'https://wpsso.com/codex/plugins/wpsso-organization/faq/',
 						'notes' => 'https://wpsso.com/codex/plugins/wpsso-organization/notes/',
-						'feed' => 'https://wpsso.com/category/application/wordpress/wp-plugins/wpsso-organization/feed/',
+						'feed' => 'https://wpsso.com/category/application/wordpress/wp-plugins/wpsso-org/feed/',
 						'pro_support' => 'http://wpsso-organization.support.wpsso.com/',
 					),
 					'lib' => array(
