@@ -80,7 +80,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 **WPSSO ORG Pro / Power-User Features**
 
 * Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).
-* Manage multiple Organizations with the [WPSSO Schema JSON-LD Markup (WPSSO JSON)](http://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension:
+* Manage multiple Organizations with the [WPSSO Schema JSON-LD Markup (WPSSO JSON)](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension:
 	* Allows selecting an alternate Publisher for the Schema Article type and sub-types ([WPSSO JSON](https://wordpress.org/plugins/wpsso-schema-json-ld/) extension required):
 		* [schema.org/Article](https://schema.org/Article)
 			* [schema.org/BlogPosting](https://schema.org/BlogPosting)
@@ -119,16 +119,16 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO ORG extension.
 
-Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO. The [WPSSO ORG Pro extension](http://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends) (along with all WPSSO Pro extensions) requires the [WPSSO Pro plugin](http://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends) as well.
+Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO. The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends) (along with all WPSSO Pro extensions) requires the [WPSSO Pro plugin](https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends) as well.
 
-[Purchase the WPSSO Organization Markup (WPSSO ORG) Pro extension](http://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-purchase) (includes a *No Risk 30 Day Refund Policy*).
+[Purchase the WPSSO Organization Markup (WPSSO ORG) Pro extension](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-purchase) (includes a *No Risk 30 Day Refund Policy*).
 
 == Installation ==
 
 = Install and Uninstall =
 
-* [Install the Plugin](http://wpsso.com/codex/plugins/wpsso-organization/installation/install-the-plugin/)
-* [Uninstall the Plugin](http://wpsso.com/codex/plugins/wpsso-organization/installation/uninstall-the-plugin/)
+* [Install the Plugin](https://wpsso.com/codex/plugins/wpsso-organization/installation/install-the-plugin/)
+* [Uninstall the Plugin](https://wpsso.com/codex/plugins/wpsso-organization/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
