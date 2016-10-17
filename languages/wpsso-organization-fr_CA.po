@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.6-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2016-09-05 09:18-0400\n"
-"PO-Revision-Date: 2016-09-05 09:18-0400\n"
+"POT-Creation-Date: 2016-10-17 09:56-0700\n"
+"PO-Revision-Date: 2016-10-17 09:56-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -117,8 +117,8 @@ msgstr "URL de l'image logo de l'organisation"
 #: lib/gpl/admin/org-general.php:75 lib/pro/admin/org-general.php:93
 #: lib/submenu/org-general.php:99
 msgctxt "option label"
-msgid "Organization Banner (600x60px) URL"
-msgstr "URL bannière (600x60px) de l'organisation"
+msgid "Organization Banner (600x60) URL"
+msgstr "URL bannière (600x60) de l'organisation"
 
 #: lib/gpl/admin/org-general.php:78 lib/pro/admin/org-general.php:96
 #: lib/submenu/org-general.php:102
@@ -189,8 +189,8 @@ msgid "WPSSO Organization Markup (WPSSO ORG)"
 msgstr "WPSSO Organization Markup (WPSSO ORG)"
 
 #. Plugin URI of the plugin/theme
-msgid "http://surniaulula.com/extend/plugins/wpsso-organization/"
-msgstr "http://surniaulula.com/extend/plugins/wpsso-organization/"
+msgid "https://surniaulula.com/extend/plugins/wpsso-organization/"
+msgstr "https://surniaulula.com/extend/plugins/wpsso-organization/"
 
 #. Description of the plugin/theme
 msgid "WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.)."
@@ -201,5 +201,5 @@ msgid "JS Morisset"
 msgstr "JS Morisset"
 
 #. Author URI of the plugin/theme
-msgid "http://surniaulula.com/"
-msgstr "http://surniaulula.com/"
+msgid "https://surniaulula.com/"
+msgstr "https://surniaulula.com/"
