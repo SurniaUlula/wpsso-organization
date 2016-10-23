@@ -14,12 +14,17 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 		public function __construct( &$plugin ) {
 			$this->p =& $plugin;
+			if ( $this->p->debug->enabled )
+				$this->p->debug->mark();
+
 			$this->p->util->add_plugin_filters( $this, array( 
 				'organization_other_rows' => 2,			// $table_rows, $form, $head, $mod
 			) );
 		}
 
 		public function filter_organization_other_rows( $table_rows, $form ) {
+			if ( $this->p->debug->enabled )
+				$this->p->debug->mark();
 
 			$id = 0;
 			$name = WpssoOrgConfig::$cf['form']['org_select']['new'];
