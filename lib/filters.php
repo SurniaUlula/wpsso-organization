@@ -33,7 +33,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 			$this->p->util->add_plugin_filters( $this, array( 
 				'get_defaults' => 1,			// $def_opts
-				'json_array_type_ids' => 2,		// $type_ids, $mod
+				'json_array_schema_type_ids' => 2,	// $type_ids, $mod
 				'get_organization_options' => 3,	// $opts, $mod, $org_id
 			) );
 
@@ -51,7 +51,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			return $def_opts;
 		}
 
-		public function filter_json_array_type_ids( $type_ids, $mod ) {
+		public function filter_json_array_schema_type_ids( $type_ids, $mod ) {
 			if ( $mod['is_home'] ) {
 				if ( ! empty( $this->p->options['org_type'] ) &&
 					$this->p->options['org_type'] !== 'organization' ) {
