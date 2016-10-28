@@ -50,9 +50,11 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 			switch ( $metabox.'-'.$key ) {
 				case 'organization-site':
 
+					// use "private" form properties for filters
 					$this->form->__address_names = SucomUtil::get_multi_key_locale( 'plm_addr_name', $this->p->options, true );
-					$this->form->__all_types = $this->p->schema->get_schema_types( false );
-					$this->form->__org_types = $this->p->schema->get_schema_types_select( $this->form->__all_types['organization'], false );
+					$this->form->__all_types = $this->p->schema->get_schema_types( false );	// $flatten = false
+					$this->form->__org_types = $this->p->schema->get_schema_types_select( $this->form->__all_types['thing']['organization'],
+						false );	// $add_none = false
 
 					if ( ! empty( $this->p->cf['plugin']['wpssoplm'] ) &&
 						empty( $this->p->cf['plugin']['wpssoplm']['version'] ) ) {
