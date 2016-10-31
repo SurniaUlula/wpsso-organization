@@ -158,7 +158,7 @@ Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO
 
 = Changelog / Release Notes =
 
-**Version 1.0.7-dev3 (2016/10/30)**
+**Version 1.0.7-dev4 (2016/10/30)**
 
 Official announcement: N/A
 
@@ -187,7 +187,7 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
-= 1.0.7-dev3 =
+= 1.0.7-dev4 =
 
 (2016/10/30) Minor code changes required for WPSSO v3.37.0-1.
 
