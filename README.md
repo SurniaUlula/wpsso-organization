@@ -3,7 +3,7 @@
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Organization Markup (WPSSO ORG)</td></tr>
 <tr><th align="right" valign="top" nowrap>Summary</th><td>WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).</td></tr>
-<tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.0.6-1</td></tr>
+<tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.0.7-1</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.5</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To</th><td>WordPress 4.6.1</td></tr>
 <tr><th align="right" valign="top" nowrap>Contributors</th><td>jsmoriss</td></tr>
