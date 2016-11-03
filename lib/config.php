@@ -32,18 +32,18 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					'url' => array(
 						// wordpress
 						'download' => 'https://wordpress.org/plugins/wpsso-organization/',
+						'forum' => 'https://wordpress.org/support/plugin/wpsso-organization',
 						'review' => 'https://wordpress.org/support/view/plugin-reviews/wpsso-organization?filter=5&rate=5#postform',
-						'readme' => 'https://plugins.svn.wordpress.org/wpsso-organization/trunk/readme.txt',
-						'wp_support' => 'https://wordpress.org/support/plugin/wpsso-organization',
-						// surniaulula
+						// github
+						'readme_txt' => 'https://raw.githubusercontent.com/SurniaUlula/wpsso-organization/master/readme.txt',
+						// wpsso
 						'update' => 'https://wpsso.com/extend/plugins/wpsso-organization/update/',
 						'purchase' => 'https://wpsso.com/extend/plugins/wpsso-organization/',
 						'changelog' => 'https://wpsso.com/extend/plugins/wpsso-organization/changelog/',
 						'codex' => 'https://wpsso.com/codex/plugins/wpsso-organization/',
 						'faq' => 'https://wpsso.com/codex/plugins/wpsso-organization/faq/',
 						'notes' => 'https://wpsso.com/codex/plugins/wpsso-organization/notes/',
-						'feed' => 'https://wpsso.com/category/application/wordpress/wp-plugins/wpsso-org/feed/',
-						'pro_support' => 'http://wpsso-organization.support.wpsso.com/',
+						'support' => 'http://wpsso-organization.support.wpsso.com/',
 					),
 					'lib' => array(
 						// submenu items must have unique keys
