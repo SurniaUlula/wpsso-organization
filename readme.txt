@@ -169,6 +169,20 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
+**Version 1.0.8-dev1 (2016/11/09)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Minor code changes required for WPSSO v3.37.1-1.
+		* Renamed the WpssoSchema::get_schema_types() method to WpssoSchema::get_schema_types_array().
+
 **Version 1.0.7-1 (2016/11/03)**
 
 Official announcement: N/A
@@ -197,6 +211,10 @@ Official announcement: N/A
 	* Updated the SucomNotice method calls for WPSSO v3.35.0-1.
 
 == Upgrade Notice ==
+
+= 1.0.8-dev1 =
+
+(2016/11/09) Minor code changes required for WPSSO v3.37.1-1.
 
 = 1.0.7-1 =
 
