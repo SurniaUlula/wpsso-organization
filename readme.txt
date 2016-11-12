@@ -169,7 +169,7 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
-**Version 1.0.8-rc1 (2016/11/10)**
+**Version 1.0.8-rc1 (2016/11/12)**
 
 Official announcement: N/A
 
@@ -214,7 +214,7 @@ Official announcement: N/A
 
 = 1.0.8-rc1 =
 
-(2016/11/10) Minor code changes required for WPSSO v3.37.1-1.
+(2016/11/12) Minor code changes required for WPSSO v3.37.1-1.
 
 = 1.0.7-1 =
 
