@@ -183,33 +183,6 @@ Official announcement: N/A
 	* Minor code changes required for WPSSO v3.37.1-1.
 		* Renamed the WpssoSchema::get_schema_types() method to WpssoSchema::get_schema_types_array().
 
-**Version 1.0.7-1 (2016/11/03)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Minor code changes required for WPSSO v3.37.0-1:
-		* Renamed the 'wpsso_json_array_type_ids' filter to 'wpsso_json_array_schema_type_ids'.
-
-**Version 1.0.6-1 (2016/09/10)**
-
-Official announcement: N/A
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Updated the SucomNotice method calls for WPSSO v3.35.0-1.
-
 == Upgrade Notice ==
 
 = 1.0.8-1 =
