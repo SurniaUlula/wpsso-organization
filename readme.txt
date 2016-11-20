@@ -169,6 +169,19 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
+**Version 1.0.9-dev1 (2016/11/20)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Refactored the min_version_notice() method and moved variables to config class.
+
 **Version 1.0.8-1 (2016/11/12)**
 
 Official announcement: N/A
@@ -184,6 +197,10 @@ Official announcement: N/A
 		* Renamed the WpssoSchema::get_schema_types() method to WpssoSchema::get_schema_types_array().
 
 == Upgrade Notice ==
+
+= 1.0.9-dev1 =
+
+(2016/11/20) Refactored the min_version_notice() method.
 
 = 1.0.8-1 =
 
