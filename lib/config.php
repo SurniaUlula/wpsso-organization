@@ -15,7 +15,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(
-					'version' => '1.0.8-1',		// plugin version
+					'version' => '1.0.9-dev1',		// plugin version
 					'opt_version' => '2',		// increment when changing default options
 					'short' => 'WPSSO ORG',		// short plugin name
 					'name' => 'WPSSO Organization Markup (WPSSO ORG)',
@@ -25,6 +25,11 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					'update_auth' => 'tid',
 					'text_domain' => 'wpsso-organization',
 					'domain_path' => '/languages',
+					'req' => array(
+						'short' => 'WPSSO',
+						'name' => 'WordPress Social Sharing Optimization (WPSSO)',
+						'min_version' => '3.37.3-1',
+					),
 					'img' => array(
 						'icon_small' => 'images/icon-128x128.png',
 						'icon_medium' => 'images/icon-256x256.png',
