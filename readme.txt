@@ -169,7 +169,7 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
-**Version 1.0.9-dev1 (2016/11/20)**
+**Version 1.0.9-dev2 (2016/11/21)**
 
 Official announcement: N/A
 
@@ -198,9 +198,9 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
-= 1.0.9-dev1 =
+= 1.0.9-dev2 =
 
-(2016/11/20) Refactored the min_version_notice() method.
+(2016/11/21) Refactored the min_version_notice() method.
 
 = 1.0.8-1 =
 
