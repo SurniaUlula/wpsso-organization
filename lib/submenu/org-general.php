@@ -65,11 +65,11 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					} else $plm_req_msg = false;
 
 					$table_rows['schema_social_json'] = $this->form->get_th_html( _x( 'Google Knowledge Graph',
-						'option label', 'wpsso' ), null, 'org_json' ).
+						'option label', 'wpsso-organization' ), null, 'org_json' ).
 					'<td>'.
 					'<p>'.$this->form->get_checkbox( 'schema_organization_json' ).
-						sprintf( __( ' Include <a href="%s">Organization Social Profile</a>',
-							'wpsso' ), 'https://developers.google.com/structured-data/customize/social-profiles' ).'</p>'.
+						sprintf( __( ' Include <a href="%s">Organization Social Profile</a>', 'wpsso-organization' ),
+							'https://developers.google.com/structured-data/customize/social-profiles' ).'</p>'.
 					'</td>';
 
 					$table_rows['org_name'] = $this->form->get_th_html( _x( 'Website Name',
@@ -88,17 +88,17 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 						null, null, null, SucomUtil::get_site_description( $this->p->options ) ).'</td>';
 
 					$table_rows['org_url'] = $this->form->get_th_html( _x( 'Website URL',
-						'option label', 'wpsso' ), '', 'org_url', array( 'is_locale' => true ) ).
+						'option label', 'wpsso-organization' ), '', 'org_url', array( 'is_locale' => true ) ).
 					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'org_url', $this->p->options ),
 						'wide', null, null, get_bloginfo( 'url' ) ).'</td>';
 
 					$table_rows['schema_logo_url'] = $this->form->get_th_html( 
 						'<a href="https://developers.google.com/structured-data/customize/logos">'.
-						_x( 'Organization Logo Image URL', 'option label', 'wpsso' ).'</a>', '', 'schema_logo_url' ).
+						_x( 'Organization Logo Image URL', 'option label', 'wpsso-organization' ).'</a>', '', 'schema_logo_url' ).
 					'<td>'.$this->form->get_input( 'schema_logo_url', 'wide' ).'</td>';
 
-					$table_rows['schema_banner_url'] = $this->form->get_th_html( 
-						_x( 'Organization Banner (600x60) URL', 'option label', 'wpsso' ), '', 'schema_banner_url' ).
+					$table_rows['schema_banner_url'] = $this->form->get_th_html( _x( 'Organization Banner (600x60) URL',
+						'option label', 'wpsso-organization' ), '', 'schema_banner_url' ).
 					'<td>'.$this->form->get_input( 'schema_banner_url', 'wide' ).'</td>';
 
 					$table_rows['org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
@@ -111,14 +111,14 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 						( $plm_req_msg ? true : false ) ).$plm_req_msg.'</td>';
 
 					$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
-						_x( 'Google Knowledge Graph', 'metabox title', 'wpsso' ).'</h4></td>';
+						_x( 'Google Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';
 
 					$social_accounts = apply_filters( $this->p->cf['lca'].'_social_accounts', 
 						$this->p->cf['form']['social_accounts'] );
 					asort( $social_accounts );	// sort by label and maintain key association
 
 					foreach ( $social_accounts as $key => $label ) {
-						$table_rows[$key] = $this->form->get_th_html( _x( $label, 'option value', 'wpsso' ),
+						$table_rows[$key] = $this->form->get_th_html( _x( $label, 'option value', 'wpsso-organization' ),
 							null, $key, array( 'is_locale' => true ) ).
 						'<td>'.$this->form->get_input( SucomUtil::get_key_locale( $key, $this->p->options ),
 							( strpos( $key, '_url' ) ? 'wide' : '' ) ).'</td>';

@@ -76,8 +76,8 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 				_x( 'Organization Logo Image URL', 'option label', 'wpsso-organization' ).'</a>', '', 'schema_logo_url' ).
 			'<td class="blank">'.$form->get_no_input_value( '', 'wide' ).'</td>';
 
-			$table_rows['org_banner_url_'.$id] = $form->get_th_html(
-				_x( 'Organization Banner (600x60) URL', 'option label', 'wpsso-organization' ), '', 'schema_banner_url' ).
+			$table_rows['org_banner_url_'.$id] = $form->get_th_html( _x( 'Organization Banner (600x60) URL',
+				'option label', 'wpsso-organization' ), '', 'schema_banner_url' ).
 			'<td class="blank">'.$form->get_no_input_value( '', 'wide' ).'</td>';
 
 			$table_rows['org_type_'.$id] = $form->get_th_html( _x( 'Organization Schema Type',
