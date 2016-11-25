@@ -11,7 +11,7 @@ Tags: wpsso, organization, schema, schema.org, markup, local business, publisher
 Contributors: jsmoriss
 Requires At Least: 3.7
 Tested Up To: 4.6.1
-Stable Tag: 1.0.8-1
+Stable Tag: 1.0.9-1
 
 WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
 
@@ -169,7 +169,7 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
-**Version 1.0.9-rc2 (2016/11/25)**
+**Version 1.0.9-1 (2016/11/25)**
 
 Official announcement: N/A
 
@@ -198,11 +198,7 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
-= 1.0.9-rc2 =
+= 1.0.9-1 =
 
 (2016/11/25) Refactored the min_version_notice() method.
-
-= 1.0.8-1 =
-
-(2016/11/12) Minor code changes required for WPSSO v3.37.1-1.
 
