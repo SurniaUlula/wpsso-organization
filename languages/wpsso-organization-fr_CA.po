@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.9-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2016-11-20 15:09-0800\n"
-"PO-Revision-Date: 2016-11-20 15:09-0800\n"
+"POT-Creation-Date: 2016-11-27 09:15+1000\n"
+"PO-Revision-Date: 2016-11-27 09:15+1000\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -114,8 +114,8 @@ msgctxt "option label"
 msgid "Organization Logo Image URL"
 msgstr "URL de l'image logo de l'organisation"
 
-#: lib/gpl/admin/org-general.php:80 lib/pro/admin/org-general.php:98
-#: lib/submenu/org-general.php:101
+#: lib/gpl/admin/org-general.php:79 lib/pro/admin/org-general.php:97
+#: lib/submenu/org-general.php:100
 msgctxt "option label"
 msgid "Organization Banner (600x60) URL"
 msgstr "URL bannière (600x60) de l'organisation"
