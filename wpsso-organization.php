@@ -130,7 +130,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 
 		private function min_version_notice() {
 			$info = WpssoOrgConfig::$cf['plugin']['wpssoorg'];
-			$wpsso_version = WpssoConfig::get_version();
+			$wpsso_version = $this->p->cf['plugin']['wpsso']['version'];
 
 			if ( $this->p->debug->enabled ) {
 				$this->p->debug->log( $info['name'].' requires '.$info['req']['short'].' v'.
