@@ -169,6 +169,19 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
+**Version 1.0.10-1 (2016/12/03)**
+
+Official announcement: N/A
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* Fixed creation of 'sameAs' array with origanization social URLs.
+* *Developer Notes*
+	* None
+
 **Version 1.0.9-1 (2016/11/25)**
 
 Official announcement: N/A
@@ -197,6 +210,10 @@ Official announcement: N/A
 		* Renamed the WpssoSchema::get_schema_types() method to WpssoSchema::get_schema_types_array().
 
 == Upgrade Notice ==
+
+= 1.0.10-rc1 =
+
+(2016/12/03) Fixed creation of 'sameAs' array with origanization social URLs.
 
 = 1.0.9-1 =
 
