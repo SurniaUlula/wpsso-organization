@@ -77,8 +77,16 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				}
 				
 				foreach ( apply_filters( $wpsso->cf['lca'].'_social_accounts', 
-					$wpsso->cf['form']['social_accounts'] ) as $key => $label )
-						$opts['org_sameas_'.$key] = SucomUtil::get_locale_opt( $key, $wpsso->options, $mixed );
+					$wpsso->cf['form']['social_accounts'] ) as $key => $label ) {
+
+					$url = SucomUtil::get_locale_opt( $key, $wpsso->options, $mixed );
+					if ( empty( $url ) )
+						continue;
+					if ( $key === 'tc_site' )
+						$url = 'https://twitter.com/'.preg_replace( '/^@/', '', $url );
+					if ( strpos( $url, '://' ) !== false )
+						$opts['org_sameas'][] = $url;
+				}
 
 			} elseif ( is_numeric( $id ) && $wpsso->check->aop( 'wpssoorg', true, $wpsso->is_avail['aop'] ) ) {
 				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*)_'.$id.'(#.*)?$/',
