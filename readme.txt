@@ -169,7 +169,7 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
-**Version 1.0.10-1 (2016/12/03)**
+**Version 1.0.10-1 (2016/12/04)**
 
 Official announcement: N/A
 
@@ -211,9 +211,9 @@ Official announcement: N/A
 
 == Upgrade Notice ==
 
-= 1.0.10-rc1 =
+= 1.0.10-1 =
 
-(2016/12/03) Fixed creation of 'sameAs' array with origanization social URLs.
+(2016/12/04) Fixed creation of 'sameAs' array with origanization social URLs.
 
 = 1.0.9-1 =
 
