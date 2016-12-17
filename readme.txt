@@ -171,8 +171,6 @@ Note that the production stage level can be incremented on occasion for simple t
 
 **Version 1.0.10-1 (2016/12/04)**
 
-Official announcement: N/A
-
 * *New Features*
 	* None
 * *Improvements*
@@ -184,8 +182,6 @@ Official announcement: N/A
 
 **Version 1.0.9-1 (2016/11/25)**
 
-Official announcement: N/A
-
 * *New Features*
 	* None
 * *Improvements*
@@ -196,8 +192,6 @@ Official announcement: N/A
 	* Refactored the min_version_notice() method and moved variables to config class.
 
 **Version 1.0.8-1 (2016/11/12)**
-
-Official announcement: N/A
 
 * *New Features*
 	* None
