@@ -109,12 +109,6 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 			* [schema.org/TheaterEvent](https://schema.org/TheaterEvent)
 			* [schema.org/VisualArtsEvent](https://schema.org/VisualArtsEvent)
 
-= Available in Multiple Languages =
-
-* English (US)
-* French (France)
-* More to come...
-
 = Extends the WPSSO Plugin =
 
 The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the WPSSO ORG extension.
