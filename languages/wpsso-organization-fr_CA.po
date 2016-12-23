@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.10-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2016-12-07 08:37+1000\n"
-"PO-Revision-Date: 2016-12-07 08:37+1000\n"
+"POT-Creation-Date: 2016-12-24 08:42+1100\n"
+"PO-Revision-Date: 2016-12-24 08:45+1100\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -66,11 +66,11 @@ msgstr "L'URL du site Web de l'organisation."
 
 #: lib/filters.php:156
 msgid "If appropriate, you may select an optional Organization sub-type for your home page (default is Organization)."
-msgstr ""
+msgstr "Le cas échéant, vous pouvez choisir un sous-type optionnel d'Organisation pour votre page d'accueil (Organisation par défaut)."
 
 #: lib/filters.php:161
 msgid "Select an optional Place / Location address for this Organization (requires the %s extension)."
-msgstr ""
+msgstr "Choisissez une adresse d'emplacement optionnel pour cet organisme (nécessite l’extension %s)."
 
 #: lib/gpl/admin/org-general.php:36 lib/pro/admin/org-general.php:48
 #: lib/submenu/org-general.php:63
