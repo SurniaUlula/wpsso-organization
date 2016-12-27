@@ -195,7 +195,7 @@ Note that the production stage level can be incremented on occasion for simple t
 	* None
 * *Developer Notes*
 	* Minor code changes required for WPSSO v3.37.1-1.
-		* Renamed the WpssoSchema::get_schema_types() method to WpssoSchema::get_schema_types_array().
+		* Renamed the WpssoSchema get_schema_types() method to get_schema_types_array().
 
 == Upgrade Notice ==
 
