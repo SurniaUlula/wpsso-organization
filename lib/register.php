@@ -13,7 +13,6 @@ if ( ! class_exists( 'WpssoOrgRegister' ) ) {
 	class WpssoOrgRegister {
 
 		public function __construct() {
-
 			register_activation_hook( WPSSOORG_FILEPATH, array( &$this, 'network_activate' ) );
 			//register_deactivation_hook( WPSSOORG_FILEPATH, array( &$this, 'network_deactivate' ) );	// nothing to do
 
