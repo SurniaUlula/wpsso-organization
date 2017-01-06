@@ -163,6 +163,17 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
+**Version 1.0.11-dev1 (2017/01/06)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* Corrected a few incorrect text domain names in the settings page.
+* *Developer Notes*
+	* Added a 'plugins_loaded' action hook to load the plugin text domain.
+
 **Version 1.0.10-1 (2016/12/04)**
 
 * *New Features*
@@ -198,6 +209,10 @@ Note that the production stage level can be incremented on occasion for simple t
 		* Renamed the WpssoSchema get_schema_types() method to get_schema_types_array().
 
 == Upgrade Notice ==
+
+= 1.0.11-dev1 =
+
+(2017/01/06) Corrected a few incorrect text domain names in the settings page. Added a 'plugins_loaded' action hook to load the plugin text domain.
 
 = 1.0.10-1 =
 
