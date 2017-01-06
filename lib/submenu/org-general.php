@@ -73,17 +73,17 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					'</td>';
 
 					$table_rows['org_name'] = $this->form->get_th_html( _x( 'Website Name',
-						'option label', 'nextgen-facebook' ), '', 'org_name', array( 'is_locale' => true ) ).
+						'option label', 'wpsso-organization' ), '', 'org_name', array( 'is_locale' => true ) ).
 					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'org_name', $this->p->options ),
 						'long_name', null, null, SucomUtil::get_site_name( $this->p->options ) ).'</td>';
 
 					$table_rows['org_alt_name'] = $this->form->get_th_html( _x( 'Website Alternate Name',
-						'option label', 'nextgen-facebook' ), '', 'schema_alt_name', array( 'is_locale' => true ) ).
+						'option label', 'wpsso-organization' ), '', 'schema_alt_name', array( 'is_locale' => true ) ).
 					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'org_alt_name', $this->p->options ),
 						'long_name', null, null, SucomUtil::get_locale_opt( 'schema_alt_name', $this->p->options ) ).'</td>';
 
 					$table_rows['org_desc'] = $this->form->get_th_html( _x( 'Website Description',
-						'option label', 'nextgen-facebook' ), '', 'org_desc', array( 'is_locale' => true ) ).
+						'option label', 'wpsso-organization' ), '', 'org_desc', array( 'is_locale' => true ) ).
 					'<td>'.$this->form->get_textarea( SucomUtil::get_key_locale( 'org_desc', $this->p->options ),
 						null, null, null, SucomUtil::get_site_description( $this->p->options ) ).'</td>';
 
@@ -102,7 +102,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					'<td>'.$this->form->get_input( 'schema_banner_url', 'wide' ).'</td>';
 
 					$table_rows['org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
-						'option label', 'nextgen-facebook' ), '', 'org_type' ).
+						'option label', 'wpsso-organization' ), '', 'org_type' ).
 					'<td>'.$this->form->get_select( 'org_type', $this->form->__org_types, 'long_name' ).'</td>';
 
 					$table_rows['org_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',

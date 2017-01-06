@@ -13,7 +13,7 @@
  * Description: WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.).
  * Requires At Least: 3.7
  * Tested Up To: 4.7
- * Version: 1.0.10-1
+ * Version: 1.0.11-dev1
  * 
  * Version Numbering Scheme: {major}.{minor}.{bugfix}-{stage}{level}
  *
@@ -49,7 +49,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			$this->reg = new WpssoOrgRegister();		// activate, deactivate, uninstall hooks
 
 			if ( is_admin() ) {
-				load_plugin_textdomain( 'wpsso-organization', false, 'wpsso-organization/languages/' );
+				add_action( 'plugins_loaded', array( __CLASS__, 'load_textdomain' ) );
 				add_action( 'admin_init', array( __CLASS__, 'required_check' ) );
 			}
 
@@ -63,6 +63,10 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			if ( ! isset( self::$instance ) )
 				self::$instance = new self;
 			return self::$instance;
+		}
+
+		public static function load_textdomain() {
+			load_plugin_textdomain( 'wpsso-organization', false, 'wpsso-organization/languages/' );
 		}
 
 		public static function required_check() {
