@@ -11,7 +11,7 @@ Tags: organization, schema, schema.org, markup, local business, publisher, artic
 Contributors: jsmoriss
 Requires At Least: 3.7
 Tested Up To: 4.7
-Stable Tag: 1.0.10-1
+Stable Tag: 1.0.11-1
 
 WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
 
