@@ -9,7 +9,7 @@ Donate Link: https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wps
 Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
 Tags: organization, schema, schema.org, markup, local business, publisher, article
 Contributors: jsmoriss
-Requires At Least: 3.7
+Requires At Least: 3.8
 Tested Up To: 4.7.2
 Stable Tag: 1.0.11-1
 
