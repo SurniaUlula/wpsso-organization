@@ -35,7 +35,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 **WPSSO ORG Free / Basic Features**
 
 * Extends the features of either the Free or Pro versions of WPSSO.
-* Manage properies of the Schema Organization markup for your home page:
+* Manage properies of the Schema Organization markup for your front page:
 	* Website Name
 	* Website Alternate Name
 	* Website Description
@@ -138,7 +138,7 @@ Use the Free version of WPSSO ORG with *both* the Free and Pro versions of WPSSO
 
 == Screenshots ==
 
-01. Settings for the Website (Home Page) Organization &mdash; Includes the Website name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
+01. Settings for the Website (Front Page) Organization &mdash; Includes the Website name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
 02. Settings for the Other Organizations / Publishers &mdash; Includes the Organization name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
 03. Article Publisher selection when combined with the WPSSO Schema JSON-LD Markup (WPSSO JSON) extension.
 04. Event Organizer and Performer selection when combined with the WPSSO Schema JSON-LD Markup (WPSSO JSON) extension.

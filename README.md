@@ -33,7 +33,7 @@
 
 <ul>
 <li>Extends the features of either the Free or Pro versions of WPSSO.</li>
-<li>Manage properies of the Schema Organization markup for your home page:
+<li>Manage properies of the Schema Organization markup for your front page:
 
 <ul>
 <li>Website Name</li>
