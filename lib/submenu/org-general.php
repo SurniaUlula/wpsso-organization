@@ -34,7 +34,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 			$metabox = 'organization';
 
 			$tabs = apply_filters( $lca.'_'.$metabox.'_tabs', array( 
-				'site' => 'Website (Home Page)',
+				'site' => 'Website (Front Page)',
 				'other' => 'Other Organizations',
 			) );
 

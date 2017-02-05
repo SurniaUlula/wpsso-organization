@@ -135,7 +135,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				return $text;
 			switch ( $idx ) {
 				case 'tooltip-org_json':
-					$text = __( 'Include Organization schema markup in the home page for Google\'s Knowledge Graph.', 'wpsso-organization' );
+					$text = __( 'Include Organization schema markup in the front page for Google\'s Knowledge Graph.', 'wpsso-organization' );
 					break;
 				case 'tooltip-org_id':
 					$text = __( 'Select an organization to edit, or add a new organization.', 'wpsso-organization' );
@@ -153,7 +153,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					$text = __( 'The website URL for the organization.', 'wpsso-organization' );
 					break;
 				case 'tooltip-org_type':
-					$text = __( 'If appropriate, you may select an optional Organization sub-type for your home page (default is Organization).',
+					$text = __( 'If appropriate, you may select an optional Organization sub-type for your front page (default is Organization).',
 						'wpsso-organization' );
 					break;
 				case 'tooltip-org_place_id':

@@ -42,7 +42,7 @@ msgstr ""
 
 #: lib/filters.php:138
 msgid ""
-"Include Organization schema markup in the home page for Google's Knowledge "
+"Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 #: lib/filters.php:156
 msgid ""
 "If appropriate, you may select an optional Organization sub-type for your "
-"home page (default is Organization)."
+"front page (default is Organization)."
 msgstr ""
 
 #: lib/filters.php:161
