@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.11-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2016-12-24 08:42+1100\n"
-"PO-Revision-Date: 2017-01-21 07:29+0800\n"
+"POT-Creation-Date: 2017-02-06 09:28+0800\n"
+"PO-Revision-Date: 2017-02-06 09:28+0800\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -41,8 +41,8 @@ msgid "Organization #%d"
 msgstr "Organisation #%d"
 
 #: lib/filters.php:138
-msgid "Include Organization schema markup in the home page for Google's Knowledge Graph."
-msgstr "Inclure le balisage schéma d'Organisation dans la page d’accueil pour le Knowledge Graph de Google."
+msgid "Include Organization schema markup in the front page for Google's Knowledge Graph."
+msgstr "Inclure le balisage schéma d'Organisation dans la page d'avant pour le Knowledge Graph de Google."
 
 #: lib/filters.php:141
 msgid "Select an organization to edit, or add a new organization."
@@ -65,8 +65,8 @@ msgid "The website URL for the organization."
 msgstr "L'URL du site Web de l'organisation."
 
 #: lib/filters.php:156
-msgid "If appropriate, you may select an optional Organization sub-type for your home page (default is Organization)."
-msgstr "Le cas échéant, vous pouvez choisir un sous-type optionnel d'Organisation pour votre page d'accueil (Organisation par défaut)."
+msgid "If appropriate, you may select an optional Organization sub-type for your front page (default is Organization)."
+msgstr "Le cas échéant, vous pouvez choisir un sous-type optionnel d'Organisation pour votre page d'avent (Organisation par défaut)."
 
 #: lib/filters.php:161
 msgid "Select an optional Place / Location address for this Organization (requires the %s extension)."
@@ -172,15 +172,15 @@ msgctxt "option label"
 msgid "Website URL"
 msgstr "URL du site Web"
 
-#: wpsso-organization.php:79
+#: wpsso-organization.php:83
 msgid "%1$s is an extension for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating the %4$s extension."
 msgstr "%1$s est une extension pour %2$s &mdash; s'il vous plaît installer et activer %3$s avant d'essayer de re-activer l'extension %4$s."
 
-#: wpsso-organization.php:81
+#: wpsso-organization.php:85
 msgid "The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin."
 msgstr "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer l'extension %3$s."
 
-#: wpsso-organization.php:141
+#: wpsso-organization.php:145
 msgid "The %1$s extension v%2$s requires %3$s v%4$s or newer (v%5$s currently installed)."
 msgstr "L'extension %1$s v%2$s requiert l'utilisation de %3$s v%4$s ou plus récente (v%5$s est actuellement installée)."
 
