@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.11-1\n"
+"Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.12-dev1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2017-MO-DA HO:MI+ZONE\n"
@@ -35,46 +35,46 @@ msgid ""
 "Event properties (Publisher, Organizer, Performer, etc.)."
 msgstr ""
 
-#: lib/filters.php:124
+#: lib/filters.php:126
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:138
+#: lib/filters.php:140
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:141
+#: lib/filters.php:143
 msgid "Select an organization to edit, or add a new organization."
 msgstr ""
 
-#: lib/filters.php:144
+#: lib/filters.php:146
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:147
+#: lib/filters.php:149
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:150
+#: lib/filters.php:152
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:153
+#: lib/filters.php:155
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:156
+#: lib/filters.php:158
 msgid ""
 "If appropriate, you may select an optional Organization sub-type for your "
 "front page (default is Organization)."
 msgstr ""
 
-#: lib/filters.php:161
+#: lib/filters.php:163
 msgid ""
 "Select an optional Place / Location address for this Organization (requires "
 "the %s extension)."

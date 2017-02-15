@@ -69,11 +69,26 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 					'org_banner_url' => 'schema_banner_url',	// Organization Banner (600x60) URL
 					'org_type' => 'org_type',			// Organization Schema Type
 					'org_place_id' => 'org_place_id',		// Organization Place / Location
-				) as $org_key => $site_key ) {
-					$opts[$org_key] = SucomUtil::get_locale_opt( $site_key, $wpsso->options, $mixed );
+				) as $org_key => $opts_key ) {
+					$opts[$org_key] = SucomUtil::get_locale_opt( $opts_key, $wpsso->options, $mixed );
 
-					if ( $org_key === 'org_alt_name' && empty( $opts[$org_key] ) )	// fallback to the schema options value
-						$opts[$org_key] = SucomUtil::get_locale_opt( 'schema_alt_name', $wpsso->options, $mixed );
+					// fallback to the schema options value
+					if ( empty( $opts[$org_key] ) ) {
+						switch ( $org_key ) {
+							case 'org_name':
+								$opts[$org_key] = SucomUtil::get_site_name( $wpsso->options, $mixed );
+								break;
+							case 'org_alt_name':
+								$opts[$org_key] = SucomUtil::get_locale_opt( 'schema_alt_name', $wpsso->options, $mixed );
+								break;
+							case 'org_desc':
+								$opts[$org_key] = SucomUtil::get_site_description( $wpsso->options, $mixed );
+								break;
+							case 'org_url':
+								$opts[$org_key] = get_bloginfo( 'url' );
+								break;
+						}
+					}
 				}
 				
 				foreach ( apply_filters( $wpsso->cf['lca'].'_social_accounts', 

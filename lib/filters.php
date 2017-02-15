@@ -19,6 +19,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				'defaults' => array(
 					'org_id' => 0,		// Edit an Organization
 					'org_name' => '',
+					'org_alt_name' => '',
 					'org_desc' => '',
 					'org_logo_url' => '',
 					'org_banner_url' => '',
@@ -83,6 +84,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					return 'numeric';
 					break;
 				case 'org_name':
+				case 'org_alt_name':
 				case 'org_desc':
 					return 'ok_blank';
 					break;
