@@ -70,8 +70,8 @@ msgstr ""
 
 #: lib/filters.php:137
 msgid ""
-"If appropriate, you may select a more descriptive Organization sub-type "
-"(default is Organization)."
+"You may select a more descriptive Schema type from the Organization sub-"
+"types (default is Organization)."
 msgstr ""
 
 #: lib/filters.php:142

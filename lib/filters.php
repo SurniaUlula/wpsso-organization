@@ -134,7 +134,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					$text = __( 'The website URL for the organization.', 'wpsso-organization' );
 					break;
 				case 'tooltip-org_type':
-					$text = __( 'If appropriate, you may select a more descriptive Organization sub-type (default is Organization).',
+					$text = __( 'You may select a more descriptive Schema type from the Organization sub-types (default is Organization).',
 						'wpsso-organization' );
 					break;
 				case 'tooltip-org_place_id':
