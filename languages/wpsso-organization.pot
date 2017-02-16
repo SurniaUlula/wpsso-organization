@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.12-dev1\n"
+"Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.12-dev2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2017-MO-DA HO:MI+ZONE\n"
@@ -35,46 +35,46 @@ msgid ""
 "Event properties (Publisher, Organizer, Performer, etc.)."
 msgstr ""
 
-#: lib/filters.php:126
+#: lib/filters.php:105
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:140
+#: lib/filters.php:119
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:143
+#: lib/filters.php:122
 msgid "Select an organization to edit, or add a new organization."
 msgstr ""
 
-#: lib/filters.php:146
+#: lib/filters.php:125
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:149
+#: lib/filters.php:128
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:152
+#: lib/filters.php:131
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:155
+#: lib/filters.php:134
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:158
+#: lib/filters.php:137
 msgid ""
-"If appropriate, you may select an optional Organization sub-type for your "
-"front page (default is Organization)."
+"If appropriate, you may select a more descriptive Organization sub-type "
+"(default is Organization)."
 msgstr ""
 
-#: lib/filters.php:163
+#: lib/filters.php:142
 msgid ""
 "Select an optional Place / Location address for this Organization (requires "
 "the %s extension)."
@@ -117,31 +117,31 @@ msgid "Organization Website URL"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:76 lib/pro/admin/org-general.php:94
-#: lib/submenu/org-general.php:97
+#: lib/submenu/org-general.php:101
 msgctxt "option label"
 msgid "Organization Logo Image URL"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:79 lib/pro/admin/org-general.php:97
-#: lib/submenu/org-general.php:100
+#: lib/submenu/org-general.php:104
 msgctxt "option label"
 msgid "Organization Banner (600x60) URL"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:83 lib/pro/admin/org-general.php:101
-#: lib/submenu/org-general.php:104
+#: lib/submenu/org-general.php:108
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:87 lib/pro/admin/org-general.php:105
-#: lib/submenu/org-general.php:108
+#: lib/submenu/org-general.php:112
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:92 lib/pro/admin/org-general.php:112
-#: lib/submenu/org-general.php:114
+#: lib/submenu/org-general.php:118
 msgctxt "metabox title"
 msgid "Google Knowledge Graph"
 msgstr ""
@@ -160,22 +160,22 @@ msgstr ""
 msgid " Include <a href=\"%s\">Organization Social Profile</a>"
 msgstr ""
 
-#: lib/submenu/org-general.php:75
+#: lib/submenu/org-general.php:76
 msgctxt "option label"
 msgid "Website Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:80
+#: lib/submenu/org-general.php:82
 msgctxt "option label"
 msgid "Website Alternate Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:85
+#: lib/submenu/org-general.php:88
 msgctxt "option label"
 msgid "Website Description"
 msgstr ""
 
-#: lib/submenu/org-general.php:90
+#: lib/submenu/org-general.php:94
 msgctxt "option label"
 msgid "Website URL"
 msgstr ""

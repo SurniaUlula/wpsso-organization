@@ -60,53 +60,10 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			$opts = array();
 
 			if ( $id === 'site' ) {
-				foreach ( array(
-					'org_name' => 'org_name',			// Organization Name
-					'org_alt_name' => 'org_alt_name',		// Organization Alternate Name
-					'org_desc' => 'org_desc',			// Organization Description
-					'org_url' => 'org_url',				// Organization Website URL
-					'org_logo_url' => 'schema_logo_url',		// Organization Logo Image URL
-					'org_banner_url' => 'schema_banner_url',	// Organization Banner (600x60) URL
-					'org_type' => 'org_type',			// Organization Schema Type
-					'org_place_id' => 'org_place_id',		// Organization Place / Location
-				) as $org_key => $opts_key ) {
-					$opts[$org_key] = SucomUtil::get_locale_opt( $opts_key, $wpsso->options, $mixed );
-
-					// fallback to the schema options value
-					if ( empty( $opts[$org_key] ) ) {
-						switch ( $org_key ) {
-							case 'org_name':
-								$opts[$org_key] = SucomUtil::get_site_name( $wpsso->options, $mixed );
-								break;
-							case 'org_alt_name':
-								$opts[$org_key] = SucomUtil::get_locale_opt( 'schema_alt_name', $wpsso->options, $mixed );
-								break;
-							case 'org_desc':
-								$opts[$org_key] = SucomUtil::get_site_description( $wpsso->options, $mixed );
-								break;
-							case 'org_url':
-								$opts[$org_key] = get_bloginfo( 'url' );
-								break;
-						}
-					}
-				}
-				
-				foreach ( apply_filters( $wpsso->cf['lca'].'_social_accounts', 
-					$wpsso->cf['form']['social_accounts'] ) as $key => $label ) {
-
-					$url = SucomUtil::get_locale_opt( $key, $wpsso->options, $mixed );
-					if ( empty( $url ) )
-						continue;
-					if ( $key === 'tc_site' )
-						$url = 'https://twitter.com/'.preg_replace( '/^@/', '', $url );
-					if ( strpos( $url, '://' ) !== false )
-						$opts['org_sameas'][] = $url;
-				}
-
+				return WpssoSchema::get_site_organization( $mixed );
 			} elseif ( is_numeric( $id ) && $wpsso->check->aop( 'wpssoorg', true, $wpsso->is_avail['aop'] ) ) {
-				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*)_'.$id.'(#.*)?$/',
-					$wpsso->options, false, '$1' ) as $key => $value )
-						$opts[$key] = SucomUtil::get_locale_opt( $key.'_'.$id, $wpsso->options, $mixed );
+				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*)_'.$id.'(#.*)?$/', $wpsso->options, false, '$1' ) as $key => $value )
+					$opts[$key] = SucomUtil::get_locale_opt( $key.'_'.$id, $wpsso->options, $mixed );
 			}
 
 			if ( $wpsso->debug->enabled )

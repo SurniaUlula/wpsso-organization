@@ -14,26 +14,10 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 		protected $p;
 
-		public static $cf = array(
-			'opt' => array(				// options
-				'defaults' => array(
-					'org_id' => 0,		// Edit an Organization
-					'org_name' => '',
-					'org_alt_name' => '',
-					'org_desc' => '',
-					'org_logo_url' => '',
-					'org_banner_url' => '',
-					'org_type' => 'organization',
-					'org_place_id' => 'none',
-				),
-			),
-		);
-
 		public function __construct( &$plugin ) {
 			$this->p =& $plugin;
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'get_defaults' => 1,			// $def_opts
 				'json_array_schema_type_ids' => 2,	// $type_ids, $mod
 				'get_organization_options' => 3,	// $opts, $mod, $org_id
 			) );
@@ -47,18 +31,13 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			}
 		}
 
-		public function filter_get_defaults( $def_opts ) {
-			$def_opts = array_merge( $def_opts, self::$cf['opt']['defaults'] );
-			return $def_opts;
-		}
-
 		public function filter_json_array_schema_type_ids( $type_ids, $mod ) {
 			if ( $mod['is_home'] ) {
-				if ( ! empty( $this->p->options['org_type'] ) &&
-					$this->p->options['org_type'] !== 'organization' ) {
+				if ( ! empty( $this->p->options['site_org_type'] ) &&
+					$this->p->options['site_org_type'] !== 'organization' ) {
 
 					unset( $type_ids['organization'] );
-					$type_ids[$this->p->options['org_type']] = $this->p->options['schema_organization_json'];
+					$type_ids[$this->p->options['site_org_type']] = $this->p->options['schema_organization_json'];
 				}
 			}
 			return $type_ids;
@@ -155,7 +134,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					$text = __( 'The website URL for the organization.', 'wpsso-organization' );
 					break;
 				case 'tooltip-org_type':
-					$text = __( 'If appropriate, you may select an optional Organization sub-type for your front page (default is Organization).',
+					$text = __( 'If appropriate, you may select a more descriptive Organization sub-type (default is Organization).',
 						'wpsso-organization' );
 					break;
 				case 'tooltip-org_place_id':

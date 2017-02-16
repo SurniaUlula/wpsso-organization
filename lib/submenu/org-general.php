@@ -72,24 +72,28 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 							'https://developers.google.com/structured-data/customize/social-profiles' ).'</p>'.
 					'</td>';
 
-					$table_rows['org_name'] = $this->form->get_th_html( _x( 'Website Name',
-						'option label', 'wpsso-organization' ), '', 'org_name', array( 'is_locale' => true ) ).
-					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'org_name', $this->p->options ),
-						'long_name', null, null, SucomUtil::get_site_name( $this->p->options ) ).'</td>';
+					$table_rows['site_name'] = '<tr class="hide_in_basic">'.
+					$this->form->get_th_html( _x( 'Website Name',
+						'option label', 'wpsso-organization' ), null, 'site_name', array( 'is_locale' => true ) ).
+					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'site_name', $this->p->options ),
+						'long_name', null, null, get_bloginfo( 'name', 'display' ) ).'</td>';
 
-					$table_rows['org_alt_name'] = $this->form->get_th_html( _x( 'Website Alternate Name',
-						'option label', 'wpsso-organization' ), '', 'schema_alt_name', array( 'is_locale' => true ) ).
-					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'org_alt_name', $this->p->options ),
-						'long_name', null, null, SucomUtil::get_locale_opt( 'schema_alt_name', $this->p->options ) ).'</td>';
+					$table_rows['site_alt_name'] = '<tr class="hide_in_basic">'.
+					$this->form->get_th_html( _x( 'Website Alternate Name',
+						'option label', 'wpsso-organization' ), null, 'site_alt_name', array( 'is_locale' => true ) ).
+					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'site_alt_name', $this->p->options ),
+						'long_name' ).'</td>';
 
-					$table_rows['org_desc'] = $this->form->get_th_html( _x( 'Website Description',
-						'option label', 'wpsso-organization' ), '', 'org_desc', array( 'is_locale' => true ) ).
-					'<td>'.$this->form->get_textarea( SucomUtil::get_key_locale( 'org_desc', $this->p->options ),
-						null, null, null, SucomUtil::get_site_description( $this->p->options ) ).'</td>';
+					$table_rows['site_desc'] = '<tr class="hide_in_basic">'.
+					$this->form->get_th_html( _x( 'Website Description',
+						'option label', 'wpsso-organization' ), null, 'site_desc', array( 'is_locale' => true ) ).
+					'<td>'.$this->form->get_textarea( SucomUtil::get_key_locale( 'site_desc', $this->p->options ),
+						null, null, null, get_bloginfo( 'description', 'display' ) ).'</td>';
 
-					$table_rows['org_url'] = $this->form->get_th_html( _x( 'Website URL',
-						'option label', 'wpsso-organization' ), '', 'org_url', array( 'is_locale' => true ) ).
-					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'org_url', $this->p->options ),
+					$table_rows['site_url'] = '<tr class="hide_in_basic">'.
+					$this->form->get_th_html( _x( 'Website URL',
+						'option label', 'wpsso-organization' ), '', 'site_url', array( 'is_locale' => true ) ).
+					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'site_url', $this->p->options ),
 						'wide', null, null, get_bloginfo( 'url' ) ).'</td>';
 
 					$table_rows['schema_logo_url'] = $this->form->get_th_html( 
@@ -101,13 +105,13 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 						'option label', 'wpsso-organization' ), '', 'schema_banner_url' ).
 					'<td>'.$this->form->get_input( 'schema_banner_url', 'wide' ).'</td>';
 
-					$table_rows['org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
-						'option label', 'wpsso-organization' ), '', 'org_type' ).
-					'<td>'.$this->form->get_select( 'org_type', $this->form->__org_types, 'long_name' ).'</td>';
+					$table_rows['site_org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
+						'option label', 'wpsso-organization' ), '', 'site_org_type' ).
+					'<td>'.$this->form->get_select( 'site_org_type', $this->form->__org_types, 'long_name' ).'</td>';
 
-					$table_rows['org_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
-						'option label', 'wpsso-organization' ), '', 'org_place_id' ).
-					'<td>'.$this->form->get_select( 'org_place_id', $this->form->__address_names, 'long_name', '', true,
+					$table_rows['site_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
+						'option label', 'wpsso-organization' ), '', 'site_place_id' ).
+					'<td>'.$this->form->get_select( 'site_place_id', $this->form->__address_names, 'long_name', '', true,
 						( $plm_req_msg ? true : false ) ).$plm_req_msg.'</td>';
 
 					$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.

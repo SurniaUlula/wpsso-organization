@@ -48,8 +48,8 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			'<td class="blank">'.$form->get_no_select( 'org_id', $org_names,
 				'long_name', '', true ).'</td>';
 
-			$form->defaults['org_type_'.$id] = $form->defaults['org_type'];		// set default value
-			$form->defaults['org_place_id_'.$id] = $form->defaults['org_place_id'];	// set default value
+			$form->defaults['org_type_'.$id] = $form->defaults['site_org_type'];		// set default value
+			$form->defaults['org_place_id_'.$id] = $form->defaults['site_place_id'];	// set default value
 
 			$table_rows['org_delete_'.$id] = $form->get_th_html().
 			'<td class="blank">'.$form->get_no_checkbox( 'org_delete_'.$id ).' <em>'.
