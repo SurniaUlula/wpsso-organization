@@ -163,16 +163,22 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
-**Version 1.0.12-dev1 (2017/02/15)**
+**Version 1.0.12-dev2 (2017/02/16)**
 
 * *New Features*
 	* None
 * *Improvements*
-	* Added falback values when getting site organization options.
+	* None
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* None
+	* Renamed a few site related option keys for WPSSO v3.39.9-1:
+		* 'og_site_name' =&gt; 'site_name'
+		* 'og_site_description' =&gt; 'site_desc'
+		* 'org_url' =&gt; 'site_url'
+		* 'org_type' =&gt; 'site_org_type'
+	* Replaced site organization array code by a call to the new WpssoSchema::get_site_organization() method in WPSSO v3.39.9-1.
+	* Removed the 'wpsso_get_defaults' filter hook (no longer required).
 
 **Version 1.0.11-1 (2017/01/08)**
 
@@ -221,9 +227,9 @@ Note that the production stage level can be incremented on occasion for simple t
 
 == Upgrade Notice ==
 
-= 1.0.12-dev1 =
+= 1.0.12-dev2 =
 
-(2017/02/15) Added falback values when getting site organization options.
+(2017/02/16) Replaced site organization array code by a call to a new method in WPSSO v3.39.9-1.
 
 = 1.0.11-1 =
 
