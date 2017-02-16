@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.11-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2017-02-16 15:52+0700\n"
-"PO-Revision-Date: 2017-02-16 15:53+0700\n"
+"POT-Creation-Date: 2017-02-16 15:58+0700\n"
+"PO-Revision-Date: 2017-02-16 16:15+0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -33,7 +33,7 @@ msgstr "Organisation"
 #: lib/config-gettext-extract.php:6
 msgctxt "plugin description"
 msgid "WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.)."
-msgstr "Extension WPSSO pour gérer des organismes et propriétés Schéma d'articles / d'événements supplémentaires (organisateur, interprète, etc.)."
+msgstr "Extension WPSSO pour gérer des organisations et propriétés Schéma d'articles / d'événements supplémentaires (organisateur, interprète, etc.)."
 
 #: lib/filters.php:105
 msgctxt "option value"
@@ -66,11 +66,11 @@ msgstr "L'URL du site Web de l'organisation."
 
 #: lib/filters.php:137
 msgid "You may select a more descriptive Schema type from the Organization sub-types (default is Organization)."
-msgstr "Vous pouvez sélectionner un type de Schéma plus descriptif des sous-types de l’organisme (valeur par défaut est Organization)."
+msgstr "Vous pouvez sélectionner un type de Schéma plus descriptif des sous-types de l'organisation (valeur par défaut est Organization)."
 
 #: lib/filters.php:142
 msgid "Select an optional Place / Location address for this Organization (requires the %s extension)."
-msgstr "Choisissez une adresse d'emplacement optionnel pour cet organisme (nécessite l’extension %s)."
+msgstr "Choisissez une adresse d'emplacement optionnel pour cette organisation (nécessite l’extension %s)."
 
 #: lib/gpl/admin/org-general.php:36 lib/pro/admin/org-general.php:48
 #: lib/submenu/org-general.php:63
@@ -86,7 +86,7 @@ msgstr "Modifier une organisation"
 #: lib/gpl/admin/org-general.php:56 lib/pro/admin/org-general.php:74
 msgctxt "option comment"
 msgid "delete this organization"
-msgstr "supprimer cet organisme"
+msgstr "supprimer cette organisation"
 
 #: lib/gpl/admin/org-general.php:58 lib/pro/admin/org-general.php:76
 msgctxt "option label"
@@ -101,7 +101,7 @@ msgstr "Autre nom de l'organisation"
 #: lib/gpl/admin/org-general.php:66 lib/pro/admin/org-general.php:84
 msgctxt "option label"
 msgid "Organization Description"
-msgstr "Description de l’organisation"
+msgstr "Description de l'organisation"
 
 #: lib/gpl/admin/org-general.php:70 lib/pro/admin/org-general.php:88
 msgctxt "option label"
@@ -193,8 +193,8 @@ msgid "https://surniaulula.com/extend/plugins/wpsso-organization/"
 msgstr "https://surniaulula.com/extend/plugins/wpsso-organization/"
 
 #. Description of the plugin/theme
-msgid "WPSSO extension to manage multiple Organizations / Publishers and additional properties for the Schema Article types (BlogPosting, etc.)."
-msgstr "Extension WPSSO pour gérer multiples organisations / éditeurs et propriétés supplémentaires pour les Schémas d'Articles (BlogPosting, etc.)."
+msgid "WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.)."
+msgstr "Extension WPSSO pour gérer des organisations et propriétés Schéma d'articles / d'événements supplémentaires (organisateur, interprète, etc.)."
 
 #. Author of the plugin/theme
 msgid "JS Morisset"
