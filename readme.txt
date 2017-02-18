@@ -163,7 +163,7 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
-**Version 1.0.12-rc1 (2017/02/17)**
+**Version 1.0.12-rc1 (2017/02/18)**
 
 * *New Features*
 	* None
@@ -229,7 +229,7 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = 1.0.12-rc1 =
 
-(2017/02/17) Replaced site organization array code by a call to a new method in WPSSO v3.39.9-1.
+(2017/02/18) Replaced site organization array code by a call to a new method in WPSSO v3.39.9-1.
 
 = 1.0.11-1 =
 
