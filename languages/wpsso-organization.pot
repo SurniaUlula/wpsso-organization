@@ -180,13 +180,13 @@ msgctxt "option label"
 msgid "Website URL"
 msgstr ""
 
-#: wpsso-organization.php:81
+#: wpsso-organization.php:77
 msgid ""
 "%1$s is an extension for the %2$s plugin &mdash; please install and activate "
 "the %3$s plugin before activating %4$s."
 msgstr ""
 
-#: wpsso-organization.php:83
+#: wpsso-organization.php:79
 msgid ""
 "The %1$s extension requires the %2$s plugin &mdash; please install and "
 "activate the %3$s plugin."
