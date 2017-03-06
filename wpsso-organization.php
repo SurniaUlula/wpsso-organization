@@ -13,7 +13,7 @@
  * Description: WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
  * Requires At Least: 3.8
  * Tested Up To: 4.7.2
- * Version: 1.0.12-1
+ * Version: 1.0.13-1
  * 
  * Version Numbering Scheme: {major}.{minor}.{bugfix}-{stage}{level}
  *
