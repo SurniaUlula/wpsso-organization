@@ -163,6 +163,17 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
+**Version 1.0.13-1 (2017/03/07)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* Fixed a CSS id problem that prevented the automatic display/hidding of options from working properly.
+* *Developer Notes*
+	* None
+
 **Version 1.0.12-1 (2017/02/19)**
 
 * *New Features*
@@ -226,6 +237,10 @@ Note that the production stage level can be incremented on occasion for simple t
 		* Renamed the WpssoSchema get_schema_types() method to get_schema_types_array().
 
 == Upgrade Notice ==
+
+= 1.0.13-1 =
+
+(2017/03/07) Fixed a CSS id problem that prevented the automatic display/hidding of options from working properly.
 
 = 1.0.12-1 =
 
