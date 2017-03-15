@@ -142,8 +142,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 == Screenshots ==
 
-01. Settings for the Website (Front Page) Organization &mdash; Includes the Website name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
-02. Settings for the Other Organizations / Publishers &mdash; Includes the Organization name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
+01. Settings for the Website (Front Page) Organization &mdash; includes the Website name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
+02. Settings for the Other Organizations / Publishers &mdash; includes the Organization name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
 03. Article Publisher selection when combined with the WPSSO Schema JSON-LD Markup (WPSSO JSON) extension.
 04. Event Organizer and Performer selection when combined with the WPSSO Schema JSON-LD Markup (WPSSO JSON) extension.
 
