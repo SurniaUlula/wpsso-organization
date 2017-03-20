@@ -27,8 +27,6 @@
 
 <blockquote>
 <p><strong>Prerequisite</strong> &mdash; WPSSO Organization Markup (WPSSO ORG) is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WordPress Social Sharing Optimization (WPSSO)</a> plugin, which <em>automatically</em> generates complete and accurate meta tags + Schema markup from your content for Social Sharing Optimization (SSO) and Search Engine Optimization (SEO).</p>
-
-<p>The <a href="https://wordpress.org/plugins/wpsso-organization/">WPSSO ORG Free extension</a> works with the WPSSO Free or Pro plugin. The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-requires">WPSSO ORG Pro extension</a> (along with all WPSSO Pro extensions) requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-requires">WPSSO Pro plugin</a> as well.</p>
 </blockquote>
 
 <h4>Quick List of Features</h4>
