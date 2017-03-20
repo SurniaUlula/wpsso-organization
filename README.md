@@ -14,7 +14,9 @@
 
 <h2>Description</h2>
 
-<p align="center"><img src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png" width="256" height="256" /></p><p><strong>Control your Organization markup for Google's Knowledge Graph.</strong></p>
+<p align="center"><img src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png" /></p><p></p>
+
+<p><strong>Control your Organization markup for Google's Knowledge Graph.</strong></p>
 
 <ul>
 <li>Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), Organization logo and/or banner.</li>

@@ -17,7 +17,9 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 == Description ==
 
-<p><img src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png" width="256" height="256" style="width:33%;min-width:128px;max-width:256px;float:left;margin:0 40px 20px 0;" /><strong>Control your Organization markup for Google's Knowledge Graph.</strong></p>
+<img src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png" style="width:33%;min-width:128px;max-width:256px;height:auto;float:left;margin:10px 40px 40px 0;" />
+
+<p><strong>Control your Organization markup for Google's Knowledge Graph.</strong></p>
 
 <ul>
 <li>Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), Organization logo and/or banner.</li>
