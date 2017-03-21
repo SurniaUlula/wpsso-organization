@@ -51,6 +51,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		public static function get_org_id( $id, $mixed = 'current' ) {
 
 			$wpsso =& Wpsso::get_instance();
+
 			if ( $wpsso->debug->enabled ) {
 				$wpsso->debug->log_args( array( 
 					'id' => $id,
@@ -58,21 +59,25 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				) );
 			}
 
-			$opts = array();
+			$org_opts = array();
 
 			if ( $id === 'site' ) {
 				return WpssoSchema::get_site_organization( $mixed );
 			} elseif ( is_numeric( $id ) && $wpsso->check->aop( 'wpssoorg', true, $wpsso->is_avail['aop'] ) ) {
-				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*)_'.$id.'(#.*)?$/', $wpsso->options, false, '$1' ) as $key => $value )
-					$opts[$key] = SucomUtil::get_locale_opt( $key.'_'.$id, $wpsso->options, $mixed );
+				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*)_'.$id.'(#.*)?$/', $wpsso->options, false, '$1' ) as $key => $value ) {
+					$org_opts[$key] = SucomUtil::get_locale_opt( $key.'_'.$id, $wpsso->options, $mixed );
+				}
 			}
 
-			if ( $wpsso->debug->enabled )
-				$wpsso->debug->log( $opts );
+			if ( $wpsso->debug->enabled ) {
+				$wpsso->debug->log( $org_opts );
+			}
 
-			if ( empty( $opts ) )
+			if ( empty( $org_opts ) ) {
 				return false; 
-			else return $opts;
+			} else {
+				return $org_opts;
+			}
 		}
 	}
 }
