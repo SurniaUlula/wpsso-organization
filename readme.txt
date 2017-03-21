@@ -167,6 +167,17 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
+**Version 1.0.14-dev1 (2017/03/21)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Maintenance release.
+
 **Version 1.0.13-1 (2017/03/07)**
 
 * *New Features*
@@ -241,6 +252,10 @@ Note that the production stage level can be incremented on occasion for simple t
 		* Renamed the WpssoSchema get_schema_types() method to get_schema_types_array().
 
 == Upgrade Notice ==
+
+= 1.0.14-dev1 =
+
+(2017/03/21) Maintenance release.
 
 = 1.0.13-1 =
 
