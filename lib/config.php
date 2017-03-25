@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(
-					'version' => '1.0.14-rc1',	// plugin version
+					'version' => '1.0.14-rc2',	// plugin version
 					'opt_version' => '2',		// increment when changing default options
 					'short' => 'WPSSO ORG',		// short plugin name
 					'name' => 'WPSSO Organization Markup (WPSSO ORG)',
@@ -29,7 +29,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					'req' => array(
 						'short' => 'WPSSO',
 						'name' => 'WordPress Social Sharing Optimization (WPSSO)',
-						'min_version' => '3.40.6-rc1',
+						'min_version' => '3.40.6-rc2',
 					),
 					'img' => array(
 						'icon_small' => 'images/icon-128x128.png',
@@ -91,9 +91,9 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 
 		public static function require_libs( $plugin_filepath ) {
 
-			require_once( WPSSOORG_PLUGINDIR.'lib/register.php' );
-			require_once( WPSSOORG_PLUGINDIR.'lib/filters.php' );
-			require_once( WPSSOORG_PLUGINDIR.'lib/organization.php' );
+			require_once WPSSOORG_PLUGINDIR.'lib/register.php';
+			require_once WPSSOORG_PLUGINDIR.'lib/filters.php';
+			require_once WPSSOORG_PLUGINDIR.'lib/organization.php';
 
 			add_filter( 'wpssoorg_load_lib', array( 'WpssoOrgConfig', 'load_lib' ), 10, 3 );
 		}
@@ -102,7 +102,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 			if ( $ret === false && ! empty( $filespec ) ) {
 				$filepath = WPSSOORG_PLUGINDIR.'lib/'.$filespec.'.php';
 				if ( file_exists( $filepath ) ) {
-					require_once( $filepath );
+					require_once $filepath;
 					if ( empty( $classname ) )
 						return SucomUtil::sanitize_classname( 'wpssoorg'.$filespec, false );	// $underscore = false
 					else return $classname;
