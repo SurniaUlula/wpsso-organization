@@ -8,7 +8,7 @@ License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
 Tags: organization, schema, schema.org, markup, local business, publisher, article
 Contributors: jsmoriss
-Requires At Least: 3.8
+Requires At Least: 3.7
 Tested Up To: 4.7.3
 Stable Tag: 1.0.13-1
 
@@ -166,7 +166,7 @@ Note that the production stage level can be incremented on occasion for simple t
 
 = Changelog / Release Notes =
 
-**Version 1.0.14-rc1 (2017/03/24)**
+**Version 1.0.14-rc2 (2017/03/25)**
 
 * *New Features*
 	* None
@@ -252,9 +252,9 @@ Note that the production stage level can be incremented on occasion for simple t
 
 == Upgrade Notice ==
 
-= 1.0.14-rc1 =
+= 1.0.14-rc2 =
 
-(2017/03/24) Maintenance release.
+(2017/03/25) Maintenance release.
 
 = 1.0.13-1 =
 
