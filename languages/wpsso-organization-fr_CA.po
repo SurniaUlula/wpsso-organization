@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.14-1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2017-03-22 17:46+0200\n"
-"PO-Revision-Date: 2017-03-22 17:46+0200\n"
+"POT-Creation-Date: 2017-03-31 18:00+0200\n"
+"PO-Revision-Date: 2017-03-31 18:00+0200\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -35,40 +35,40 @@ msgctxt "plugin description"
 msgid "WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.)."
 msgstr "Extension WPSSO pour gérer des organisations et propriétés Schéma d'articles / d'événements supplémentaires (organisateur, interprète, etc.)."
 
-#: lib/filters.php:106
+#: lib/filters.php:105
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr "Organisation #%d"
 
-#: lib/filters.php:120
+#: lib/filters.php:119
 msgid "Include Organization schema markup in the front page for Google's Knowledge Graph."
 msgstr "Inclure le balisage schéma d'Organisation dans la page d'avant pour le Knowledge Graph de Google."
 
-#: lib/filters.php:123
+#: lib/filters.php:122
 msgid "Select an organization to edit, or add a new organization."
 msgstr "Sélectionnez une organisation a modifier ou ajouter une nouvelle organisation."
 
-#: lib/filters.php:126
+#: lib/filters.php:125
 msgid "The complete name for the organization."
 msgstr "Le nom complet de l'organisation."
 
-#: lib/filters.php:129
+#: lib/filters.php:128
 msgid "An alternate name for the organization that you would like Google to consider."
 msgstr "Un autre nom pour l’organisation que vous souhaitez que Google considère."
 
-#: lib/filters.php:132
+#: lib/filters.php:131
 msgid "A description for the organization."
 msgstr "Une description de l'organisation."
 
-#: lib/filters.php:135
+#: lib/filters.php:134
 msgid "The website URL for the organization."
 msgstr "L'URL du site Web de l'organisation."
 
-#: lib/filters.php:138
+#: lib/filters.php:137
 msgid "You may select a more descriptive Schema type from the Organization sub-types (default is Organization)."
 msgstr "Vous pouvez sélectionner un type de Schéma plus descriptif des sous-types de l'organisation (valeur par défaut est Organization)."
 
-#: lib/filters.php:143
+#: lib/filters.php:142
 msgid "Select an optional Place / Location address for this Organization (requires the %s extension)."
 msgstr "Choisissez une adresse d'emplacement optionnel pour cette organisation (nécessite l’extension %s)."
 
@@ -172,15 +172,15 @@ msgctxt "option label"
 msgid "Website URL"
 msgstr "URL du site Web"
 
-#: wpsso-organization.php:78
+#: wpsso-organization.php:79
 msgid "%1$s is an extension for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s."
 msgstr "%1$s est une extension pour %2$s &mdash; s'il vous plaît installer et activer %3$s avant d'activer l'extension %4$s."
 
-#: wpsso-organization.php:80
+#: wpsso-organization.php:81
 msgid "The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin."
 msgstr "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer l'extension %3$s."
 
-#: wpsso-organization.php:151
+#: wpsso-organization.php:153
 msgid "The %1$s extension v%2$s requires %3$s v%4$s or newer (v%5$s currently installed)."
 msgstr "L'extension %1$s v%2$s requiert l'utilisation de %3$s v%4$s ou plus récente (v%5$s est actuellement installée)."
 
