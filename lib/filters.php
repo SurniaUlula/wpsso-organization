@@ -53,12 +53,11 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		}
 
 		public function filter_option_type( $type, $key ) {
-
-			if ( ! empty( $type ) )
+			if ( ! empty( $type ) ) {
 				return $type;
-			elseif ( strpos( $key, 'org_' ) !== 0 )
+			} elseif ( strpos( $key, 'org_' ) !== 0 ) {
 				return $type;
-
+			}
 			switch ( $key ) {
 				case 'org_id':
 					return 'numeric';
