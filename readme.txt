@@ -6,7 +6,7 @@ Domain Path: /languages
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
-Tags: publisher, organization, schema, schema.org, markup, local business, article, local seo, event, location, knowledge graph, seo
+Tags: publisher, organization, local seo, local business, schema, schema.org, markup, article, event, location, knowledge graph, seo
 Contributors: jsmoriss
 Requires At Least: 3.7
 Tested Up To: 4.7.3
@@ -21,9 +21,10 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 <p><strong>Control your Organization markup for Google's Knowledge Graph.</strong></p>
 
 <ul>
-<li>Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), Organization logo and/or banner.</li>
-<li>Add Place / Location information to your Schema Organization markup.</li>
-<li>Select a different Publisher for the Schema Article markup.</li>
+<li>Customize your Website name, alternate name, description, and URL for each WordPress local / language / region.</li>
+<li>Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), logo and/or banner for Articles.</li>
+<li>Add Local SEO Place / Location information to your Schema Organization markup.</li>
+<li>Select a different Publisher for your Schema Article markup.</li>
 <li>Select an Organizer or Performer for the Schema Event markup.</li>
 </ul>
 
@@ -37,78 +38,79 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 * Extends the features of WPSSO Free or Pro.
 * Manage properies of the Schema Organization markup for your front page:
-	* Website Name
-	* Website Alternate Name
-	* Website Description
-	* Website URL
+	* Website Name (localized)
+	* Website Alternate Name (localized)
+	* Website Description (localized)
+	* Website URL (localized)
 	* Organization Logo Image URL
 	* Organization Banner (600x60) URL
 	* Organization Schema Type:
-		* [schema.org/Organization](https://schema.org/Organization)
-			* [schema.org/Airline](https://schema.org/Airline)
-			* [schema.org/Corporation](https://schema.org/Corporation)
-			* [schema.org/EducationalOrganization](https://schema.org/EducationalOrganization)
-				* [schema.org/CollegeOrUniversity](https://schema.org/CollegeOrUniversity)
-				* [schema.org/ElementarySchool](https://schema.org/ElementarySchool)
-				* [schema.org/MiddleSchool](https://schema.org/MiddleSchool)
-				* [schema.org/Preschool](https://schema.org/Preschool)
-				* [schema.org/School](https://schema.org/School)
-			* [schema.org/GovernmentOrganization](https://schema.org/GovernmentOrganization)
-			* [schema.org/MedicalOrganization](https://schema.org/MedicalOrganization)
-				* [schema.org/Dentist](https://schema.org/Dentist)
-				* [schema.org/Hospital](https://schema.org/Hospital)
-				* [schema.org/Pharmacy](https://schema.org/Pharmacy)
-				* [schema.org/Physician](https://schema.org/Physician)
-			* [schema.org/NGO](https://schema.org/NGO)
-			* [schema.org/PerformingGroup](https://schema.org/PerformingGroup)
-				* [schema.org/DanceGroup](https://schema.org/DanceGroup)
-				* [schema.org/MusicGroup](https://schema.org/MusicGroup)
-				* [schema.org/TheaterGroup](https://schema.org/TheaterGroup)
-			* [schema.org/SportsOrganization](https://schema.org/SportsOrganization)
-				* [schema.org/SportsTeam](https://schema.org/SportsTeam)
+		* Schema Type [schema.org/Organization](https://schema.org/Organization)
+			* Schema Type [schema.org/Airline](https://schema.org/Airline)
+			* Schema Type [schema.org/Corporation](https://schema.org/Corporation)
+			* Schema Type [schema.org/EducationalOrganization](https://schema.org/EducationalOrganization)
+				* Schema Type [schema.org/CollegeOrUniversity](https://schema.org/CollegeOrUniversity)
+				* Schema Type [schema.org/ElementarySchool](https://schema.org/ElementarySchool)
+				* Schema Type [schema.org/MiddleSchool](https://schema.org/MiddleSchool)
+				* Schema Type [schema.org/HighSchool](https://schema.org/HighSchool)
+				* Schema Type [schema.org/Preschool](https://schema.org/Preschool)
+				* Schema Type [schema.org/School](https://schema.org/School)
+			* Schema Type [schema.org/GovernmentOrganization](https://schema.org/GovernmentOrganization)
+			* Schema Type [schema.org/MedicalOrganization](https://schema.org/MedicalOrganization)
+				* Schema Type [schema.org/Dentist](https://schema.org/Dentist)
+				* Schema Type [schema.org/Hospital](https://schema.org/Hospital)
+				* Schema Type [schema.org/Pharmacy](https://schema.org/Pharmacy)
+				* Schema Type [schema.org/Physician](https://schema.org/Physician)
+			* Schema Type [schema.org/NGO](https://schema.org/NGO)
+			* Schema Type [schema.org/PerformingGroup](https://schema.org/PerformingGroup)
+				* Schema Type [schema.org/DanceGroup](https://schema.org/DanceGroup)
+				* Schema Type [schema.org/MusicGroup](https://schema.org/MusicGroup)
+				* Schema Type [schema.org/TheaterGroup](https://schema.org/TheaterGroup)
+			* Schema Type [schema.org/SportsOrganization](https://schema.org/SportsOrganization)
+				* Schema Type [schema.org/SportsTeam](https://schema.org/SportsTeam)
 	* Organization Place / Location ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) extension required) 
-	* Google Knowledge Graph:
-		* Facebook Business Page URL
-		* Google+ Business Page URL
-		* Instagram Business URL
-		* LinkedIn Company Page URL
-		* MySpace Business Page URL
-		* Pinterest Company Page URL
-		* Twitter Business @username
+	* Google Knowledge Graph Social Profile URLs:
+		* Facebook Business Page URL (localized)
+		* Google+ Business Page URL (localized)
+		* Instagram Business URL (localized)
+		* LinkedIn Company Page URL (localized)
+		* MySpace Business Page URL (localized)
+		* Pinterest Company Page URL (localized)
+		* Twitter Business @username (localized)
 * Select a more specific Schema Organization sub-type for Google's Organization markup.
-* Include Place / Location information in your Schema / Google Organization markup, when used in combination with the [WPSSO Place / Location and Local Business Meta (WPSSO PLM)](https://wordpress.org/plugins/wpsso-plm/) extension.
+* Include Place / Location information in your Schema / Google Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta (WPSSO PLM)](https://wordpress.org/plugins/wpsso-plm/) extension.
 
 **WPSSO ORG Pro / Power-User Features**
 
 * Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).
 * Manage multiple Organizations with the [WPSSO Schema JSON-LD Markup (WPSSO JSON)](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension:
 	* Allows selecting an alternate Publisher for the Schema Article type and sub-types ([WPSSO JSON](https://wordpress.org/plugins/wpsso-schema-json-ld/) extension required):
-		* [schema.org/Article](https://schema.org/Article)
-			* [schema.org/BlogPosting](https://schema.org/BlogPosting)
-			* [schema.org/NewsArticle](https://schema.org/NewsArticle)
-			* [schema.org/Report](https://schema.org/Report)
-			* [schema.org/ScholarlyArticle](https://schema.org/ScholarlyArticle)
-			* [schema.org/SocialMediaPosting](https://schema.org/SocialMediaPosting)
-			* [schema.org/TechArticle](https://schema.org/TechArticle)
+		* Schema Type [schema.org/Article](https://schema.org/Article)
+			* Schema Type [schema.org/BlogPosting](https://schema.org/BlogPosting)
+			* Schema Type [schema.org/NewsArticle](https://schema.org/NewsArticle)
+			* Schema Type [schema.org/Report](https://schema.org/Report)
+			* Schema Type [schema.org/ScholarlyArticle](https://schema.org/ScholarlyArticle)
+			* Schema Type [schema.org/SocialMediaPosting](https://schema.org/SocialMediaPosting)
+			* Schema Type [schema.org/TechArticle](https://schema.org/TechArticle)
 	* Allows selecting an Organizer and/or Performer for the Schema Event type and sub-types ([WPSSO JSON](https://wordpress.org/plugins/wpsso-schema-json-ld/) extension required):
-		* [schema.org/Event](https://schema.org/Event)
-			* [schema.org/BusinessEvent](https://schema.org/BusinessEvent)
-			* [schema.org/ChildrensEvent](https://schema.org/ChildrensEvent)
-			* [schema.org/DanceEvent](https://schema.org/DanceEvent)
-			* [schema.org/DeliveryEvent](https://schema.org/DeliveryEvent)
-			* [schema.org/EducationEvent](https://schema.org/EducationEvent)
-			* [schema.org/ExhibitionEvent](https://schema.org/ExhibitionEvent)
-			* [schema.org/Festival](https://schema.org/Festival)
-			* [schema.org/FoodEvent](https://schema.org/FoodEvent)
-			* [schema.org/LiteraryEvent](https://schema.org/LiteraryEvent)
-			* [schema.org/MusicEvent](https://schema.org/MusicEvent)
-			* [schema.org/PublicationEvent](https://schema.org/PublicationEvent)
-			* [schema.org/SaleEvent](https://schema.org/SaleEvent)
-			* [schema.org/ScreeningEvent](https://schema.org/ScreeningEvent)
-			* [schema.org/SocialEvent](https://schema.org/SocialEvent)
-			* [schema.org/SportsEvent](https://schema.org/SportsEvent)
-			* [schema.org/TheaterEvent](https://schema.org/TheaterEvent)
-			* [schema.org/VisualArtsEvent](https://schema.org/VisualArtsEvent)
+		* Schema Type [schema.org/Event](https://schema.org/Event)
+			* Schema Type [schema.org/BusinessEvent](https://schema.org/BusinessEvent)
+			* Schema Type [schema.org/ChildrensEvent](https://schema.org/ChildrensEvent)
+			* Schema Type [schema.org/DanceEvent](https://schema.org/DanceEvent)
+			* Schema Type [schema.org/DeliveryEvent](https://schema.org/DeliveryEvent)
+			* Schema Type [schema.org/EducationEvent](https://schema.org/EducationEvent)
+			* Schema Type [schema.org/ExhibitionEvent](https://schema.org/ExhibitionEvent)
+			* Schema Type [schema.org/Festival](https://schema.org/Festival)
+			* Schema Type [schema.org/FoodEvent](https://schema.org/FoodEvent)
+			* Schema Type [schema.org/LiteraryEvent](https://schema.org/LiteraryEvent)
+			* Schema Type [schema.org/MusicEvent](https://schema.org/MusicEvent)
+			* Schema Type [schema.org/PublicationEvent](https://schema.org/PublicationEvent)
+			* Schema Type [schema.org/SaleEvent](https://schema.org/SaleEvent)
+			* Schema Type [schema.org/ScreeningEvent](https://schema.org/ScreeningEvent)
+			* Schema Type [schema.org/SocialEvent](https://schema.org/SocialEvent)
+			* Schema Type [schema.org/SportsEvent](https://schema.org/SportsEvent)
+			* Schema Type [schema.org/TheaterEvent](https://schema.org/TheaterEvent)
+			* Schema Type [schema.org/VisualArtsEvent](https://schema.org/VisualArtsEvent)
 
 = Extends the WPSSO Plugin =
 
@@ -141,10 +143,7 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 == Screenshots ==
 
-01. Settings for the Website (Front Page) Organization &mdash; includes the Website name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
-02. Settings for the Other Organizations / Publishers &mdash; includes the Organization name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
-03. Article Publisher selection when combined with the WPSSO Schema JSON-LD Markup (WPSSO JSON) extension.
-04. Event Organizer and Performer selection when combined with the WPSSO Schema JSON-LD Markup (WPSSO JSON) extension.
+01. WPSSO ORG settings page for the Website (Front Page) organization &mdash; includes the Website name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
 
 == Changelog ==
 
