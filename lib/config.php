@@ -47,7 +47,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 						'purchase' => 'https://wpsso.com/extend/plugins/wpsso-organization/',
 						'changelog' => 'https://wpsso.com/extend/plugins/wpsso-organization/changelog/',
 						'codex' => 'https://wpsso.com/codex/plugins/wpsso-organization/',
-						'faq' => '',
+						'faqs' => '',
 						'notes' => '',
 						'support' => 'http://wpsso-organization.support.wpsso.com/support/tickets/new',
 					),
