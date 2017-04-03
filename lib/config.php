@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(
-					'version' => '1.0.14-1',	// plugin version
+					'version' => '1.0.15-dev1',	// plugin version
 					'opt_version' => '2',		// increment when changing default options
 					'short' => 'WPSSO ORG',		// short plugin name
 					'name' => 'WPSSO Organization Markup (WPSSO ORG)',
@@ -46,7 +46,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 						'update' => 'https://wpsso.com/extend/plugins/wpsso-organization/update/',
 						'purchase' => 'https://wpsso.com/extend/plugins/wpsso-organization/',
 						'changelog' => 'https://wpsso.com/extend/plugins/wpsso-organization/changelog/',
-						'codex' => 'https://wpsso.com/codex/plugins/wpsso-organization/',
+						'docs' => 'https://wpsso.com/docs/plugins/wpsso-organization/',
 						'faqs' => '',
 						'notes' => '',
 						'support' => 'http://wpsso-organization.support.wpsso.com/support/tickets/new',
