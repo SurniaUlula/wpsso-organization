@@ -126,8 +126,8 @@ The WordPress Social Sharing Optimization (WPSSO) plugin is required to use the 
 
 = Install and Uninstall =
 
-* [Install the Plugin](https://wpsso.com/codex/plugins/wpsso-organization/installation/install-the-plugin/)
-* [Uninstall the Plugin](https://wpsso.com/codex/plugins/wpsso-organization/installation/uninstall-the-plugin/)
+* [Install the Plugin](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/)
+* [Uninstall the Plugin](https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
@@ -164,6 +164,17 @@ Version components: `{major}.{minor}.{bugfix}-{stage}{level}`
 Note that the production stage level can be incremented on occasion for simple text revisions and/or translation updates. See [PHP's version_compare()](http://php.net/manual/en/function.version-compare.php) documentation for additional information on "PHP-standardized" version numbering.
 
 = Changelog / Release Notes =
+
+**Version 1.0.15-dev1 (2017/04/03)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* Updated the plugin documentation and FAQ URLs.
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
 
 **Version 1.0.14-1 (2017/03/25)**
 
@@ -250,6 +261,10 @@ Note that the production stage level can be incremented on occasion for simple t
 		* Renamed the WpssoSchema get_schema_types() method to get_schema_types_array().
 
 == Upgrade Notice ==
+
+= 1.0.15-dev1 =
+
+(2017/04/03) Updated the plugin documentation and FAQ URLs.
 
 = 1.0.14-1 =
 
