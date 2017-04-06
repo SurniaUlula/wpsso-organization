@@ -94,18 +94,19 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				if ( ! empty( $opts['org_delete_'.$num] ) ||
 					( $name === '' && $num === $last_num ) ) {	// remove the empty "New Address"
 
-					if ( isset( $opts['org_id'] ) &&
-						$opts['org_id'] === $num )
-							unset( $opts['org_id'] );
+					if ( isset( $opts['org_id'] ) && $opts['org_id'] === $num ) {
+						unset( $opts['org_id'] );
+					}
 
 					// remove organization id, including all localized keys
 					$opts = SucomUtil::preg_grep_keys( '/^org_.*_'.$num.'(#.*)?$/', $opts, true );	// $invert = true
 
-				} elseif ( $name === '' )	// just in case
+				} elseif ( $name === '' ) {	// just in case
 					$opts['org_name_'.$num] = sprintf( _x( 'Organization #%d',
 						'option value', 'wpsso-organization' ), $num );
-
-				else $opts['org_name_'.$num] = $name;
+				} else {
+					$opts['org_name_'.$num] = $name;
+				}
 			}
 
 			return $opts;
