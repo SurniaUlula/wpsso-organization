@@ -163,6 +163,18 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
+**Version 1.0.16 (2017/04/08)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Minor revision to move URLs in the extension config to the main WPSSO plugin config.
+	* Dropped the package number from the production version string.
+
 **Version 1.0.15-1 (2017/04/05)**
 
 * *New Features*
@@ -231,34 +243,15 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Improvements*
 	* None
 * *Bugfixes*
-	* Fixed creation of 'sameAs' array with origanization social URLs.
+	* Fixed creation of 'sameAs' array with organization social URLs.
 * *Developer Notes*
 	* None
-
-**Version 1.0.9-1 (2016/11/25)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Refactored the min_version_notice() method and moved variables to config class.
-
-**Version 1.0.8-1 (2016/11/12)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* None
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* Minor code changes required for WPSSO v3.37.1-1.
-		* Renamed the WpssoSchema get_schema_types() method to get_schema_types_array().
 
 == Upgrade Notice ==
+
+= 1.0.16 =
+
+(2017/04/08) Minor revision to move URLs in the extension config to the main WPSSO plugin config.
 
 = 1.0.15-1 =
 
@@ -282,9 +275,5 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 1.0.10-1 =
 
-(2016/12/04) Fixed creation of 'sameAs' array with origanization social URLs.
-
-= 1.0.9-1 =
-
-(2016/11/25) Refactored the min_version_notice() method.
+(2016/12/04) Fixed creation of 'sameAs' array with organization social URLs.
 
