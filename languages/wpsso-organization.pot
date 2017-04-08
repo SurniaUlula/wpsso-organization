@@ -80,67 +80,67 @@ msgid ""
 "the %s extension)."
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:37 lib/pro/admin/org-general.php:49
-#: lib/submenu/org-general.php:64
+#: lib/gpl/admin/org-general.php:36 lib/pro/admin/org-general.php:48
+#: lib/submenu/org-general.php:62
 msgctxt "option comment"
 msgid "%s extension required"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:47 lib/pro/admin/org-general.php:60
+#: lib/gpl/admin/org-general.php:48 lib/pro/admin/org-general.php:61
 msgctxt "option label"
 msgid "Edit an Organization"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:57 lib/pro/admin/org-general.php:75
+#: lib/gpl/admin/org-general.php:58 lib/pro/admin/org-general.php:76
 msgctxt "option comment"
 msgid "delete this organization"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:59 lib/pro/admin/org-general.php:77
+#: lib/gpl/admin/org-general.php:60 lib/pro/admin/org-general.php:78
 msgctxt "option label"
 msgid "Organization Name"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:63 lib/pro/admin/org-general.php:81
+#: lib/gpl/admin/org-general.php:64 lib/pro/admin/org-general.php:82
 msgctxt "option label"
 msgid "Organization Alternate Name"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:67 lib/pro/admin/org-general.php:85
+#: lib/gpl/admin/org-general.php:68 lib/pro/admin/org-general.php:86
 msgctxt "option label"
 msgid "Organization Description"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:71 lib/pro/admin/org-general.php:89
+#: lib/gpl/admin/org-general.php:72 lib/pro/admin/org-general.php:90
 msgctxt "option label"
 msgid "Organization Website URL"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:77 lib/pro/admin/org-general.php:95
+#: lib/gpl/admin/org-general.php:78 lib/pro/admin/org-general.php:96
 #: lib/submenu/org-general.php:102
 msgctxt "option label"
 msgid "Organization Logo Image URL"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:80 lib/pro/admin/org-general.php:98
+#: lib/gpl/admin/org-general.php:81 lib/pro/admin/org-general.php:99
 #: lib/submenu/org-general.php:105
 msgctxt "option label"
 msgid "Organization Banner (600x60) URL"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:84 lib/pro/admin/org-general.php:102
+#: lib/gpl/admin/org-general.php:85 lib/pro/admin/org-general.php:103
 #: lib/submenu/org-general.php:109
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:88 lib/pro/admin/org-general.php:106
+#: lib/gpl/admin/org-general.php:89 lib/pro/admin/org-general.php:107
 #: lib/submenu/org-general.php:113
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:93 lib/pro/admin/org-general.php:113
+#: lib/gpl/admin/org-general.php:95 lib/pro/admin/org-general.php:114
 #: lib/submenu/org-general.php:119
 msgctxt "metabox title"
 msgid "Google Knowledge Graph"

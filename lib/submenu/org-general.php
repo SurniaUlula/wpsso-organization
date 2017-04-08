@@ -57,13 +57,13 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$this->form->__org_types = $this->p->schema->get_schema_types_select(
 						$this->form->__all_types['thing']['organization'], false );	// $add_none = false
 
-					if ( ! empty( $this->p->cf['plugin']['wpssoplm'] ) &&
-						empty( $this->p->cf['plugin']['wpssoplm']['version'] ) ) {
-		
-						$plm_req_msg = ' <em><a href="'.$this->p->cf['plugin']['wpssoplm']['url']['download'].'" target="_blank">'.
+					if ( ! empty( $this->p->cf['plugin']['wpssoplm'] ) && empty( $this->p->cf['plugin']['wpssoplm']['version'] ) ) {
+						$plm_req_msg = ' <em><a href="'.$this->p->cf['plugin']['wpssoplm']['url']['about'].'" target="_blank">'.
 							sprintf( _x( '%s extension required', 'option comment', 'wpsso-plm' ),
 								$this->p->cf['plugin']['wpssoplm']['short'] ).'</a></em>';
-					} else $plm_req_msg = false;
+					} else {
+						$plm_req_msg = '';
+					}
 
 					$table_rows['schema_social_json'] = $this->form->get_th_html( _x( 'Google Knowledge Graph',
 						'option label', 'wpsso-organization' ), null, 'org_json' ).
@@ -113,7 +113,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$table_rows['site_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
 						'option label', 'wpsso-organization' ), '', 'site_place_id' ).
 					'<td>'.$this->form->get_select( 'site_place_id', $this->form->__address_names, 'long_name', '', true,
-						( $plm_req_msg ? true : false ) ).$plm_req_msg.'</td>';
+						( empty( $plm_req_msg ) ? false : true ) ).$plm_req_msg.'</td>';	// disable if plm not available
 
 					$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
 						_x( 'Google Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';

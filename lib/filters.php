@@ -139,9 +139,9 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 						'wpsso-organization' );
 					break;
 				case 'tooltip-org_place_id':
-					$info = $this->p->cf['plugin']['wpssoplm'];
+					$plm_info = $this->p->cf['plugin']['wpssoplm'];
 					$text = sprintf( __( 'Select an optional Place / Location address for this Organization (requires the %s extension).',
-						'wpsso-organization' ), '<a href="'.$info['url']['download'].'" target="_blank">'.$info['name'].'</a>' );
+						'wpsso-organization' ), '<a href="'.$plm_info['url']['about'].'" target="_blank">'.$plm_info['name'].'</a>' );
 					break;
 			}
 			return $text;
