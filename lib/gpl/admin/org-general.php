@@ -32,7 +32,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			$org_names = array( $id => $name );
 
 			if ( ! empty( $this->p->cf['plugin']['wpssoplm'] ) && empty( $this->p->cf['plugin']['wpssoplm']['version'] ) ) {
-				$plm_req_msg = ' <em><a href="'.$this->p->cf['plugin']['wpssoplm']['url']['about'].'" target="_blank">'.
+				$plm_req_msg = ' <em><a href="'.$this->p->cf['plugin']['wpssoplm']['url']['home'].'" target="_blank">'.
 					sprintf( _x( '%s extension required', 'option comment', 'wpsso-plm' ),
 						$this->p->cf['plugin']['wpssoplm']['short'] ).'</a></em>';
 			} else {
