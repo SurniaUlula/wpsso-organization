@@ -16,7 +16,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 == Description ==
 
-<img src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png" width="128" height="128" class="readme-plugin-icon">
+<img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png">
 
 <p><strong>Control your Organization markup for Google's Knowledge Graph.</strong></p>
 
