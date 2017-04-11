@@ -45,11 +45,13 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		}
 
 		public function filter_get_organization_options( $opts, $mod, $org_id ) {
-			if ( $opts !== false )	// first come, first served
+			if ( $opts !== false ) {	// first come, first served
 				return $opts;
-			elseif ( $org_id === 'site' || is_numeric( $org_id ) )
+			} elseif ( $org_id === 'site' || is_numeric( $org_id ) ) {
 				return WpssoOrgOrganization::get_org_id( $org_id, $mod );
-			else return $opts;
+			} else {
+				return $opts;
+			}
 		}
 
 		public function filter_option_type( $type, $key ) {

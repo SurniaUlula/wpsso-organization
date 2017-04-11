@@ -35,46 +35,46 @@ msgid ""
 "Event properties (Publisher, Organizer, Performer, etc.)."
 msgstr ""
 
-#: lib/filters.php:105
+#: lib/filters.php:107
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:120
+#: lib/filters.php:122
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:123
+#: lib/filters.php:125
 msgid "Select an organization to edit, or add a new organization."
 msgstr ""
 
-#: lib/filters.php:126
+#: lib/filters.php:128
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:129
+#: lib/filters.php:131
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:132
+#: lib/filters.php:134
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:135
+#: lib/filters.php:137
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:138
+#: lib/filters.php:140
 msgid ""
 "You may select a more descriptive Schema type from the Organization sub-"
 "types (default is Organization)."
 msgstr ""
 
-#: lib/filters.php:143
+#: lib/filters.php:145
 msgid ""
 "Select an optional Place / Location address for this Organization (requires "
 "the %s extension)."
