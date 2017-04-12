@@ -13,7 +13,7 @@
  * Description: WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
  * Requires At Least: 3.7
  * Tested Up To: 4.7.3
- * Version: 1.0.16
+ * Version: 1.0.17-a.1
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -38,7 +38,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 		public $filters;		// WpssoOrgFilters
 
 		private static $instance;
-		private static $have_req_min = true;	// have at least minimum wpsso version
+		private static $have_req_min = true;	// have minimum wpsso version
 
 		public function __construct() {
 
@@ -104,38 +104,44 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 		}
 
 		public function wpsso_init_options() {
-			if ( method_exists( 'Wpsso', 'get_instance' ) )
+			if ( method_exists( 'Wpsso', 'get_instance' ) ) {
 				$this->p =& Wpsso::get_instance();
-			else $this->p =& $GLOBALS['wpsso'];
+			} else {
+				$this->p =& $GLOBALS['wpsso'];
+			}
 
-			if ( $this->p->debug->enabled )
+			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
+			}
 
-			if ( self::$have_req_min === false )
-				return;
-
-			$this->p->is_avail['org'] = true;
-
-			if ( is_admin() )
-				$this->p->is_avail['admin']['org-general'] = true;
+			if ( self::$have_req_min ) {
+				$this->p->is_avail['p_ext']['org'] = true;
+				if ( is_admin() ) {
+					$this->p->is_avail['admin']['org-general'] = true;
+				}
+			} else {
+				$this->p->is_avail['p_ext']['org'] = false;	// just in case
+			}
 		}
 
 		public function wpsso_init_objects() {
-			if ( $this->p->debug->enabled )
+			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
+			}
 
-			if ( self::$have_req_min === false )
-				return;		// stop here
-
-			$this->filters = new WpssoOrgFilters( $this->p );
+			if ( self::$have_req_min ) {
+				$this->filters = new WpssoOrgFilters( $this->p );
+			}
 		}
 
 		public function wpsso_init_plugin() {
-			if ( $this->p->debug->enabled )
+			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
+			}
 
-			if ( self::$have_req_min === false )
-				return $this->min_version_notice();
+			if ( ! self::$have_req_min ) {
+				return $this->min_version_notice();	// stop here
+			}
 		}
 
 		private function min_version_notice() {
