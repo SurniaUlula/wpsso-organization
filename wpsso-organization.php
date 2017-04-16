@@ -4,7 +4,7 @@
  * Plugin Slug: wpsso-organization
  * Text Domain: wpsso-organization
  * Domain Path: /languages
- * Plugin URI: https://surniaulula.com/extend/plugins/wpsso-organization/
+ * Plugin URI: https://wpsso.com/extend/plugins/wpsso-organization/
  * Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
  * Author: JS Morisset
  * Author URI: https://surniaulula.com/
@@ -38,7 +38,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 		public $filters;		// WpssoOrgFilters
 
 		private static $instance;
-		private static $have_req_min = true;	// have minimum wpsso version
+		private static $have_min = true;	// have minimum wpsso version
 
 		public function __construct() {
 
@@ -96,7 +96,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			$info = WpssoOrgConfig::$cf['plugin']['wpssoorg'];
 
 			if ( version_compare( $plugin_version, $info['req']['min_version'], '<' ) ) {
-				self::$have_req_min = false;
+				self::$have_min = false;
 				return $cf;
 			}
 
@@ -114,7 +114,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 				$this->p->debug->mark();
 			}
 
-			if ( self::$have_req_min ) {
+			if ( self::$have_min ) {
 				$this->p->is_avail['p_ext']['org'] = true;
 				if ( is_admin() ) {
 					$this->p->is_avail['admin']['org-general'] = true;
@@ -129,7 +129,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 				$this->p->debug->mark();
 			}
 
-			if ( self::$have_req_min ) {
+			if ( self::$have_min ) {
 				$this->filters = new WpssoOrgFilters( $this->p );
 			}
 		}
@@ -139,7 +139,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 				$this->p->debug->mark();
 			}
 
-			if ( ! self::$have_req_min ) {
+			if ( ! self::$have_min ) {
 				return $this->min_version_notice();	// stop here
 			}
 		}

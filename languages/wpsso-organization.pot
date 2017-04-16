@@ -203,7 +203,7 @@ msgid "WPSSO Organization Markup (WPSSO ORG)"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://surniaulula.com/extend/plugins/wpsso-organization/"
+msgid "https://wpsso.com/extend/plugins/wpsso-organization/"
 msgstr ""
 
 #. Description of the plugin/theme
