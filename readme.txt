@@ -172,7 +172,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* Renamed the $is_avail array to $avail for WPSSO v3.42.0.
+	* Code refactoring to rename the $is_avail array to $avail for WPSSO v3.42.0.
 
 **Version 1.0.17 (2017/04/16)**
 
@@ -270,6 +270,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None
 
 == Upgrade Notice ==
+
+= 1.0.18-dev.1 =
+
+(2017/04/24) Code refactoring to rename the $is_avail array to $avail for WPSSO v3.42.0.
 
 = 1.0.17 =
 
