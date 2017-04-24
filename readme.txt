@@ -163,6 +163,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
+**Version 1.0.18-dev.1 (2017/04/24)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Renamed the $is_avail array to $avail for WPSSO v3.42.0.
+
 **Version 1.0.17 (2017/04/16)**
 
 * *New Features*
