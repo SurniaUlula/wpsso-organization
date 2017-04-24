@@ -27,7 +27,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			if ( $wpsso->debug->enabled )
 				$wpsso->debug->mark();
 
-			if ( $wpsso->check->aop( 'wpssoorg', true, $wpsso->is_avail['aop'] ) )
+			if ( $wpsso->check->aop( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) )
 				$org_names = SucomUtil::get_multi_key_locale( 'org_name', $wpsso->options, false );
 			else $org_names = array();
 
@@ -63,7 +63,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 
 			if ( $id === 'site' ) {
 				return WpssoSchema::get_site_organization( $mixed );
-			} elseif ( is_numeric( $id ) && $wpsso->check->aop( 'wpssoorg', true, $wpsso->is_avail['aop'] ) ) {
+			} elseif ( is_numeric( $id ) && $wpsso->check->aop( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
 				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*)_'.$id.'(#.*)?$/', $wpsso->options, false, '$1' ) as $key => $value ) {
 					$org_opts[$key] = SucomUtil::get_locale_opt( $key.'_'.$id, $wpsso->options, $mixed );
 				}

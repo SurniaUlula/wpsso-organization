@@ -13,7 +13,7 @@
  * Description: WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
  * Requires At Least: 3.7
  * Tested Up To: 4.7.4
- * Version: 1.0.17
+ * Version: 1.0.18-dev.1
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -115,12 +115,12 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			}
 
 			if ( self::$have_min ) {
-				$this->p->is_avail['p_ext']['org'] = true;
+				$this->p->avail['p_ext']['org'] = true;
 				if ( is_admin() ) {
-					$this->p->is_avail['admin']['org-general'] = true;
+					$this->p->avail['admin']['org-general'] = true;
 				}
 			} else {
-				$this->p->is_avail['p_ext']['org'] = false;	// just in case
+				$this->p->avail['p_ext']['org'] = false;	// just in case
 			}
 		}
 
