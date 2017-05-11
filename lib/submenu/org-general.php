@@ -124,7 +124,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					foreach ( $social_accounts as $key => $label ) {
 						$table_rows[$key] = $this->form->get_th_html( _x( $label, 'option value', 'wpsso-organization' ),
-							null, $key, array( 'is_locale' => true ) ).
+							'nowrap', $key, array( 'is_locale' => true ) ).
 						'<td>'.$this->form->get_input( SucomUtil::get_key_locale( $key, $this->p->options ),
 							( strpos( $key, '_url' ) ? 'wide' : '' ) ).'</td>';
 					}

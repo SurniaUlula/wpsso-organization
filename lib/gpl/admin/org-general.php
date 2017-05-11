@@ -101,7 +101,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			foreach ( $social_accounts as $key => $label ) {
 				$org_key_id = 'org_sameas_'.$key.'_'.$id;
 				$table_rows[$org_key_id] = $form->get_th_html( _x( $label, 'option value', 'wpsso-organization' ),
-					null, $org_key_id, array( 'is_locale' => true ) ).
+					'nowrap', $org_key_id, array( 'is_locale' => true ) ).
 				'<td class="blank">'.$form->get_no_input_value( '',
 					( strpos( $org_key_id, '_url' ) ? 'wide' : '' ) ).'</td>';
 			}

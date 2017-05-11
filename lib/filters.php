@@ -78,8 +78,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				case 'org_banner_url':
 					return 'url';
 					break;
-				case ( strpos( $key, '_url' ) && 
-					isset( $this->p->cf['form']['social_accounts'][substr( $key, 4 )] ) ? true : false ):
+				case ( strpos( $key, '_url' ) && isset( $this->p->cf['form']['social_accounts'][substr( $key, 4 )] ) ? true : false ):
 					return 'url';
 					break;
 			}
