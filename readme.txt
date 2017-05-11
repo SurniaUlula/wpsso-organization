@@ -74,9 +74,12 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 		* Google+ Business Page URL (localized)
 		* Instagram Business URL (localized)
 		* LinkedIn Company Page URL (localized)
-		* MySpace Business Page URL (localized)
+		* Myspace Business Page URL (localized)
 		* Pinterest Company Page URL (localized)
+		* SoundCloud Business URL (localized)
+		* Tumblr Business Page URL (localized)
 		* Twitter Business @username (localized)
+		* YouTube Business Channel URL (localized)
 * Select a more specific Schema Organization sub-type for Google's Organization markup.
 * Include Place / Location information in your Schema / Google Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta (WPSSO PLM)](https://wordpress.org/plugins/wpsso-plm/) extension.
 
