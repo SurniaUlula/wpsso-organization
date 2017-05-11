@@ -24,21 +24,26 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		public static function get_org_names( $parent_type = false ) {
 
 			$wpsso =& Wpsso::get_instance();
-			if ( $wpsso->debug->enabled )
+			if ( $wpsso->debug->enabled ) {
 				$wpsso->debug->mark();
+			}
 
-			if ( $wpsso->check->aop( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) )
+			if ( $wpsso->check->aop( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
 				$org_names = SucomUtil::get_multi_key_locale( 'org_name', $wpsso->options, false );
-			else $org_names = array();
+			} else {
+				$org_names = array();
+			}
 
 			if ( ! empty( $parent_type ) ) {
 				$children = $wpsso->schema->get_schema_type_children( $parent_type );
 				if ( ! empty( $children ) ) {	// just in case
 					foreach ( $org_names as $num => $name ) {
 						if ( ! empty( $wpsso->options['org_type_'.$num] ) &&
-							in_array( $wpsso->options['org_type_'.$num], $children ) )
-								continue;
-						else unset( $org_names[$num] );
+							in_array( $wpsso->options['org_type_'.$num], $children ) ) {
+							continue;
+						} else {
+							unset( $org_names[$num] );
+						}
 					}
 				}
 			}
@@ -64,8 +69,11 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			if ( $id === 'site' ) {
 				return WpssoSchema::get_site_organization( $mixed );
 			} elseif ( is_numeric( $id ) && $wpsso->check->aop( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
-				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*)_'.$id.'(#.*)?$/', $wpsso->options, false, '$1' ) as $key => $value ) {
-					$org_opts[$key] = SucomUtil::get_locale_opt( $key.'_'.$id, $wpsso->options, $mixed );
+				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*_)'.$id.'(#.*)?$/',	// allow '[:_]' as separator
+					$wpsso->options, false, '$1' ) as $opt_prefix => $value ) {
+					$opt_idx = rtrim( $opt_prefix, '_' );
+					$org_opts[$opt_idx] = SucomUtil::get_locale_opt( $opt_prefix.$id,
+						$wpsso->options, $mixed );
 				}
 			}
 
