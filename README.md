@@ -31,7 +31,7 @@
 
 <h4>Quick List of Features</h4>
 
-<p><strong>WPSSO ORG Free / Basic Features</strong></p>
+<p><strong>WPSSO ORG Free / Core Features</strong></p>
 
 <ul>
 <li>Extends the features of WPSSO Free or Pro.</li>
