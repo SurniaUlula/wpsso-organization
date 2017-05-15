@@ -84,7 +84,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			$table_rows['org_type_'.$id] = $form->get_th_html( _x( 'Organization Schema Type',
 				'option label', 'wpsso-organization' ), '', 'org_type' ).
-			'<td class="blank">'.$form->get_no_select( 'org_type_'.$id, $form->__org_types, 'long_name' ).'</td>';
+			'<td class="blank">'.$form->get_no_select( 'org_type_'.$id, $form->__org_types, 'schema_type' ).'</td>';
 
 			$table_rows['org_place_id_'.$id] = $form->get_th_html( _x( 'Organization Place / Location',
 				'option label', 'wpsso-organization' ), '', 'org_place_id' ).

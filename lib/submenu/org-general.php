@@ -108,7 +108,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					$table_rows['site_org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
 						'option label', 'wpsso-organization' ), '', 'site_org_type' ).
-					'<td>'.$this->form->get_select( 'site_org_type', $this->form->__org_types, 'long_name' ).'</td>';
+					'<td>'.$this->form->get_select( 'site_org_type', $this->form->__org_types, 'schema_type' ).'</td>';
 
 					$table_rows['site_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
 						'option label', 'wpsso-organization' ), '', 'site_place_id' ).
