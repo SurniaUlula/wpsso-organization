@@ -117,7 +117,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 = Extends the WPSSO Plugin =
 
-The WPSSO (WordPress Social Sharing Optimization) plugin is required to use the WPSSO ORG extension.
+The WPSSO (Social Sharing Optimization) plugin is required to use the WPSSO ORG extension.
 
 <blockquote>
 <p>The <a href="https://wordpress.org/plugins/wpsso-organization/">WPSSO ORG Free extension</a> works with the WPSSO Free or Pro plugin. The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro extension</a> (along with all WPSSO Pro extensions) requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends">WPSSO Pro plugin</a> as well.</p>
