@@ -34,7 +34,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 = Quick List of Features =
 
-**WPSSO ORG Free / Basic Features**
+**WPSSO ORG Free / Standard Features**
 
 * Extends the features of WPSSO Free or Pro.
 * Manage properies of the Schema Organization markup for your front page:
@@ -83,7 +83,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 * Select a more specific Schema Organization sub-type for Google's Organization markup.
 * Include Place / Location information in your Schema / Google Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta (WPSSO PLM)](https://wordpress.org/plugins/wpsso-plm/) extension.
 
-**WPSSO ORG Pro / Power-User Features**
+**WPSSO ORG Pro / Additional Features**
 
 * Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).
 * Manage multiple Organizations with the [WPSSO Schema JSON-LD Markup (WPSSO JSON)](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension:

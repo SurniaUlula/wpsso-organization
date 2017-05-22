@@ -31,7 +31,7 @@
 
 <h4>Quick List of Features</h4>
 
-<p><strong>WPSSO ORG Free / Basic Features</strong></p>
+<p><strong>WPSSO ORG Free / Standard Features</strong></p>
 
 <ul>
 <li>Extends the features of WPSSO Free or Pro.</li>
@@ -106,7 +106,7 @@
 <li>Include Place / Location information in your Schema / Google Organization markup when used in combination with the <a href="https://wordpress.org/plugins/wpsso-plm/">WPSSO Place / Location and Local Business Meta (WPSSO PLM)</a> extension.</li>
 </ul>
 
-<p><strong>WPSSO ORG Pro / Power-User Features</strong></p>
+<p><strong>WPSSO ORG Pro / Additional Features</strong></p>
 
 <ul>
 <li>Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).</li>
