@@ -1,7 +1,7 @@
 <h1>WPSSO Organization Markup</h1><h3>Manage Organizations / Publishers for Schema and SEO</h3>
 
 <table>
-<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Organization Markup (WPSSO ORG)</td></tr>
+<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Organization Markup</td></tr>
 <tr><th align="right" valign="top" nowrap>Summary</th><td>WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.0.18</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires At Least</th><td>WordPress 3.7</td></tr>
@@ -26,7 +26,7 @@
 </ul>
 
 <blockquote>
-<p><strong>Prerequisite</strong> &mdash; WPSSO Organization Markup (WPSSO ORG) is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO</a> plugin, which <em>automatically</em> generates complete and accurate meta tags + Schema markup from your content for Social Sharing Optimization (SSO) and Search Engine Optimization (SEO).</p>
+<p><strong>Prerequisite</strong> &mdash; WPSSO Organization Markup is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO</a> plugin, which <em>automatically</em> generates complete and accurate meta tags + Schema markup from your content for Social Sharing Optimization (SSO) and Search Engine Optimization (SEO).</p>
 </blockquote>
 
 <h4>Quick List of Features</h4>
@@ -103,14 +103,14 @@
 </ul></li>
 </ul></li>
 <li>Select a more specific Schema Organization sub-type for Google's Organization markup.</li>
-<li>Include Place / Location information in your Schema / Google Organization markup when used in combination with the <a href="https://wordpress.org/plugins/wpsso-plm/">WPSSO Place / Location and Local Business Meta (WPSSO PLM)</a> extension.</li>
+<li>Include Place / Location information in your Schema / Google Organization markup when used in combination with the <a href="https://wordpress.org/plugins/wpsso-plm/">WPSSO Place / Location and Local Business Meta</a> extension.</li>
 </ul>
 
 <p><strong>WPSSO ORG Pro / Additional Features</strong></p>
 
 <ul>
 <li>Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).</li>
-<li>Manage multiple Organizations with the <a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup (WPSSO JSON)</a> extension:
+<li>Manage multiple Organizations with the <a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup</a> extension:
 
 <ul>
 <li>Allows selecting an alternate Publisher for the Schema Article type and sub-types (<a href="https://wordpress.org/plugins/wpsso-schema-json-ld/">WPSSO JSON</a> extension required):
@@ -159,7 +159,7 @@
 
 <p>The <a href="https://wordpress.org/plugins/wpsso-organization/">WPSSO ORG Free extension</a> works with the WPSSO Free or Pro plugin. The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro extension</a> (along with all WPSSO Pro extensions) requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends">WPSSO Pro plugin</a> as well.</p>
 
-<p><a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-purchase">Purchase the WPSSO Organization Markup (WPSSO ORG) Pro extension here</a> (all purchases include a <em>No Risk 30 Day Refund Policy</em>).</p>
+<p><a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-purchase">Purchase the WPSSO Organization Markup Pro extension here</a> (all purchases include a <em>No Risk 30 Day Refund Policy</em>).</p>
 
 
 <h2>Installation</h2>
