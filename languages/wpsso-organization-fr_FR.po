@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup (WPSSO ORG) 1.0.18\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2017-03-31 18:00+0200\n"
-"PO-Revision-Date: 2017-04-24 15:06+0200\n"
+"POT-Creation-Date: 2017-05-22 09:08-0400\n"
+"PO-Revision-Date: 2017-05-22 09:08-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -35,152 +35,152 @@ msgctxt "plugin description"
 msgid "WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.)."
 msgstr "Extension WPSSO pour gérer des organisations et propriétés Schéma d'articles / d'événements supplémentaires (organisateur, interprète, etc.)."
 
-#: lib/filters.php:105
+#: lib/filters.php:106
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr "Organisation #%d"
 
-#: lib/filters.php:119
+#: lib/filters.php:121
 msgid "Include Organization schema markup in the front page for Google's Knowledge Graph."
 msgstr "Inclure le balisage schéma d'Organisation dans la page d'avant pour le Knowledge Graph de Google."
 
-#: lib/filters.php:122
+#: lib/filters.php:124
 msgid "Select an organization to edit, or add a new organization."
 msgstr "Sélectionnez une organisation a modifier ou ajouter une nouvelle organisation."
 
-#: lib/filters.php:125
+#: lib/filters.php:127
 msgid "The complete name for the organization."
 msgstr "Le nom complet de l'organisation."
 
-#: lib/filters.php:128
+#: lib/filters.php:130
 msgid "An alternate name for the organization that you would like Google to consider."
 msgstr "Un autre nom pour l’organisation que vous souhaitez que Google considère."
 
-#: lib/filters.php:131
+#: lib/filters.php:133
 msgid "A description for the organization."
 msgstr "Une description de l'organisation."
 
-#: lib/filters.php:134
+#: lib/filters.php:136
 msgid "The website URL for the organization."
 msgstr "L'URL du site Web de l'organisation."
 
-#: lib/filters.php:137
+#: lib/filters.php:139
 msgid "You may select a more descriptive Schema type from the Organization sub-types (default is Organization)."
 msgstr "Vous pouvez sélectionner un type de Schéma plus descriptif des sous-types de l'organisation (valeur par défaut est Organization)."
 
-#: lib/filters.php:142
+#: lib/filters.php:144
 msgid "Select an optional Place / Location address for this Organization (requires the %s extension)."
 msgstr "Choisissez une adresse d'emplacement optionnel pour cette organisation (nécessite l’extension %s)."
 
-#: lib/gpl/admin/org-general.php:37 lib/pro/admin/org-general.php:49
-#: lib/submenu/org-general.php:61
+#: lib/gpl/admin/org-general.php:36 lib/pro/admin/org-general.php:48
+#: lib/submenu/org-general.php:62
 msgctxt "option comment"
 msgid "%s extension required"
 msgstr "%s extension requise"
 
-#: lib/gpl/admin/org-general.php:47 lib/pro/admin/org-general.php:60
+#: lib/gpl/admin/org-general.php:48 lib/pro/admin/org-general.php:61
 msgctxt "option label"
 msgid "Edit an Organization"
 msgstr "Modifier une organisation"
 
-#: lib/gpl/admin/org-general.php:57 lib/pro/admin/org-general.php:75
+#: lib/gpl/admin/org-general.php:58 lib/pro/admin/org-general.php:76
 msgctxt "option comment"
 msgid "delete this organization"
 msgstr "supprimer cette organisation"
 
-#: lib/gpl/admin/org-general.php:59 lib/pro/admin/org-general.php:77
+#: lib/gpl/admin/org-general.php:60 lib/pro/admin/org-general.php:78
 msgctxt "option label"
 msgid "Organization Name"
 msgstr "Nom de l'organisation"
 
-#: lib/gpl/admin/org-general.php:63 lib/pro/admin/org-general.php:81
+#: lib/gpl/admin/org-general.php:64 lib/pro/admin/org-general.php:82
 msgctxt "option label"
 msgid "Organization Alternate Name"
 msgstr "Autre nom de l'organisation"
 
-#: lib/gpl/admin/org-general.php:67 lib/pro/admin/org-general.php:85
+#: lib/gpl/admin/org-general.php:68 lib/pro/admin/org-general.php:86
 msgctxt "option label"
 msgid "Organization Description"
 msgstr "Description de l'organisation"
 
-#: lib/gpl/admin/org-general.php:71 lib/pro/admin/org-general.php:89
+#: lib/gpl/admin/org-general.php:72 lib/pro/admin/org-general.php:90
 msgctxt "option label"
 msgid "Organization Website URL"
 msgstr "URL du site de l'organisation"
 
-#: lib/gpl/admin/org-general.php:77 lib/pro/admin/org-general.php:95
-#: lib/submenu/org-general.php:99
+#: lib/gpl/admin/org-general.php:78 lib/pro/admin/org-general.php:96
+#: lib/submenu/org-general.php:102
 msgctxt "option label"
 msgid "Organization Logo Image URL"
 msgstr "URL de l'image logo de l'organisation"
 
-#: lib/gpl/admin/org-general.php:80 lib/pro/admin/org-general.php:98
-#: lib/submenu/org-general.php:102
+#: lib/gpl/admin/org-general.php:81 lib/pro/admin/org-general.php:99
+#: lib/submenu/org-general.php:105
 msgctxt "option label"
 msgid "Organization Banner (600x60) URL"
 msgstr "URL bannière (600x60) de l'organisation"
 
-#: lib/gpl/admin/org-general.php:84 lib/pro/admin/org-general.php:102
-#: lib/submenu/org-general.php:106
+#: lib/gpl/admin/org-general.php:85 lib/pro/admin/org-general.php:103
+#: lib/submenu/org-general.php:109
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr "Type de Schéma d'organisation"
 
-#: lib/gpl/admin/org-general.php:88 lib/pro/admin/org-general.php:106
-#: lib/submenu/org-general.php:110
+#: lib/gpl/admin/org-general.php:89 lib/pro/admin/org-general.php:107
+#: lib/submenu/org-general.php:113
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr "Place / position de l'organisation"
 
-#: lib/gpl/admin/org-general.php:93 lib/pro/admin/org-general.php:113
-#: lib/submenu/org-general.php:116
+#: lib/gpl/admin/org-general.php:95 lib/pro/admin/org-general.php:114
+#: lib/submenu/org-general.php:119
 msgctxt "metabox title"
 msgid "Google Knowledge Graph"
 msgstr "Google Knowledge Graph"
 
-#: lib/submenu/org-general.php:29
+#: lib/submenu/org-general.php:31
 msgctxt "metabox title"
 msgid "Organizations and Knowledge Graph"
 msgstr "Organisations et Knowledge Graph"
 
-#: lib/submenu/org-general.php:65
+#: lib/submenu/org-general.php:68
 msgctxt "option label"
 msgid "Google Knowledge Graph"
 msgstr "Google Knowledge Graph"
 
-#: lib/submenu/org-general.php:69
+#: lib/submenu/org-general.php:72
 msgid " Include <a href=\"%s\">Organization Social Profile</a>"
 msgstr "Inclure le <a href=\"%s\">profil sociale d'Organisation</a>"
 
-#: lib/submenu/org-general.php:74
+#: lib/submenu/org-general.php:77
 msgctxt "option label"
 msgid "Website Name"
 msgstr "Nom du site Web"
 
-#: lib/submenu/org-general.php:80
+#: lib/submenu/org-general.php:83
 msgctxt "option label"
 msgid "Website Alternate Name"
 msgstr "Autre nom du site Web"
 
-#: lib/submenu/org-general.php:86
+#: lib/submenu/org-general.php:89
 msgctxt "option label"
 msgid "Website Description"
 msgstr "Description du site Web"
 
-#: lib/submenu/org-general.php:92
+#: lib/submenu/org-general.php:95
 msgctxt "option label"
 msgid "Website URL"
 msgstr "URL du site Web"
 
-#: wpsso-organization.php:79
+#: wpsso-organization.php:77
 msgid "%1$s is an extension for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s."
 msgstr "%1$s est une extension pour %2$s &mdash; s'il vous plaît installer et activer %3$s avant d'activer l'extension %4$s."
 
-#: wpsso-organization.php:81
+#: wpsso-organization.php:79
 msgid "The %1$s extension requires the %2$s plugin &mdash; please install and activate the %3$s plugin."
 msgstr "L'extension %1$s requiert %2$s &mdash; s'il vous plaît installer et activer l'extension %3$s."
 
-#: wpsso-organization.php:153
+#: wpsso-organization.php:157
 msgid "The %1$s extension v%2$s requires %3$s v%4$s or newer (v%5$s currently installed)."
 msgstr "L'extension %1$s v%2$s requiert l'utilisation de %3$s v%4$s ou plus récente (v%5$s est actuellement installée)."
 
@@ -189,8 +189,8 @@ msgid "WPSSO Organization Markup (WPSSO ORG)"
 msgstr "WPSSO Organization Markup (WPSSO ORG)"
 
 #. Plugin URI of the plugin/theme
-msgid "https://surniaulula.com/extend/plugins/wpsso-organization/"
-msgstr "https://surniaulula.com/extend/plugins/wpsso-organization/"
+msgid "https://wpsso.com/extend/plugins/wpsso-organization/"
+msgstr "https://wpsso.com/extend/plugins/wpsso-organization/"
 
 #. Description of the plugin/theme
 msgid "WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.)."
