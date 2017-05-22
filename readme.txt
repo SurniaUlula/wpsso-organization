@@ -34,7 +34,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 = Quick List of Features =
 
-**WPSSO ORG Free / Core Features**
+**WPSSO ORG Free / Basic Features**
 
 * Extends the features of WPSSO Free or Pro.
 * Manage properies of the Schema Organization markup for your front page:
