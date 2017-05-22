@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: WPSSO Organization Markup (WPSSO ORG)
+ * Plugin Name: WPSSO Organization Markup
  * Plugin Slug: wpsso-organization
  * Text Domain: wpsso-organization
  * Domain Path: /languages
