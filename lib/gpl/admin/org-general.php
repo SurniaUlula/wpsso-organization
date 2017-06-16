@@ -75,11 +75,12 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			$table_rows['org_logo_url_'.$id] = $form->get_th_html( 
 				'<a href="https://developers.google.com/structured-data/customize/logos">'.
-				_x( 'Organization Logo Image URL', 'option label', 'wpsso-organization' ).'</a>', '', 'schema_logo_url' ).
+				_x( 'Organization Logo URL', 'option label', 'wpsso-organization' ).'</a>',
+					'', 'schema_logo_url', array( 'is_locale' => true ) ).
 			'<td class="blank">'.$form->get_no_input_value( '', 'wide' ).'</td>';
 
-			$table_rows['org_banner_url_'.$id] = $form->get_th_html( _x( 'Organization Banner (600x60) URL',
-				'option label', 'wpsso-organization' ), '', 'schema_banner_url' ).
+			$table_rows['org_banner_url_'.$id] = $form->get_th_html( _x( 'Organization Banner URL',
+				'option label', 'wpsso-organization' ), '', 'schema_banner_url', array( 'is_locale' => true ) ).
 			'<td class="blank">'.$form->get_no_input_value( '', 'wide' ).'</td>';
 
 			$table_rows['org_type_'.$id] = $form->get_th_html( _x( 'Organization Schema Type',

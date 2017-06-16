@@ -99,12 +99,13 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					$table_rows['schema_logo_url'] = $this->form->get_th_html( 
 						'<a href="https://developers.google.com/structured-data/customize/logos">'.
-						_x( 'Organization Logo Image URL', 'option label', 'wpsso-organization' ).'</a>', '', 'schema_logo_url' ).
-					'<td>'.$this->form->get_input( 'schema_logo_url', 'wide' ).'</td>';
+						_x( 'Organization Logo URL', 'option label', 'wpsso-organization' ).'</a>',
+							'', 'schema_logo_url', array( 'is_locale' => true ) ).
+					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'schema_logo_url', $this->p->options ), 'wide' ).'</td>';
 
-					$table_rows['schema_banner_url'] = $this->form->get_th_html( _x( 'Organization Banner (600x60) URL',
-						'option label', 'wpsso-organization' ), '', 'schema_banner_url' ).
-					'<td>'.$this->form->get_input( 'schema_banner_url', 'wide' ).'</td>';
+					$table_rows['schema_banner_url'] = $this->form->get_th_html( _x( 'Organization Banner URL',
+						'option label', 'wpsso-organization' ), '', 'schema_banner_url', array( 'is_locale' => true ) ).
+					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'schema_banner_url', $this->p->options ), 'wide' ).'</td>';
 
 					$table_rows['site_org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
 						'option label', 'wpsso-organization' ), '', 'site_org_type' ).

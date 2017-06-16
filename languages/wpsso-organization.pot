@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 1.0.18\n"
+"Project-Id-Version: WPSSO Organization Markup 1.1.0-dev.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2017-MO-DA HO:MI+ZONE\n"
@@ -119,29 +119,29 @@ msgstr ""
 #: lib/gpl/admin/org-general.php:78 lib/pro/admin/org-general.php:96
 #: lib/submenu/org-general.php:102
 msgctxt "option label"
-msgid "Organization Logo Image URL"
+msgid "Organization Logo URL"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:81 lib/pro/admin/org-general.php:99
-#: lib/submenu/org-general.php:105
+#: lib/gpl/admin/org-general.php:82 lib/pro/admin/org-general.php:100
+#: lib/submenu/org-general.php:106
 msgctxt "option label"
-msgid "Organization Banner (600x60) URL"
+msgid "Organization Banner URL"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:85 lib/pro/admin/org-general.php:103
-#: lib/submenu/org-general.php:109
+#: lib/gpl/admin/org-general.php:86 lib/pro/admin/org-general.php:104
+#: lib/submenu/org-general.php:110
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:89 lib/pro/admin/org-general.php:107
-#: lib/submenu/org-general.php:113
+#: lib/gpl/admin/org-general.php:90 lib/pro/admin/org-general.php:108
+#: lib/submenu/org-general.php:114
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:95 lib/pro/admin/org-general.php:114
-#: lib/submenu/org-general.php:119
+#: lib/gpl/admin/org-general.php:96 lib/pro/admin/org-general.php:115
+#: lib/submenu/org-general.php:120
 msgctxt "metabox title"
 msgid "Google Knowledge Graph"
 msgstr ""
