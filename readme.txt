@@ -162,6 +162,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
+**Version 1.1.0-dev.1 (TBD)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* Localized the "Organization Logo URL" and "Organization Banner URL" option values.
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
+
 **Version 1.0.18 (2017/04/30)**
 
 * *New Features*
