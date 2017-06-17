@@ -48,7 +48,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			if ( $opts !== false ) {	// first come, first served
 				return $opts;
 			} elseif ( $org_id === 'site' || is_numeric( $org_id ) ) {
-				return WpssoOrgOrganization::get_org_id( $org_id, $mod );
+				return WpssoOrgOrganization::get_org_id( $org_id, $mod );	// returns localized values
 			} else {
 				return $opts;
 			}
