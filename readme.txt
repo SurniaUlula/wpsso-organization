@@ -162,7 +162,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
-**Version 1.1.0-dev.1 (2017/06/17)**
+**Version 1.1.0-b.1 (2017/06/18)**
 
 * *New Features*
 	* None
@@ -281,9 +281,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.1.0-dev.1 =
+= 1.1.0-b.1 =
 
-(2017/06/17) Localized the "Organization Logo URL" and "Organization Banner URL" option values.
+(2017/06/18) Localized the "Organization Logo URL" and "Organization Banner URL" option values.
 
 = 1.0.18 =
 
