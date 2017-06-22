@@ -13,7 +13,7 @@
  * Description: WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
  * Requires At Least: 3.7
  * Tested Up To: 4.8
- * Version: 1.1.0-rc.1
+ * Version: 1.1.0
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -84,8 +84,10 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 				}
 				deactivate_plugins( $info['base'], true );	// $silent = true
 				wp_die( '<p>'.sprintf( $die_msg, $info['name'], $info['req']['name'], $info['req']['short'], $info['short'] ).'</p>' );
-			} else echo '<div class="notice notice-error error"><p>'.
-				sprintf( $err_msg, $info['name'], $info['req']['name'], $info['req']['short'] ).'</p></div>';
+			} else {
+				echo '<div class="notice notice-error error"><p>'.sprintf( $err_msg,
+					$info['name'], $info['req']['name'], $info['req']['short'] ).'</p></div>';
+			}
 		}
 
 		public static function wpsso_init_textdomain() {
