@@ -10,7 +10,7 @@ Tags: publisher, organization, local seo, local business, schema, schema.org, ma
 Contributors: jsmoriss
 Requires At Least: 3.7
 Tested Up To: 4.8
-Stable Tag: 1.0.18
+Stable Tag: 1.1.0
 
 WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
 
@@ -162,7 +162,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
-**Version 1.1.0 (2017/06/19)**
+**Version 1.1.0 (2017/06/21)**
 
 * *New Features*
 	* None
@@ -283,7 +283,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 1.1.0 =
 
-(2017/06/19) Localized the "Organization Logo URL" and "Organization Banner URL" option values.
+(2017/06/21) Localized the "Organization Logo URL" and "Organization Banner URL" option values.
 
 = 1.0.18 =
 
