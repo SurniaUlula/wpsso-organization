@@ -53,7 +53,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 				case 'organization-site':
 
 					$this->form->__address_names = SucomUtil::get_multi_key_locale( 'plm_addr_name', $this->p->options, true );
-					$this->form->__all_types = $this->p->schema->get_schema_types_array( false );	// $tangible_flat = false
+					$this->form->__all_types = $this->p->schema->get_schema_types_array( false );	// $flatten = false
 					$this->form->__org_types = $this->p->schema->get_schema_types_select(
 						$this->form->__all_types['thing']['organization'], false );	// $add_none = false
 
