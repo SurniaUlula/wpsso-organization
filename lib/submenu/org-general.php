@@ -58,9 +58,9 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 						$this->form->__all_types['thing']['organization'], false );	// $add_none = false
 
 					if ( empty( $this->p->avail['p_ext']['plm'] ) ) {
-						$plm_req_msg = ' <em><a href="'.$this->p->cf['plugin']['wpssoplm']['url']['home'].'" target="_blank">'.
+						$plm_req_msg = ' <p><em><a href="'.$this->p->cf['plugin']['wpssoplm']['url']['home'].'" target="_blank">'.
 							sprintf( _x( '%s extension required', 'option comment', 'wpsso-plm' ),
-								$this->p->cf['plugin']['wpssoplm']['short'] ).'</a></em>';
+								$this->p->cf['plugin']['wpssoplm']['short'] ).'</a></em></p>';
 					} else {
 						$plm_req_msg = '';
 					}
