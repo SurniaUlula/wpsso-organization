@@ -80,68 +80,68 @@ msgid ""
 "the %s extension)."
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:36 lib/pro/admin/org-general.php:48
-#: lib/submenu/org-general.php:62
+#: lib/gpl/admin/org-general.php:37 lib/pro/admin/org-general.php:49
+#: lib/submenu/org-general.php:63
 msgctxt "option comment"
 msgid "%s extension required"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:48 lib/pro/admin/org-general.php:61
+#: lib/gpl/admin/org-general.php:49 lib/pro/admin/org-general.php:62
 msgctxt "option label"
 msgid "Edit an Organization"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:58 lib/pro/admin/org-general.php:76
+#: lib/gpl/admin/org-general.php:59 lib/pro/admin/org-general.php:77
 msgctxt "option comment"
 msgid "delete this organization"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:60 lib/pro/admin/org-general.php:78
+#: lib/gpl/admin/org-general.php:61 lib/pro/admin/org-general.php:79
 msgctxt "option label"
 msgid "Organization Name"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:64 lib/pro/admin/org-general.php:82
+#: lib/gpl/admin/org-general.php:65 lib/pro/admin/org-general.php:83
 msgctxt "option label"
 msgid "Organization Alternate Name"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:68 lib/pro/admin/org-general.php:86
+#: lib/gpl/admin/org-general.php:69 lib/pro/admin/org-general.php:87
 msgctxt "option label"
 msgid "Organization Description"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:72 lib/pro/admin/org-general.php:90
+#: lib/gpl/admin/org-general.php:73 lib/pro/admin/org-general.php:91
 msgctxt "option label"
 msgid "Organization Website URL"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:78 lib/pro/admin/org-general.php:96
-#: lib/submenu/org-general.php:102
+#: lib/gpl/admin/org-general.php:79 lib/pro/admin/org-general.php:97
+#: lib/submenu/org-general.php:103
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:82 lib/pro/admin/org-general.php:100
-#: lib/submenu/org-general.php:106
+#: lib/gpl/admin/org-general.php:83 lib/pro/admin/org-general.php:101
+#: lib/submenu/org-general.php:107
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:86 lib/pro/admin/org-general.php:104
-#: lib/submenu/org-general.php:110
+#: lib/gpl/admin/org-general.php:87 lib/pro/admin/org-general.php:105
+#: lib/submenu/org-general.php:111
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:90 lib/pro/admin/org-general.php:108
-#: lib/submenu/org-general.php:114
+#: lib/gpl/admin/org-general.php:91 lib/pro/admin/org-general.php:109
+#: lib/submenu/org-general.php:115
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:96 lib/pro/admin/org-general.php:115
-#: lib/submenu/org-general.php:120
+#: lib/gpl/admin/org-general.php:97 lib/pro/admin/org-general.php:116
+#: lib/submenu/org-general.php:121
 msgctxt "metabox title"
 msgid "Google Knowledge Graph"
 msgstr ""
@@ -151,31 +151,31 @@ msgctxt "metabox title"
 msgid "Organizations and Knowledge Graph"
 msgstr ""
 
-#: lib/submenu/org-general.php:68
+#: lib/submenu/org-general.php:69
 msgctxt "option label"
 msgid "Google Knowledge Graph"
 msgstr ""
 
-#: lib/submenu/org-general.php:72
+#: lib/submenu/org-general.php:73
 msgid " Include <a href=\"%s\">Organization Social Profile</a>"
 msgstr ""
 
-#: lib/submenu/org-general.php:77
+#: lib/submenu/org-general.php:78
 msgctxt "option label"
 msgid "Website Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:83
+#: lib/submenu/org-general.php:84
 msgctxt "option label"
 msgid "Website Alternate Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:89
+#: lib/submenu/org-general.php:90
 msgctxt "option label"
 msgid "Website Description"
 msgstr ""
 
-#: lib/submenu/org-general.php:95
+#: lib/submenu/org-general.php:96
 msgctxt "option label"
 msgid "Website URL"
 msgstr ""
