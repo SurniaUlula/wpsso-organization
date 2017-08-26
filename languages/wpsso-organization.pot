@@ -151,6 +151,16 @@ msgctxt "metabox title"
 msgid "Organizations and Knowledge Graph"
 msgstr ""
 
+#: lib/submenu/org-general.php:39
+msgctxt "metabox tabs"
+msgid "Website (Front Page)"
+msgstr ""
+
+#: lib/submenu/org-general.php:40
+msgctxt "metabox tabs"
+msgid "Other Organizations"
+msgstr ""
+
 #: lib/submenu/org-general.php:69
 msgctxt "option label"
 msgid "Google Knowledge Graph"
