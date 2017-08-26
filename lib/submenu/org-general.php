@@ -36,8 +36,8 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 			$lca = $this->p->cf['lca'];
 			$metabox = 'organization';
 			$tabs = apply_filters( $lca.'_'.$metabox.'_tabs', array( 
-				'site' => _x( 'Website (Front Page)', 'metabox tabs', 'wpsso-organization' ),
-				'other' => _x( 'Other Organizations', 'metabox tabs', 'wpsso-organization' ),
+				'site' => _x( 'Website (Front Page)', 'metabox tab', 'wpsso-organization' ),
+				'other' => _x( 'Other Organizations', 'metabox tab', 'wpsso-organization' ),
 			) );
 			$table_rows = array();
 			foreach ( $tabs as $key => $title ) {

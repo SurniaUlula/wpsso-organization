@@ -152,12 +152,12 @@ msgid "Organizations and Knowledge Graph"
 msgstr ""
 
 #: lib/submenu/org-general.php:39
-msgctxt "metabox tabs"
+msgctxt "metabox tab"
 msgid "Website (Front Page)"
 msgstr ""
 
 #: lib/submenu/org-general.php:40
-msgctxt "metabox tabs"
+msgctxt "metabox tab"
 msgid "Other Organizations"
 msgstr ""
 
