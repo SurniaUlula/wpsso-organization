@@ -29,8 +29,8 @@
 <p><strong>Prerequisite</strong> &mdash; WPSSO Organization Markup is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO core plugin</a>, which <em>automatically</em> generates complete and accurate meta tags + Schema markup from your content for social media optimization (SMO) and SEO.</p>
 
 <ul>
-<li>The <a href="https://wordpress.org/plugins/wpsso-organization/">WPSSO ORG Free extension</a> works with either the WPSSO Free or Pro core plugin.</li>
-<li>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq">WPSSO ORG Pro extension</a> (along with all WPSSO Pro extensions) use several WPSSO Pro-only features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-prereq">WPSSO Pro core plugin</a>.</li>
+<li>The WPSSO ORG Free extension works with either the WPSSO Free or Pro core plugin.</li>
+<li>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq">WPSSO ORG Pro extension</a> uses many WPSSO Pro-only features (as do all WPSSO Pro extensions) and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-prereq">WPSSO Pro core plugin</a>.</li>
 </ul>
 </blockquote>
 
@@ -163,8 +163,8 @@
 <h4>Extends the WPSSO Plugin</h4>
 
 <ul>
-<li>The <a href="https://wordpress.org/plugins/wpsso-organization/">WPSSO ORG Free extension</a> works with either the WPSSO Free or Pro core plugin.</li>
-<li>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro extension</a> (along with all WPSSO Pro extensions) use several WPSSO Pro-only features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends">WPSSO Pro core plugin</a>.</li>
+<li>The WPSSO ORG Free extension works with either the WPSSO Free or Pro core plugin.</li>
+<li>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro extension</a> uses many WPSSO Pro-only features (as do all WPSSO Pro extensions) and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends">WPSSO Pro core plugin</a>.</li>
 </ul>
 
 <p><a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-purchase">Purchase the WPSSO Organization Markup Pro extension here</a> (all purchases include a <em>No Risk 30 Day Refund Policy</em>).</p>
