@@ -34,7 +34,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 <ul>
 <li>The WPSSO ORG Free extension works with either the WPSSO Free or Pro core plugin.</li>
-<li>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq">WPSSO ORG Pro extension</a> uses many WPSSO Pro-only features (as do all WPSSO Pro extensions) and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-prereq">WPSSO Pro core plugin</a>.</li>
+<li>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq">WPSSO ORG Pro extension</a> uses many WPSSO Pro core plugin features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-prereq">WPSSO Pro core plugin</a>.</li>
 </ul>
 </blockquote>
 
@@ -125,7 +125,7 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 <ul>
 <li>The WPSSO ORG Free extension works with either the WPSSO Free or Pro core plugin.</li>
-<li>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro extension</a> uses many WPSSO Pro-only features (as do all WPSSO Pro extensions) and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends">WPSSO Pro core plugin</a>.</li>
+<li>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro extension</a> uses many WPSSO Pro core plugin features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-extends">WPSSO Pro core plugin</a>.</li>
 </ul>
 
 [Purchase the WPSSO Organization Markup Pro extension here](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-purchase) (all purchases include a *No Risk 30 Day Refund Policy*).
