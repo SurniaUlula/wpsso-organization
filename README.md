@@ -26,7 +26,7 @@
 </ul>
 
 <blockquote>
-<p><strong>Prerequisite</strong> &mdash; WPSSO Organization Markup is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO core plugin</a>, which <em>automatically</em> generates complete and accurate meta tags + Schema markup from your content for social media optimization (SMO) and SEO.</p>
+<p><strong>Prerequisite</strong> &mdash; WPSSO Organization Markup is an extension for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO core plugin</a>, which <em>automatically</em> generates complete and accurate meta tags and Schema markup from your content for social media optimization (SMO) and SEO.</p>
 
 <ul>
 <li>The WPSSO ORG Free extension works with either the WPSSO Free or Pro core plugin.</li>
