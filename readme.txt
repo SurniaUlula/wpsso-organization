@@ -134,8 +134,8 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 
 = Install and Uninstall =
 
-* [Install the Plugin (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/)
-* [Uninstall the Plugin](https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/)
+* [Install the WPSSO ORG Plugin (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/)
+* [Uninstall the WPSSO ORG Plugin](https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
