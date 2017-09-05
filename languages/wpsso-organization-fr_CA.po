@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup 1.1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2017-09-05 14:07-0400\n"
-"PO-Revision-Date: 2017-09-05 14:07-0400\n"
+"POT-Creation-Date: 2017-09-05 15:36-0400\n"
+"PO-Revision-Date: 2017-09-05 15:36-0400\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -146,12 +146,12 @@ msgstr "Organisations et Knowledge Graph"
 #: lib/submenu/org-general.php:40
 msgctxt "metabox tab"
 msgid "Website (Front Page)"
-msgstr "Site Web (Page d'Avant)"
+msgstr "Site Web (page d'avant)"
 
 #: lib/submenu/org-general.php:41
 msgctxt "metabox tab"
 msgid "Other Organizations"
-msgstr "Autres Organisations"
+msgstr "Autres organisations"
 
 #: lib/submenu/org-general.php:70
 msgctxt "option label"
