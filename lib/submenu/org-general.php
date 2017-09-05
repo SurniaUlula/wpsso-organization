@@ -26,6 +26,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 			$this->menu_ext = $ext;	// lowercase acronyn for plugin or extension
 		}
 
+		// called by the extended WpssoAdmin class
 		protected function add_meta_boxes() {
 			add_meta_box( $this->pagehook.'_general',
 				_x( 'Organizations and Knowledge Graph', 'metabox title', 'wpsso-organization' ), 
@@ -34,22 +35,22 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 		public function show_metabox_general() {
 			$lca = $this->p->cf['lca'];
-			$metabox = 'organization';
-			$tabs = apply_filters( $lca.'_'.$metabox.'_tabs', array( 
+			$metabox_id = 'organization';
+			$tabs = apply_filters( $lca.'_'.$metabox_id.'_tabs', array( 
 				'site' => _x( 'Website (Front Page)', 'metabox tab', 'wpsso-organization' ),
 				'other' => _x( 'Other Organizations', 'metabox tab', 'wpsso-organization' ),
 			) );
 			$table_rows = array();
 			foreach ( $tabs as $key => $title ) {
-				$table_rows[$key] = apply_filters( $lca.'_'.$metabox.'_'.$key.'_rows', 
-					$this->get_table_rows( $metabox, $key ), $this->form );
+				$table_rows[$key] = apply_filters( $lca.'_'.$metabox_id.'_'.$key.'_rows', 
+					$this->get_table_rows( $metabox_id, $key ), $this->form );
 			}
-			$this->p->util->do_metabox_tabs( $metabox, $tabs, $table_rows );
+			$this->p->util->do_metabox_tabs( $metabox_id, $tabs, $table_rows );
 		}
 
-		protected function get_table_rows( $metabox, $key ) {
+		protected function get_table_rows( $metabox_id, $key ) {
 			$table_rows = array();
-			switch ( $metabox.'-'.$key ) {
+			switch ( $metabox_id.'-'.$key ) {
 				case 'organization-site':
 
 					$this->form->__address_names = SucomUtil::get_multi_key_locale( 'plm_addr_name', $this->p->options, true );
