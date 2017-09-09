@@ -171,7 +171,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
-**Version 1.1.1-b.1 (2017/09/08)**
+**Version 1.1.1-rc.1 (2017/09/09)**
 
 * *New Features*
 	* None
@@ -180,7 +180,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* Minor code refactoring for WPSSO v3.45.10.
+	* Minor code refactoring for WPSSO v3.46.0.
 
 **Version 1.1.0 (2017/06/21)**
 
@@ -301,9 +301,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.1.1-b.1 =
+= 1.1.1-rc.1 =
 
-(2017/09/08) Minor code refactoring for WPSSO v3.45.10.
+(2017/09/09) Minor code refactoring for WPSSO v3.46.0.
 
 = 1.1.0 =
 
