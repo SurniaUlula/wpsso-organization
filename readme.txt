@@ -32,10 +32,9 @@ WPSSO extension to manage Organizations and additional Schema Article / Event pr
 <blockquote>
 <p><strong>Prerequisite</strong> &mdash; WPSSO Organization Markup is an extension for the WPSSO (Core Plugin), which <em>automatically</em> generates complete and accurate meta tags and Schema markup from your content for Social Media Optimization (SMO) and Search Engine Optimization (SEO).</p>
 
-<ul>
-<li>The WPSSO ORG Free extension works with either the Free or Pro version of WPSSO (Core Plugin).</li>
-<li>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq">WPSSO ORG Pro extension</a> uses many WPSSO Pro core plugin features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-prereq">WPSSO Pro core plugin</a>.</li>
-</ul>
+<p>The WPSSO ORG Free extension works with either the Free or Pro version of WPSSO (Core Plugin).</p>
+
+<p>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq">WPSSO ORG Pro extension</a> uses many WPSSO Pro core plugin features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-prereq">WPSSO Pro core plugin</a>.</p>
 </blockquote>
 
 = Quick List of Features =
