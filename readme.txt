@@ -169,6 +169,18 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
+**Version 1.1.2-dev.1 (TBD)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Minor code refactoring for WPSSO v3.46.1.
+		* Renamed the Advanced settings 'social' tab ID to 'custom_meta'.
+
 **Version 1.1.1 (2017/09/10)**
 
 * *New Features*
