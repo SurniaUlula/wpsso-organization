@@ -67,7 +67,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 						$plm_req_msg = '';
 					}
 
-					$table_rows['schema_social_json'] = $this->form->get_th_html( _x( 'Google Knowledge Graph',
+					$table_rows['schema_knowledge_graph'] = $this->form->get_th_html( _x( 'Google Knowledge Graph',
 						'option label', 'wpsso-organization' ), null, 'org_json' ).
 					'<td>'.
 					'<p>'.$this->form->get_checkbox( 'schema_organization_json' ).
