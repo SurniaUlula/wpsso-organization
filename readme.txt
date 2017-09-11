@@ -169,7 +169,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = Changelog / Release Notes =
 
-**Version 1.1.2-dev.1 (TBD)**
+**Version 1.1.2-dev.1 (2017/09/11)**
 
 * *New Features*
 	* None
@@ -310,6 +310,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None
 
 == Upgrade Notice ==
+
+= 1.1.2-dev.1 =
+
+(2017/09/11) Minor code refactoring for WPSSO v3.46.1.
 
 = 1.1.1 =
 
