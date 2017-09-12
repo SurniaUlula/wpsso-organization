@@ -113,6 +113,14 @@
 
 <p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Include Place / Location information in your Schema Organization markup when used in combination with the <a href="https://wordpress.org/plugins/wpsso-plm/">WPSSO Place / Location and Local Business Meta</a> extension.</p>
 
+<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; <em>Fast and coded for performance</em>, WPSSO and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching).</p>
+
+<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; WPSSO and its extensions load only the PHP library files and object classes needed, keeping the code small, fast, light, and able to support a wide range of 3rd party integration features.</p>
+
+<p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Fully tested and compatible with PHP v7.x (requires PHP v5.3 or better).</p>
+
+<h4>Quick List of Features (Continued)</h4>
+
 <p><strong>WPSSO ORG Pro / Additional Features</strong></p>
 
 <p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).</p>
