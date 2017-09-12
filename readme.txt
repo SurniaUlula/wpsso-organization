@@ -100,6 +100,8 @@ The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organizatio
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Include Place / Location information in your Schema Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) extension.
 
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-organization/) or [WordPress.org](https://wordpress.org/plugins/wpsso-organization/).
+
 = Quick List of Features (Continued) =
 
 **WPSSO ORG Pro / Additional Features**
