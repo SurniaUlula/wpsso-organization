@@ -37,7 +37,7 @@ WPSSO and its extensions make full use of all available caching techniques (pers
 
 WPSSO and its extensions are fully tested and compatible with PHP v7.x (PHP v5.3 or better required).
 
-= WPSSO (Core Plugin) Prerequisite =
+<h3>WPSSO (Core Plugin) Prerequisite</h3>
 
 WPSSO Organization Markup is an extension for the WPSSO (Core Plugin), which automatically generates complete and accurate meta tags and Schema markup from your content for Social Media Optimization (SMO) and Search Engine Optimization (SEO).
 
@@ -45,9 +45,9 @@ The WPSSO ORG Free extension works with either the Free or Pro version of WPSSO 
 
 The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq) uses many WPSSO Pro (Core Plugin) features and requires the [WPSSO Pro (Core Plugin)](https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-prereq).
 
-= Quick List of Features =
+<h3>Quick List of Features</h3>
 
-**WPSSO ORG Free / Standard Features**
+<h4>WPSSO ORG Free / Standard Features</h4>
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Free or Pro.
 
@@ -102,9 +102,9 @@ The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organizatio
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-organization/) or [WordPress.org](https://wordpress.org/plugins/wpsso-organization/).
 
-= Quick List of Features (Continued) =
+<h3>Quick List of Features (Continued)</h3>
 
-**WPSSO ORG Pro / Additional Features**
+<h4>WPSSO ORG Pro / Additional Features</h4>
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Pro (requires a licensed WPSSO Pro plugin).
 
@@ -138,7 +138,7 @@ The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organizatio
 		* Schema Type [schema.org/TheaterEvent](https://schema.org/TheaterEvent)
 		* Schema Type [schema.org/VisualArtsEvent](https://schema.org/VisualArtsEvent)
 
-= Extends the WPSSO Plugin =
+<h3>Extends the WPSSO Plugin</h3>
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO ORG Free extension works with either the Free or Pro version of WPSSO (Core Plugin).
 
@@ -148,20 +148,20 @@ The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organizatio
 
 == Installation ==
 
-= Install and Uninstall =
+<h3>Install and Uninstall</h3>
 
 * [Install the WPSSO ORG Plugin (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/)
 * [Uninstall the WPSSO ORG Plugin](https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
-= Frequently Asked Questions =
+<h3>Frequently Asked Questions</h3>
 
 * None
 
 == Other Notes ==
 
-= Additional Documentation =
+<h3>Additional Documentation</h3>
 
 * None
 
@@ -171,12 +171,12 @@ The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organizatio
 
 == Changelog ==
 
-= Free / Basic Version Repository =
+<h3>Free / Basic Version Repository</h3>
 
 * [GitHub](https://surniaulula.github.io/wpsso-organization/)
 * [WordPress.org](https://wordpress.org/plugins/wpsso-organization/developers/)
 
-= Version Numbering =
+<h3>Version Numbering</h3>
 
 Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
@@ -185,7 +185,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * {bugfix} = Backwards-compatible bug fixes or small improvements.
 * {stage}.{level} = Pre-production release: dev < a (alpha) < b (beta) < rc (release candidate).
 
-= Changelog / Release Notes =
+<h3>Changelog / Release Notes</h3>
 
 **Version 1.1.2-rc.1 (2017/09/14)**
 
