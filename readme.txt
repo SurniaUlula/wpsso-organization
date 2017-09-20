@@ -31,7 +31,7 @@ Select a different Publisher for your Schema Article markup.
 
 Select an Organizer or Performer for the Schema Event markup.
 
-**WPSSO ORG is *fast* and coded for performance:**
+**WPSSO ORG is *super fast* and coded for performance:**
 
 WPSSO and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light.
 
