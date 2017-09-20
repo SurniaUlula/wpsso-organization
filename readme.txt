@@ -9,7 +9,7 @@ Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
 Tags: publisher, organization, local seo, local business, schema, schema.org, markup, article, event, location, knowledge graph, seo
 Contributors: jsmoriss
 Requires At Least: 3.7
-Tested Up To: 4.8.1
+Tested Up To: 4.8.2
 Requires PHP: 5.3
 Stable Tag: 1.1.2
 
