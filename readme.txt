@@ -87,11 +87,11 @@ The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organizatio
 * Google Knowledge Graph Social Profile URLs:
 	* Facebook Business Page URL (localized)
 	* Google+ Business Page URL (localized)
-	* Instagram Business URL (localized)
+	* Instagram Business Page URL (localized)
 	* LinkedIn Company Page URL (localized)
 	* Myspace Business Page URL (localized)
 	* Pinterest Company Page URL (localized)
-	* SoundCloud Business URL (localized)
+	* Soundcloud Business Page URL (localized)
 	* Tumblr Business Page URL (localized)
 	* Twitter Business @username (localized)
 	* YouTube Business Channel URL (localized)

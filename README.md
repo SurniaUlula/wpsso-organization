@@ -104,11 +104,11 @@
 <ul>
 <li>Facebook Business Page URL (localized)</li>
 <li>Google+ Business Page URL (localized)</li>
-<li>Instagram Business URL (localized)</li>
+<li>Instagram Business Page URL (localized)</li>
 <li>LinkedIn Company Page URL (localized)</li>
 <li>Myspace Business Page URL (localized)</li>
 <li>Pinterest Company Page URL (localized)</li>
-<li>SoundCloud Business URL (localized)</li>
+<li>Soundcloud Business Page URL (localized)</li>
 <li>Tumblr Business Page URL (localized)</li>
 <li>Twitter Business @username (localized)</li>
 <li>YouTube Business Channel URL (localized)</li>
