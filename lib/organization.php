@@ -17,8 +17,10 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 
 		public function __construct( &$plugin ) {
 			$this->p =& $plugin;
-			if ( $this->p->debug->enabled )
+
+			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
+			}
 		}
 
 		public static function get_org_names( $parent_type = false ) {

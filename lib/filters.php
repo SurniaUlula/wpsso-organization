@@ -18,6 +18,10 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		public function __construct( &$plugin ) {
 			$this->p =& $plugin;
 
+			if ( $this->p->debug->enabled ) {
+				$this->p->debug->mark();
+			}
+
 			$this->p->util->add_plugin_filters( $this, array( 
 				'json_array_schema_type_ids' => 2,	// $type_ids, $mod
 				'get_organization_options' => 3,	// $opts, $mod, $org_id
