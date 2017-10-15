@@ -77,7 +77,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				// get the list of non-localized option names
 				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*_)'.$id.'(#.*)?$/', $wpsso->options, false, '$1' ) as $opt_prefix => $value ) {
 					$opt_idx = rtrim( $opt_prefix, '_' );
-					$org_opts[$opt_idx] = SucomUtil::get_locale_opt( $opt_prefix.$id, $wpsso->options, $mixed );	// localized value
+					$org_opts[$opt_idx] = SucomUtil::get_key_value( $opt_prefix.$id, $wpsso->options, $mixed );	// localized value
 				}
 			}
 
