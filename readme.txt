@@ -187,6 +187,18 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.1.3 (2017/10/15)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Minor code refactoring for WPSSO v3.47.0.
+		* Renamed the SucomUtil get_locale_opt() call to get_key_value.
+
 **Version 1.1.2 (2017/09/15)**
 
 * *New Features*
@@ -328,6 +340,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None
 
 == Upgrade Notice ==
+
+= 1.1.3 =
+
+(2017/10/15) Minor code refactoring for WPSSO v3.47.0.
 
 = 1.1.2 =
 
