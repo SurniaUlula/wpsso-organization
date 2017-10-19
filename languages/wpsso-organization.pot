@@ -31,7 +31,7 @@ msgstr ""
 #: lib/config-gettext-extract.php:6
 msgctxt "plugin description"
 msgid ""
-"WPSSO extension to manage Organizations and additional Schema Article / "
+"WPSSO Core extension to manage Organizations and additional Schema Article / "
 "Event properties (Publisher, Organizer, Performer, etc.)."
 msgstr ""
 
@@ -218,7 +218,7 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"WPSSO extension to manage Organizations and additional Schema Article / "
+"WPSSO Core extension to manage Organizations and additional Schema Article / "
 "Event properties (Publisher, Organizer, Performer, etc.)."
 msgstr ""
 

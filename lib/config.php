@@ -20,7 +20,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					'opt_version' => '2',		// increment when changing default options
 					'short' => 'WPSSO ORG',		// short plugin name
 					'name' => 'WPSSO Organization Markup',
-					'desc' => 'WPSSO extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).',
+					'desc' => 'WPSSO Core extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).',
 					'slug' => 'wpsso-organization',
 					'base' => 'wpsso-organization/wpsso-organization.php',
 					'update_auth' => 'tid',
