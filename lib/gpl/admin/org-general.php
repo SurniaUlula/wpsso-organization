@@ -26,21 +26,14 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 		}
 
 		public function filter_organization_other_rows( $table_rows, $form ) {
-			if ( $this->p->debug->enabled )
+
+			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
-
-			$id = 0;
-			$name = WpssoOrgConfig::$cf['form']['org_select']['new'];
-			$org_names = array( $id => $name );
-
-			if ( empty( $this->p->avail['p_ext']['plm'] ) ) {
-				$plm_req_msg = ' <p style="display:inline;"><em>'.
-					'<a href="'.$this->p->cf['plugin']['wpssoplm']['url']['home'].'">'.
-						sprintf( _x( '%s extension required', 'option comment', 'wpsso-plm' ),
-							$this->p->cf['plugin']['wpssoplm']['short'] ).'</a></em></p>';
-			} else {
-				$plm_req_msg = '';
 			}
+
+			$plm_req_msg = $this->p->util->get_ext_req_msg( 'plm' );
+			$org_names = array( 0 => WpssoOrgConfig::$cf['form']['org_select']['new'] );
+			$id = 0;
 
 			unset( $form->options['org_id'] );
 
@@ -92,8 +85,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			$table_rows['org_place_id_'.$id] = $form->get_th_html( _x( 'Organization Place / Location',
 				'option label', 'wpsso-organization' ), '', 'org_place_id' ).
-			'<td class="blank">'.$form->get_no_select( 'org_place_id_'.$id,
-				$form->__address_names, 'long_name' ).$plm_req_msg.'</td>';
+			'<td class="blank">'.$form->get_no_select( 'org_place_id_'.$id, $form->__address_names, 'long_name' ).$plm_req_msg.'</td>';
 
 			$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
 				_x( 'Google Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';
