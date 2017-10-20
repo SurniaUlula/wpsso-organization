@@ -187,6 +187,18 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.1.4-dev.2 (2017/10/15)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* Minor code refactoring for WPSSO v3.47.2.
+		* Added a call to the new WpssoUtil get_ext_req_msg() method to get the required extension text message. 
+
 **Version 1.1.3 (2017/10/15)**
 
 * *New Features*
@@ -340,6 +352,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None
 
 == Upgrade Notice ==
+
+= 1.1.4-dev.2 =
+
+(2017/10/20) Minor code refactoring for WPSSO v3.47.2.
 
 = 1.1.3 =
 
