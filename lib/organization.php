@@ -26,6 +26,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		public static function get_org_names( $parent_type = false ) {
 
 			$wpsso =& Wpsso::get_instance();
+
 			if ( $wpsso->debug->enabled ) {
 				$wpsso->debug->mark();
 			}
