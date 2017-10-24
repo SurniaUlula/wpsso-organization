@@ -81,11 +81,13 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			$table_rows['org_type_'.$id] = $form->get_th_html( _x( 'Organization Schema Type',
 				'option label', 'wpsso-organization' ), '', 'org_type' ).
-			'<td class="blank">'.$form->get_no_select( 'org_type_'.$id, $form->__org_types, 'schema_type' ).'</td>';
+			'<td class="blank">'.$form->get_no_select( 'org_type_'.$id,
+				$form->get_prop( 'org_select' ), 'schema_type' ).'</td>';
 
 			$table_rows['org_place_id_'.$id] = $form->get_th_html( _x( 'Organization Place / Location',
 				'option label', 'wpsso-organization' ), '', 'org_place_id' ).
-			'<td class="blank">'.$form->get_no_select( 'org_place_id_'.$id, $form->__address_names, 'long_name' ).$plm_req_msg.'</td>';
+			'<td class="blank">'.$form->get_no_select( 'org_place_id_'.$id,
+				$form->__addr_names, 'long_name' ).$plm_req_msg.'</td>';
 
 			$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
 				_x( 'Google Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';

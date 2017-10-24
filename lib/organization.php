@@ -23,7 +23,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			}
 		}
 
-		public static function get_org_names( $parent_type = false ) {
+		public static function get_org_names( $org_type = '', $add_none = false, $add_new = false, $add_site = false ) {
 
 			$wpsso =& Wpsso::get_instance();
 
@@ -31,24 +31,43 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				$wpsso->debug->mark();
 			}
 
-			if ( $wpsso->check->aop( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
-				$org_names = SucomUtil::get_multi_key_locale( 'org_name', $wpsso->options, false );
-			} else {
-				$org_names = array();
+			$first_names = array();
+			$org_names = array();
+
+			if ( $add_none ) {
+				$first_names['none'] = _x( '[None]', 'option value', 'wpsso-organization' );
 			}
 
-			if ( ! empty( $parent_type ) ) {
-				$children = $wpsso->schema->get_schema_type_children( $parent_type );
-				if ( ! empty( $children ) ) {	// just in case
-					foreach ( $org_names as $num => $name ) {
-						if ( ! empty( $wpsso->options['org_type_'.$num] ) &&
-							in_array( $wpsso->options['org_type_'.$num], $children ) ) {
-							continue;
-						} else {
-							unset( $org_names[$num] );
+			if ( $add_site ) {
+				$first_names['site'] = _x( WpssoOrgConfig::$cf['form']['org_select']['site'], 'option value', 'wpsso-organization' );
+			}
+
+			if ( $wpsso->check->aop( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
+
+				$org_names = SucomUtil::get_multi_key_locale( 'org_name', $wpsso->options, false );	// $add_none = false
+
+				if ( ! empty( $org_type ) && is_string( $org_type) ) {
+					$children = $wpsso->schema->get_schema_type_children( $org_type );
+					if ( ! empty( $children ) ) {	// just in case
+						foreach ( $org_names as $num => $name ) {
+							if ( ! empty( $wpsso->options['org_type_'.$num] ) &&
+								in_array( $wpsso->options['org_type_'.$num], $children ) ) {
+								continue;
+							} else {
+								unset( $org_names[$num] );
+							}
 						}
 					}
 				}
+			}
+
+			if ( $add_new ) {
+				list( $first_num, $last_num, $next_num ) = SucomUtil::get_first_last_next_nums( $org_names );
+				$org_names[$next_num] = _x( WpssoOrgConfig::$cf['form']['org_select']['new'], 'option value', 'wpsso-organization' );
+			}
+
+			if ( ! empty( $first_names ) ) {
+				$org_names = $first_names + $org_names;	// combine arrays, preserving numeric key associations
 			}
 
 			return $org_names;

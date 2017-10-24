@@ -56,10 +56,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$plm_req_msg = $this->p->util->get_ext_req_msg( 'plm' );
 					$plm_disable = empty( $plm_req_msg ) ? false : true;	// disable if plm extension not available
 
-					$this->form->__address_names = SucomUtil::get_multi_key_locale( 'plm_addr_name', $this->p->options, true );
-					$this->form->__all_types = $this->p->schema->get_schema_types_array( false );	// $flatten = false
-					$this->form->__org_types = $this->p->schema->get_schema_types_select(
-						$this->form->__all_types['thing']['organization'], false );	// $add_none = false
+					$this->form->__addr_names = SucomUtil::get_multi_key_locale( 'plm_addr_name', $this->p->options, true );
 
 					$table_rows['schema_knowledge_graph'] = $this->form->get_th_html( _x( 'Google Knowledge Graph',
 						'option label', 'wpsso-organization' ), null, 'org_json' ).
@@ -105,12 +102,13 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					$table_rows['site_org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
 						'option label', 'wpsso-organization' ), '', 'site_org_type' ).
-					'<td>'.$this->form->get_select( 'site_org_type', $this->form->__org_types, 'schema_type' ).'</td>';
+					'<td>'.$this->form->get_select( 'site_org_type',
+						$this->form->get_prop( 'org_select' ), 'schema_type' ).'</td>';
 
 					$table_rows['site_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
 						'option label', 'wpsso-organization' ), '', 'site_place_id' ).
-					'<td>'.$this->form->get_select( 'site_place_id', $this->form->__address_names, 'long_name',
-						'', true, $plm_disable ).$plm_req_msg.'</td>';
+					'<td>'.$this->form->get_select( 'site_place_id',
+						$this->form->__addr_names, 'long_name', '', true, $plm_disable ).$plm_req_msg.'</td>';
 
 					$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
 						_x( 'Google Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';

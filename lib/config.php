@@ -59,6 +59,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 				'org_select' => array(
 					'none' => '[None]',
 					'new' => '[New Organization]',
+					'site' => '[Website Organization]',
 				),
 			),
 		);
