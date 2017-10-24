@@ -32,7 +32,9 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			}
 
 			$plm_req_msg = $this->p->util->get_ext_req_msg( 'plm' );
-			$org_names = array( 0 => WpssoOrgConfig::$cf['form']['org_select']['new'] );
+			$plm_disable = empty( $plm_req_msg ) ? false : true;	// disable if plm extension not available
+			$org_names_new = array( 0 => $this->p->cf['form']['org_select']['new'] );
+			$place_addr_names = $form->get_cache( 'place_addr_names', true );	// $add_none = true
 			$id = 0;
 
 			unset( $form->options['org_id'] );
@@ -43,8 +45,8 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			$table_rows['org_id'] = $form->get_th_html( _x( 'Edit an Organization',
 				'option label', 'wpsso-organization' ), '', 'org_id' ).
-			'<td class="blank">'.$form->get_no_select( 'org_id', $org_names,
-				'long_name', '', true ).'</td>';
+			'<td class="blank">'.$form->get_no_select( 'org_id',
+				$org_names_new, 'long_name', '', true ).'</td>';
 
 			$form->defaults['org_type_'.$id] = $form->defaults['site_org_type'];		// set default value
 			$form->defaults['org_place_id_'.$id] = $form->defaults['site_place_id'];	// set default value
@@ -82,12 +84,12 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			$table_rows['org_type_'.$id] = $form->get_th_html( _x( 'Organization Schema Type',
 				'option label', 'wpsso-organization' ), '', 'org_type' ).
 			'<td class="blank">'.$form->get_no_select( 'org_type_'.$id,
-				$form->get_prop( 'org_select' ), 'schema_type' ).'</td>';
+				$form->get_cache( 'org_types_select' ), 'schema_type' ).'</td>';
 
 			$table_rows['org_place_id_'.$id] = $form->get_th_html( _x( 'Organization Place / Location',
 				'option label', 'wpsso-organization' ), '', 'org_place_id' ).
 			'<td class="blank">'.$form->get_no_select( 'org_place_id_'.$id,
-				$form->__addr_names, 'long_name' ).$plm_req_msg.'</td>';
+				$place_addr_names, 'long_name' ).$plm_req_msg.'</td>';
 
 			$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
 				_x( 'Google Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';

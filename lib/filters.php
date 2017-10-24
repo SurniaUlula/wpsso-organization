@@ -32,8 +32,26 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					'option_type' => 2,
 					'save_options' => 3,
 					'messages_tooltip' => 2,
+					'form_cache_org_site_names' => 1,
+					'form_cache_org_perf_names' => 1,
 				) );
 			}
+		}
+
+		public function filter_form_cache_org_site_names( $mixed ) {
+			$ret = WpssoOrgOrganization::get_org_names();
+			if ( is_array( $mixed ) ) {
+				$ret = $mixed + $ret;
+			}
+			return $ret;
+		}
+
+		public function filter_form_cache_org_perf_names( $mixed ) {
+			$ret = WpssoOrgOrganization::get_org_names( 'performing.group' );
+			if ( is_array( $mixed ) ) {
+				$ret = $mixed + $ret;
+			}
+			return $ret;
 		}
 
 		public function filter_json_array_schema_type_ids( $type_ids, $mod ) {
@@ -91,13 +109,13 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		public function filter_save_options( $opts, $options_name, $network ) {
 
 			$org_names = SucomUtil::get_multi_key_locale( 'org_name', $opts, false );	// $add_none = false
-			list( $first_num, $last_num, $next_num ) = SucomUtil::get_first_last_next_nums( $org_names );
+			$last_num = SucomUtil::get_last_num( $org_names );
 
 			foreach ( $org_names as $num => $name ) {
+
 				$name = trim( $name );
 
-				if ( ! empty( $opts['org_delete_'.$num] ) ||
-					( $name === '' && $num === $last_num ) ) {	// remove the empty "New Address"
+				if ( ! empty( $opts['org_delete_'.$num] ) || ( $name === '' && $num === $last_num ) ) {	// remove the empty "New Address"
 
 					if ( isset( $opts['org_id'] ) && $opts['org_id'] === $num ) {
 						unset( $opts['org_id'] );
