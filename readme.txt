@@ -1,4 +1,4 @@
-=== WPSSO Organization Markup - Manage Organizations / Publishers for Schema and SEO ===
+=== WPSSO Organization Markup - Manage Organizations, Publishers, Performers, etc. for Schema Markup and Google Rich Cards / Knowledge Graph / SEO ===
 Plugin Name: WPSSO Organization Markup
 Plugin Slug: wpsso-organization
 Text Domain: wpsso-organization
@@ -19,17 +19,19 @@ WPSSO Core extension to manage Organizations and additional Schema Article / Eve
 
 <img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png">
 
-**Control your Organization markup for Google's Rich Cards and Knowledge Graph.**
+**Manager Organization markup for Google's Rich Cards and Knowledge Graph.**
 
 Customize your Website name, alternate name, description, and URL for each WordPress local / language / region.
 
-Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), logo and/or banner for Articles.
+Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), logo and/or banner for Schema Articles.
 
 Add Local SEO Place / Location information to your Schema Organization markup.
 
 Select a different Publisher for your Schema Article markup.
 
 Select an Organizer or Performer for the Schema Event markup.
+
+Select a Hiring Organization for the Schema Job Posting markup.
 
 **WPSSO ORG is *incredibly fast* and coded for performance:**
 
