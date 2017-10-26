@@ -1,4 +1,4 @@
-=== WPSSO Organization Markup - Manage Organizations, Publishers, Performers, etc. for Schema Markup and Google Rich Cards / Knowledge Graph / SEO ===
+=== WPSSO Organization Markup - Manage Organizations, Publishers, Performers, and More, for Schema Markup and Google Rich Cards / Knowledge Graph / SEO ===
 Plugin Name: WPSSO Organization Markup
 Plugin Slug: wpsso-organization
 Text Domain: wpsso-organization

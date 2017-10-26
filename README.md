@@ -1,4 +1,4 @@
-<h1>WPSSO Organization Markup</h1><h3>Manage Organizations, Publishers, Performers, etc. for Schema Markup and Google Rich Cards / Knowledge Graph / SEO</h3>
+<h1>WPSSO Organization Markup</h1><h3>Manage Organizations, Publishers, Performers, and More, for Schema Markup and Google Rich Cards / Knowledge Graph / SEO</h3>
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Organization Markup</td></tr>
