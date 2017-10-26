@@ -189,7 +189,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.1.4-b.3 (2017/10/26)**
+**Version 1.1.4-rc.1 (2017/10/26)**
 
 * *New Features*
 	* None
@@ -356,7 +356,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.1.4-b.3 =
+= 1.1.4-rc.1 =
 
 (2017/10/26) Minor code refactoring for WPSSO v3.47.2.
 
