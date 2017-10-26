@@ -15,7 +15,7 @@
 
 <p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png"></p>
 
-<p><strong>Manager Organization markup for Google's Rich Cards and Knowledge Graph.</strong></p>
+<p><strong>Manage Organization markup for Google's Rich Cards and Knowledge Graph.</strong></p>
 
 <p>Customize your Website name, alternate name, description, and URL for each WordPress local / language / region.</p>
 
