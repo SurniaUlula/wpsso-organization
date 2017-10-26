@@ -23,11 +23,11 @@
 
 <p>Add Local SEO Place / Location information to your Schema Organization markup.</p>
 
-<p>Select a different Publisher for your Schema Article markup (WPSSO JSON Pro extension required).</p>
+<p>Select a different Publisher for your Schema Article markup (<a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO JSON Pro extension</a> required).</p>
 
-<p>Select an Organizer or Performer for the Schema Event markup (WPSSO JSON Pro extension required).</p>
+<p>Select an Organizer or Performer for the Schema Event markup (<a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO JSON Pro extension</a> required).</p>
 
-<p>Select a Hiring Organization for the Schema Job Posting markup (WPSSO JSON Pro extension required).</p>
+<p>Select a Hiring Organization for the Schema Job Posting markup (<a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO JSON Pro extension</a> required).</p>
 
 <p><strong>WPSSO ORG is <em>incredibly fast</em> and coded for performance:</strong></p>
 
@@ -41,7 +41,7 @@
 
 <p>The WPSSO ORG Free extension works with either the Free or Pro version of WPSSO Core.</p>
 
-<p>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq">WPSSO ORG Pro extension</a> uses many WPSSO Core Pro plugin features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-prereq">WPSSO Core Pro</a> plugin.</p>
+<p>The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq">WPSSO ORG Pro extension</a> uses many WPSSO Core Pro plugin features and requires the <a href="https://wpsso.com/extend/plugins/wpsso/?utm_source=wpssoorg-readme-prereq">WPSSO Core Pro plugin</a>.</p>
 
 <h3>Quick List of Features</h3>
 
