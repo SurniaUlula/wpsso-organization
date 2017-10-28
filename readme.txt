@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires At Least: 3.7
 Tested Up To: 4.8.2
 Requires PHP: 5.3
-Stable Tag: 1.1.3
+Stable Tag: 1.1.4
 
 WPSSO Core extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
 
