@@ -56,11 +56,9 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 		public function filter_json_array_schema_type_ids( $type_ids, $mod ) {
 			if ( $mod['is_home'] ) {
-				if ( ! empty( $this->p->options['site_org_type'] ) &&
-					$this->p->options['site_org_type'] !== 'organization' ) {
-
-					unset( $type_ids['organization'] );
+				if ( ! empty( $this->p->options['site_org_type'] ) && $this->p->options['site_org_type'] !== 'organization' ) {
 					$type_ids[$this->p->options['site_org_type']] = $this->p->options['schema_organization_json'];
+					unset( $type_ids['organization'] );
 				}
 			}
 			return $type_ids;
