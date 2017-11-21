@@ -28,6 +28,8 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 		// called by the extended WpssoAdmin class
 		protected function add_meta_boxes() {
+			$this->maybe_show_language_notice();
+
 			add_meta_box( $this->pagehook.'_general',
 				_x( 'Organizations and Knowledge Graph', 'metabox title', 'wpsso-organization' ), 
 					array( &$this, 'show_metabox_general' ), $this->pagehook, 'normal' );
