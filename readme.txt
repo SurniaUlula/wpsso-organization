@@ -189,6 +189,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.1.5-dev.4 (2017/11/21)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* Added a notice on the settings page if the current language is different than the default site language. Localized option values are used for webpages and content in that language only (not for the default language, or any other language).
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
+
 **Version 1.1.4 (2017/10/28)**
 
 * *New Features*
@@ -355,6 +366,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None
 
 == Upgrade Notice ==
+
+= 1.1.5-dev.4 =
+
+(2017/11/21) Added a notice on the settings page if the current language is different than the default site language.
 
 = 1.1.4 =
 
