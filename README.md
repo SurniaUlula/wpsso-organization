@@ -17,7 +17,7 @@
 
 <p><strong>Manage Organization markup for Google's Rich Cards and Knowledge Graph.</strong></p>
 
-<p>Customize your Website name, alternate name, description, and URL for each WordPress local / language / region.</p>
+<p>Customize your WebSite name, alternate name, description, and URL for each WordPress local / language / region.</p>
 
 <p>Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), logo and/or banner for Schema Articles.</p>
 
@@ -52,10 +52,10 @@
 <p><span style="color:#33cc33">&#x0229b;</span> &nbsp; Manage properies of the Schema Organization markup for your front page:</p>
 
 <ul>
-<li>Website Name (localized)</li>
-<li>Website Alternate Name (localized)</li>
-<li>Website Description (localized)</li>
-<li>Website URL (localized)</li>
+<li>WebSite Name (localized)</li>
+<li>WebSite Alternate Name (localized)</li>
+<li>WebSite Description (localized)</li>
+<li>WebSite URL (localized)</li>
 <li>Organization Logo Image URL</li>
 <li>Organization Banner (600x60) URL</li>
 <li>Organization Schema Type:

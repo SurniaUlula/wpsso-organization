@@ -21,7 +21,7 @@ WPSSO Core extension to manage Organizations and additional Schema Article / Eve
 
 **Manage Organization markup for Google's Rich Cards and Knowledge Graph.**
 
-Customize your Website name, alternate name, description, and URL for each WordPress local / language / region.
+Customize your WebSite name, alternate name, description, and URL for each WordPress local / language / region.
 
 Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), logo and/or banner for Schema Articles.
 
@@ -55,10 +55,10 @@ The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organizatio
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Manage properies of the Schema Organization markup for your front page:
 
-* Website Name (localized)
-* Website Alternate Name (localized)
-* Website Description (localized)
-* Website URL (localized)
+* WebSite Name (localized)
+* WebSite Alternate Name (localized)
+* WebSite Description (localized)
+* WebSite URL (localized)
 * Organization Logo Image URL
 * Organization Banner (600x60) URL
 * Organization Schema Type:
@@ -169,7 +169,7 @@ The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organizatio
 
 == Screenshots ==
 
-01. WPSSO ORG settings page for the Website (Front Page) organization &mdash; includes the Website name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
+01. WPSSO ORG settings page for the WebSite (Front Page) organization &mdash; includes the WebSite name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
 
 == Changelog ==
 
