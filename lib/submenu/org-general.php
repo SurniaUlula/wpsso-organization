@@ -39,7 +39,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 			$lca = $this->p->cf['lca'];
 			$metabox_id = 'organization';
 			$tabs = apply_filters( $lca.'_'.$metabox_id.'_tabs', array( 
-				'site' => _x( 'Website (Front Page)', 'metabox tab', 'wpsso-organization' ),
+				'site' => _x( 'WebSite (Front Page)', 'metabox tab', 'wpsso-organization' ),
 				'other' => _x( 'Other Organizations', 'metabox tab', 'wpsso-organization' ),
 			) );
 			$table_rows = array();
@@ -68,25 +68,25 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					'</td>';
 
 					$table_rows['site_name'] = '<tr class="hide_in_basic">'.
-					$this->form->get_th_html( _x( 'Website Name',
+					$this->form->get_th_html( _x( 'WebSite Name',
 						'option label', 'wpsso-organization' ), null, 'site_name', array( 'is_locale' => true ) ).
 					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'site_name', $this->p->options ),
 						'long_name', null, null, get_bloginfo( 'name', 'display' ) ).'</td>';
 
 					$table_rows['site_alt_name'] = '<tr class="hide_in_basic">'.
-					$this->form->get_th_html( _x( 'Website Alternate Name',
+					$this->form->get_th_html( _x( 'WebSite Alternate Name',
 						'option label', 'wpsso-organization' ), null, 'site_alt_name', array( 'is_locale' => true ) ).
 					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'site_alt_name', $this->p->options ),
 						'long_name' ).'</td>';
 
 					$table_rows['site_desc'] = '<tr class="hide_in_basic">'.
-					$this->form->get_th_html( _x( 'Website Description',
+					$this->form->get_th_html( _x( 'WebSite Description',
 						'option label', 'wpsso-organization' ), null, 'site_desc', array( 'is_locale' => true ) ).
 					'<td>'.$this->form->get_textarea( SucomUtil::get_key_locale( 'site_desc', $this->p->options ),
 						null, null, null, get_bloginfo( 'description', 'display' ) ).'</td>';
 
 					$table_rows['site_url'] = '<tr class="hide_in_basic">'.
-					$this->form->get_th_html( _x( 'Website URL',
+					$this->form->get_th_html( _x( 'WebSite URL',
 						'option label', 'wpsso-organization' ), '', 'site_url', array( 'is_locale' => true ) ).
 					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'site_url', $this->p->options ),
 						'wide', null, null, get_bloginfo( 'url' ) ).'</td>';

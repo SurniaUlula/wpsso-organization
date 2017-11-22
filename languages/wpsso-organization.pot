@@ -97,7 +97,7 @@ msgstr ""
 
 #: lib/gpl/admin/org-general.php:70 lib/pro/admin/org-general.php:90
 msgctxt "option label"
-msgid "Organization Website URL"
+msgid "Organization WebSite URL"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:76 lib/pro/admin/org-general.php:96
@@ -137,7 +137,7 @@ msgstr ""
 
 #: lib/submenu/org-general.php:42
 msgctxt "metabox tab"
-msgid "Website (Front Page)"
+msgid "WebSite (Front Page)"
 msgstr ""
 
 #: lib/submenu/org-general.php:43
@@ -156,22 +156,22 @@ msgstr ""
 
 #: lib/submenu/org-general.php:71
 msgctxt "option label"
-msgid "Website Name"
+msgid "WebSite Name"
 msgstr ""
 
 #: lib/submenu/org-general.php:77
 msgctxt "option label"
-msgid "Website Alternate Name"
+msgid "WebSite Alternate Name"
 msgstr ""
 
 #: lib/submenu/org-general.php:83
 msgctxt "option label"
-msgid "Website Description"
+msgid "WebSite Description"
 msgstr ""
 
 #: lib/submenu/org-general.php:89
 msgctxt "option label"
-msgid "Website URL"
+msgid "WebSite URL"
 msgstr ""
 
 #: wpsso-organization.php:78

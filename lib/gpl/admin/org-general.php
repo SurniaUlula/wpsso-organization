@@ -67,7 +67,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 				'option label', 'wpsso-organization' ), '', 'org_desc', array( 'is_locale' => true ) ). 
 			'<td class="blank">'.$form->get_no_textarea_value().'</td>';
 
-			$table_rows['org_url_'.$id] = $form->get_th_html( _x( 'Organization Website URL',
+			$table_rows['org_url_'.$id] = $form->get_th_html( _x( 'Organization WebSite URL',
 				'option label', 'wpsso-organization' ), '', 'org_url', array( 'is_locale' => true ) ).
 			'<td class="blank">'.$form->get_no_input_value( '', 'wide' ).'</td>';
 
