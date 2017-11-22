@@ -189,7 +189,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.1.5-dev.4 (2017/11/21)**
+**Version 1.1.5-dev.5 (2017/11/22)**
 
 * *New Features*
 	* None
@@ -367,9 +367,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.1.5-dev.4 =
+= 1.1.5-dev.5 =
 
-(2017/11/21) Added a notice on the settings page if the current language is different than the default site language.
+(2017/11/22) Added a notice on the settings page if the current language is different than the default site language.
 
 = 1.1.4 =
 
