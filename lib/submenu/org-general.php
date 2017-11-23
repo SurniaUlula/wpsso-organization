@@ -62,7 +62,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$table_rows['schema_knowledge_graph'] = $this->form->get_th_html( _x( 'Google Knowledge Graph',
 						'option label', 'wpsso-organization' ), null, 'org_json' ).
 					'<td>'.
-					'<p>'.$this->form->get_checkbox( 'schema_organization_json' ).
+					'<p>'.$this->form->get_checkbox( 'schema_add_home_organization' ).
 						sprintf( __( ' Include <a href="%s">Organization Social Profile</a>', 'wpsso-organization' ),
 							'https://developers.google.com/structured-data/customize/social-profiles' ).'</p>'.
 					'</td>';
