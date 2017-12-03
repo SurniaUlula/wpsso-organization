@@ -97,4 +97,3 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 	}
 }
 
-?>

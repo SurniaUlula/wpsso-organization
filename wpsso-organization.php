@@ -171,4 +171,3 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 	$wpssoorg =& WpssoOrg::get_instance();
 }
 
-?>

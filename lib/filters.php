@@ -170,4 +170,3 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 	}
 }
 
-?>
