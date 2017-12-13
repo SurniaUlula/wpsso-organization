@@ -57,8 +57,10 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 			),
 		);
 
-		public static function get_version() { 
-			return self::$cf['plugin']['wpssoorg']['version'];
+		public static function get_version( $add_slug = false ) {
+			$ext = 'wpssoorg';
+			$info =& self::$cf['plugin'][$ext];
+			return $add_slug ? $info['slug'].'-'.$info['version'] : $info['version'];
 		}
 
 		public static function set_constants( $plugin_filepath ) { 
