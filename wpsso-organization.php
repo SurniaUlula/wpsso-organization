@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Plugin Name: WPSSO Organization Markup
  * Plugin Slug: wpsso-organization
