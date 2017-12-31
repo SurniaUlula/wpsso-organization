@@ -1,5 +1,4 @@
 <?php
-
 /**
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
@@ -81,7 +80,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			return $org_names;
 		}
 
-		/*
+		/**
 		 * Get a specific organization id.
 		 * Returns an array of localized values
 		 * $mixed = 'default' | 'current' | post ID | $mod array.
