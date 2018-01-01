@@ -176,7 +176,7 @@ The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organizatio
 <h3>Free / Basic Version Repositories</h3>
 
 * [GitHub](https://surniaulula.github.io/wpsso-organization/)
-* [WordPress.org](https://wordpress.org/plugins/wpsso-organization/developers/)
+* [WordPress.org](https://plugins.trac.wordpress.org/browser/wpsso-organization/)
 
 <h3>Version Numbering</h3>
 
