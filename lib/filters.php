@@ -23,8 +23,8 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			}
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'json_array_schema_type_ids' => 2,	// $type_ids, $mod
-				'get_organization_options' => 3,	// $opts, $mod, $org_id
+				'json_array_schema_type_ids' => 2,
+				'get_organization_options' => 3,
 			) );
 
 			if ( is_admin() ) {

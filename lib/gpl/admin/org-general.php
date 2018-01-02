@@ -21,7 +21,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			}
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'organization_other_rows' => 2,			// $table_rows, $form, $head, $mod
+				'organization_other_rows' => 2,
 			) );
 		}
 
