@@ -15,10 +15,10 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 
 		public static $cf = array(
 			'plugin' => array(
-				'wpssoorg' => array(
-					'version' => '1.1.5',		// plugin version
-					'opt_version' => '2',		// increment when changing default options
-					'short' => 'WPSSO ORG',		// short plugin name
+				'wpssoorg' => array(			// Plugin acronym.
+					'version' => '1.1.5',		// Plugin version.
+					'opt_version' => '2',		// Increment when changing default option values.
+					'short' => 'WPSSO ORG',		// Short plugin name.
 					'name' => 'WPSSO Organization Markup',
 					'desc' => 'WPSSO Core extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).',
 					'slug' => 'wpsso-organization',
@@ -38,9 +38,8 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 						),
 					),
 					'lib' => array(
-						// submenu items must have unique keys
-						'submenu' => array (
-							'org-general' => 'Organization',	// general settings
+						'submenu' => array(	// Note that submenu elements must have unique keys.
+							'org-general' => 'Organization',
 						),
 						'gpl' => array(
 							'admin' => array(
