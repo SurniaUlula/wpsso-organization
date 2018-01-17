@@ -13,7 +13,7 @@
  * Description: WPSSO Core extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
  * Requires PHP: 5.4
  * Requires At Least: 3.8
- * Tested Up To: 4.9.1
+ * Tested Up To: 4.9.2
  * Version: 1.1.5
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
