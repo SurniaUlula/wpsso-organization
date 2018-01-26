@@ -198,7 +198,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* None
+	* Removed the 'wpsso_form_cache_org_perf_names' filter (no longer required).
 
 **Version 1.1.5 (2017/11/24)**
 
@@ -215,7 +215,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 1.1.6-b.1 =
 
-(2018/01/26) None.
+(2018/01/26) Removed the 'wpsso_form_cache_org_perf_names' filter (no longer required).
 
 = 1.1.5 =
 
