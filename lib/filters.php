@@ -33,7 +33,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					'save_options' => 3,
 					'messages_tooltip' => 2,
 					'form_cache_org_site_names' => 1,
-					'form_cache_org_perf_names' => 1,
+					//'form_cache_org_perf_names' => 1,
 				) );
 			}
 		}
@@ -46,6 +46,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			return $ret;
 		}
 
+		/*
 		public function filter_form_cache_org_perf_names( $mixed ) {
 			$ret = WpssoOrgOrganization::get_org_names( 'performing.group' );
 			if ( is_array( $mixed ) ) {
@@ -53,6 +54,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			}
 			return $ret;
 		}
+		*/
 
 		public function filter_json_array_schema_type_ids( $type_ids, $mod ) {
 			if ( $mod['is_home'] ) {
