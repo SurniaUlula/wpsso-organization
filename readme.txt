@@ -189,6 +189,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.1.6-b.1 (2018/01/26)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
+
 **Version 1.1.5 (2017/11/24)**
 
 * *New Features*
@@ -201,6 +212,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None
 
 == Upgrade Notice ==
+
+= 1.1.6-b.1 =
+
+(2018/01/26) None.
 
 = 1.1.5 =
 
