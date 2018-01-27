@@ -189,7 +189,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.1.6-b.1 (2018/01/26)**
+**Version 1.1.6 (2018/01/27)**
 
 * *New Features*
 	* None
@@ -213,9 +213,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.1.6-b.1 =
+= 1.1.6 =
 
-(2018/01/26) Removed the 'wpsso_form_cache_org_perf_names' filter (no longer required).
+(2018/01/27) Removed the 'wpsso_form_cache_org_perf_names' filter (no longer required).
 
 = 1.1.5 =
 
