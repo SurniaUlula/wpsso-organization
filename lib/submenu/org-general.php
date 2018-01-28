@@ -55,8 +55,8 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 			switch ( $metabox_id.'-'.$key ) {
 				case 'organization-site':
 
-					$plm_req_msg = $this->p->util->get_ext_req_msg( 'plm' );
-					$plm_disable = empty( $plm_req_msg ) ? false : true;	// disable if plm extension not available
+					$plm_req_msg      = $this->p->util->get_ext_req_msg( 'plm' );
+					$plm_disable      = empty( $plm_req_msg ) ? false : true; // disable if plm extension not available
 					$place_addr_names = $this->form->get_cache( 'place_addr_names', true );	// $add_none = true
 
 					$table_rows['schema_knowledge_graph'] = $this->form->get_th_html( _x( 'Google Knowledge Graph',

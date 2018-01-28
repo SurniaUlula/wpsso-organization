@@ -32,9 +32,13 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			}
 
 			$plm_req_msg = $this->p->util->get_ext_req_msg( 'plm' );
+
 			$plm_disable = empty( $plm_req_msg ) ? false : true;	// disable if plm extension not available
+
 			$org_names_new = array( 0 => $this->p->cf['form']['org_select']['new'] );
+
 			$place_addr_names = $form->get_cache( 'place_addr_names', true );	// $add_none = true
+
 			$id = 0;
 
 			unset( $form->options['org_id'] );
@@ -45,8 +49,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			$table_rows['org_id'] = $form->get_th_html( _x( 'Edit an Organization',
 				'option label', 'wpsso-organization' ), '', 'org_id' ).
-			'<td class="blank">'.$form->get_no_select( 'org_id',
-				$org_names_new, 'long_name', '', true ).'</td>';
+			'<td class="blank">'.$form->get_no_select( 'org_id', $org_names_new, 'long_name', '', true ).'</td>';
 
 			$form->defaults['org_type_'.$id] = $form->defaults['site_org_type'];		// set default value
 			$form->defaults['org_place_id_'.$id] = $form->defaults['site_place_id'];	// set default value
