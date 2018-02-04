@@ -37,7 +37,7 @@
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-<p>WPSSO Organization Markup is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your content for social sharing, social media / SMO, search / SEO / rich cards, and more.</p>
+<p>WPSSO Organization Markup is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.</p>
 
 <p>The WPSSO ORG Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin).</p>
 
@@ -187,8 +187,8 @@
 <h3>Install and Uninstall</h3>
 
 <ul>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/">Install the WPSSO ORG Plugin (Free and Pro version)</a></li>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/">Uninstall the WPSSO ORG Plugin</a></li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/">Install the WPSSO ORG Extension (Free and Pro version)</a></li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/">Uninstall the WPSSO ORG Extension</a></li>
 </ul>
 
 

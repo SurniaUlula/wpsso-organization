@@ -41,7 +41,7 @@ WPSSO Core and its extensions are fully tested and compatible with PHP v7.x (PHP
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Organization Markup is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your content for social sharing, social media / SMO, search / SEO / rich cards, and more.
+WPSSO Organization Markup is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.
 
 The WPSSO ORG Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin).
 
@@ -152,8 +152,8 @@ The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organizatio
 
 <h3>Install and Uninstall</h3>
 
-* [Install the WPSSO ORG Plugin (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/)
-* [Uninstall the WPSSO ORG Plugin](https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/)
+* [Install the WPSSO ORG Extension (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/)
+* [Uninstall the WPSSO ORG Extension](https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
@@ -189,7 +189,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.1.6 (2018/01/27)**
+**Version 1.1.7 (2018/02/04)**
 
 * *New Features*
 	* None
@@ -198,26 +198,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Bugfixes*
 	* None
 * *Developer Notes*
-	* Removed the 'wpsso_form_cache_org_perf_names' filter (no longer required).
-
-**Version 1.1.5 (2017/11/24)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* Added a notice on the settings page if the current language is different than the default site language. Localized option values are used for webpages and content in that language only (not for the default language, or any other language).
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* None
+	* Maintenance release.
 
 == Upgrade Notice ==
 
-= 1.1.6 =
+= 1.1.7 =
 
-(2018/01/27) Removed the 'wpsso_form_cache_org_perf_names' filter (no longer required).
-
-= 1.1.5 =
-
-(2017/11/24) Added a notice on the settings page if the current language is different than the default site language.
+(2018/02/04) Maintenance release.
 
