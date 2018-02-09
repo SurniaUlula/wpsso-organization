@@ -73,10 +73,10 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'site_name', $this->p->options ),
 						'long_name', null, null, get_bloginfo( 'name', 'display' ) ).'</td>';
 
-					$table_rows['site_alt_name'] = '<tr class="hide_in_basic">'.
+					$table_rows['site_name_alt'] = '<tr class="hide_in_basic">'.
 					$this->form->get_th_html( _x( 'WebSite Alternate Name',
-						'option label', 'wpsso-organization' ), null, 'site_alt_name', array( 'is_locale' => true ) ).
-					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'site_alt_name', $this->p->options ),
+						'option label', 'wpsso-organization' ), null, 'site_name_alt', array( 'is_locale' => true ) ).
+					'<td>'.$this->form->get_input( SucomUtil::get_key_locale( 'site_name_alt', $this->p->options ),
 						'long_name' ).'</td>';
 
 					$table_rows['site_desc'] = '<tr class="hide_in_basic">'.

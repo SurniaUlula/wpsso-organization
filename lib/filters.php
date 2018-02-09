@@ -76,7 +76,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					return 'numeric';
 					break;
 				case 'org_name':
-				case 'org_alt_name':
+				case 'org_name_alt':
 				case 'org_desc':
 					return 'ok_blank';
 					break;
@@ -137,7 +137,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				case 'tooltip-org_name':
 					$text = __( 'The complete name for the organization.', 'wpsso-organization' );
 					break;
-				case 'tooltip-org_alt_name':
+				case 'tooltip-org_name_alt':
 					$text = __( 'An alternate name for the organization that you would like Google to consider.', 'wpsso-organization' );
 					break;
 				case 'tooltip-org_desc':

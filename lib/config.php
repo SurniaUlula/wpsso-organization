@@ -17,7 +17,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 			'plugin' => array(
 				'wpssoorg' => array(			// Plugin acronym.
 					'version' => '1.1.7',		// Plugin version.
-					'opt_version' => '2',		// Increment when changing default option values.
+					'opt_version' => '3',		// Increment when changing default option values.
 					'short' => 'WPSSO ORG',		// Short plugin name.
 					'name' => 'WPSSO Organization Markup',
 					'desc' => 'WPSSO Core extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).',
