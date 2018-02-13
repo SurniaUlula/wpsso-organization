@@ -189,6 +189,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.1.8-dev.4 (2018/02/13)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* Options hidden in the "Basic Options" view that have a different value than their default will no longer be hidden.
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
+
 **Version 1.1.7 (2018/02/04)**
 
 * *New Features*
@@ -201,6 +212,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Maintenance release.
 
 == Upgrade Notice ==
+
+= 1.1.8-dev.4 =
+
+(2018/02/13) Options hidden in the "Basic Options" view that have a different value than their default will no longer be hidden.
 
 = 1.1.7 =
 
