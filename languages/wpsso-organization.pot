@@ -192,7 +192,8 @@ msgid ""
 "%5$s is currently installed)."
 msgstr ""
 
-#: wpsso-organization.php:196
+#. translators: %s is the short plugin name
+#: wpsso-organization.php:197
 msgid "%s warning:"
 msgstr ""
 
