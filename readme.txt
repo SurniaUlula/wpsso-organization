@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.4
 Requires At Least: 3.8
 Tested Up To: 4.9.4
-Stable Tag: 1.1.8
+Stable Tag: 1.2.0
 
 WPSSO Core extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
 
@@ -216,8 +216,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 1.2.0 =
 
 (2018/02/24) Refactored the WpssoOrg min_version_notice() method to use PHP's trigger_error() and include a notice to refresh plugin update information.
-
-= 1.1.8 =
-
-(2018/02/17) Options hidden in the "Basic Options" view that have a different value than their default will no longer be hidden.
 
