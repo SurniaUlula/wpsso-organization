@@ -192,7 +192,7 @@ msgid ""
 "%5$s is currently installed)."
 msgstr ""
 
-#: wpsso-organization.php:194
+#: wpsso-organization.php:196
 msgid "%s warning:"
 msgstr ""
 
