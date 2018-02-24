@@ -184,14 +184,14 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			$error_msg = sprintf( __( 'The %1$s version %2$s extension requires %3$s version %4$s or newer (version %5$s is currently installed).',
 				'wpsso-organization' ), $info['name'], $info['version'], $info['req']['short'], $info['req']['min_version'], $have_version );
 
-			trigger_error( sprintf( __( '%s warning:', 'wpsso-organization' ), $info['short'] ).' '.$error_msg, E_USER_WARNING );
-
 			if ( is_admin() ) {
 				$this->p->notice->err( $error_msg );
 				if ( method_exists( $this->p->admin, 'get_check_for_updates_link' ) ) {
 					$this->p->notice->inf( $this->p->admin->get_check_for_updates_link() );
 				}
 			}
+
+			trigger_error( sprintf( __( '%s warning:', 'wpsso-organization' ), $info['short'] ).' '.$error_msg, E_USER_WARNING );
 		}
 	}
 
