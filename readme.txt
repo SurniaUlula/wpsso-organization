@@ -13,13 +13,13 @@ Requires At Least: 3.8
 Tested Up To: 4.9.4
 Stable Tag: 1.2.0
 
-WPSSO Core extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
+WPSSO Core extension to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.).
 
 == Description ==
 
 <img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png">
 
-**Manage Organization markup for Google's Rich Cards and Knowledge Graph.**
+**WPSSO Core extension to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.**
 
 Customize your WebSite name, alternate name, description, and URL for each WordPress local / language / region.
 
@@ -33,19 +33,11 @@ Select an Organizer or Performer for the Schema Event markup ([WPSSO JSON Pro ex
 
 Select a Hiring Organization for the Schema Job Posting markup ([WPSSO JSON Pro extension](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
 
-**WPSSO Organization Markup is *incredibly fast* and coded for performance:**
-
-WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light.
-
-WPSSO Core and its extensions are fully tested and compatible with PHP v7.x (PHP v5.4 or better required).
+WPSSO Organization Markup is *incredibly fast* and coded for performance &mdash; WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light. WPSSO Core and its extensions are also fully tested and compatible with PHP v7.x (PHP v5.4 or better required).
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Organization Markup (aka WPSSO ORG) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.
-
-The WPSSO ORG Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin).
-
-The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq) uses many WPSSO Core Pro features, which requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoorg-readme-prereq).
+WPSSO Organization Markup (aka WPSSO ORG) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc. The Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin). The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq) uses many WPSSO Core Pro features, which requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoorg-readme-prereq).
 
 <h3>Quick List of Features</h3>
 
