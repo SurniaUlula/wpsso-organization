@@ -37,7 +37,7 @@ WPSSO Organization Markup is *incredibly fast* and coded for performance &mdash;
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Organization Markup (aka WPSSO ORG) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc. The Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin). The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq) uses many WPSSO Core Pro features, which requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoorg-readme-prereq).
+WPSSO Organization Markup (aka WPSSO ORG) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc. The Free extension works with either the Free or Pro version of WPSSO Core. The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq) uses many WPSSO Core Pro features, which requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoorg-readme-prereq).
 
 <h3>Quick List of Features</h3>
 
@@ -134,7 +134,7 @@ WPSSO Organization Markup (aka WPSSO ORG) is an extension for the WPSSO Core plu
 
 <h3>Extends the WPSSO Core Plugin</h3>
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO Organization Markup (aka WPSSO ORG) Free extension works with either the Free or Pro version of WPSSO Core (Main Plugin).
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO Organization Markup (aka WPSSO ORG) Free extension works with either the Free or Pro version of WPSSO Core.
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro extension</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoorg-readme-extends">WPSSO Core Pro plugin</a>.
 
