@@ -21,8 +21,9 @@ msgstr ""
 #: lib/config-gettext-extract.php:4
 msgctxt "plugin description"
 msgid ""
-"WPSSO Core extension to manage Organizations and additional Schema Article / "
-"Event properties (Publisher, Organizer, Performer, etc.)."
+"WPSSO Core extension to manage Organizations and additional Schema markup "
+"properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / "
+"Knowledge Graph."
 msgstr ""
 
 #: lib/filters.php:117
