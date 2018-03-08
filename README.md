@@ -1,4 +1,4 @@
-<h1>WPSSO Organization Markup</h1><h3>Manage Organizers, Performers, Publishers + etc for Google Rich Cards / Knowledge Graph</h3>
+<h1>WPSSO Organization Markup</h1>
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Organization Markup</td></tr>
