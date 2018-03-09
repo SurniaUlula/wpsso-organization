@@ -10,7 +10,7 @@
  * Author URI: https://wpsso.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Description: WPSSO Core extension to manage Organizations and additional Schema Article / Event properties (Publisher, Organizer, Performer, etc.).
+ * Description: WPSSO Core extension to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.
  * Requires PHP: 5.4
  * Requires At Least: 3.8
  * Tested Up To: 4.9.4

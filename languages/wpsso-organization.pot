@@ -208,8 +208,9 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"WPSSO Core extension to manage Organizations and additional Schema Article / "
-"Event properties (Publisher, Organizer, Performer, etc.)."
+"WPSSO Core extension to manage Organizations and additional Schema markup "
+"properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / "
+"Knowledge Graph."
 msgstr ""
 
 #. Author of the plugin/theme
