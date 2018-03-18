@@ -146,7 +146,7 @@ The Free extension works with either the Free or Pro version of WPSSO Core. The 
 
 <h3>Install and Uninstall</h3>
 
-* [Install the WPSSO ORG Extension (Free and Pro version)](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/)
+* [Install the WPSSO ORG Extension](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/)
 * [Uninstall the WPSSO ORG Extension](https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==

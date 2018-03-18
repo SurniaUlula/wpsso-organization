@@ -181,7 +181,7 @@
 <h3>Install and Uninstall</h3>
 
 <ul>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/">Install the WPSSO ORG Extension (Free and Pro version)</a></li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/">Install the WPSSO ORG Extension</a></li>
 <li><a href="https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/">Uninstall the WPSSO ORG Extension</a></li>
 </ul>
 
