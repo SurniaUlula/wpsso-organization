@@ -33,7 +33,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			$plm_req_msg = $this->p->util->get_ext_req_msg( 'plm' );
 
-			$plm_disable = empty( $plm_req_msg ) ? false : true;	// disable if plm extension not available
+			$plm_disable = empty( $plm_req_msg ) ? false : true;
 
 			$org_names_new = array( 0 => $this->p->cf['form']['org_select']['new'] );
 
@@ -97,8 +97,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
 				_x( 'Google Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';
 
-			$social_accounts = apply_filters( $this->p->cf['lca'].'_social_accounts', 
-				$this->p->cf['form']['social_accounts'] );
+			$social_accounts = apply_filters( $this->p->lca.'_social_accounts', $this->p->cf['form']['social_accounts'] );
 
 			asort( $social_accounts );	// sort by label and maintain key association
 
@@ -114,4 +113,3 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 		}
 	}
 }
-

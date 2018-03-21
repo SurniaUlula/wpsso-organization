@@ -23,7 +23,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 			$this->menu_id = $id;
 			$this->menu_name = $name;
 			$this->menu_lib = $lib;
-			$this->menu_ext = $ext;	// lowercase acronyn for plugin or extension
+			$this->menu_ext = $ext;
 		}
 
 		// called by the extended WpssoAdmin class
@@ -37,23 +37,30 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 		}
 
 		public function show_metabox_general() {
-			$lca = $this->p->cf['lca'];
+
 			$metabox_id = 'organization';
-			$tabs = apply_filters( $lca.'_'.$metabox_id.'_tabs', array( 
+
+			$tabs = apply_filters( $this->p->lca.'_'.$metabox_id.'_tabs', array( 
 				'site' => _x( 'WebSite (Front Page)', 'metabox tab', 'wpsso-organization' ),
 				'other' => _x( 'Other Organizations', 'metabox tab', 'wpsso-organization' ),
 			) );
+
 			$table_rows = array();
+
 			foreach ( $tabs as $key => $title ) {
-				$table_rows[$key] = apply_filters( $lca.'_'.$metabox_id.'_'.$key.'_rows', 
+				$table_rows[$key] = apply_filters( $this->p->lca.'_'.$metabox_id.'_'.$key.'_rows', 
 					$this->get_table_rows( $metabox_id, $key ), $this->form );
 			}
+
 			$this->p->util->do_metabox_tabs( $metabox_id, $tabs, $table_rows );
 		}
 
 		protected function get_table_rows( $metabox_id, $key ) {
+
 			$table_rows = array();
+
 			switch ( $metabox_id.'-'.$key ) {
+
 				case 'organization-site':
 
 					$atts_locale = array( 'is_locale' => true );
@@ -68,8 +75,8 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$site_url_key      = SucomUtil::get_key_locale( 'site_url', $this->form->options );
 
 					$plm_req_msg      = $this->p->util->get_ext_req_msg( 'plm' );
-					$plm_disable      = empty( $plm_req_msg ) ? false : true; // disable if plm extension not available
-					$place_addr_names = $this->form->get_cache( 'place_addr_names', true );	// $add_none = true
+					$plm_disable      = empty( $plm_req_msg ) ? false : true;
+					$place_addr_names = $this->form->get_cache( 'place_addr_names', true );
 
 					$table_rows['schema_knowledge_graph'] = $this->form->get_th_html( _x( 'Google Knowledge Graph',
 						'option label', 'wpsso-organization' ), '', 'org_json' ).
@@ -113,7 +120,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
 						_x( 'Google Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';
 
-					$social_accounts = apply_filters( $this->p->cf['lca'].'_social_accounts', $this->p->cf['form']['social_accounts'] );
+					$social_accounts = apply_filters( $this->p->lca.'_social_accounts', $this->p->cf['form']['social_accounts'] );
 
 					asort( $social_accounts );	// sort by label and maintain key association
 
@@ -126,6 +133,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					break;
 			}
+
 			return $table_rows;
 		}
 	}

@@ -10,11 +10,11 @@
  * Author URI: https://wpsso.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Description: WPSSO Core extension to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.
+ * Description: WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.
  * Requires PHP: 5.4
  * Requires At Least: 3.8
  * Tested Up To: 4.9.4
- * Version: 1.2.0
+ * Version: 1.2.1-dev.2
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -85,9 +85,9 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 
 			$info = WpssoOrgConfig::$cf['plugin']['wpssoorg'];
 
-			$die_msg = __( '%1$s is an extension for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s.', 'wpsso-organization' );
+			$die_msg = __( '%1$s is an add-on for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s.', 'wpsso-organization' );
 
-			$error_msg = __( 'The %1$s extension requires the %2$s plugin &mdash; install and activate the %3$s plugin or <a href="%4$s">deactivate the %5$s extension</a>.', 'wpsso-organization' );
+			$error_msg = __( 'The %1$s add-on requires the %2$s plugin &mdash; install and activate the %3$s plugin or <a href="%4$s">deactivate the %5$s add-on</a>.', 'wpsso-organization' );
 
 			if ( true === $deactivate ) {
 
@@ -180,7 +180,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 
 			$info = WpssoOrgConfig::$cf['plugin']['wpssoorg'];
 			$have_version = $this->p->cf['plugin']['wpsso']['version'];
-			$error_msg = sprintf( __( 'The %1$s version %2$s extension requires %3$s version %4$s or newer (version %5$s is currently installed).',
+			$error_msg = sprintf( __( 'The %1$s version %2$s add-on requires %3$s version %4$s or newer (version %5$s is currently installed).',
 				'wpsso-organization' ), $info['name'], $info['version'], $info['req']['short'], $info['req']['min_version'], $have_version );
 
 			if ( is_admin() ) {
@@ -201,4 +201,3 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
         global $wpssoorg;
 	$wpssoorg =& WpssoOrg::get_instance();
 }
-

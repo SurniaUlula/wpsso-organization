@@ -16,11 +16,11 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(			// Plugin acronym.
-					'version' => '1.2.0',		// Plugin version.
+					'version' => '1.2.1-dev.2',		// Plugin version.
 					'opt_version' => '3',		// Increment when changing default option values.
 					'short' => 'WPSSO ORG',		// Short plugin name.
 					'name' => 'WPSSO Organization Markup',
-					'desc' => 'WPSSO Core extension to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.',
+					'desc' => 'WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.',
 					'slug' => 'wpsso-organization',
 					'base' => 'wpsso-organization/wpsso-organization.php',
 					'update_auth' => 'tid',
