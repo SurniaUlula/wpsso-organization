@@ -13,13 +13,13 @@ Requires At Least: 3.8
 Tested Up To: 4.9.4
 Stable Tag: 1.2.0
 
-WPSSO Core extension to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.).
+WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.).
 
 == Description ==
 
 <img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png">
 
-**WPSSO Core extension to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.**
+**WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.**
 
 Customize your WebSite name, alternate name, description, and URL for each WordPress local / language / region.
 
@@ -27,19 +27,19 @@ Select an Organization sub-type (Corporation, Educational, NGO, Performing Group
 
 Add Local SEO Place / Location information to your Schema Organization markup.
 
-Select a different Publisher for your Schema Article markup ([WPSSO JSON Pro extension](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
+Select a different Publisher for your Schema Article markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
 
-Select an Organizer or Performer for the Schema Event markup ([WPSSO JSON Pro extension](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
+Select an Organizer or Performer for the Schema Event markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
 
-Select a Hiring Organization for the Schema Job Posting markup ([WPSSO JSON Pro extension](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
+Select a Hiring Organization for the Schema Job Posting markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
 
-WPSSO Organization Markup is *incredibly fast* and coded for performance &mdash; WPSSO Core and its extensions make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light. WPSSO Core and its extensions are also fully tested and compatible with PHP v7.x (PHP v5.4 or better required).
+WPSSO Organization Markup is *incredibly fast* and coded for performance &mdash; WPSSO Core and its add-ons make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light. WPSSO Core and its add-ons are also fully tested and compatible with PHP v7.x (PHP v5.4 or better required).
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Organization Markup (aka WPSSO ORG) is an extension for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.
+WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.
 
-The Free extension works with either the Free or Pro version of WPSSO Core. The [WPSSO ORG Pro extension](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoorg-readme-prereq).
+The Free add-on plugin works with either the Free or Pro version of WPSSO Core. The [WPSSO ORG Pro add-on](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-prereq) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoorg-readme-prereq).
 
 <h3>Quick List of Features</h3>
 
@@ -79,7 +79,7 @@ The Free extension works with either the Free or Pro version of WPSSO Core. The 
 			* Schema Type [schema.org/TheaterGroup](https://schema.org/TheaterGroup)
 		* Schema Type [schema.org/SportsOrganization](https://schema.org/SportsOrganization)
 			* Schema Type [schema.org/SportsTeam](https://schema.org/SportsTeam)
-* Organization Place / Location ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) extension required) 
+* Organization Place / Location ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) add-on required) 
 * Google Knowledge Graph Social Profile URLs:
 	* Facebook Business Page URL (localized)
 	* Google+ Business Page URL (localized)
@@ -94,7 +94,7 @@ The Free extension works with either the Free or Pro version of WPSSO Core. The 
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Select a more specific Schema Organization sub-type for Google's Organization markup.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; Include Place / Location information in your Schema Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) extension.
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Include Place / Location information in your Schema Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-organization/) or [WordPress.org](https://wordpress.org/plugins/wpsso-organization/).
 
@@ -104,9 +104,9 @@ The Free extension works with either the Free or Pro version of WPSSO Core. The 
 
 <span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; Manage multiple Organizations for the [WPSSO Schema JSON-LD Markup](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) extension:
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; Manage multiple Organizations for the [WPSSO Schema JSON-LD Markup](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
 
-* Select an alternate Publisher for the Schema Article type and sub-types ([WPSSO JSON](https://wordpress.org/plugins/wpsso-schema-json-ld/) extension required):
+* Select an alternate Publisher for the Schema Article type and sub-types ([WPSSO JSON](https://wordpress.org/plugins/wpsso-schema-json-ld/) add-on required):
 	* Schema Type [schema.org/Article](https://schema.org/Article)
 		* Schema Type [schema.org/BlogPosting](https://schema.org/BlogPosting)
 		* Schema Type [schema.org/NewsArticle](https://schema.org/NewsArticle)
@@ -114,7 +114,7 @@ The Free extension works with either the Free or Pro version of WPSSO Core. The 
 		* Schema Type [schema.org/ScholarlyArticle](https://schema.org/ScholarlyArticle)
 		* Schema Type [schema.org/SocialMediaPosting](https://schema.org/SocialMediaPosting)
 		* Schema Type [schema.org/TechArticle](https://schema.org/TechArticle)
-* Select an Organizer and/or Performer for the Schema Event type and sub-types ([WPSSO JSON](https://wordpress.org/plugins/wpsso-schema-json-ld/) extension required):
+* Select an Organizer and/or Performer for the Schema Event type and sub-types ([WPSSO JSON](https://wordpress.org/plugins/wpsso-schema-json-ld/) add-on required):
 	* Schema Type [schema.org/Event](https://schema.org/Event)
 		* Schema Type [schema.org/BusinessEvent](https://schema.org/BusinessEvent)
 		* Schema Type [schema.org/ChildrensEvent](https://schema.org/ChildrensEvent)
@@ -136,18 +136,18 @@ The Free extension works with either the Free or Pro version of WPSSO Core. The 
 
 <h3>Extends the WPSSO Core Plugin</h3>
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO Organization Markup (aka WPSSO ORG) Free extension works with either the Free or Pro version of WPSSO Core.
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO Organization Markup (aka WPSSO ORG) Free add-on plugin works with either the Free or Pro version of WPSSO Core.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro extension</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoorg-readme-extends">WPSSO Core Pro plugin</a>.
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-extends">WPSSO ORG Pro add-on</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoorg-readme-extends">WPSSO Core Pro plugin</a>.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-purchase">Purchase the WPSSO Organization Markup Pro extension here</a> (all plugin purchases include a <em>No Risk 30 Day Refund Policy</em>).
+<span style="color:#33cc33">&#x0229b;</span> &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme-purchase">Purchase the WPSSO Organization Markup Pro add-on here</a> (all plugin purchases include a <em>No Risk 30 Day Refund Policy</em>).
 
 == Installation ==
 
 <h3>Install and Uninstall</h3>
 
-* [Install the WPSSO ORG Extension](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/)
-* [Uninstall the WPSSO ORG Extension](https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/)
+* [Install the WPSSO ORG Add-on](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/)
+* [Uninstall the WPSSO ORG Add-on](https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/)
 
 == Frequently Asked Questions ==
 
@@ -183,6 +183,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.2.1-dev.2 (2018/03/21)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* Renamed plugin "Extensions" to "Add-ons" to avoid confusion and improve / simplify translations.
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
+
 **Version 1.2.0 (2018/02/24)**
 
 * *New Features*
@@ -194,18 +205,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Developer Notes*
 	* Refactored the WpssoOrg `min_version_notice()` method to use PHP's `trigger_error()` and include a notice to refresh plugin update information.
 
-**Version 1.1.8 (2018/02/17)**
-
-* *New Features*
-	* None
-* *Improvements*
-	* Options hidden in the "Basic Options" view that have a different value than their default will no longer be hidden.
-* *Bugfixes*
-	* None
-* *Developer Notes*
-	* None
-
 == Upgrade Notice ==
+
+= 1.2.1-dev.2 =
+
+(2018/03/21) Renamed plugin "Extensions" to "Add-ons" to avoid confusion and improve / simplify translations.
 
 = 1.2.0 =
 
