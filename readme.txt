@@ -19,7 +19,7 @@ WPSSO Core add-on to manage Organizations and additional Schema markup propertie
 
 <img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png">
 
-**WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.**
+**A WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.**
 
 Customize your WebSite name, alternate name, description, and URL for each WordPress local / language / region.
 
