@@ -65,13 +65,15 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			}
 		}
 
-		public function filter_option_type( $type, $key ) {
+		public function filter_option_type( $type, $base_key ) {
+
 			if ( ! empty( $type ) ) {
 				return $type;
-			} elseif ( strpos( $key, 'org_' ) !== 0 ) {
+			} elseif ( strpos( $base_key, 'org_' ) !== 0 ) {
 				return $type;
 			}
-			switch ( $key ) {
+
+			switch ( $base_key ) {
 				case 'org_id':
 					return 'numeric';
 					break;
@@ -89,10 +91,12 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				case 'org_banner_url':
 					return 'url';
 					break;
-				case ( strpos( $key, '_url' ) && isset( $this->p->cf['form']['social_accounts'][substr( $key, 4 )] ) ? true : false ):
+				case ( strpos( $base_key, '_url' ) && isset( $this->p->cf['form']['social_accounts'][substr( $base_key, 4 )] ) ? true : false ):
 					return 'url';
 					break;
 			}
+
+			return $type;
 		}
 
 		public function filter_save_options( $opts, $options_name, $network ) {

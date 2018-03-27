@@ -26,46 +26,46 @@ msgid ""
 "Knowledge Graph."
 msgstr ""
 
-#: lib/filters.php:117
+#: lib/filters.php:121
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:132
+#: lib/filters.php:136
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:135
+#: lib/filters.php:139
 msgid "Select an organization to edit, or add a new organization."
 msgstr ""
 
-#: lib/filters.php:138
+#: lib/filters.php:142
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:141
+#: lib/filters.php:145
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:144
+#: lib/filters.php:148
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:147
+#: lib/filters.php:151
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:150
+#: lib/filters.php:154
 msgid ""
 "You may select a more descriptive Schema type from the Organization sub-"
 "types (default is Organization)."
 msgstr ""
 
-#: lib/filters.php:155
+#: lib/filters.php:159
 msgid ""
 "Select an optional Place / Location address for this Organization (requires "
 "the %s add-on)."
@@ -175,26 +175,26 @@ msgctxt "option label"
 msgid "WebSite URL"
 msgstr ""
 
-#: wpsso-organization.php:88
+#: wpsso-organization.php:94
 msgid ""
 "%1$s is an add-on for the %2$s plugin &mdash; please install and activate "
 "the %3$s plugin before activating %4$s."
 msgstr ""
 
-#: wpsso-organization.php:90
+#: wpsso-organization.php:96
 msgid ""
 "The %1$s add-on requires the %2$s plugin &mdash; install and activate the "
 "%3$s plugin or <a href=\"%4$s\">deactivate the %5$s add-on</a>."
 msgstr ""
 
-#: wpsso-organization.php:183
+#: wpsso-organization.php:195
 msgid ""
 "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version "
 "%5$s is currently installed)."
 msgstr ""
 
 #. translators: %s is the short plugin name
-#: wpsso-organization.php:195
+#: wpsso-organization.php:207
 msgid "%s warning:"
 msgstr ""
 
