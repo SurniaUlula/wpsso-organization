@@ -47,19 +47,19 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 			$table_rows = array();
 
-			foreach ( $tabs as $key => $title ) {
-				$table_rows[$key] = apply_filters( $this->p->lca.'_'.$metabox_id.'_'.$key.'_rows', 
-					$this->get_table_rows( $metabox_id, $key ), $this->form );
+			foreach ( $tabs as $tab_key => $title ) {
+				$table_rows[$tab_key] = apply_filters( $this->p->lca.'_'.$metabox_id.'_'.$tab_key.'_rows', 
+					$this->get_table_rows( $metabox_id, $tab_key ), $this->form );
 			}
 
 			$this->p->util->do_metabox_tabs( $metabox_id, $tabs, $table_rows );
 		}
 
-		protected function get_table_rows( $metabox_id, $key ) {
+		protected function get_table_rows( $metabox_id, $tab_key ) {
 
 			$table_rows = array();
 
-			switch ( $metabox_id.'-'.$key ) {
+			switch ( $metabox_id.'-'.$tab_key ) {
 
 				case 'organization-site':
 
