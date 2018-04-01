@@ -52,7 +52,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$this->get_table_rows( $metabox_id, $tab_key ), $this->form );
 			}
 
-			$this->p->util->do_metabox_tabs( $metabox_id, $tabs, $table_rows );
+			$this->p->util->do_metabox_tabbed( $metabox_id, $tabs, $table_rows );
 		}
 
 		protected function get_table_rows( $metabox_id, $tab_key ) {
