@@ -63,9 +63,11 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		}
 
 		public static function set_constants( $plugin_filepath ) { 
+
 			if ( defined( 'WPSSOORG_VERSION' ) ) {			// execute and define constants only once
 				return;
 			}
+
 			define( 'WPSSOORG_VERSION', self::$cf['plugin']['wpssoorg']['version'] );						
 			define( 'WPSSOORG_FILEPATH', $plugin_filepath );						
 			define( 'WPSSOORG_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_filepath ) ) ) );
