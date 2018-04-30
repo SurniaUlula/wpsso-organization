@@ -119,13 +119,13 @@ msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:89 lib/pro/admin/org-general.php:110
+#: lib/gpl/admin/org-general.php:88 lib/pro/admin/org-general.php:109
 #: lib/submenu/org-general.php:116
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:95 lib/pro/admin/org-general.php:117
+#: lib/gpl/admin/org-general.php:93 lib/pro/admin/org-general.php:115
 #: lib/submenu/org-general.php:121
 msgctxt "metabox title"
 msgid "Google Knowledge Graph"

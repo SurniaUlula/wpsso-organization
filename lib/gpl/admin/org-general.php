@@ -83,13 +83,11 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			$table_rows['org_type_'.$id] = $form->get_th_html( _x( 'Organization Schema Type',
 				'option label', 'wpsso-organization' ), '', 'org_type' ).
-			'<td class="blank">'.$form->get_no_select( 'org_type_'.$id,
-				$form->get_cache( 'org_types_select' ), 'schema_type' ).'</td>';
+			'<td class="blank">'.$form->get_no_select( 'org_type_'.$id, $form->get_cache( 'org_types_select' ), 'schema_type' ).'</td>';
 
 			$table_rows['org_place_id_'.$id] = $form->get_th_html( _x( 'Organization Place / Location',
 				'option label', 'wpsso-organization' ), '', 'org_place_id' ).
-			'<td class="blank">'.$form->get_no_select( 'org_place_id_'.$id,
-				$place_addr_names, 'long_name' ).$plm_req_msg.'</td>';
+			'<td class="blank">'.$form->get_no_select( 'org_place_id_'.$id, $place_addr_names, 'long_name' ).$plm_req_msg.'</td>';
 
 			$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
 				_x( 'Google Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';
@@ -102,8 +100,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 				$org_key_id = 'org_sameas_'.$key.'_'.$id;
 				$table_rows[$org_key_id] = $form->get_th_html( _x( $label, 'option value', 'wpsso-organization' ),
 					'nowrap', $org_key_id, array( 'is_locale' => true ) ).
-				'<td class="blank">'.$form->get_no_input_value( '',
-					( strpos( $org_key_id, '_url' ) ? 'wide' : '' ) ).'</td>';
+				'<td class="blank">'.$form->get_no_input_value( '', ( strpos( $org_key_id, '_url' ) ? 'wide' : '' ) ).'</td>';
 			}
 
 			return $table_rows;
