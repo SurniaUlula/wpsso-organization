@@ -41,13 +41,11 @@ WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the WPSSO Core plugin
 
 The Free add-on works with either the Free or Pro version of WPSSO Core. The [WPSSO ORG Pro add-on](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoorg-readme).
 
-<h3>Quick List of Features</h3>
+<h3>WPSSO ORG Free / Standard Features</h3>
 
-<h4>WPSSO ORG Free / Standard Features</h4>
+&#x0229b; &nbsp; Extends the features of the WPSSO Core Free or Pro plugin.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of the WPSSO Core Free or Pro plugin.
-
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; Manage properies of the Schema Organization markup for your front page:
+&#x0229b; &nbsp; Manage properies of the Schema Organization markup for your front page:
 
 * WebSite Name (localized)
 * WebSite Alternate Name (localized)
@@ -92,19 +90,17 @@ The Free add-on works with either the Free or Pro version of WPSSO Core. The [WP
 	* Twitter Business @username (localized)
 	* YouTube Business Channel URL (localized)
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; Select a more specific Schema Organization sub-type for Google's Organization markup.
+&#x0229b; &nbsp; Select a more specific Schema Organization sub-type for Google's Organization markup.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; Include Place / Location information in your Schema Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
+&#x0229b; &nbsp; Include Place / Location information in your Schema Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-organization/) or [WordPress.org](https://wordpress.org/plugins/wpsso-organization/).
+&#x0229b; &nbsp; Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-organization/) or [WordPress.org](https://wordpress.org/plugins/wpsso-organization/).
 
-<h3>Quick List of Features (Continued)</h3>
+<h3>WPSSO ORG Pro / Additional Features</h3>
 
-<h4>WPSSO ORG Pro / Additional Features</h4>
+&#x0229b; &nbsp; Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
-
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; Manage multiple Organizations for the [WPSSO Schema JSON-LD Markup](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
+&#x0229b; &nbsp; Manage multiple Organizations for the [WPSSO Schema JSON-LD Markup](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
 
 * Select an alternate Publisher for the Schema Article type and sub-types ([WPSSO JSON](https://wordpress.org/plugins/wpsso-schema-json-ld/) add-on required):
 	* Schema Type [schema.org/Article](https://schema.org/Article)
@@ -136,11 +132,15 @@ The Free add-on works with either the Free or Pro version of WPSSO Core. The [WP
 
 <h3>Extends the WPSSO Core Plugin</h3>
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; The WPSSO Organization Markup (aka WPSSO ORG) Free add-on works with either the Free or Pro version of WPSSO Core.
+&#x0229b; &nbsp; The WPSSO Organization Markup (aka WPSSO ORG) Free add-on works with either the Free or Pro version of WPSSO Core.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme">WPSSO ORG Pro add-on</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoorg-readme">WPSSO Core Pro plugin</a>.
+&#x0229b; &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme">WPSSO ORG Pro add-on</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoorg-readme">WPSSO Core Pro plugin</a>.
 
-<span style="color:#33cc33">&#x0229b;</span> &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme">Purchase the WPSSO Organization Markup Pro add-on here</a> (all plugin purchases include a <em>No Risk 30 Day Refund Policy</em>).
+<!--smp-ignore-->
+
+&#x0229b; &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme">Purchase the WPSSO Organization Markup Pro add-on here</a> (all purchases include a <em>No Risk 30 Day Refund Policy</em>).
+
+<!--/smp-ignore-->
 
 == Installation ==
 
