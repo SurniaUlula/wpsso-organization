@@ -33,8 +33,6 @@ Select an Organizer or Performer for the Schema Event markup ([WPSSO JSON Pro ad
 
 Select a Hiring Organization for the Schema Job Posting markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
 
-WPSSO Organization Markup is *incredibly fast* and coded for performance &mdash; WPSSO Core and its add-ons make full use of all available caching techniques (persistent / non-persistent object and disk caching), and load only the PHP library files and object classes they need, keeping their code small, fast, and light. WPSSO Core and its add-ons are also fully tested and compatible with PHP v7.x (PHP v5.4 or better required).
-
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
 WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.
