@@ -43,12 +43,12 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 						),
 						'gpl' => array(
 							'admin' => array(
-								'org-general' => 'Organization Settings',
+								'org-general' => 'Extend Organization Settings',
 							),
 						),
 						'pro' => array(
 							'admin' => array(
-								'org-general' => 'Organization Settings',
+								'org-general' => 'Extend Organization Settings',
 							),
 						),
 					),
