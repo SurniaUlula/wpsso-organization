@@ -91,7 +91,7 @@
 </ul></li>
 </ul></li>
 <li>Organization Place / Location (<a href="https://wordpress.org/plugins/wpsso-plm/">WPSSO PLM</a> add-on required) </li>
-<li>Google Knowledge Graph Social Profile URLs:
+<li>Google's Knowledge Graph Social Profile URLs:
 
 <ul>
 <li>Facebook Business Page URL (localized)</li>

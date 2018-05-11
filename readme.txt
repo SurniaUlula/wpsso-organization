@@ -76,7 +76,7 @@ The Free add-on works with either the Free or Pro version of WPSSO Core. The [WP
 		* Schema Type [schema.org/SportsOrganization](https://schema.org/SportsOrganization)
 			* Schema Type [schema.org/SportsTeam](https://schema.org/SportsTeam)
 * Organization Place / Location ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) add-on required) 
-* Google Knowledge Graph Social Profile URLs:
+* Google's Knowledge Graph Social Profile URLs:
 	* Facebook Business Page URL (localized)
 	* Google+ Business Page URL (localized)
 	* Instagram Business Page URL (localized)
