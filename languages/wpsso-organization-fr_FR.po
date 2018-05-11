@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup 1.2.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2018-05-10 10:35-0600\n"
-"PO-Revision-Date: 2018-05-10 10:35-0600\n"
+"POT-Creation-Date: 2018-05-11 12:51-0600\n"
+"PO-Revision-Date: 2018-05-11 12:52-0600\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -119,8 +119,8 @@ msgstr "Place / position de l'organisation"
 #: lib/gpl/admin/org-general.php:93 lib/pro/admin/org-general.php:115
 #: lib/submenu/org-general.php:121
 msgctxt "metabox title"
-msgid "Google Knowledge Graph"
-msgstr "Google Knowledge Graph"
+msgid "Google's Knowledge Graph"
+msgstr "Knowledge Graph de Google"
 
 #: lib/submenu/org-general.php:35
 msgctxt "metabox title"
@@ -137,10 +137,10 @@ msgctxt "metabox tab"
 msgid "Other Organizations"
 msgstr "Autres organisations"
 
-#: lib/submenu/org-general.php:81
+#: lib/submenu/org-general.php:82
 msgctxt "option label"
-msgid "Google Knowledge Graph"
-msgstr "Google Knowledge Graph"
+msgid "Google's Knowledge Graph"
+msgstr "Knowledge Graph de Google"
 
 #: lib/submenu/org-general.php:84
 msgid " Include <a href=\"%s\">Organization Social Profile</a>"
