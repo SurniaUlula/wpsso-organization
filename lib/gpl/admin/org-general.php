@@ -90,7 +90,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			'<td class="blank">'.$form->get_no_select( 'org_place_id_'.$id, $place_addr_names, 'long_name' ).$plm_req_msg.'</td>';
 
 			$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
-				_x( 'Google Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';
+				_x( 'Google\'s Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';
 
 			$social_accounts = apply_filters( $this->p->lca.'_social_accounts', $this->p->cf['form']['social_accounts'] );
 

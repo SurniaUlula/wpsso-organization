@@ -78,8 +78,8 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$plm_disable      = empty( $plm_req_msg ) ? false : true;
 					$place_addr_names = $this->form->get_cache( 'place_addr_names', true );
 
-					$table_rows['schema_knowledge_graph'] = $this->form->get_th_html( _x( 'Google Knowledge Graph',
-						'option label', 'wpsso-organization' ), '', 'org_json' ).
+					$table_rows['schema_knowledge_graph'] = ''.
+					$this->form->get_th_html( _x( 'Google\'s Knowledge Graph', 'option label', 'wpsso-organization' ), '', 'org_json' ).
 					'<td><p>'.$this->form->get_checkbox( 'schema_add_home_organization' ).
 						sprintf( __( ' Include <a href="%s">Organization Social Profile</a>', 'wpsso-organization' ),
 							'https://developers.google.com/structured-data/customize/social-profiles' ).'</p></td>';
@@ -118,7 +118,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					'<td>'.$this->form->get_select( 'site_place_id', $place_addr_names, 'long_name', '', true, $plm_disable ).$plm_req_msg.'</td>';
 
 					$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
-						_x( 'Google Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';
+						_x( 'Google\'s Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';
 
 					$social_accounts = apply_filters( $this->p->lca.'_social_accounts', $this->p->cf['form']['social_accounts'] );
 
