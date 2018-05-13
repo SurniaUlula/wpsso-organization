@@ -27,11 +27,11 @@ Select an Organization sub-type (Corporation, Educational, NGO, Performing Group
 
 Add Local SEO Place / Location information to your Schema Organization markup.
 
-Select a different Publisher for Schema Article markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
+Offers an Organization selector for the [WPSSO Schema JSON-LD Markup Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/):
 
-Select an Organizer or Performer for Schema Event markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
-
-Select a Hiring Organization for Schema Job Posting markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
+	* Select a different Publisher for Schema Article markup.
+	* Select an Organizer or Performer for Schema Event markup.
+	* Select a Hiring Organization for Schema Job Posting markup.
 
 <h3>WPSSO ORG Free / Standard Features</h3>
 
