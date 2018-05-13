@@ -25,7 +25,7 @@ Customize your WebSite name, alternate name, description, and WebSite URL for ea
 
 Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), logo and/or banner for Schema Articles.
 
-Add Local SEO Place / Location information to your Schema Organization markup.
+Add optional Local SEO / Place / Location information to the Schema Organization markup.
 
 Offers an Organization selector for the [WPSSO Schema JSON-LD Markup Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/):
 
