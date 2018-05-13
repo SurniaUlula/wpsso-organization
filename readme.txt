@@ -19,25 +19,27 @@ WPSSO Core add-on to manage Organizations and additional Schema markup propertie
 
 <img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png">
 
-**A WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.**
+Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.) for Google's Knowledge Graph.
 
-Customize your WebSite name, alternate name, description, and WebSite URL for each WordPress local / language / region.
+Customize your Organization name, alternate name, description, and WebSite URL for each WordPress locale / language / region.
 
-Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), logo and/or banner for Schema Articles.
+Select an Organization logo and banner for Schema Articles.
 
-Add optional Local SEO / Place / Location information to the Schema Organization markup.
+Add optional Place / Location information to the Schema Organization markup.
 
-Offers an Organization selector for the [WPSSO Schema JSON-LD Markup Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/):
+Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
 
-* Select a different Publisher for Schema Article markup.
+* Select a different Publisher for Schema CreativeWork markup.
 * Select an Organizer or Performer for Schema Event markup.
-* Select a Hiring Organization for Schema Job Posting markup.
+* Select a Hiring Organization for Schema JobPosting markup.
+
+<div style="clear:both"></div>
 
 <h3>WPSSO ORG Free / Standard Features</h3>
 
 * Extends the features of the WPSSO Core Free or Pro plugin.
 
-* Manage additional Schema Organization properies for Google's Knowledge Graph:
+* Manage additional Schema Organization properies for Google's Knowledge Graph, including different values for each WordPress locale / language / region:
 
 	* WebSite Name (localized)
 	* WebSite Alternate Name (localized)
@@ -61,7 +63,7 @@ Offers an Organization selector for the [WPSSO Schema JSON-LD Markup Pro add-on]
 	
 * Select a more specific Schema Organization sub-type for Google's Organization markup.
 
-* Include Place / Location information in your Schema Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
+* Include optional Place / Location information in your Schema Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
 
 * Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-organization/) or [WordPress.org](https://wordpress.org/plugins/wpsso-organization/).
 
@@ -69,7 +71,7 @@ Offers an Organization selector for the [WPSSO Schema JSON-LD Markup Pro add-on]
 
 * Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
 
-* Manage multiple / different Organizations for the [WPSSO Schema JSON-LD Markup](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on.
+* Provides a selection of Organizations for the [WPSSO Schema JSON-LD Markup](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on custom property values (Publisher, Event Organizer, etc.).
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
