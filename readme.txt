@@ -21,124 +21,59 @@ WPSSO Core add-on to manage Organizations and additional Schema markup propertie
 
 **A WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.**
 
-Customize your WebSite name, alternate name, description, and URL for each WordPress local / language / region.
+Customize your WebSite name, alternate name, description, and WebSite URL for each WordPress local / language / region.
 
 Select an Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.), logo and/or banner for Schema Articles.
 
 Add Local SEO Place / Location information to your Schema Organization markup.
 
-Select a different Publisher for your Schema Article markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
+Select a different Publisher for Schema Article markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
 
-Select an Organizer or Performer for the Schema Event markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
+Select an Organizer or Performer for Schema Event markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
 
-Select a Hiring Organization for the Schema Job Posting markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
-
-<h3>WPSSO Core Plugin Prerequisite</h3>
-
-WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the WPSSO Core plugin &mdash; which creates complete &amp; accurate meta tags and Schema markup from your existing content for social sharing, Social Media Optimization (SMO), Search Engine Optimization (SEO), Google Rich Cards, Pinterest Rich Pins, etc.
-
-The Free add-on works with either the Free or Pro version of WPSSO Core. The [WPSSO ORG Pro add-on](https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/?utm_source=wpssoorg-readme).
+Select a Hiring Organization for Schema Job Posting markup ([WPSSO JSON Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) required).
 
 <h3>WPSSO ORG Free / Standard Features</h3>
 
-&#x0229b; &nbsp; Extends the features of the WPSSO Core Free or Pro plugin.
+* Extends the features of the WPSSO Core Free or Pro plugin.
 
-&#x0229b; &nbsp; Manage properies of the Schema Organization markup for your front page:
+* Manage additional Schema Organization properies for Google's Knowledge Graph:
 
-* WebSite Name (localized)
-* WebSite Alternate Name (localized)
-* WebSite Description (localized)
-* WebSite URL (localized)
-* Organization Logo Image URL
-* Organization Banner (600x60) URL
-* Organization Schema Type:
-	* Schema Type [schema.org/Organization](https://schema.org/Organization)
-		* Schema Type [schema.org/Airline](https://schema.org/Airline)
-		* Schema Type [schema.org/Corporation](https://schema.org/Corporation)
-		* Schema Type [schema.org/EducationalOrganization](https://schema.org/EducationalOrganization)
-			* Schema Type [schema.org/CollegeOrUniversity](https://schema.org/CollegeOrUniversity)
-			* Schema Type [schema.org/ElementarySchool](https://schema.org/ElementarySchool)
-			* Schema Type [schema.org/MiddleSchool](https://schema.org/MiddleSchool)
-			* Schema Type [schema.org/HighSchool](https://schema.org/HighSchool)
-			* Schema Type [schema.org/Preschool](https://schema.org/Preschool)
-			* Schema Type [schema.org/School](https://schema.org/School)
-		* Schema Type [schema.org/GovernmentOrganization](https://schema.org/GovernmentOrganization)
-		* Schema Type [schema.org/MedicalOrganization](https://schema.org/MedicalOrganization)
-			* Schema Type [schema.org/Dentist](https://schema.org/Dentist)
-			* Schema Type [schema.org/Hospital](https://schema.org/Hospital)
-			* Schema Type [schema.org/Pharmacy](https://schema.org/Pharmacy)
-			* Schema Type [schema.org/Physician](https://schema.org/Physician)
-		* Schema Type [schema.org/NGO](https://schema.org/NGO)
-		* Schema Type [schema.org/PerformingGroup](https://schema.org/PerformingGroup)
-			* Schema Type [schema.org/DanceGroup](https://schema.org/DanceGroup)
-			* Schema Type [schema.org/MusicGroup](https://schema.org/MusicGroup)
-			* Schema Type [schema.org/TheaterGroup](https://schema.org/TheaterGroup)
-		* Schema Type [schema.org/SportsOrganization](https://schema.org/SportsOrganization)
-			* Schema Type [schema.org/SportsTeam](https://schema.org/SportsTeam)
-* Organization Place / Location ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) add-on required) 
-* Google's Knowledge Graph Social Profile URLs:
-	* Facebook Business Page URL (localized)
-	* Google+ Business Page URL (localized)
-	* Instagram Business Page URL (localized)
-	* LinkedIn Company Page URL (localized)
-	* Myspace Business Page URL (localized)
-	* Pinterest Company Page URL (localized)
-	* Soundcloud Business Page URL (localized)
-	* Tumblr Business Page URL (localized)
-	* Twitter Business @username (localized)
-	* YouTube Business Channel URL (localized)
+	* WebSite Name (localized)
+	* WebSite Alternate Name (localized)
+	* WebSite Description (localized)
+	* WebSite URL (localized)
+	* Organization Logo Image URL
+	* Organization Banner (600x60) URL
+	* Organization Schema Type
+	* Organization Place / Location ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) add-on required) 
+	* Google's Knowledge Graph Social Profile URLs:
+		* Facebook Business Page URL (localized)
+		* Google+ Business Page URL (localized)
+		* Instagram Business Page URL (localized)
+		* LinkedIn Company Page URL (localized)
+		* Myspace Business Page URL (localized)
+		* Pinterest Company Page URL (localized)
+		* Soundcloud Business Page URL (localized)
+		* Tumblr Business Page URL (localized)
+		* Twitter Business @username (localized)
+		* YouTube Business Channel URL (localized)
+	
+* Select a more specific Schema Organization sub-type for Google's Organization markup.
 
-&#x0229b; &nbsp; Select a more specific Schema Organization sub-type for Google's Organization markup.
+* Include Place / Location information in your Schema Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
 
-&#x0229b; &nbsp; Include Place / Location information in your Schema Organization markup when used in combination with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
-
-&#x0229b; &nbsp; Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-organization/) or [WordPress.org](https://wordpress.org/plugins/wpsso-organization/).
+* Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-organization/) or [WordPress.org](https://wordpress.org/plugins/wpsso-organization/).
 
 <h3>WPSSO ORG Pro / Additional Features</h3>
 
-&#x0229b; &nbsp; Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
+* Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
 
-&#x0229b; &nbsp; Manage multiple Organizations for the [WPSSO Schema JSON-LD Markup](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
+* Manage multiple / different Organizations for the [WPSSO Schema JSON-LD Markup](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on.
 
-* Select an alternate Publisher for the Schema Article type and sub-types ([WPSSO JSON](https://wordpress.org/plugins/wpsso-schema-json-ld/) add-on required):
-	* Schema Type [schema.org/Article](https://schema.org/Article)
-		* Schema Type [schema.org/BlogPosting](https://schema.org/BlogPosting)
-		* Schema Type [schema.org/NewsArticle](https://schema.org/NewsArticle)
-		* Schema Type [schema.org/Report](https://schema.org/Report)
-		* Schema Type [schema.org/ScholarlyArticle](https://schema.org/ScholarlyArticle)
-		* Schema Type [schema.org/SocialMediaPosting](https://schema.org/SocialMediaPosting)
-		* Schema Type [schema.org/TechArticle](https://schema.org/TechArticle)
-* Select an Organizer and/or Performer for the Schema Event type and sub-types ([WPSSO JSON](https://wordpress.org/plugins/wpsso-schema-json-ld/) add-on required):
-	* Schema Type [schema.org/Event](https://schema.org/Event)
-		* Schema Type [schema.org/BusinessEvent](https://schema.org/BusinessEvent)
-		* Schema Type [schema.org/ChildrensEvent](https://schema.org/ChildrensEvent)
-		* Schema Type [schema.org/DanceEvent](https://schema.org/DanceEvent)
-		* Schema Type [schema.org/DeliveryEvent](https://schema.org/DeliveryEvent)
-		* Schema Type [schema.org/EducationEvent](https://schema.org/EducationEvent)
-		* Schema Type [schema.org/ExhibitionEvent](https://schema.org/ExhibitionEvent)
-		* Schema Type [schema.org/Festival](https://schema.org/Festival)
-		* Schema Type [schema.org/FoodEvent](https://schema.org/FoodEvent)
-		* Schema Type [schema.org/LiteraryEvent](https://schema.org/LiteraryEvent)
-		* Schema Type [schema.org/MusicEvent](https://schema.org/MusicEvent)
-		* Schema Type [schema.org/PublicationEvent](https://schema.org/PublicationEvent)
-		* Schema Type [schema.org/SaleEvent](https://schema.org/SaleEvent)
-		* Schema Type [schema.org/ScreeningEvent](https://schema.org/ScreeningEvent)
-		* Schema Type [schema.org/SocialEvent](https://schema.org/SocialEvent)
-		* Schema Type [schema.org/SportsEvent](https://schema.org/SportsEvent)
-		* Schema Type [schema.org/TheaterEvent](https://schema.org/TheaterEvent)
-		* Schema Type [schema.org/VisualArtsEvent](https://schema.org/VisualArtsEvent)
+<h3>WPSSO Core Plugin Prerequisite</h3>
 
-<h3>Extends the WPSSO Core Plugin</h3>
-
-&#x0229b; &nbsp; The WPSSO Organization Markup (aka WPSSO ORG) Free add-on works with either the Free or Pro version of WPSSO Core.
-
-&#x0229b; &nbsp; The <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme">WPSSO ORG Pro add-on</a> uses many WPSSO Core Pro features, which requires an active and licensed <a href="https://wpsso.com/?utm_source=wpssoorg-readme">WPSSO Core Pro plugin</a>.
-
-<!--smp-ignore-->
-
-&#x0229b; &nbsp; <a href="https://wpsso.com/extend/plugins/wpsso-organization/?utm_source=wpssoorg-readme">Purchase the WPSSO Organization Markup Pro add-on here</a> (all purchases include a <em>No Risk 30 Day Refund Policy</em>).
-
-<!--/smp-ignore-->
+WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the WPSSO Core plugin. The Free add-on works with either the Free or Pro versions of WPSSO Core. The [WPSSO ORG Pro add-on](https://wpsso.com/extend/plugins/wpsso-organization/) uses many WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
 
 == Installation ==
 
