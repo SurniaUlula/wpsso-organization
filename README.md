@@ -25,10 +25,11 @@
 
 <p>Offers an Organization selector for the <a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup Pro add-on</a>:</p>
 
-<pre><code>* Select a different Publisher for Schema Article markup.
-* Select an Organizer or Performer for Schema Event markup.
-* Select a Hiring Organization for Schema Job Posting markup.
-</code></pre>
+<ul>
+<li>Select a different Publisher for Schema Article markup.</li>
+<li>Select an Organizer or Performer for Schema Event markup.</li>
+<li>Select a Hiring Organization for Schema Job Posting markup.</li>
+</ul>
 
 <h3>WPSSO ORG Free / Standard Features</h3>
 

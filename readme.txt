@@ -29,9 +29,9 @@ Add optional Local SEO / Place / Location information to the Schema Organization
 
 Offers an Organization selector for the [WPSSO Schema JSON-LD Markup Pro add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/):
 
-	* Select a different Publisher for Schema Article markup.
-	* Select an Organizer or Performer for Schema Event markup.
-	* Select a Hiring Organization for Schema Job Posting markup.
+* Select a different Publisher for Schema Article markup.
+* Select an Organizer or Performer for Schema Event markup.
+* Select a Hiring Organization for Schema Job Posting markup.
 
 <h3>WPSSO ORG Free / Standard Features</h3>
 
