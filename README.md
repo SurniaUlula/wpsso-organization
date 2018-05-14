@@ -31,8 +31,6 @@
 <li>Select a Hiring Organization for Schema JobPosting markup.</li>
 </ul>
 
-<div style="clear:both"></div>
-
 <h3>WPSSO ORG Free / Standard Features</h3>
 
 <ul>
