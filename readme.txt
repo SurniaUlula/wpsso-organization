@@ -96,7 +96,7 @@ WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the WPSSO Core plugin
 
 == Screenshots ==
 
-01. WPSSO ORG settings page for the WebSite (Front Page) organization &mdash; includes the WebSite name, alternate name, description, URL, logo image, banner image (for Articles), Schema type (Corporation, Educational, NGO, Performing Group, etc.), and social pages / Knowledge Graph for Google.
+01. WPSSO ORG settings page for the WebSite (front page) Organization &mdash; includes the WebSite name, alternate name, description, URL, logo image, banner image (for Articles), the Schema Organization type, an optional Organization place / location, and the Organization social pages for Google's Knowledge Graph.
 
 == Changelog ==
 
