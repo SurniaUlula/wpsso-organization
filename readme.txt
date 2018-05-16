@@ -19,15 +19,15 @@ WPSSO Core add-on to manage Organizations and additional Schema markup propertie
 
 <img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png">
 
-Select an Schema Organization sub-type for Google's Knowledge Graph (Corporation, Educational, NGO, Performing Group, etc.).
-
 Customize your Organization name, alternate name, description, and WebSite URL for each WordPress locale / language / region.
 
 Select an Organization logo and banner for the Schema Articles markup.
 
-Add an optional address / place / location to the Schema Organization markup.
+Select an Schema Organization sub-type for Google's Knowledge Graph (Corporation, Educational, NGO, Performing Group, etc.).
 
-Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
+Select an optional address / place / location for the Schema Organization markup.
+
+Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
 
 * Select a different Publisher for Schema CreativeWork markup.
 * Select an Organizer or Performer for Schema Event markup.
