@@ -26,46 +26,46 @@ msgid ""
 "Knowledge Graph."
 msgstr ""
 
-#: lib/filters.php:121
+#: lib/filters.php:126
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:136
+#: lib/filters.php:140
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:139
+#: lib/filters.php:143
 msgid "Select an organization to edit, or add a new organization."
 msgstr ""
 
-#: lib/filters.php:142
+#: lib/filters.php:146
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:145
+#: lib/filters.php:149
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:148
+#: lib/filters.php:152
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:151
+#: lib/filters.php:155
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:154
+#: lib/filters.php:158
 msgid ""
 "You may select a more descriptive Schema type from the Organization sub-"
 "types (default is Organization)."
 msgstr ""
 
-#: lib/filters.php:159
+#: lib/filters.php:163
 msgid ""
 "Select an optional Place / Location address for this Organization (requires "
 "the %s add-on)."

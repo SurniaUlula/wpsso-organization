@@ -114,15 +114,19 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 						unset( $opts['org_id'] );
 					}
 
-					// remove organization id, including all localized keys
+					/**
+					 * Remove the organization, including all localized keys.
+					 */
 					$opts = SucomUtil::preg_grep_keys( '/^org_.*_'.$num.'(#.*)?$/', $opts, true );	// $invert = true
 
-				} elseif ( $name === '' ) {	// just in case
-					$opts['org_name_'.$num] = sprintf( _x( 'Organization #%d',
-						'option value', 'wpsso-organization' ), $num );
-				} else {
-					$opts['org_name_'.$num] = $name;
+					continue;	// Check the next organization.
 				}
+
+				if ( $name === '' ) {	// Just in case.
+					$opts['org_name_'.$num] = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $num );
+				}
+				
+				$opts['org_name_'.$num] = $name;
 			}
 
 			return $opts;
