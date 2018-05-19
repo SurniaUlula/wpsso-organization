@@ -116,6 +116,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.2.3-dev.3 (2018/05/19)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* Added an image dimension check for the "Organization Banner URL" option value.
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
+
 **Version 1.2.2 (2018/04/05)**
 
 * *New Features*
@@ -128,6 +139,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Renamed some WpssoUtil methods for Gutenberg related changes in WPSSO v3.57.0.
 
 == Upgrade Notice ==
+
+= 1.2.3-dev.3 =
+
+(2018/05/19) Added an image dimension check for the "Organization Banner URL" option value.
 
 = 1.2.2 =
 
