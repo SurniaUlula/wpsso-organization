@@ -30,7 +30,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			if ( is_admin() ) {
 				$this->p->util->add_plugin_filters( $this, array( 
 					'option_type' => 2,
-					'save_options' => 3,
+					'save_options' => 4,
 					'messages_tooltip' => 2,
 					'form_cache_org_site_names' => 1,
 				) );
@@ -99,16 +99,24 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			return $type;
 		}
 
-		public function filter_save_options( $opts, $options_name, $network ) {
+		public function filter_save_options( $opts, $options_name, $network, $doing_upgrade ) {
 
-			$org_names = SucomUtil::get_multi_key_locale( 'org_name', $opts, false );	// $add_none = false
-			$last_num = SucomUtil::get_last_num( $org_names );
+			if ( $network ) {
+				return $opts;	// Nothing to do.
+			}
+
+			$org_names = SucomUtil::get_multi_key_locale( 'org_name', $opts, false );	// $add_none is false.
+			$last_num  = SucomUtil::get_last_num( $org_names );
+
+			if ( ! $doing_upgrade ) {
+				$this->check_banner_image_size( $opts, 'schema_banner' );
+			}
 
 			foreach ( $org_names as $num => $name ) {
 
 				$name = trim( $name );
 
-				if ( ! empty( $opts['org_delete_'.$num] ) || ( $name === '' && $num === $last_num ) ) {	// remove the empty "New Address"
+				if ( ! empty( $opts['org_delete_'.$num] ) || ( $name === '' && $num === $last_num ) ) {	// Remove the empty "New Address".
 
 					if ( isset( $opts['org_id'] ) && $opts['org_id'] === $num ) {
 						unset( $opts['org_id'] );
@@ -117,7 +125,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					/**
 					 * Remove the organization, including all localized keys.
 					 */
-					$opts = SucomUtil::preg_grep_keys( '/^org_.*_'.$num.'(#.*)?$/', $opts, true );	// $invert = true
+					$opts = SucomUtil::preg_grep_keys( '/^org_.*_'.$num.'(#.*)?$/', $opts, true );	// $invert is true.
 
 					continue;	// Check the next organization.
 				}
@@ -127,14 +135,45 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				}
 				
 				$opts['org_name_'.$num] = $name;
+
+				/**
+				 * Get the banner image and issue an error if the image is not 600x60px. Only check
+				 * on a manual save, not an options upgrade action (ie. when a new add-on is activated).
+				 */
+				if ( ! $doing_upgrade ) {
+					$this->check_banner_image_size( $opts, 'org_banner', $num );
+				}
 			}
 
 			return $opts;
 		}
 
+		private function check_banner_image_size( $opts, $opt_pre, $opt_num = null ) {
+
+			$size_name = null;	// Only check banner urls - skip any banner image id options.
+
+			if ( $opt_pre === 'schema_banner' ) {	// Use the website organization tab as the reference name.
+				$name_transl = _x( 'WebSite (Front Page)', 'metabox tab', 'wpsso-organization' );
+			} else {
+				$name_transl = SucomUtil::get_key_value( $opt_pre . '_name_' . $opt_num, $opts, 'current' );
+			}
+
+			$context_transl = sprintf( __( 'saving organization "%1$s"', 'wpsso-organization' ), $name_transl );
+			$settings_page_link = $this->p->util->get_admin_url( 'org-general' );
+
+			$this->p->notice->set_ref( $settings_page_link, null, $context_transl );
+
+			$og_single_image = $this->p->media->get_opts_single_image( $opts, null, $opt_pre, $opt_num );
+
+			$this->p->notice->unset_ref( $settings_page_link );
+		}
+
 		public function filter_messages_tooltip( $text, $idx ) {
-			if ( strpos( $idx, 'tooltip-org_' ) !== 0 )
+
+			if ( strpos( $idx, 'tooltip-org_' ) !== 0 ) {
 				return $text;
+			}
+
 			switch ( $idx ) {
 				case 'tooltip-org_json':
 					$text = __( 'Include Organization schema markup in the front page for Google\'s Knowledge Graph.', 'wpsso-organization' );
@@ -164,8 +203,8 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 						'wpsso-organization' ), '<a href="'.$plm_info['url']['home'].'">'.$plm_info['name'].'</a>' );
 					break;
 			}
+
 			return $text;
 		}
 	}
 }
-

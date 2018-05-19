@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 1.2.2\n"
+"Project-Id-Version: WPSSO Organization Markup 1.2.3-dev.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2018-MO-DA HO:MI+ZONE\n"
@@ -26,46 +26,55 @@ msgid ""
 "Knowledge Graph."
 msgstr ""
 
-#: lib/filters.php:126
+#: lib/filters.php:134
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:140
+#: lib/filters.php:156 lib/submenu/org-general.php:44
+msgctxt "metabox tab"
+msgid "WebSite (Front Page)"
+msgstr ""
+
+#: lib/filters.php:161
+msgid "saving organization \"%1$s\""
+msgstr ""
+
+#: lib/filters.php:179
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:143
+#: lib/filters.php:182
 msgid "Select an organization to edit, or add a new organization."
 msgstr ""
 
-#: lib/filters.php:146
+#: lib/filters.php:185
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:149
+#: lib/filters.php:188
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:152
+#: lib/filters.php:191
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:155
+#: lib/filters.php:194
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:158
+#: lib/filters.php:197
 msgid ""
 "You may select a more descriptive Schema type from the Organization sub-"
 "types (default is Organization)."
 msgstr ""
 
-#: lib/filters.php:163
+#: lib/filters.php:202
 msgid ""
 "Select an optional Place / Location address for this Organization (requires "
 "the %s add-on)."
@@ -134,11 +143,6 @@ msgstr ""
 #: lib/submenu/org-general.php:35
 msgctxt "metabox title"
 msgid "Organizations and Knowledge Graph"
-msgstr ""
-
-#: lib/submenu/org-general.php:44
-msgctxt "metabox tab"
-msgid "WebSite (Front Page)"
 msgstr ""
 
 #: lib/submenu/org-general.php:45
