@@ -1,4 +1,4 @@
-=== WPSSO Organization Markup ===
+=== WPSSO Organization Markup - Customize Schema WebSite Properties and Other Organizations ===
 Plugin Name: WPSSO Organization Markup
 Plugin Slug: wpsso-organization
 Text Domain: wpsso-organization
