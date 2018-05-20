@@ -109,7 +109,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$last_num  = SucomUtil::get_last_num( $org_names );
 
 			if ( ! $doing_upgrade ) {
-				$this->check_banner_image_size( $opts, 'schema_banner' );
+				$this->check_banner_image_size( $opts, 'schema' );
 			}
 
 			foreach ( $org_names as $num => $name ) {
@@ -141,7 +141,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				 * on a manual save, not an options upgrade action (ie. when a new add-on is activated).
 				 */
 				if ( ! $doing_upgrade ) {
-					$this->check_banner_image_size( $opts, 'org_banner', $num );
+					$this->check_banner_image_size( $opts, 'org', $num );
 				}
 			}
 
@@ -150,20 +150,47 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 		private function check_banner_image_size( $opts, $opt_pre, $opt_num = null ) {
 
-			$size_name = null;	// Only check banner urls - skip any banner image id options.
-
-			if ( $opt_pre === 'schema_banner' ) {	// Use the website organization tab as the reference name.
+			if ( $opt_pre === 'schema' ) {	// Use the website organization tab as the reference name.
 				$name_transl = _x( 'WebSite (Front Page)', 'metabox tab', 'wpsso-organization' );
-			} else {
+			} elseif ( $opt_pre === 'org' ) {
 				$name_transl = SucomUtil::get_key_value( $opt_pre . '_name_' . $opt_num, $opts, 'current' );
+			} else {
+				return;
 			}
 
+			$size_name = null;	// Only check banner urls - skip any banner image id options.
+			$opt_img_pre = $opt_pre . '_banner';
 			$context_transl = sprintf( __( 'saving organization "%1$s"', 'wpsso-organization' ), $name_transl );
 			$settings_page_link = $this->p->util->get_admin_url( 'org-general' );
 
 			$this->p->notice->set_ref( $settings_page_link, null, $context_transl );
 
-			$og_single_image = $this->p->media->get_opts_single_image( $opts, null, $opt_pre, $opt_num );
+			/**
+			 * Returns an image array:
+			 *
+			 * array(
+			 *	'og:image' => null,
+			 *	'og:image:width' => null,
+			 *	'og:image:height' => null,
+			 *	'og:image:cropped' => null,
+			 *	'og:image:id' => null,
+			 * );
+			 */
+			$og_single_image = $this->p->media->get_opts_single_image( $opts, $size_name, $opt_img_pre, $opt_num );
+
+			if ( ! empty( $og_single_image['og:image'] ) ) {
+
+				$image_url     = '<a href="' . $og_single_image['og:image'] . '">' . $og_single_image['og:image'] . '</a>';
+				$image_dims    = $og_single_image['og:image:width'] . 'x' . $og_single_image['og:image:height'] . 'px';
+				$required_dims = '600x60px';
+
+				if ( $image_dims !== $required_dims ) {
+					if ( $this->p->notice->is_admin_pre_notices() ) {	// skip if notices already shown
+						$this->p->notice->err( sprintf( __( 'The organization banner image URL for "%1$s" is %3$s and must be exactly %4$s.',
+							'wpsso' ), $name_transl, $image_url, $image_dims, $required_dims ) );
+					}
+				}
+			}
 
 			$this->p->notice->unset_ref( $settings_page_link );
 		}
