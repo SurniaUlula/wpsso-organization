@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 1.2.3-dev.3\n"
+"Project-Id-Version: WPSSO Organization Markup 1.2.3-b.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2018-MO-DA HO:MI+ZONE\n"
@@ -42,8 +42,8 @@ msgstr ""
 
 #: lib/filters.php:189
 msgid ""
-"The organization banner image URL for \"%1$s\" is %3$s and must be exactly "
-"%4$s."
+"The organization banner image URL for \"%1$s\" is %2$s and must be exactly "
+"%3$s."
 msgstr ""
 
 #: lib/filters.php:206

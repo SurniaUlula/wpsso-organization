@@ -186,8 +186,8 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 				if ( $image_dims !== $required_dims ) {
 					if ( $this->p->notice->is_admin_pre_notices() ) {	// skip if notices already shown
-						$this->p->notice->err( sprintf( __( 'The organization banner image URL for "%1$s" is %3$s and must be exactly %4$s.',
-							'wpsso' ), $name_transl, $image_url, $image_dims, $required_dims ) );
+						$this->p->notice->err( sprintf( __( 'The organization banner image URL for "%1$s" is %2$s and must be exactly %3$s.',
+							'wpsso-organization' ), $name_transl, $image_dims, $required_dims ) );
 					}
 				}
 			}
