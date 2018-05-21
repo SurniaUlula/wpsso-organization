@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.4
 Requires At Least: 3.8
 Tested Up To: 4.9.6
-Stable Tag: 1.2.2
+Stable Tag: 1.2.3
 
 WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.).
 
@@ -116,7 +116,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.2.3-rc.1 (2018/05/21)**
+**Version 1.2.3 (2018/05/21)**
 
 * *New Features*
 	* None
@@ -140,11 +140,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.2.3-rc.1 =
+= 1.2.3 =
 
 (2018/05/21) Added an image dimension check for the "Organization Banner URL" option value.
-
-= 1.2.2 =
-
-(2018/04/05) Renamed some WpssoUtil methods for Gutenberg related changes in WPSSO v3.57.0.
 

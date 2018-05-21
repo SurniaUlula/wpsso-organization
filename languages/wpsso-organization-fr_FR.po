@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WPSSO Organization Markup 1.2.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
 "POT-Creation-Date: 2018-05-20 09:51-0600\n"
-"PO-Revision-Date: 2018-05-20 09:51-0600\n"
+"PO-Revision-Date: 2018-05-21 07:11-0600\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -45,7 +45,7 @@ msgstr "L'URL de l'image bannière de l'organisation \"%1$s\" est %2$s et doit �
 
 #: lib/filters.php:206
 msgid "Include Organization schema markup in the front page for Google's Knowledge Graph."
-msgstr "Inclure le balisage schéma d'Organisation dans la page d'avant pour le Knowledge Graph de Google."
+msgstr "Inclure le balisage de Schéma Organisation dans la page d'avant pour le Knowledge Graph de Google."
 
 #: lib/filters.php:209
 msgid "Select an organization to edit, or add a new organization."
