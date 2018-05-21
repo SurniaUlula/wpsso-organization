@@ -116,7 +116,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.2.3-b.1 (2018/05/20)**
+**Version 1.2.3-rc.1 (2018/05/21)**
 
 * *New Features*
 	* None
@@ -140,9 +140,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.2.3-b.1 =
+= 1.2.3-rc.1 =
 
-(2018/05/20) Added an image dimension check for the "Organization Banner URL" option value.
+(2018/05/21) Added an image dimension check for the "Organization Banner URL" option value.
 
 = 1.2.2 =
 
