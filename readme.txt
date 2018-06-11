@@ -17,7 +17,7 @@ WPSSO Core add-on to manage Organizations and additional Schema markup propertie
 
 == Description ==
 
-<img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png">
+<p style="margin:0;"><img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png"></p>
 
 Customize your Organization name, alternate name, description, and WebSite URL for each WordPress locale / language / region.
 

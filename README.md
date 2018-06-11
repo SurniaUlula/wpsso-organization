@@ -13,7 +13,7 @@
 
 <h2>Description</h2>
 
-<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png"></p>
+<p style="margin:0 0 20px 0;"><img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png"></p>
 
 <p>Customize your Organization name, alternate name, description, and WebSite URL for each WordPress locale / language / region.</p>
 
