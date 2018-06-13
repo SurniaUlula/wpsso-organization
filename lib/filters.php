@@ -180,14 +180,22 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 			if ( ! empty( $og_single_image['og:image'] ) ) {
 
-				$image_url     = '<a href="' . $og_single_image['og:image'] . '">' . $og_single_image['og:image'] . '</a>';
+				$image_href     = '<a href="' . $og_single_image['og:image'] . '">' . $og_single_image['og:image'] . '</a>';
 				$image_dims    = $og_single_image['og:image:width'] . 'x' . $og_single_image['og:image:height'] . 'px';
 				$required_dims = '600x60px';
 
 				if ( $image_dims !== $required_dims ) {
 					if ( $this->p->notice->is_admin_pre_notices() ) {	// skip if notices already shown
-						$this->p->notice->err( sprintf( __( 'The organization banner image URL for "%1$s" is %2$s and must be exactly %3$s.',
-							'wpsso-organization' ), $name_transl, $image_dims, $required_dims ) );
+						if ( $image_dims === '-1x-1px' ) {
+							$error_msg = sprintf( __( 'The "%1$s" organization banner image URL dimensions cannot be determined.',
+								'wpsso-organization' ), $name_transl ) . ' ' .
+							sprintf( __( 'Please make sure this site can access the banner image at %1$s.',
+								'wpsso-organization' ), $image_href );
+						} else {
+							$error_msg = sprintf( __( 'The "%1$s" organization banner image URL is %2$s and must be exactly %3$s.',
+								'wpsso-organization' ), $name_transl, $image_dims, $required_dims );
+						}
+						$this->p->notice->err( $error_msg );
 					}
 				}
 			}
