@@ -33,7 +33,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 			add_meta_box( $this->pagehook.'_general',
 				_x( 'Organizations and Knowledge Graph', 'metabox title', 'wpsso-organization' ), 
-					array( &$this, 'show_metabox_general' ), $this->pagehook, 'normal' );
+					array( $this, 'show_metabox_general' ), $this->pagehook, 'normal' );
 		}
 
 		public function show_metabox_general() {
