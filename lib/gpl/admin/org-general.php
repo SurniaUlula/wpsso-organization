@@ -43,7 +43,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			unset( $form->options['org_id'] );
 
-			$table_rows[] = '<td colspan="2" align="center">'.$this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoorg' ) ).'</td>';
+			$table_rows[] = '<td colspan="2">' . $this->p->msgs->get( 'pro-feature-msg', array( 'lca' => 'wpssoorg' ) ) . '</td>';
 
 			$table_rows['org_id'] = $form->get_th_html( _x( 'Edit an Organization', 'option label', 'wpsso-organization' ), '', 'org_id' ).
 			'<td class="blank">'.$form->get_no_select( 'org_id', $org_names_new, 'long_name', '', true ).'</td>';
