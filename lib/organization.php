@@ -91,7 +91,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 
 			if ( $wpsso->debug->enabled ) {
 				$wpsso->debug->log_args( array( 
-					'id' => $id,
+					'id'    => $id,
 					'mixed' => $mixed,
 				) );
 			}
