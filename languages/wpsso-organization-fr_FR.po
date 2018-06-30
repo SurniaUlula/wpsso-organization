@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup 1.2.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2018-05-20 09:51-0600\n"
-"PO-Revision-Date: 2018-05-21 07:11-0600\n"
+"POT-Creation-Date: 2018-06-27 20:48-0600\n"
+"PO-Revision-Date: 2018-06-27 20:52-0600\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -39,39 +39,47 @@ msgstr "Site Web (page d'avant)"
 msgid "saving organization \"%1$s\""
 msgstr "enregistrement l'organisation \"%1$s\""
 
-#: lib/filters.php:189
-msgid "The organization banner image URL for \"%1$s\" is %2$s and must be exactly %3$s."
+#: lib/filters.php:190
+msgid "The \"%1$s\" organization banner image URL dimensions cannot be determined."
+msgstr "Les dimensions de l'URL de l'image bannière de l'organisation \"%1$s\" ne peuvent pas être déterminées."
+
+#: lib/filters.php:192
+msgid "Please make sure this site can access the banner image at %1$s."
+msgstr "Assurez-vous que ce site peut accéder à l'image bannière à %1$s."
+
+#: lib/filters.php:195
+msgid "The \"%1$s\" organization banner image URL is %2$s and must be exactly %3$s."
 msgstr "L'URL de l'image bannière de l'organisation \"%1$s\" est %2$s et doit être exactement %3$s."
 
-#: lib/filters.php:206
+#: lib/filters.php:214
 msgid "Include Organization schema markup in the front page for Google's Knowledge Graph."
 msgstr "Inclure le balisage de Schéma Organisation dans la page d'avant pour le Knowledge Graph de Google."
 
-#: lib/filters.php:209
+#: lib/filters.php:217
 msgid "Select an organization to edit, or add a new organization."
 msgstr "Sélectionnez une organisation a modifier ou ajouter une nouvelle organisation."
 
-#: lib/filters.php:212
+#: lib/filters.php:220
 msgid "The complete name for the organization."
 msgstr "Le nom complet de l'organisation."
 
-#: lib/filters.php:215
+#: lib/filters.php:223
 msgid "An alternate name for the organization that you would like Google to consider."
 msgstr "Un autre nom pour l’organisation que vous souhaitez que Google considère."
 
-#: lib/filters.php:218
+#: lib/filters.php:226
 msgid "A description for the organization."
 msgstr "Une description de l'organisation."
 
-#: lib/filters.php:221
+#: lib/filters.php:229
 msgid "The website URL for the organization."
 msgstr "L'URL du site Web de l'organisation."
 
-#: lib/filters.php:224
+#: lib/filters.php:232
 msgid "You may select a more descriptive Schema type from the Organization sub-types (default is Organization)."
 msgstr "Vous pouvez sélectionner un type de Schéma plus descriptif des sous-types de l'organisation (valeur par défaut est Organization)."
 
-#: lib/filters.php:229
+#: lib/filters.php:237
 msgid "Select an optional Place / Location address for this Organization (requires the %s add-on)."
 msgstr "Choisissez une adresse d'emplacement optionnel pour cette organisation (requiert l'ajout %s)."
 
@@ -174,15 +182,15 @@ msgctxt "option label"
 msgid "WebSite URL"
 msgstr "URL du site Web"
 
-#: wpsso-organization.php:94
+#: wpsso-organization.php:96
 msgid "%1$s is an add-on for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s."
 msgstr "%1$s est un ajout pour l'extension %2$s &mdash; SVP installer et activer l'extension %3$s avant d'activer %4$s."
 
-#: wpsso-organization.php:96
+#: wpsso-organization.php:98
 msgid "The %1$s add-on requires the %2$s plugin &mdash; install and activate the %3$s plugin or <a href=\"%4$s\">deactivate the %5$s add-on</a>."
 msgstr "L'ajout %1$s requiert l'extension %2$s &mdash; installer et activer l'extension %3$s ou <a href=\"%4$s\">désactiver l'ajout %5$s</a>."
 
-#: wpsso-organization.php:195
+#: wpsso-organization.php:197
 msgid "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version %5$s is currently installed)."
 msgstr "L'ajout %1$s version %2$s requiert %3$s version %4$s ou plus récente (version %5$s est actuellement installée)."
 
