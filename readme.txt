@@ -84,16 +84,6 @@ WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the [WPSSO Core Plugi
 
 == Frequently Asked Questions ==
 
-<h3 class="top">Frequently Asked Questions</h3>
-
-* None
-
-== Other Notes ==
-
-<h3 class="top">Additional Documentation</h3>
-
-* None
-
 == Screenshots ==
 
 01. WPSSO ORG settings page for the WebSite (front page) Organization &mdash; includes the WebSite name, alternate name, description, URL, logo image, banner image (for Articles), the Schema Organization type, an optional Organization place / location, and the Organization social pages for Google's Knowledge Graph.
