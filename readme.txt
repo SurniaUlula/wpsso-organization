@@ -106,6 +106,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.3.0-dev.1 (2018/07/17)**
+
+* *New Features*
+	* None
+* *Improvements*
+	* None
+* *Bugfixes*
+	* None
+* *Developer Notes*
+	* None
+
 **Version 1.2.3 (2018/05/21)**
 
 * *New Features*
@@ -129,6 +140,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Renamed some WpssoUtil methods for Gutenberg related changes in WPSSO v3.57.0.
 
 == Upgrade Notice ==
+
+= 1.3.0-dev.1 =
+
+(2018/07/17) None.
 
 = 1.2.3 =
 
