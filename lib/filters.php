@@ -24,14 +24,14 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 			$this->p->util->add_plugin_filters( $this, array( 
 				'json_array_schema_type_ids' => 2,
-				'get_organization_options' => 3,
+				'get_organization_options'   => 3,
 			) );
 
 			if ( is_admin() ) {
 				$this->p->util->add_plugin_filters( $this, array( 
-					'option_type' => 2,
-					'save_options' => 4,
-					'messages_tooltip' => 2,
+					'option_type'               => 2,
+					'save_options'              => 4,
+					'messages_tooltip'          => 2,
 					'form_cache_org_site_names' => 1,
 				) );
 			}
@@ -46,12 +46,17 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		}
 
 		public function filter_json_array_schema_type_ids( $type_ids, $mod ) {
+
 			if ( $mod['is_home'] ) {
+
 				if ( ! empty( $this->p->options['site_org_type'] ) && $this->p->options['site_org_type'] !== 'organization' ) {
+
 					$type_ids[$this->p->options['site_org_type']] = $this->p->options['schema_add_home_organization'];
+
 					unset( $type_ids['organization'] );
 				}
 			}
+
 			return $type_ids;
 		}
 
@@ -74,25 +79,40 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			}
 
 			switch ( $base_key ) {
+
 				case 'org_id':
+
 					return 'numeric';
+
 					break;
+
 				case 'org_name':
 				case 'org_name_alt':
 				case 'org_desc':
+
 					return 'ok_blank';
+
 					break;
+
 				case 'org_type':
 				case 'org_place_id':
+
 					return 'not_blank';
+
 					break;
+
 				case 'org_url':
 				case 'org_logo_url':
 				case 'org_banner_url':
+
 					return 'url';
+
 					break;
+
 				case ( strpos( $base_key, '_url' ) && isset( $this->p->cf['form']['social_accounts'][substr( $base_key, 4 )] ) ? true : false ):
+
 					return 'url';
+
 					break;
 			}
 
@@ -158,9 +178,9 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				return;
 			}
 
-			$size_name = null;	// Only check banner urls - skip any banner image id options.
-			$opt_img_pre = $opt_pre . '_banner';
-			$context_transl = sprintf( __( 'saving organization "%1$s"', 'wpsso-organization' ), $name_transl );
+			$size_name          = null;	// Only check banner urls - skip any banner image id options.
+			$opt_img_pre        = $opt_pre . '_banner';
+			$context_transl     = sprintf( __( 'saving organization "%1$s"', 'wpsso-organization' ), $name_transl );
 			$settings_page_link = $this->p->util->get_admin_url( 'org-general' );
 
 			$this->p->notice->set_ref( $settings_page_link, null, $context_transl );
@@ -169,32 +189,41 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			 * Returns an image array:
 			 *
 			 * array(
-			 *	'og:image' => null,
-			 *	'og:image:width' => null,
-			 *	'og:image:height' => null,
+			 *	'og:image:url'     => null,
+			 *	'og:image:width'   => null,
+			 *	'og:image:height'  => null,
 			 *	'og:image:cropped' => null,
-			 *	'og:image:id' => null,
+			 *	'og:image:id'      => null,
+			 *	'og:image:alt'     => null,
 			 * );
 			 */
-			$og_single_image = $this->p->media->get_opts_single_image( $opts, $size_name, $opt_img_pre, $opt_num );
+			$og_single_image     = $this->p->media->get_opts_single_image( $opts, $size_name, $opt_img_pre, $opt_num );
+			$og_single_image_url = SucomUtil::get_mt_media_url( $og_single_image );
 
-			if ( ! empty( $og_single_image['og:image'] ) ) {
+			if ( ! empty( $og_single_image_url ) ) {
 
-				$image_href     = '<a href="' . $og_single_image['og:image'] . '">' . $og_single_image['og:image'] . '</a>';
+				$image_href    = '<a href="' . $og_single_image_url . '">' . $og_single_image_url . '</a>';
 				$image_dims    = $og_single_image['og:image:width'] . 'x' . $og_single_image['og:image:height'] . 'px';
 				$required_dims = '600x60px';
 
 				if ( $image_dims !== $required_dims ) {
+
 					if ( $this->p->notice->is_admin_pre_notices() ) {	// skip if notices already shown
+
 						if ( $image_dims === '-1x-1px' ) {
+
 							$error_msg = sprintf( __( 'The "%1$s" organization banner image URL dimensions cannot be determined.',
-								'wpsso-organization' ), $name_transl ) . ' ' .
-							sprintf( __( 'Please make sure this site can access the banner image at %1$s.',
+								'wpsso-organization' ), $name_transl ) . ' ';
+
+							$error_msg .= sprintf( __( 'Please make sure this site can access the banner image at %1$s.',
 								'wpsso-organization' ), $image_href );
+
 						} else {
+
 							$error_msg = sprintf( __( 'The "%1$s" organization banner image URL is %2$s and must be exactly %3$s.',
 								'wpsso-organization' ), $name_transl, $image_dims, $required_dims );
 						}
+
 						$this->p->notice->err( $error_msg );
 					}
 				}
@@ -210,32 +239,57 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			}
 
 			switch ( $idx ) {
+
 				case 'tooltip-org_json':
+
 					$text = __( 'Include Organization schema markup in the front page for Google\'s Knowledge Graph.', 'wpsso-organization' );
+
 					break;
+
 				case 'tooltip-org_id':
+
 					$text = __( 'Select an organization to edit, or add a new organization.', 'wpsso-organization' );
+
 					break;
+
 				case 'tooltip-org_name':
+
 					$text = __( 'The complete name for the organization.', 'wpsso-organization' );
+
 					break;
+
 				case 'tooltip-org_name_alt':
+
 					$text = __( 'An alternate name for the organization that you would like Google to consider.', 'wpsso-organization' );
+
 					break;
+
 				case 'tooltip-org_desc':
+
 					$text = __( 'A description for the organization.', 'wpsso-organization' );
+
 					break;
+
 				case 'tooltip-org_url':
+
 					$text = __( 'The website URL for the organization.', 'wpsso-organization' );
+
 					break;
+
 				case 'tooltip-org_type':
+
 					$text = __( 'You may select a more descriptive Schema type from the Organization sub-types (default is Organization).',
 						'wpsso-organization' );
+
 					break;
+
 				case 'tooltip-org_place_id':
+
 					$plm_info = $this->p->cf['plugin']['wpssoplm'];
+
 					$text = sprintf( __( 'Select an optional Place / Location address for this Organization (requires the %s add-on).',
 						'wpsso-organization' ), '<a href="'.$plm_info['url']['home'].'">'.$plm_info['name'].'</a>' );
+
 					break;
 			}
 
