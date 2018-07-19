@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.3.0-dev.1 (2018/07/17)**
+**Version 1.3.0-b.1 (2018/07/19)**
 
 * *New Features*
 	* None.
@@ -141,9 +141,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.3.0-dev.1 =
+= 1.3.0-b.1 =
 
-(2018/07/17) Maintenance release.
+(2018/07/19) Maintenance release.
 
 = 1.2.3 =
 
