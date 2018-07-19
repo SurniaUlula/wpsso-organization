@@ -26,69 +26,65 @@ msgid ""
 "Knowledge Graph."
 msgstr ""
 
-#: lib/filters.php:154
+#: lib/filters.php:151
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:174 lib/submenu/org-general.php:44
-msgctxt "metabox tab"
-msgid "WebSite (Front Page)"
+#: lib/filters.php:190
+msgid "organization \"%1$s\""
 msgstr ""
 
-#: lib/filters.php:183
-msgid "saving organization \"%1$s\""
-msgstr ""
-
-#: lib/filters.php:215
+#: lib/filters.php:220
 msgid ""
 "The \"%1$s\" organization banner image URL dimensions cannot be determined."
 msgstr ""
 
-#: lib/filters.php:218
+#: lib/filters.php:223
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr ""
 
-#: lib/filters.php:223
+#: lib/filters.php:228
 msgid ""
-"The \"%1$s\" organization banner image URL is %2$s and must be exactly %3$s."
+"The \"%1$s\" organization banner image URL dimensions are %2$s and must be "
+"exactly %3$s."
 msgstr ""
 
-#: lib/filters.php:245
+#: lib/filters.php:249
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:251
+#: lib/filters.php:255
 msgid "Select an organization to edit, or add a new organization."
 msgstr ""
 
-#: lib/filters.php:257
+#: lib/filters.php:261
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:263
+#: lib/filters.php:267
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:269
+#: lib/filters.php:273
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:275
+#: lib/filters.php:279
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:281
+#: lib/filters.php:285
 msgid ""
 "You may select a more descriptive Schema type from the Organization sub-"
 "types (default is Organization)."
 msgstr ""
 
-#: lib/filters.php:290
+#: lib/filters.php:294
 msgid ""
 "Select an optional Place / Location address for this Organization (requires "
 "the %s add-on)."
@@ -157,6 +153,11 @@ msgstr ""
 #: lib/submenu/org-general.php:35
 msgctxt "metabox title"
 msgid "Organizations and Knowledge Graph"
+msgstr ""
+
+#: lib/submenu/org-general.php:44
+msgctxt "metabox tab"
+msgid "WebSite (Front Page)"
 msgstr ""
 
 #: lib/submenu/org-general.php:45
