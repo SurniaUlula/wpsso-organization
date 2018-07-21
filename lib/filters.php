@@ -165,29 +165,23 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			 */
 			if ( ! $network && ! $doing_upgrade ) {
 
-				$org_names = SucomUtil::get_multi_key_locale( 'org_name', $opts, false );	// $add_none is false.
+				$org_names = WpssoOrgOrganization::get_org_names();
 
 				foreach ( $org_names as $num => $name ) {
-					$this->check_banner_image_size( $opts, 'org', $num );
+					$this->check_banner_image_size( $opts, 'org', $num, $name );
 				}
 			}
 		}
 
-		private function check_banner_image_size( $opts, $opt_pre, $opt_num = null ) {
+		private function check_banner_image_size( $opts, $opt_pre, $org_num, $org_name ) {
 
 			if ( ! $this->p->notice->is_admin_pre_notices() ) {
 				return;
 			}
 
-			if ( $opt_pre === 'org' ) {
-				$name_transl = SucomUtil::get_key_value( $opt_pre . '_name_' . $opt_num, $opts, 'current' );
-			} else {
-				return;
-			}
-
 			$size_name          = null;	// Only check banner urls - skip any banner image id options.
 			$opt_img_pre        = $opt_pre . '_banner';
-			$context_transl     = sprintf( __( 'organization "%s"', 'wpsso-organization' ), $name_transl );
+			$context_transl     = sprintf( __( 'organization "%s"', 'wpsso-organization' ), $org_name );
 			$settings_page_link = $this->p->util->get_admin_url( 'org-general#sucom-tabset_organization-tab_other' );
 
 			$this->p->notice->set_ref( $settings_page_link, null, $context_transl );
@@ -204,7 +198,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			 *	'og:image:alt'     => null,
 			 * );
 			 */
-			$og_single_image     = $this->p->media->get_opts_single_image( $opts, $size_name, $opt_img_pre, $opt_num );
+			$og_single_image     = $this->p->media->get_opts_single_image( $opts, $size_name, $opt_img_pre, $org_num );
 			$og_single_image_url = SucomUtil::get_mt_media_url( $og_single_image );
 
 			if ( ! empty( $og_single_image_url ) ) {
@@ -218,7 +212,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					if ( $image_dims === '-1x-1px' ) {
 
 						$error_msg = sprintf( __( 'The "%1$s" organization banner URL image dimensions cannot be determined.',
-							'wpsso-organization' ), $name_transl ) . ' ';
+							'wpsso-organization' ), $org_name ) . ' ';
 
 						$error_msg .= sprintf( __( 'Please make sure this site can access the banner image at %1$s.',
 							'wpsso-organization' ), $image_href );
@@ -226,7 +220,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					} else {
 
 						$error_msg = sprintf( __( 'The "%1$s" organization banner URL image dimensions are %2$s and must be exactly %3$s.',
-							'wpsso-organization' ), $name_transl, $image_dims, $required_dims );
+							'wpsso-organization' ), $org_name, $image_dims, $required_dims );
 					}
 
 					$this->p->notice->err( $error_msg );

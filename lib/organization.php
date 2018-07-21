@@ -32,7 +32,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			}
 
 			$first_names = array();
-			$org_names = array();
+			$org_names   = array();
 
 			if ( $add_none ) {
 				$first_names['none'] = $wpsso->cf['form']['org_select']['none'];
@@ -43,16 +43,21 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			}
 
 			if ( $wpsso->check->aop( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
+
 				if ( $wpsso->debug->enabled ) {
 					$wpsso->debug->log( 'getting multi keys for org_name' );
 				}
+
 				$org_names = SucomUtil::get_multi_key_locale( 'org_name', $wpsso->options, false );	// $add_none = false
 
 				if ( ! empty( $org_type ) && is_string( $org_type) ) {
+
 					if ( $wpsso->debug->enabled ) {
 						$wpsso->debug->log( 'removing organizations not in org type: '.$org_type );
 					}
+
 					$children = $wpsso->schema->get_schema_type_children( $org_type );
+
 					if ( ! empty( $children ) ) {	// just in case
 						foreach ( $org_names as $num => $name ) {
 							if ( ! empty( $wpsso->options['org_type_'.$num] ) &&

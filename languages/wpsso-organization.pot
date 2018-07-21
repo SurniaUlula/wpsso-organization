@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 1.3.0-b.2\n"
+"Project-Id-Version: WPSSO Organization Markup 1.3.0-rc.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2018-MO-DA HO:MI+ZONE\n"
@@ -31,60 +31,60 @@ msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:190
+#: lib/filters.php:184
 msgid "organization \"%s\""
 msgstr ""
 
-#: lib/filters.php:220
+#: lib/filters.php:214
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr ""
 
-#: lib/filters.php:223
+#: lib/filters.php:217
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr ""
 
-#: lib/filters.php:228
+#: lib/filters.php:222
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions are %2$s and must be "
 "exactly %3$s."
 msgstr ""
 
-#: lib/filters.php:249
+#: lib/filters.php:243
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:255
+#: lib/filters.php:249
 msgid "Select an organization to edit, or add a new organization."
 msgstr ""
 
-#: lib/filters.php:261
+#: lib/filters.php:255
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:267
+#: lib/filters.php:261
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:273
+#: lib/filters.php:267
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:279
+#: lib/filters.php:273
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:285
+#: lib/filters.php:279
 msgid ""
 "You may select a more descriptive Schema type from the Organization sub-"
 "types (default is Organization)."
 msgstr ""
 
-#: lib/filters.php:294
+#: lib/filters.php:288
 msgid ""
 "Select an optional Place / Location address for this Organization (requires "
 "the %s add-on)."

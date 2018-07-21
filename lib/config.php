@@ -16,24 +16,24 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(			// Plugin acronym.
-					'version' => '1.3.0-b.2',		// Plugin version.
+					'version'     => '1.3.0-rc.1',	// Plugin version.
 					'opt_version' => '3',		// Increment when changing default option values.
-					'short' => 'WPSSO ORG',		// Short plugin name.
-					'name' => 'WPSSO Organization Markup',
-					'desc' => 'WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.',
-					'slug' => 'wpsso-organization',
-					'base' => 'wpsso-organization/wpsso-organization.php',
+					'short'       => 'WPSSO ORG',	// Short plugin name.
+					'name'        => 'WPSSO Organization Markup',
+					'desc'        => 'WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.',
+					'slug'        => 'wpsso-organization',
+					'base'        => 'wpsso-organization/wpsso-organization.php',
 					'update_auth' => 'tid',
 					'text_domain' => 'wpsso-organization',
 					'domain_path' => '/languages',
 					'req' => array(
-						'short' => 'WPSSO Core',
-						'name' => 'WPSSO Core',
-						'min_version' => '4.9.0-b.2',
+						'short'       => 'WPSSO Core',
+						'name'        => 'WPSSO Core',
+						'min_version' => '4.9.0-rc.1',
 					),
 					'img' => array(
 						'icons' => array(
-							'low' => 'images/icon-128x128.png',
+							'low'  => 'images/icon-128x128.png',
 							'high' => 'images/icon-256x256.png',
 						),
 					),
