@@ -76,7 +76,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					$plm_req_msg      = $this->p->util->get_ext_req_msg( 'plm' );
 					$plm_disable      = empty( $plm_req_msg ) ? false : true;
-					$place_addr_names = $this->form->get_cache( 'place_addr_names', true );
+					$place_addr_names = $this->p->util->get_form_cache( 'place_addr_names', true );
 
 					$table_rows['schema_knowledge_graph'] = ''.
 					$this->form->get_th_html( _x( 'Google\'s Knowledge Graph', 'option label', 'wpsso-organization' ), '', 'org_json' ).
@@ -111,7 +111,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					$table_rows['site_org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
 						'option label', 'wpsso-organization' ), '', 'site_org_type' ).
-					'<td>'.$this->form->get_select( 'site_org_type', $this->form->get_cache( 'org_types_select' ), 'schema_type' ).'</td>';
+					'<td>'.$this->form->get_select( 'site_org_type', $this->p->util->get_form_cache( 'org_types_select' ), 'schema_type' ).'</td>';
 
 					$table_rows['site_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
 						'option label', 'wpsso-organization' ), '', 'site_place_id' ).

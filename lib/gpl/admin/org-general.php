@@ -37,7 +37,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			$org_names_new = array( 0 => $this->p->cf['form']['org_select']['new'] );
 
-			$place_addr_names = $form->get_cache( 'place_addr_names', true );	// $add_none = true
+			$place_addr_names = $this->p->util->get_form_cache( 'place_addr_names', true );	// $add_none = true
 
 			$id = 0;
 
@@ -83,7 +83,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			$table_rows['org_type_'.$id] = $form->get_th_html( _x( 'Organization Schema Type',
 				'option label', 'wpsso-organization' ), '', 'org_type' ).
-			'<td class="blank">'.$form->get_no_select( 'org_type_'.$id, $form->get_cache( 'org_types_select' ), 'schema_type' ).'</td>';
+			'<td class="blank">'.$form->get_no_select( 'org_type_'.$id, $this->p->util->get_form_cache( 'org_types_select' ), 'schema_type' ).'</td>';
 
 			$table_rows['org_place_id_'.$id] = $form->get_th_html( _x( 'Organization Place / Location',
 				'option label', 'wpsso-organization' ), '', 'org_place_id' ).
