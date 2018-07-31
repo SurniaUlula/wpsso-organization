@@ -10,7 +10,7 @@ Tags: publisher, organization, local seo, local business, schema, schema.org, ma
 Contributors: jsmoriss
 Requires PHP: 5.4
 Requires At Least: 3.8
-Tested Up To: 4.9.7
+Tested Up To: 4.9.8
 Stable Tag: 1.3.0
 
 WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.).
