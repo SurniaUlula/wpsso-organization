@@ -113,9 +113,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Improvements*
 	* None.
 * *Bugfixes*
-	* Fix to replace the deprecated SucomForm::get_cache() method call with WpssoUtil::get_form_cache().
-* *Developer Notes*
 	* None.
+* *Developer Notes*
+	* Renamed the SucomForm::get_cache() method to WpssoUtil::get_form_cache() for WPSSO v4.10.0.
 
 **Version 1.3.0 (2018/07/22)**
 
@@ -143,5 +143,5 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 1.3.1 =
 
-(2018/08/11) Fix to replace the deprecated SucomForm::get_cache() method call with WpssoUtil::get_form_cache().
+(2018/08/11) Renamed the SucomForm::get_cache() method to WpssoUtil::get_form_cache() for WPSSO v4.10.0.
 
