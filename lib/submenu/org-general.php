@@ -74,7 +74,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$site_desc_key     = SucomUtil::get_key_locale( 'site_desc', $this->form->options );
 					$site_url_key      = SucomUtil::get_key_locale( 'site_url', $this->form->options );
 
-					$plm_req_msg      = $this->p->util->get_ext_req_msg( 'plm' );
+					$plm_req_msg      = $this->p->admin->get_ext_required_msg( 'plm' );
 					$plm_disable      = empty( $plm_req_msg ) ? false : true;
 					$place_addr_names = $this->p->util->get_form_cache( 'place_addr_names', true );
 

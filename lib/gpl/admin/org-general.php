@@ -31,7 +31,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 				$this->p->debug->mark();
 			}
 
-			$plm_req_msg = $this->p->util->get_ext_req_msg( 'plm' );
+			$plm_req_msg = $this->p->admin->get_ext_required_msg( 'plm' );
 
 			$plm_disable = empty( $plm_req_msg ) ? false : true;
 
