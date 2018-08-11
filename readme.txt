@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.4
 Requires At Least: 3.8
 Tested Up To: 4.9.8
-Stable Tag: 1.3.0
+Stable Tag: 1.3.1
 
 WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.).
 
@@ -106,6 +106,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.3.1 (2018/08/11)**
+
+* *New Features*
+	* None.
+* *Improvements*
+	* None.
+* *Bugfixes*
+	* Fix to replace the deprecated SucomForm::get_cache() method call with WpssoUtil::get_form_cache().
+* *Developer Notes*
+	* None.
+
 **Version 1.3.0 (2018/07/22)**
 
 * *New Features*
@@ -130,7 +141,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.3.0 =
+= 1.3.1 =
 
-(2018/07/22) Maintenance release.
+(2018/08/11) Fix to replace the deprecated SucomForm::get_cache() method call with WpssoUtil::get_form_cache().
 
