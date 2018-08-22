@@ -227,7 +227,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 						$error_msg = sprintf( __( 'The "%1$s" organization banner URL image dimensions are %2$s and must be exactly %3$s.',
 							'wpsso-organization' ), $org_name, $image_dims, $required_dims ) . ' ';
 
-						$error_msg .= sprintf( __( 'Please correct the banner image at %1$s.',
+						$error_msg .= sprintf( __( 'Please correct the banner image at %s.',
 							'wpsso' ), $image_href );
 					}
 

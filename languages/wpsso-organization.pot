@@ -51,7 +51,7 @@ msgid ""
 msgstr ""
 
 #: lib/filters.php:230
-msgid "Please correct the banner image at %1$s."
+msgid "Please correct the banner image at %s."
 msgstr ""
 
 #: lib/filters.php:251

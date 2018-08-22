@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup 1.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2018-07-21 08:46-0400\n"
-"PO-Revision-Date: 2018-07-22 08:51-0400\n"
+"POT-Creation-Date: 2018-08-22 07:44-0600\n"
+"PO-Revision-Date: 2018-08-22 07:45-0600\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -34,47 +34,51 @@ msgstr "Organisation #%d"
 msgid "organization \"%s\""
 msgstr "organisation \"%s\""
 
-#: lib/filters.php:214
+#: lib/filters.php:219
 msgid "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr "Les dimensions de l'image pour l'URL de la bannière d'organisation \"%1$s\" ne peuvent pas être déterminées."
 
-#: lib/filters.php:217
+#: lib/filters.php:222
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr "Assurez-vous que ce site peut accéder à l'image bannière à %1$s."
 
-#: lib/filters.php:222
+#: lib/filters.php:227
 msgid "The \"%1$s\" organization banner URL image dimensions are %2$s and must be exactly %3$s."
 msgstr "Les dimensions de l'image pour l'URL de la bannière d'organisation \"%1$s\" sont %2$s et doivent être exactement %3$s."
 
-#: lib/filters.php:243
+#: lib/filters.php:230
+msgid "Please correct the banner image at %1$s."
+msgstr "Veuillez corriger l'image bannière à %1$s."
+
+#: lib/filters.php:251
 msgid "Include Organization schema markup in the front page for Google's Knowledge Graph."
 msgstr "Inclure le balisage Schéma Organisation dans la page d'avant pour le Knowledge Graph de Google."
 
-#: lib/filters.php:249
+#: lib/filters.php:257
 msgid "Select an organization to edit, or add a new organization."
 msgstr "Sélectionnez une organisation a modifier ou ajouter une nouvelle organisation."
 
-#: lib/filters.php:255
+#: lib/filters.php:263
 msgid "The complete name for the organization."
 msgstr "Le nom complet de l'organisation."
 
-#: lib/filters.php:261
+#: lib/filters.php:269
 msgid "An alternate name for the organization that you would like Google to consider."
 msgstr "Un autre nom pour l’organisation que vous souhaitez que Google considère."
 
-#: lib/filters.php:267
+#: lib/filters.php:275
 msgid "A description for the organization."
 msgstr "Une description de l'organisation."
 
-#: lib/filters.php:273
+#: lib/filters.php:281
 msgid "The website URL for the organization."
 msgstr "L'URL du site Web de l'organisation."
 
-#: lib/filters.php:279
+#: lib/filters.php:287
 msgid "You may select a more descriptive Schema type from the Organization sub-types (default is Organization)."
 msgstr "Vous pouvez sélectionner un type de Schéma plus descriptif des sous-types de l'organisation (valeur par défaut est Organization)."
 
-#: lib/filters.php:288
+#: lib/filters.php:296
 msgid "Select an optional Place / Location address for this Organization (requires the %s add-on)."
 msgstr "Choisissez une adresse d'emplacement optionnel pour cette organisation (requiert l'ajout %s)."
 
