@@ -35,56 +35,60 @@ msgstr ""
 msgid "organization \"%s\""
 msgstr ""
 
-#: lib/filters.php:214
+#: lib/filters.php:219
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr ""
 
-#: lib/filters.php:217
+#: lib/filters.php:222
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr ""
 
-#: lib/filters.php:222
+#: lib/filters.php:227
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions are %2$s and must be "
 "exactly %3$s."
 msgstr ""
 
-#: lib/filters.php:243
+#: lib/filters.php:230
+msgid "Please review and correct the banner image dimensions at %1$s."
+msgstr ""
+
+#: lib/filters.php:251
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:249
+#: lib/filters.php:257
 msgid "Select an organization to edit, or add a new organization."
 msgstr ""
 
-#: lib/filters.php:255
+#: lib/filters.php:263
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:261
+#: lib/filters.php:269
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:267
+#: lib/filters.php:275
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:273
+#: lib/filters.php:281
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:279
+#: lib/filters.php:287
 msgid ""
 "You may select a more descriptive Schema type from the Organization sub-"
 "types (default is Organization)."
 msgstr ""
 
-#: lib/filters.php:288
+#: lib/filters.php:296
 msgid ""
 "Select an optional Place / Location address for this Organization (requires "
 "the %s add-on)."

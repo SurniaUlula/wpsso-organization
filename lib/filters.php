@@ -179,7 +179,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				return;
 			}
 
-			$size_name          = null;	// Only check banner urls - skip any banner image id options.
+			$size_name          = false;	// Only check banner urls - skip any banner image id options.
 			$opt_img_pre        = $opt_pre . '_banner';
 			$context_transl     = sprintf( __( 'organization "%s"', 'wpsso-organization' ), $org_name );
 			$settings_page_link = $this->p->util->get_admin_url( 'org-general#sucom-tabset_organization-tab_other' );
@@ -199,6 +199,11 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			 * );
 			 */
 			$og_single_image     = $this->p->media->get_opts_single_image( $opts, $size_name, $opt_img_pre, $org_num );
+
+			if ( $this->p->debug->enabled ) {
+				$this->p->debug->log_arr( '$og_single_image', $og_single_image );
+			}
+
 			$og_single_image_url = SucomUtil::get_mt_media_url( $og_single_image );
 
 			if ( ! empty( $og_single_image_url ) ) {
@@ -221,6 +226,9 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 						$error_msg = sprintf( __( 'The "%1$s" organization banner URL image dimensions are %2$s and must be exactly %3$s.',
 							'wpsso-organization' ), $org_name, $image_dims, $required_dims );
+
+						$error_msg .= sprintf( __( 'Please review and correct the banner image dimensions at %1$s.',
+							'wpsso' ), $image_href );
 					}
 
 					$this->p->notice->err( $error_msg );
