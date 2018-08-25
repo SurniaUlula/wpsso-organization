@@ -88,7 +88,7 @@ msgid ""
 "types (default is Organization)."
 msgstr ""
 
-#: lib/filters.php:296
+#: lib/filters.php:298
 msgid ""
 "Select an optional Place / Location address for this Organization (requires "
 "the %s add-on)."
