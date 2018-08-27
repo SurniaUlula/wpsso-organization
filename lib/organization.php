@@ -42,26 +42,26 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				$first_names['site'] = $wpsso->cf['form']['org_select']['site'];
 			}
 
-			if ( $wpsso->check->aop( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
+			if ( $wpsso->check->pp( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
 
 				if ( $wpsso->debug->enabled ) {
 					$wpsso->debug->log( 'getting multi keys for org_name' );
 				}
 
-				$org_names = SucomUtil::get_multi_key_locale( 'org_name', $wpsso->options, false );	// $add_none = false
+				$org_names = SucomUtil::get_multi_key_locale( 'org_name', $wpsso->options, false );	// $add_none is false.
 
 				if ( ! empty( $org_type ) && is_string( $org_type) ) {
 
 					if ( $wpsso->debug->enabled ) {
-						$wpsso->debug->log( 'removing organizations not in org type: '.$org_type );
+						$wpsso->debug->log( 'removing organizations not in org type: ' . $org_type );
 					}
 
 					$children = $wpsso->schema->get_schema_type_children( $org_type );
 
-					if ( ! empty( $children ) ) {	// just in case
+					if ( ! empty( $children ) ) {	// Just in case.
 						foreach ( $org_names as $num => $name ) {
-							if ( ! empty( $wpsso->options['org_type_'.$num] ) &&
-								in_array( $wpsso->options['org_type_'.$num], $children ) ) {
+							if ( ! empty( $wpsso->options['org_type_' . $num] ) &&
+								in_array( $wpsso->options['org_type_' . $num], $children ) ) {
 								continue;
 							} else {
 								unset( $org_names[$num] );
@@ -79,7 +79,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			}
 
 			if ( ! empty( $first_names ) ) {
-				$org_names = $first_names + $org_names;	// combine arrays, preserving numeric key associations
+				$org_names = $first_names + $org_names;	// Combine arrays, preserving numeric key associations.
 			}
 
 			return $org_names;
@@ -104,12 +104,19 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			$org_opts = array();
 
 			if ( $id === 'site' ) {
+
 				return WpssoSchema::get_site_organization( $mixed );
-			} elseif ( is_numeric( $id ) && $wpsso->check->aop( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
-				// get the list of non-localized option names
-				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*_)'.$id.'(#.*)?$/', $wpsso->options, false, '$1' ) as $opt_prefix => $value ) {
+
+			} elseif ( is_numeric( $id ) && $wpsso->check->pp( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
+
+				/**
+				 * Get the list of non-localized option names.
+				 */
+				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*_)' . $id . '(#.*)?$/', $wpsso->options, false, '$1' ) as $opt_prefix => $value ) {
+
 					$opt_idx = rtrim( $opt_prefix, '_' );
-					$org_opts[$opt_idx] = SucomUtil::get_key_value( $opt_prefix.$id, $wpsso->options, $mixed );	// localized value
+
+					$org_opts[$opt_idx] = SucomUtil::get_key_value( $opt_prefix . $id, $wpsso->options, $mixed );	// Localized value.
 				}
 			}
 
