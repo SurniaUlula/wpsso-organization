@@ -25,7 +25,7 @@ Select an Organization logo and banner for the Schema Articles markup.
 
 Select an Schema Organization sub-type for Google's Knowledge Graph (Corporation, Educational, NGO, Performing Group, etc.).
 
-Select an optional address / place / location for the Schema Organization markup.
+Select an optional place / location / address for the Schema Organization markup.
 
 Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
 
@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.3.2-dev.2 (2018/08/27)**
+**Version 1.4.0-dev.3 (2018/08/30)**
 
 * *New Features*
 	* None.
@@ -152,9 +152,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.3.2-dev.2 =
+= 1.4.0-dev.3 =
 
-(2018/08/27) Minor update for code style and changes in WPSSO v4.11.2.
+(2018/08/30) Minor update for code style and changes in WPSSO v4.11.2.
 
 = 1.3.1 =
 
