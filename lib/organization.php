@@ -23,7 +23,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			}
 		}
 
-		public static function get_org_names( $org_type = '', $add_none = false, $add_new = false, $add_site = false ) {
+		public static function get_names( $org_type = '', $add_none = false, $add_new = false, $add_site = false ) {
 
 			$wpsso =& Wpsso::get_instance();
 
@@ -132,4 +132,3 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		}
 	}
 }
-

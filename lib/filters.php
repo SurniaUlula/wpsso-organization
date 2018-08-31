@@ -39,10 +39,13 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		}
 
 		public function filter_form_cache_org_site_names( $mixed ) {
-			$ret = WpssoOrgOrganization::get_org_names();
+
+			$ret = WpssoOrgOrganization::get_names();
+
 			if ( is_array( $mixed ) ) {
 				$ret = $mixed + $ret;
 			}
+
 			return $ret;
 		}
 
@@ -126,14 +129,14 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				return $opts;	// Nothing to do.
 			}
 
-			$org_names = SucomUtil::get_multi_key_locale( 'org_name', $opts, false );	// $add_none is false.
-			$last_num  = SucomUtil::get_last_num( $org_names );
+			$org_names    = SucomUtil::get_multi_key_locale( 'org_name', $opts, false );	// $add_none is false.
+			$org_last_num = SucomUtil::get_last_num( $org_names );
 
 			foreach ( $org_names as $num => $name ) {
 
 				$name = trim( $name );
 
-				if ( ! empty( $opts['org_delete_'.$num] ) || ( $name === '' && $num === $last_num ) ) {	// Remove the empty "New Address".
+				if ( ! empty( $opts['org_delete_' . $num] ) || ( $name === '' && $num === $org_last_num ) ) {	// Remove the empty "New Address".
 
 					if ( isset( $opts['org_id'] ) && $opts['org_id'] === $num ) {
 						unset( $opts['org_id'] );
@@ -142,16 +145,16 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					/**
 					 * Remove the organization, including all localized keys.
 					 */
-					$opts = SucomUtil::preg_grep_keys( '/^org_.*_'.$num.'(#.*)?$/', $opts, true );	// $invert is true.
+					$opts = SucomUtil::preg_grep_keys( '/^org_.*_' . $num . '(#.*)?$/', $opts, true );	// $invert is true.
 
 					continue;	// Check the next organization.
 				}
 
 				if ( $name === '' ) {	// Just in case.
-					$opts['org_name_'.$num] = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $num );
+					$opts['org_name_' . $num] = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $num );
 				}
 				
-				$opts['org_name_'.$num] = $name;
+				$opts['org_name_' . $num] = $name;
 			}
 
 			return $opts;
@@ -165,7 +168,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			 */
 			if ( ! $network && ! $doing_upgrade ) {
 
-				$org_names = WpssoOrgOrganization::get_org_names();
+				$org_names = WpssoOrgOrganization::get_names();
 
 				foreach ( $org_names as $num => $name ) {
 					$this->check_banner_image_size( $opts, 'org', $num, $name );
@@ -254,7 +257,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 				case 'tooltip-org_id':
 
-					$text = __( 'Select an organization to edit, or add a new organization.', 'wpsso-organization' );
+					$text = __( 'Select an organization to edit.', 'wpsso-organization' );
 
 					break;
 
@@ -284,7 +287,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 				case 'tooltip-org_type':
 
-					$text = __( 'You may select a more descriptive Schema type from the Organization sub-types (default is Organization).',
+					$text = __( 'You may optionally choose a different Schema type for the organization (default is Organization).',
 						'wpsso-organization' );
 
 					break;
@@ -295,7 +298,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					$plm_info       = $this->p->cf['plugin'][$plm_ext];
 					$plm_addon_link = $this->p->util->get_admin_url( 'addons#' . $plm_ext, $plm_info['short'] );
 
-					$text = sprintf( __( 'Select an optional Place / Location address for this Organization (requires the %s add-on).',
+					$text = sprintf( __( 'Select an optional Place / Location for this Organization (requires the %s add-on).',
 						'wpsso-organization' ), $plm_addon_link );
 
 					break;

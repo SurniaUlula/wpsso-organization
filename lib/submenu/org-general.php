@@ -74,9 +74,11 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$site_desc_key     = SucomUtil::get_key_locale( 'site_desc', $this->form->options );
 					$site_url_key      = SucomUtil::get_key_locale( 'site_url', $this->form->options );
 
-					$plm_req_msg      = $this->p->admin->get_ext_required_msg( 'plm' );
-					$plm_disable      = empty( $plm_req_msg ) ? false : true;
-					$place_addr_names = $this->p->util->get_form_cache( 'place_addr_names', true );
+					$plm_req_msg     = $this->p->admin->get_ext_required_msg( 'plm' );
+					$plm_disable     = empty( $plm_req_msg ) ? false : true;
+					$plm_place_names = $this->p->util->get_form_cache( 'place_names', true );
+
+					$org_types_select = $this->p->util->get_form_cache( 'org_types_select' );
 
 					$table_rows['schema_knowledge_graph'] = ''.
 					$this->form->get_th_html( _x( 'Google\'s Knowledge Graph', 'option label', 'wpsso-organization' ), '', 'org_json' ).
@@ -111,11 +113,11 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					$table_rows['site_org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
 						'option label', 'wpsso-organization' ), '', 'site_org_type' ).
-					'<td>'.$this->form->get_select( 'site_org_type', $this->p->util->get_form_cache( 'org_types_select' ), 'schema_type' ).'</td>';
+					'<td>'.$this->form->get_select( 'site_org_type', $org_types_select, 'schema_type' ).'</td>';
 
 					$table_rows['site_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
 						'option label', 'wpsso-organization' ), '', 'site_place_id' ).
-					'<td>'.$this->form->get_select( 'site_place_id', $place_addr_names, 'long_name', '', true, $plm_disable ).$plm_req_msg.'</td>';
+					'<td>'.$this->form->get_select( 'site_place_id', $plm_place_names, 'long_name', '', true, $plm_disable ).$plm_req_msg.'</td>';
 
 					$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
 						_x( 'Google\'s Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';

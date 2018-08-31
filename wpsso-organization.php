@@ -14,7 +14,7 @@
  * Requires PHP: 5.4
  * Requires At Least: 3.8
  * Tested Up To: 4.9.8
- * Version: 1.3.2-dev.2
+ * Version: 1.4.0-dev.4
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -53,7 +53,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			require_once ( dirname( __FILE__ ) . '/lib/config.php' );
 
 			WpssoOrgConfig::set_constants( __FILE__ );
-			WpssoOrgConfig::require_libs( __FILE__ );	// includes the register.php class library
+			WpssoOrgConfig::require_libs( __FILE__ );	// Includes the register.php class library.
 
 			$this->reg = new WpssoOrgRegister();		// activate, deactivate, uninstall hooks
 
@@ -207,5 +207,6 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 	}
 
         global $wpssoorg;
+
 	$wpssoorg =& WpssoOrg::get_instance();
 }
