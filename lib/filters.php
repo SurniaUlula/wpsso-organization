@@ -16,6 +16,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		protected $p;
 
 		public function __construct( &$plugin ) {
+
 			$this->p =& $plugin;
 
 			if ( $this->p->debug->enabled ) {
@@ -53,6 +54,11 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 			if ( $mod['is_home'] ) {
 
+				/**
+				 * If we have a site organization type defined, and it's not "organization",
+				 * then add that schema type to the list of schema ids for the home page,
+				 * and remove the default "organization" type.
+				 */
 				if ( ! empty( $this->p->options['site_org_type'] ) && $this->p->options['site_org_type'] !== 'organization' ) {
 
 					$type_ids[$this->p->options['site_org_type']] = $this->p->options['schema_add_home_organization'];
@@ -65,10 +71,11 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		}
 
 		public function filter_get_organization_options( $opts, $mod, $org_id ) {
-			if ( $opts !== false ) {	// first come, first served
+
+			if ( $opts !== false ) {	// First come, first served.
 				return $opts;
 			} elseif ( $org_id === 'site' || is_numeric( $org_id ) ) {
-				return WpssoOrgOrganization::get_org_id( $org_id, $mod );	// returns localized values
+				return WpssoOrgOrganization::get_org_id( $org_id, $mod );	// Returns localized values.
 			} else {
 				return $opts;
 			}

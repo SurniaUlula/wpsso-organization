@@ -16,6 +16,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		private $p;
 
 		public function __construct( &$plugin ) {
+
 			$this->p =& $plugin;
 
 			if ( $this->p->debug->enabled ) {
@@ -68,13 +69,16 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 							}
 						}
 					}
+
 				} elseif ( $wpsso->debug->enabled ) {
 					$wpsso->debug->log( 'org type not provided - keeping all organizations' );
 				}
 			}
 
 			if ( $add_new ) {
+
 				$next_num = SucomUtil::get_next_num( $org_names );
+
 				$org_names[$next_num] = $wpsso->cf['form']['org_select']['new'];
 			}
 

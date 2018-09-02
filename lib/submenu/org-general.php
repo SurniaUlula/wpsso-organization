@@ -14,6 +14,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 	class WpssoOrgSubmenuOrgGeneral extends WpssoAdmin {
 
 		public function __construct( &$plugin, $id, $name, $lib, $ext ) {
+
 			$this->p =& $plugin;
 
 			if ( $this->p->debug->enabled ) {
@@ -124,7 +125,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					$social_accounts = apply_filters( $this->p->lca.'_social_accounts', $this->p->cf['form']['social_accounts'] );
 
-					asort( $social_accounts );	// sort by label and maintain key association
+					asort( $social_accounts );	// Sort by label and maintain key association.
 
 					foreach ( $social_accounts as $opt_key => $opt_label ) {
 						$table_rows[$opt_key] = $this->form->get_th_html( _x( $opt_label,
