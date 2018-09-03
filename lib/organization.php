@@ -24,7 +24,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			}
 		}
 
-		public static function get_names( $org_type = '', $add_none = false, $add_new = false, $add_site = false ) {
+		public static function get_names( $schema_type = '', $add_none = false, $add_new = false, $add_site = false ) {
 
 			$wpsso =& Wpsso::get_instance();
 
@@ -51,19 +51,23 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 
 				$org_names = SucomUtil::get_multi_key_locale( 'org_name', $wpsso->options, false );	// $add_none is false.
 
-				if ( ! empty( $org_type ) && is_string( $org_type) ) {
+				if ( ! empty( $schema_type ) && is_string( $schema_type) ) {
 
 					if ( $wpsso->debug->enabled ) {
-						$wpsso->debug->log( 'removing organizations not in org type: ' . $org_type );
+						$wpsso->debug->log( 'removing organizations not in org type: ' . $schema_type );
 					}
 
-					$children = $wpsso->schema->get_schema_type_children( $org_type );
+					$children = $wpsso->schema->get_schema_type_children( $schema_type );
 
 					if ( ! empty( $children ) ) {	// Just in case.
+
 						foreach ( $org_names as $num => $name ) {
+
 							if ( ! empty( $wpsso->options['org_type_' . $num] ) &&
 								in_array( $wpsso->options['org_type_' . $num], $children ) ) {
+
 								continue;
+
 							} else {
 								unset( $org_names[$num] );
 							}
@@ -75,6 +79,9 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				}
 			}
 
+			/**
+			 * Add 'new' as the last org ID.
+			 */
 			if ( $add_new ) {
 
 				$next_num = SucomUtil::get_next_num( $org_names );
@@ -94,7 +101,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		 * Returns an array of localized values
 		 * $mixed = 'default' | 'current' | post ID | $mod array.
 		 */
-		public static function get_org_id( $id, $mixed = 'current' ) {
+		public static function get_id( $id, $mixed = 'current' ) {
 
 			$wpsso =& Wpsso::get_instance();
 
@@ -107,7 +114,11 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 
 			$org_opts = array();
 
-			if ( $id === 'site' ) {
+			if ( $id === 'none' ) {	// Just in case.
+
+				return false;
+
+			} elseif ( $id === 'site' ) {
 
 				return WpssoSchema::get_site_organization( $mixed );
 
