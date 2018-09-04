@@ -101,37 +101,37 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		 * Returns an array of localized values
 		 * $mixed = 'default' | 'current' | post ID | $mod array.
 		 */
-		public static function get_id( $id, $mixed = 'current' ) {
+		public static function get_id( $org_id, $mixed = 'current' ) {
 
 			$wpsso =& Wpsso::get_instance();
 
 			if ( $wpsso->debug->enabled ) {
 				$wpsso->debug->log_args( array( 
-					'id'    => $id,
-					'mixed' => $mixed,
+					'org_id' => $org_id,
+					'mixed'  => $mixed,
 				) );
 			}
 
 			$org_opts = array();
 
-			if ( $id === 'none' ) {	// Just in case.
+			if ( $org_id === 'none' ) {	// Just in case.
 
 				return false;
 
-			} elseif ( $id === 'site' ) {
+			} elseif ( $org_id === 'site' ) {
 
 				return WpssoSchema::get_site_organization( $mixed );
 
-			} elseif ( is_numeric( $id ) && $wpsso->check->pp( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
+			} elseif ( is_numeric( $org_id ) && $wpsso->check->pp( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
 
 				/**
 				 * Get the list of non-localized option names.
 				 */
-				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*_)' . $id . '(#.*)?$/', $wpsso->options, false, '$1' ) as $opt_prefix => $value ) {
+				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*_)' . $org_id . '(#.*)?$/', $wpsso->options, false, '$1' ) as $opt_prefix => $value ) {
 
 					$opt_idx = rtrim( $opt_prefix, '_' );
 
-					$org_opts[$opt_idx] = SucomUtil::get_key_value( $opt_prefix . $id, $wpsso->options, $mixed );	// Localized value.
+					$org_opts[$opt_idx] = SucomUtil::get_key_value( $opt_prefix . $org_id, $wpsso->options, $mixed );	// Localized value.
 				}
 			}
 
