@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(			// Plugin acronym.
-					'version'     => '1.4.0-rc.1',	// Plugin version.
+					'version'     => '1.4.0-rc.2',	// Plugin version.
 					'opt_version' => '3',		// Increment when changing default option values.
 					'short'       => 'WPSSO ORG',	// Short plugin name.
 					'name'        => 'WPSSO Organization Markup',
@@ -29,7 +29,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					'req' => array(
 						'short'       => 'WPSSO Core',
 						'name'        => 'WPSSO Core',
-						'min_version' => '4.12.0-rc.1',
+						'min_version' => '4.12.0-rc.2',
 					),
 					'img' => array(
 						'icons' => array(
@@ -68,12 +68,12 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 				return;
 			}
 
-			define( 'WPSSOORG_VERSION', self::$cf['plugin']['wpssoorg']['version'] );						
 			define( 'WPSSOORG_FILEPATH', $plugin_filepath );						
+			define( 'WPSSOORG_PLUGINBASE', self::$cf['plugin']['wpssoorg']['base'] );	// wpsso-organization/wpsso-organization.php
 			define( 'WPSSOORG_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_filepath ) ) ) );
 			define( 'WPSSOORG_PLUGINSLUG', self::$cf['plugin']['wpssoorg']['slug'] );	// wpsso-organization
-			define( 'WPSSOORG_PLUGINBASE', self::$cf['plugin']['wpssoorg']['base'] );	// wpsso-organization/wpsso-organization.php
 			define( 'WPSSOORG_URLPATH', trailingslashit( plugins_url( '', $plugin_filepath ) ) );
+			define( 'WPSSOORG_VERSION', self::$cf['plugin']['wpssoorg']['version'] );						
 		}
 
 		public static function require_libs( $plugin_filepath ) {
