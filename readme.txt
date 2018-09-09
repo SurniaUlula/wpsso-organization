@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.4
 Requires At Least: 3.8
 Tested Up To: 4.9.8
-Stable Tag: 1.3.1
+Stable Tag: 1.4.0
 
 WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.).
 
