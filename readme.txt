@@ -156,7 +156,3 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 (2018/09/09) Minor update for code style and changes in WPSSO v4.12.0.
 
-= 1.3.1 =
-
-(2018/08/11) Renamed the SucomForm::get_cache() method to WpssoUtil::get_form_cache() for WPSSO v4.10.0.
-
