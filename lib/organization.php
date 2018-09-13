@@ -114,7 +114,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 
 			$org_opts = array();
 
-			if ( $org_id === 'none' ) {	// Just in case.
+			if ( $org_id === '' || $org_id === 'none' ) {	// Just in case.
 
 				return false;
 
@@ -123,6 +123,17 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				return WpssoSchema::get_site_organization( $mixed );
 
 			} elseif ( is_numeric( $org_id ) && $wpsso->check->pp( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
+
+				static $local_cache = array();	// Cache for single page load.
+
+				if ( isset( $local_cache[ $org_id ] ) ) {
+
+					if ( $wpsso->debug->enabled ) {
+						$wpsso->debug->log( 'returning options from static cache array for org ID ' . $org_id );
+					}
+
+					return $local_cache[ $org_id ];
+				}
 
 				/**
 				 * Get the list of non-localized option names.
@@ -133,10 +144,12 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 
 					$org_opts[$opt_idx] = SucomUtil::get_key_value( $opt_prefix . $org_id, $wpsso->options, $mixed );	// Localized value.
 				}
-			}
 
-			if ( $wpsso->debug->enabled ) {
-				$wpsso->debug->log( $org_opts );
+				if ( $wpsso->debug->enabled ) {
+					$wpsso->debug->log( 'saving options to static cache array for org ID ' . $org_id );
+				}
+
+				$local_cache[ $org_id ] = $org_opts;
 			}
 
 			if ( empty( $org_opts ) ) {
