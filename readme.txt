@@ -106,6 +106,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.4.1-dev.4 (2018/09/13)**
+
+* *New Features*
+	* None.
+* *Improvements*
+	* Added a static local cache to the WpssoOrgOrganization::get_id() method.
+* *Bugfixes*
+	* None.
+* *Developer Notes*
+	* None.
+
 **Version 1.4.0 (2018/09/09)**
 
 * *New Features*
@@ -117,40 +128,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Developer Notes*
 	* Minor update for code style and changes in WPSSO v4.12.0.
 
-**Version 1.3.1 (2018/08/11)**
-
-* *New Features*
-	* None.
-* *Improvements*
-	* None.
-* *Bugfixes*
-	* None.
-* *Developer Notes*
-	* Renamed the SucomForm::get_cache() method to WpssoUtil::get_form_cache() for WPSSO v4.10.0.
-
-**Version 1.3.0 (2018/07/22)**
-
-* *New Features*
-	* None.
-* *Improvements*
-	* Maintenance release.
-* *Bugfixes*
-	* None.
-* *Developer Notes*
-	* None.
-
-**Version 1.2.3 (2018/05/21)**
-
-* *New Features*
-	* None.
-* *Improvements*
-	* Added an image dimension check for the "Organization Banner URL" option value.
-* *Bugfixes*
-	* None.
-* *Developer Notes*
-	* None.
-
 == Upgrade Notice ==
+
+= 1.4.1-dev.4 =
+
+(2018/09/13) Added a static local cache to the WpssoOrgOrganization::get_id() method.
 
 = 1.4.0 =
 
