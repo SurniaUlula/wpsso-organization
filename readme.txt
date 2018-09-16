@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.4.1-rc.1 (2018/09/15)**
+**Version 1.4.1 (2018/09/16)**
 
 * *New Features*
 	* None.
@@ -117,24 +117,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Developer Notes*
 	* None.
 
-**Version 1.4.0 (2018/09/09)**
-
-* *New Features*
-	* None.
-* *Improvements*
-	* None.
-* *Bugfixes*
-	* None.
-* *Developer Notes*
-	* Minor update for code style and changes in WPSSO v4.12.0.
-
 == Upgrade Notice ==
 
-= 1.4.1-rc.1 =
+= 1.4.1 =
 
-(2018/09/15) Added a static local cache to the WpssoOrgOrganization::get_id() method.
-
-= 1.4.0 =
-
-(2018/09/09) Minor update for code style and changes in WPSSO v4.12.0.
+(2018/09/16) Added a static local cache to the WpssoOrgOrganization::get_id() method.
 
