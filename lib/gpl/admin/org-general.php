@@ -34,7 +34,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 
 			$plm_req_msg     = $this->p->admin->get_ext_required_msg( 'plm' );
 			$plm_disable     = empty( $plm_req_msg ) ? false : true;
-			$plm_place_names = $this->p->util->get_form_cache( 'place_names', true );	// $add_none is true.
+			$plm_place_names = $this->p->util->get_form_cache( 'place_names', $add_none = true );
 
 			$org_names_new    = array( 0 => $this->p->cf['form']['org_select']['new'] );
 			$org_first_num    = SucomUtil::get_first_num( $org_names_new );
