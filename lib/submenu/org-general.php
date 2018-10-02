@@ -42,8 +42,8 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 			$metabox_id = 'organization';
 
 			$tabs = apply_filters( $this->p->lca.'_'.$metabox_id.'_tabs', array( 
-				'site' => _x( 'WebSite (Front Page)', 'metabox tab', 'wpsso-organization' ),
-				'other' => _x( 'Other Organizations', 'metabox tab', 'wpsso-organization' ),
+				'site'                => _x( 'WebSite (Front Page)', 'metabox tab', 'wpsso-organization' ),
+				'other_organizations' => _x( 'Other Organizations', 'metabox tab', 'wpsso-organization' ),
 			) );
 
 			$table_rows = array();
@@ -120,7 +120,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 						'option label', 'wpsso-organization' ), '', 'site_place_id' ).
 					'<td>'.$this->form->get_select( 'site_place_id', $plm_place_names, 'long_name', '', true, $plm_disable ).$plm_req_msg.'</td>';
 
-					$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>'.
+					$table_rows['subsection_google_knowledgegraph'] = '<td colspan="2" class="subsection"><h4>'.
 						_x( 'Google\'s Knowledge Graph', 'metabox title', 'wpsso-organization' ).'</h4></td>';
 
 					$social_accounts = apply_filters( $this->p->lca.'_social_accounts', $this->p->cf['form']['social_accounts'] );

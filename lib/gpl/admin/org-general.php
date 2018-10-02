@@ -22,11 +22,11 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			}
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'organization_other_rows' => 2,
+				'organization_other_organizations_rows' => 2,
 			) );
 		}
 
-		public function filter_organization_other_rows( $table_rows, $form ) {
+		public function filter_organization_other_organizations_rows( $table_rows, $form ) {
 
 			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
@@ -93,7 +93,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 				'option label', 'wpsso-organization' ), '', 'org_place_id' ) . 
 			'<td class="blank">' . $form->get_no_select( 'org_place_id_' . $id, $plm_place_names, 'long_name' ) . $plm_req_msg . '</td>';
 
-			$table_rows['subsection_google_knowledgegraph'] = '<td></td><td class="subsection"><h4>' . 
+			$table_rows['subsection_google_knowledgegraph'] = '<td colspan="2" class="subsection"><h4>' . 
 				_x( 'Google\'s Knowledge Graph', 'metabox title', 'wpsso-organization' ) . '</h4></td>';
 
 			$social_accounts = apply_filters( $this->p->lca . '_social_accounts', $this->p->cf['form']['social_accounts'] );
