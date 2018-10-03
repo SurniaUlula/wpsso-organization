@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.4.2-dev.4 (2018/10/02)**
+**Version 1.4.2-dev.6 (2018/10/03)**
 
 * *New Features*
 	* None.
@@ -130,9 +130,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.4.2-dev.4 =
+= 1.4.2-dev.6 =
 
-(2018/10/02) Minor changes for code style and standardization.
+(2018/10/03) Minor changes for code style and standardization.
 
 = 1.4.1 =
 
