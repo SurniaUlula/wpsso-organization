@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.4
 Requires At Least: 3.8
 Tested Up To: 4.9.8
-Stable Tag: 1.4.1
+Stable Tag: 1.4.2
 
 WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.).
 
@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.4.2-dev.6 (2018/10/03)**
+**Version 1.4.2 (2018/10/04)**
 
 * *New Features*
 	* None.
@@ -130,11 +130,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.4.2-dev.6 =
+= 1.4.2 =
 
-(2018/10/03) Minor changes for code style and standardization.
-
-= 1.4.1 =
-
-(2018/09/16) Added a static local cache to the WpssoOrgOrganization::get_id() method.
+(2018/10/04) Minor changes for code style and standardization.
 
