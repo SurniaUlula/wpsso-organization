@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(			// Plugin acronym.
-					'version'     => '1.4.2-dev.6',	// Plugin version.
+					'version'     => '1.4.2',	// Plugin version.
 					'opt_version' => '3',		// Increment when changing default option values.
 					'short'       => 'WPSSO ORG',	// Short plugin name.
 					'name'        => 'WPSSO Organization Markup',
@@ -29,7 +29,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					'req' => array(
 						'short'       => 'WPSSO Core',
 						'name'        => 'WPSSO Core',
-						'min_version' => '4.15.0-dev.6',
+						'min_version' => '4.15.0',
 					),
 					'img' => array(
 						'icons' => array(
@@ -57,9 +57,11 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		);
 
 		public static function get_version( $add_slug = false ) {
-			$ext = 'wpssoorg';
+
+			$ext  = 'wpssoorg';
 			$info =& self::$cf['plugin'][$ext];
-			return $add_slug ? $info['slug'].'-'.$info['version'] : $info['version'];
+
+			return $add_slug ? $info['slug'] . '-' . $info['version'] : $info['version'];
 		}
 
 		public static function set_constants( $plugin_filepath ) { 
@@ -78,25 +80,31 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 
 		public static function require_libs( $plugin_filepath ) {
 
-			require_once WPSSOORG_PLUGINDIR.'lib/register.php';
-			require_once WPSSOORG_PLUGINDIR.'lib/filters.php';
-			require_once WPSSOORG_PLUGINDIR.'lib/organization.php';
+			require_once WPSSOORG_PLUGINDIR . 'lib/register.php';
+			require_once WPSSOORG_PLUGINDIR . 'lib/filters.php';
+			require_once WPSSOORG_PLUGINDIR . 'lib/organization.php';
 
 			add_filter( 'wpssoorg_load_lib', array( 'WpssoOrgConfig', 'load_lib' ), 10, 3 );
 		}
 
 		public static function load_lib( $ret = false, $filespec = '', $classname = '' ) {
+
 			if ( false === $ret && ! empty( $filespec ) ) {
-				$filepath = WPSSOORG_PLUGINDIR.'lib/'.$filespec.'.php';
+
+				$filepath = WPSSOORG_PLUGINDIR . 'lib/' . $filespec . '.php';
+
 				if ( file_exists( $filepath ) ) {
+
 					require_once $filepath;
+
 					if ( empty( $classname ) ) {
-						return SucomUtil::sanitize_classname( 'wpssoorg'.$filespec, false );	// $underscore = false
+						return SucomUtil::sanitize_classname( 'wpssoorg' . $filespec, $allow_underscore = false );
 					} else {
 						return $classname;
 					}
 				}
 			}
+
 			return $ret;
 		}
 	}
