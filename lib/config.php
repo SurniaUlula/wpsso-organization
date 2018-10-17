@@ -80,9 +80,9 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 
 		public static function require_libs( $plugin_filepath ) {
 
-			require_once WPSSOORG_PLUGINDIR . 'lib/register.php';
 			require_once WPSSOORG_PLUGINDIR . 'lib/filters.php';
 			require_once WPSSOORG_PLUGINDIR . 'lib/organization.php';
+			require_once WPSSOORG_PLUGINDIR . 'lib/register.php';
 
 			add_filter( 'wpssoorg_load_lib', array( 'WpssoOrgConfig', 'load_lib' ), 10, 3 );
 		}
