@@ -51,7 +51,7 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 			$table_rows['org_id'] = $form->get_th_html( _x( 'Edit an Organization', 'option label', 'wpsso-organization' ), '', 'org_id' ) . 
 			'<td class="blank">' . $form->get_no_select( 'org_id', $org_names_new, 'long_name', '', true ) . '</td>';
 
-			$form->defaults['org_type_' . $id] = $form->defaults['site_org_type'];		// Set default value.
+			$form->defaults['org_schema_type_' . $id] = $form->defaults['site_org_schema_type'];	// Set default value.
 
 			$form->defaults['org_place_id_' . $id] = $form->defaults['site_place_id'];	// Set default value.
 
@@ -85,9 +85,9 @@ if ( ! class_exists( 'WpssoOrgGplAdminOrgGeneral' ) ) {
 				'option label', 'wpsso-organization' ), '', 'schema_banner_url', array( 'is_locale' => true ) ) . 
 			'<td class="blank">' . $form->get_no_input_value( '', 'wide' ) . '</td>';
 
-			$table_rows['org_type_' . $id] = $form->get_th_html( _x( 'Organization Schema Type',
-				'option label', 'wpsso-organization' ), '', 'org_type' ) . 
-			'<td class="blank">' . $form->get_no_select( 'org_type_' . $id, $org_types_select, 'schema_type' ) . '</td>';
+			$table_rows['org_schema_type_' . $id] = $form->get_th_html( _x( 'Organization Schema Type',
+				'option label', 'wpsso-organization' ), '', 'org_schema_type' ) . 
+			'<td class="blank">' . $form->get_no_select( 'org_schema_type_' . $id, $org_types_select, 'schema_type' ) . '</td>';
 
 			$table_rows['org_place_id_' . $id] = $form->get_th_html( _x( 'Organization Place / Location',
 				'option label', 'wpsso-organization' ), '', 'org_place_id' ) . 

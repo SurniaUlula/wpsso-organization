@@ -59,9 +59,10 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				 * then add that schema type to the list of schema ids for the home page,
 				 * and remove the default "organization" type.
 				 */
-				if ( ! empty( $this->p->options['site_org_type'] ) && $this->p->options['site_org_type'] !== 'organization' ) {
+				if ( ! empty( $this->p->options[ 'site_org_schema_type' ] ) &&
+					$this->p->options[ 'site_org_schema_type' ] !== 'organization' ) {
 
-					$type_ids[$this->p->options['site_org_type']] = $this->p->options['schema_add_home_organization'];
+					$type_ids[ $this->p->options[ 'site_org_schema_type' ] ] = $this->p->options['schema_add_home_organization'];
 
 					unset( $type_ids['organization'] );
 				}
@@ -105,7 +106,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 					break;
 
-				case 'org_type':
+				case 'org_schema_type':
 				case 'org_place_id':
 
 					return 'not_blank';
@@ -292,7 +293,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 					break;
 
-				case 'tooltip-org_type':
+				case 'tooltip-org_schema_type':
 
 					$text = __( 'You may optionally choose a different Schema type for the organization (default is Organization).',
 						'wpsso-organization' );

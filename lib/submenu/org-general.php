@@ -114,9 +114,9 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 						'option label', 'wpsso-organization' ), '', 'schema_banner_url', $atts_locale ) . 
 					'<td>' . $this->form->get_input( SucomUtil::get_key_locale( 'schema_banner_url', $this->p->options ), 'wide' ) . '</td>';
 
-					$table_rows['site_org_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
-						'option label', 'wpsso-organization' ), '', 'site_org_type' ) . 
-					'<td>' . $this->form->get_select( 'site_org_type', $org_types_select, 'schema_type' ) . '</td>';
+					$table_rows['site_org_schema_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
+						'option label', 'wpsso-organization' ), '', 'site_org_schema_type' ) . 
+					'<td>' . $this->form->get_select( 'site_org_schema_type', $org_types_select, 'schema_type' ) . '</td>';
 
 					$table_rows['site_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
 						'option label', 'wpsso-organization' ), '', 'site_place_id' ) . 

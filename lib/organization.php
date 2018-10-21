@@ -24,6 +24,10 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			}
 		}
 
+		/**
+		 * Return an associative array of organization IDs and names.
+		 * Optionally add 'none', 'new', and 'site' at the top of the array.
+		 */
 		public static function get_names( $schema_type = '', $add_none = false, $add_new = false, $add_site = false ) {
 
 			$wpsso =& Wpsso::get_instance();
@@ -36,11 +40,11 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			$org_names   = array();
 
 			if ( $add_none ) {
-				$first_names['none'] = $wpsso->cf['form']['org_select']['none'];
+				$first_names[ 'none' ] = $wpsso->cf['form']['org_select']['none'];
 			}
 
 			if ( $add_site ) {
-				$first_names['site'] = $wpsso->cf['form']['org_select']['site'];
+				$first_names[ 'site' ] = $wpsso->cf['form']['org_select']['site'];
 			}
 
 			if ( $wpsso->check->pp( 'wpssoorg', true, $wpsso->avail['*']['p_dir'] ) ) {
@@ -61,15 +65,15 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 
 					if ( ! empty( $children ) ) {	// Just in case.
 
-						foreach ( $org_names as $num => $name ) {
+						foreach ( $org_names as $org_id => $name ) {
 
-							if ( ! empty( $wpsso->options['org_type_' . $num] ) &&
-								in_array( $wpsso->options['org_type_' . $num], $children ) ) {
+							if ( ! empty( $wpsso->options[ 'org_schema_type_' . $org_id ] ) &&
+								in_array( $wpsso->options[ 'org_schema_type_' . $org_id ], $children ) ) {
 
 								continue;
 
 							} else {
-								unset( $org_names[$num] );
+								unset( $org_names[ $org_id ] );
 							}
 						}
 					}
@@ -97,9 +101,10 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		}
 
 		/**
-		 * Get a specific organization id.
-		 * Returns an array of localized values
-		 * $mixed = 'default' | 'current' | post ID | $mod array.
+		 * Get a specific organization id. Returns an array of localized values
+		 *
+		 * $org_id = 'site' | place ID.
+		 * $mixed  = 'default' | 'current' | post ID | $mod array.
 		 */
 		public static function get_id( $org_id, $mixed = 'current' ) {
 
@@ -142,7 +147,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 
 					$opt_idx = rtrim( $opt_prefix, '_' );
 
-					$org_opts[$opt_idx] = SucomUtil::get_key_value( $opt_prefix . $org_id, $wpsso->options, $mixed );	// Localized value.
+					$org_opts[ $opt_idx ] = SucomUtil::get_key_value( $opt_prefix . $org_id, $wpsso->options, $mixed );	// Localized value.
 				}
 
 				if ( $wpsso->debug->enabled ) {
