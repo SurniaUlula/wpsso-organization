@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 1.4.2\n"
+"Project-Id-Version: WPSSO Organization Markup 1.4.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2018-10-01 11:13-0700\n"
-"PO-Revision-Date: 2018-10-01 11:13-0700\n"
+"POT-Creation-Date: 2018-10-21 08:31-0600\n"
+"PO-Revision-Date: 2018-10-21 08:31-0600\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -25,60 +25,60 @@ msgctxt "plugin description"
 msgid "WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph."
 msgstr "Extension d'ajout WPSSO Core pour gérer des organisations et propriétés Schéma supplémentaires (organisateur, interprète, éditeur, etc.) pour Google Rich Cards / Knowledge Graph."
 
-#: lib/filters.php:161
+#: lib/filters.php:162
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr "Organisation #%d"
 
-#: lib/filters.php:194
+#: lib/filters.php:195
 msgid "organization \"%s\""
 msgstr "organisation \"%s\""
 
-#: lib/filters.php:229
+#: lib/filters.php:230
 msgid "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr "Les dimensions de l'image pour l'URL de la bannière d'organisation \"%1$s\" ne peuvent pas être déterminées."
 
-#: lib/filters.php:232
+#: lib/filters.php:233
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr "Assurez-vous que ce site peut accéder à l'image bannière à %1$s."
 
-#: lib/filters.php:237
+#: lib/filters.php:238
 msgid "The \"%1$s\" organization banner URL image dimensions are %2$s and must be exactly %3$s."
 msgstr "Les dimensions de l'image pour l'URL de la bannière d'organisation \"%1$s\" sont %2$s et doivent être exactement %3$s."
 
-#: lib/filters.php:240
+#: lib/filters.php:241
 msgid "Please correct the banner image at %s."
 msgstr "Veuillez corriger l'image bannière à %s."
 
-#: lib/filters.php:261
+#: lib/filters.php:262
 msgid "Include Organization schema markup in the front page for Google's Knowledge Graph."
 msgstr "Inclure le balisage Schéma Organisation dans la page d'avant pour le Knowledge Graph de Google."
 
-#: lib/filters.php:267
+#: lib/filters.php:268
 msgid "Select an organization to edit."
 msgstr "Sélectionnez une organisation à modifier."
 
-#: lib/filters.php:273
+#: lib/filters.php:274
 msgid "The complete name for the organization."
 msgstr "Le nom complet de l'organisation."
 
-#: lib/filters.php:279
+#: lib/filters.php:280
 msgid "An alternate name for the organization that you would like Google to consider."
 msgstr "Un autre nom pour l’organisation que vous souhaitez que Google considère."
 
-#: lib/filters.php:285
+#: lib/filters.php:286
 msgid "A description for the organization."
 msgstr "Une description de l'organisation."
 
-#: lib/filters.php:291
+#: lib/filters.php:292
 msgid "The website URL for the organization."
 msgstr "L'URL du site Web de l'organisation."
 
-#: lib/filters.php:297
+#: lib/filters.php:298
 msgid "You may optionally choose a different Schema type for the organization (default is Organization)."
 msgstr "Vous pouvez sélectionner un type de Schéma différent pour l'organisation (valeur par défaut est Organization)."
 
-#: lib/filters.php:308
+#: lib/filters.php:309
 msgid "Select an optional Place / Location for this Organization (requires the %s add-on)."
 msgstr "Choisissez une place / position optionnel pour cette organisation (requiert l'ajout %s)."
 
@@ -113,31 +113,31 @@ msgid "Organization WebSite URL"
 msgstr "URL du site de l'organisation"
 
 #: lib/gpl/admin/org-general.php:80 lib/pro/admin/org-general.php:101
-#: lib/submenu/org-general.php:107
+#: lib/submenu/org-general.php:109
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr "URL logo de organisation"
 
 #: lib/gpl/admin/org-general.php:84 lib/pro/admin/org-general.php:105
-#: lib/submenu/org-general.php:111
+#: lib/submenu/org-general.php:113
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr "URL bannière d'organisation"
 
 #: lib/gpl/admin/org-general.php:88 lib/pro/admin/org-general.php:109
-#: lib/submenu/org-general.php:115
+#: lib/submenu/org-general.php:117
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr "Type de Schéma d'organisation"
 
 #: lib/gpl/admin/org-general.php:92 lib/pro/admin/org-general.php:113
-#: lib/submenu/org-general.php:119
+#: lib/submenu/org-general.php:121
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr "Place / position de l'organisation"
 
 #: lib/gpl/admin/org-general.php:97 lib/pro/admin/org-general.php:119
-#: lib/submenu/org-general.php:124
+#: lib/submenu/org-general.php:126
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr "Knowledge Graph de Google"
@@ -157,31 +157,31 @@ msgctxt "metabox tab"
 msgid "Other Organizations"
 msgstr "Autres organisations"
 
-#: lib/submenu/org-general.php:85
+#: lib/submenu/org-general.php:87
 msgctxt "option label"
 msgid "Google's Knowledge Graph"
 msgstr "Knowledge Graph de Google"
 
-#: lib/submenu/org-general.php:87
+#: lib/submenu/org-general.php:89
 msgid " Include <a href=\"%s\">Organization Social Profile</a>"
 msgstr "Inclure le <a href=\"%s\">profil sociale d'Organisation</a>"
 
-#: lib/submenu/org-general.php:91
+#: lib/submenu/org-general.php:93
 msgctxt "option label"
 msgid "WebSite Name"
 msgstr "Nom du site Web"
 
-#: lib/submenu/org-general.php:95
+#: lib/submenu/org-general.php:97
 msgctxt "option label"
 msgid "WebSite Alternate Name"
 msgstr "Autre nom du site Web"
 
-#: lib/submenu/org-general.php:98
+#: lib/submenu/org-general.php:100
 msgctxt "option label"
 msgid "WebSite Description"
 msgstr "Description du site Web"
 
-#: lib/submenu/org-general.php:103
+#: lib/submenu/org-general.php:105
 msgctxt "option label"
 msgid "WebSite URL"
 msgstr "URL du site Web"
