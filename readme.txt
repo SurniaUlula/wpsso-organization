@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.4.3-dev.8 (2018/10/23)**
+**Version 1.4.3-b.1 (2018/10/23)**
 
 * *New Features*
 	* None.
@@ -141,7 +141,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.4.3-dev.8 =
+= 1.4.3-b.1 =
 
 (2018/10/23) Renamed the 'org_type' option key to 'org_schema_type' for standardization.
 
