@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.4.3-b.1 (2018/10/23)**
+**Version 1.4.3 (2018/10/24)**
 
 * *New Features*
 	* None.
@@ -117,35 +117,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * *Developer Notes*
 	* Renamed the 'org_type' option key to 'org_schema_type' for standardization.
 
-**Version 1.4.2 (2018/10/04)**
-
-* *New Features*
-	* None.
-* *Improvements*
-	* None.
-* *Bugfixes*
-	* None.
-* *Developer Notes*
-	* Minor changes for code style and standardization.
-
-**Version 1.4.1 (2018/09/16)**
-
-* *New Features*
-	* None.
-* *Improvements*
-	* Added a static local cache to the WpssoOrgOrganization::get_id() method.
-* *Bugfixes*
-	* None.
-* *Developer Notes*
-	* None.
-
 == Upgrade Notice ==
 
-= 1.4.3-b.1 =
+= 1.4.3 =
 
-(2018/10/23) Renamed the 'org_type' option key to 'org_schema_type' for standardization.
-
-= 1.4.2 =
-
-(2018/10/04) Minor changes for code style and standardization.
+(2018/10/24) Renamed the 'org_type' option key to 'org_schema_type' for standardization.
 
