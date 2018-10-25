@@ -21,10 +21,10 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 				$this->p->debug->mark();
 			}
 
-			$this->menu_id = $id;
+			$this->menu_id   = $id;
 			$this->menu_name = $name;
-			$this->menu_lib = $lib;
-			$this->menu_ext = $ext;
+			$this->menu_lib  = $lib;
+			$this->menu_ext  = $ext;
 		}
 
 		/**
@@ -34,9 +34,15 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 			$this->maybe_show_language_notice();
 
-			add_meta_box( $this->pagehook . '_general',
-				_x( 'Organizations and Knowledge Graph', 'metabox title', 'wpsso-organization' ), 
-					array( $this, 'show_metabox_general' ), $this->pagehook, 'normal' );
+			$metabox_id      = 'general';
+			$metabox_title   = _x( 'Organizations and Knowledge Graph', 'metabox title', 'wpsso-organization' );
+			$metabox_screen  = $this->pagehook;
+			$metabox_context = 'normal';
+			$metabox_prio    = 'default';
+
+			add_meta_box( $this->pagehook . '_' . $metabox_id, $metabox_title,
+				array( $this, 'show_metabox_general' ), $metabox_screen,
+					$metabox_context, $metabox_prio );
 		}
 
 		public function show_metabox_general() {
