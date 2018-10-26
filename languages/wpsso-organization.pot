@@ -125,31 +125,31 @@ msgid "Organization WebSite URL"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:80 lib/pro/admin/org-general.php:101
-#: lib/submenu/org-general.php:117
+#: lib/submenu/org-general.php:119
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:84 lib/pro/admin/org-general.php:105
-#: lib/submenu/org-general.php:121
+#: lib/submenu/org-general.php:123
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:88 lib/pro/admin/org-general.php:109
-#: lib/submenu/org-general.php:125
+#: lib/submenu/org-general.php:127
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:92 lib/pro/admin/org-general.php:113
-#: lib/submenu/org-general.php:129
+#: lib/submenu/org-general.php:131
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr ""
 
 #: lib/gpl/admin/org-general.php:97 lib/pro/admin/org-general.php:119
-#: lib/submenu/org-general.php:134
+#: lib/submenu/org-general.php:136
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
@@ -159,41 +159,41 @@ msgctxt "metabox title"
 msgid "Organizations and Knowledge Graph"
 msgstr ""
 
-#: lib/submenu/org-general.php:53
+#: lib/submenu/org-general.php:55
 msgctxt "metabox tab"
 msgid "WebSite (Front Page)"
 msgstr ""
 
-#: lib/submenu/org-general.php:54
+#: lib/submenu/org-general.php:56
 msgctxt "metabox tab"
 msgid "Other Organizations"
 msgstr ""
 
-#: lib/submenu/org-general.php:95
+#: lib/submenu/org-general.php:97
 msgctxt "option label"
 msgid "Google's Knowledge Graph"
 msgstr ""
 
-#: lib/submenu/org-general.php:97
+#: lib/submenu/org-general.php:99
 msgid " Include <a href=\"%s\">Organization Social Profile</a>"
 msgstr ""
 
-#: lib/submenu/org-general.php:101
+#: lib/submenu/org-general.php:103
 msgctxt "option label"
 msgid "WebSite Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:105
+#: lib/submenu/org-general.php:107
 msgctxt "option label"
 msgid "WebSite Alternate Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:108
+#: lib/submenu/org-general.php:110
 msgctxt "option label"
 msgid "WebSite Description"
 msgstr ""
 
-#: lib/submenu/org-general.php:113
+#: lib/submenu/org-general.php:115
 msgctxt "option label"
 msgid "WebSite URL"
 msgstr ""
