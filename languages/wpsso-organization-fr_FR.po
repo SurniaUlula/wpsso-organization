@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 1.4.3\n"
+"Project-Id-Version: WPSSO Organization Markup 1.4.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2018-10-21 08:31-0600\n"
-"PO-Revision-Date: 2018-10-21 08:31-0600\n"
+"POT-Creation-Date: 2018-10-30 07:38-0600\n"
+"PO-Revision-Date: 2018-10-30 07:38-0600\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -113,75 +113,75 @@ msgid "Organization WebSite URL"
 msgstr "URL du site de l'organisation"
 
 #: lib/gpl/admin/org-general.php:80 lib/pro/admin/org-general.php:101
-#: lib/submenu/org-general.php:109
+#: lib/submenu/org-general.php:119
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr "URL logo de organisation"
 
 #: lib/gpl/admin/org-general.php:84 lib/pro/admin/org-general.php:105
-#: lib/submenu/org-general.php:113
+#: lib/submenu/org-general.php:123
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr "URL bannière d'organisation"
 
 #: lib/gpl/admin/org-general.php:88 lib/pro/admin/org-general.php:109
-#: lib/submenu/org-general.php:117
+#: lib/submenu/org-general.php:127
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr "Type de Schéma d'organisation"
 
 #: lib/gpl/admin/org-general.php:92 lib/pro/admin/org-general.php:113
-#: lib/submenu/org-general.php:121
+#: lib/submenu/org-general.php:131
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr "Place / position de l'organisation"
 
 #: lib/gpl/admin/org-general.php:97 lib/pro/admin/org-general.php:119
-#: lib/submenu/org-general.php:126
+#: lib/submenu/org-general.php:136
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr "Knowledge Graph de Google"
 
-#: lib/submenu/org-general.php:36
+#: lib/submenu/org-general.php:38
 msgctxt "metabox title"
 msgid "Organizations and Knowledge Graph"
 msgstr "Organisations et Knowledge Graph"
 
-#: lib/submenu/org-general.php:45
+#: lib/submenu/org-general.php:55
 msgctxt "metabox tab"
 msgid "WebSite (Front Page)"
 msgstr "Site Web (page d'avant)"
 
-#: lib/submenu/org-general.php:46
+#: lib/submenu/org-general.php:56
 msgctxt "metabox tab"
 msgid "Other Organizations"
 msgstr "Autres organisations"
 
-#: lib/submenu/org-general.php:87
+#: lib/submenu/org-general.php:97
 msgctxt "option label"
 msgid "Google's Knowledge Graph"
 msgstr "Knowledge Graph de Google"
 
-#: lib/submenu/org-general.php:89
+#: lib/submenu/org-general.php:99
 msgid " Include <a href=\"%s\">Organization Social Profile</a>"
 msgstr "Inclure le <a href=\"%s\">profil sociale d'Organisation</a>"
 
-#: lib/submenu/org-general.php:93
+#: lib/submenu/org-general.php:103
 msgctxt "option label"
 msgid "WebSite Name"
 msgstr "Nom du site Web"
 
-#: lib/submenu/org-general.php:97
+#: lib/submenu/org-general.php:107
 msgctxt "option label"
 msgid "WebSite Alternate Name"
 msgstr "Autre nom du site Web"
 
-#: lib/submenu/org-general.php:100
+#: lib/submenu/org-general.php:110
 msgctxt "option label"
 msgid "WebSite Description"
 msgstr "Description du site Web"
 
-#: lib/submenu/org-general.php:105
+#: lib/submenu/org-general.php:115
 msgctxt "option label"
 msgid "WebSite URL"
 msgstr "URL du site Web"
