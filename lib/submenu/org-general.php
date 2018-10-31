@@ -140,7 +140,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					asort( $social_accounts );	// Sort by label and maintain key association.
 
 					foreach ( $social_accounts as $opt_key => $opt_label ) {
-						$table_rows[$opt_key] = $this->form->get_th_html( _x( $opt_label,
+						$table_rows[ $opt_key ] = $this->form->get_th_html( _x( $opt_label,
 							'option value', 'wpsso-organization' ), 'nowrap', $opt_key, $atts_locale ) . 
 						'<td>' . $this->form->get_input( SucomUtil::get_key_locale( $opt_key, $this->p->options ),
 							( strpos( $opt_key, '_url' ) ? 'wide' : '' ) ) . '</td>';
