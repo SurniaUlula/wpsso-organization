@@ -145,9 +145,9 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				 */
 				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*_)' . $org_id . '(#.*)?$/', $wpsso->options, false, '$1' ) as $opt_prefix => $value ) {
 
-					$opt_idx = rtrim( $opt_prefix, '_' );
+					$opt_key = rtrim( $opt_prefix, '_' );
 
-					$org_opts[ $opt_idx ] = SucomUtil::get_key_value( $opt_prefix . $org_id, $wpsso->options, $mixed );	// Localized value.
+					$org_opts[ $opt_key ] = SucomUtil::get_key_value( $opt_prefix . $org_id, $wpsso->options, $mixed );	// Localized value.
 				}
 
 				if ( $wpsso->debug->enabled ) {

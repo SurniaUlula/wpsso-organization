@@ -249,13 +249,13 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$this->p->notice->unset_ref( $settings_page_link );
 		}
 
-		public function filter_messages_tooltip( $text, $idx ) {
+		public function filter_messages_tooltip( $text, $msg_key ) {
 
-			if ( strpos( $idx, 'tooltip-org_' ) !== 0 ) {
+			if ( strpos( $msg_key, 'tooltip-org_' ) !== 0 ) {
 				return $text;
 			}
 
-			switch ( $idx ) {
+			switch ( $msg_key ) {
 
 				case 'tooltip-org_json':
 
