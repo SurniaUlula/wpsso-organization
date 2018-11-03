@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.4.4-rc.1 (2018/11/02)**
+**Version 1.4.4 (2018/11/03)**
 
 * *New Features*
 	* None.
@@ -130,11 +130,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.4.4-rc.1 =
+= 1.4.4 =
 
-(2018/11/02) Updated the SucomForm::get_select() method event argument values for WPSSO v4.16.4.
-
-= 1.4.3 =
-
-(2018/10/24) Renamed the 'org_type' option key to 'org_schema_type' for standardization.
+(2018/11/03) Updated the SucomForm::get_select() method event argument values for WPSSO v4.16.4.
 
