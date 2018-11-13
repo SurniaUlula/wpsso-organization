@@ -97,7 +97,7 @@ if ( ! class_exists( 'WpssoOrgRegister' ) ) {
 
 		private function activate_plugin() {
 
-			$version = WpssoOrgConfig::$cf['plugin']['wpssoorg']['version'];	// only our config
+			$version = WpssoOrgConfig::$cf[ 'plugin' ]['wpssoorg'][ 'version' ];	// only our config
 
 			if ( class_exists( 'WpssoUtil' ) ) {
 				WpssoUtil::save_all_times( 'wpssoorg', $version );
