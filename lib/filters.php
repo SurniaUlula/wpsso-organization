@@ -73,7 +73,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 		public function filter_get_organization_options( $opts, $mod, $org_id ) {
 
-			if ( $opts !== false ) {	// First come, first served.
+			if ( false !== $opts ) {	// First come, first served.
 				return $opts;
 			} elseif ( $org_id === 'site' || is_numeric( $org_id ) ) {
 				return WpssoOrgOrganization::get_id( $org_id, $mod );	// Returns localized values.
