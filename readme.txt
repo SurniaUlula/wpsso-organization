@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.4
 Requires At Least: 3.8
 Tested Up To: 5.0
-Stable Tag: 1.4.4
+Stable Tag: 1.4.5
 
 WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.).
 
@@ -106,31 +106,20 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.4.4 (2018/11/03)**
+**Version 1.4.5 (2018/12/10)**
 
 * *New Features*
 	* None.
 * *Improvements*
 	* None.
 * *Bugfixes*
-	* None.
+	* Fixed an incorrect filter hook name for the SSO &gt; Organization &gt; Other Organizations tab (Pro version).
 * *Developer Notes*
-	* Updated the SucomForm::get_select() method event argument values for WPSSO v4.16.4.
-
-**Version 1.4.3 (2018/10/24)**
-
-* *New Features*
 	* None.
-* *Improvements*
-	* None.
-* *Bugfixes*
-	* None.
-* *Developer Notes*
-	* Renamed the 'org_type' option key to 'org_schema_type' for standardization.
 
 == Upgrade Notice ==
 
-= 1.4.4 =
+= 1.4.5 =
 
-(2018/11/03) Updated the SucomForm::get_select() method event argument values for WPSSO v4.16.4.
+(2018/12/10) Fixed an incorrect filter hook name for the SSO &gt; Organization &gt; Other Organizations tab (Pro version).
 
