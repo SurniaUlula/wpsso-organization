@@ -33,7 +33,7 @@ Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https
 * Select an Organizer or Performer for Schema Event markup.
 * Select a Hiring Organization for Schema JobPosting markup.
 
-<h3>WPSSO ORG Free / Standard Features</h3>
+<h3>WPSSO ORG Standard Features</h3>
 
 * Extends the features of the WPSSO Core Free or Pro plugin.
 
@@ -65,7 +65,7 @@ Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https
 
 * Download the Free version from [GitHub](https://surniaulula.github.io/wpsso-organization/) or [WordPress.org](https://wordpress.org/plugins/wpsso-organization/).
 
-<h3>WPSSO ORG Pro / Additional Features</h3>
+<h3>WPSSO ORG Additional Features (Pro version)</h3>
 
 * Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
 

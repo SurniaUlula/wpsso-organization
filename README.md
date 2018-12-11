@@ -31,7 +31,7 @@
 <li>Select a Hiring Organization for Schema JobPosting markup.</li>
 </ul>
 
-<h3>WPSSO ORG Free / Standard Features</h3>
+<h3>WPSSO ORG Standard Features</h3>
 
 <ul>
 <li><p>Extends the features of the WPSSO Core Free or Pro plugin.</p></li>
@@ -66,7 +66,7 @@
 <li><p>Download the Free version from <a href="https://surniaulula.github.io/wpsso-organization/">GitHub</a> or <a href="https://wordpress.org/plugins/wpsso-organization/">WordPress.org</a>.</p></li>
 </ul>
 
-<h3>WPSSO ORG Pro / Additional Features</h3>
+<h3>WPSSO ORG Additional Features (Pro version)</h3>
 
 <ul>
 <li><p>Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).</p></li>
