@@ -13,19 +13,6 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: lib/config-gettext-extract.php:3
-msgctxt "lib file description"
-msgid "Organization"
-msgstr ""
-
-#: lib/config-gettext-extract.php:4
-msgctxt "plugin description"
-msgid ""
-"WPSSO Core add-on to manage Organizations and additional Schema markup "
-"properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / "
-"Knowledge Graph."
-msgstr ""
-
 #: lib/filters.php:162
 msgctxt "option value"
 msgid "Organization #%d"
@@ -94,62 +81,81 @@ msgid ""
 "add-on)."
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:51 lib/pro/admin/org-general.php:67
+#: lib/gettext-config.php:6
+msgctxt "lib file description"
+msgid "Organization"
+msgstr ""
+
+#: lib/gettext-config.php:7
+msgctxt "plugin description"
+msgid ""
+"WPSSO Core add-on to manage Organizations and additional Schema markup "
+"properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / "
+"Knowledge Graph."
+msgstr ""
+
+#: lib/gettext-pro.php:6 lib/gpl/admin/org-general.php:51
+#: lib/pro/admin/org-general.php:67
 msgctxt "option label"
 msgid "Edit an Organization"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:60 lib/pro/admin/org-general.php:81
+#: lib/gettext-pro.php:7 lib/gpl/admin/org-general.php:60
+#: lib/pro/admin/org-general.php:81
 msgctxt "option comment"
 msgid "delete this organization"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:62 lib/pro/admin/org-general.php:83
+#: lib/gettext-pro.php:8 lib/gpl/admin/org-general.php:62
+#: lib/pro/admin/org-general.php:83
 msgctxt "option label"
 msgid "Organization Name"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:66 lib/pro/admin/org-general.php:87
+#: lib/gettext-pro.php:9 lib/gpl/admin/org-general.php:66
+#: lib/pro/admin/org-general.php:87
 msgctxt "option label"
 msgid "Organization Alternate Name"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:70 lib/pro/admin/org-general.php:91
+#: lib/gettext-pro.php:10 lib/gpl/admin/org-general.php:70
+#: lib/pro/admin/org-general.php:91
 msgctxt "option label"
 msgid "Organization Description"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:74 lib/pro/admin/org-general.php:95
+#: lib/gettext-pro.php:11 lib/gpl/admin/org-general.php:74
+#: lib/pro/admin/org-general.php:95
 msgctxt "option label"
 msgid "Organization WebSite URL"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:80 lib/pro/admin/org-general.php:101
-#: lib/submenu/org-general.php:119
+#: lib/gettext-pro.php:12 lib/gpl/admin/org-general.php:80
+#: lib/pro/admin/org-general.php:101 lib/submenu/org-general.php:119
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:84 lib/pro/admin/org-general.php:105
-#: lib/submenu/org-general.php:123
+#: lib/gettext-pro.php:13 lib/gpl/admin/org-general.php:84
+#: lib/pro/admin/org-general.php:105 lib/submenu/org-general.php:123
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:88 lib/pro/admin/org-general.php:109
-#: lib/submenu/org-general.php:127
+#: lib/gettext-pro.php:14 lib/gpl/admin/org-general.php:88
+#: lib/pro/admin/org-general.php:109 lib/submenu/org-general.php:127
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:92 lib/pro/admin/org-general.php:113
-#: lib/submenu/org-general.php:131
+#: lib/gettext-pro.php:15 lib/gpl/admin/org-general.php:92
+#: lib/pro/admin/org-general.php:113 lib/submenu/org-general.php:131
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr ""
 
-#: lib/gpl/admin/org-general.php:97 lib/pro/admin/org-general.php:119
-#: lib/submenu/org-general.php:136
+#: lib/gettext-pro.php:16 lib/gpl/admin/org-general.php:97
+#: lib/pro/admin/org-general.php:119 lib/submenu/org-general.php:136
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
