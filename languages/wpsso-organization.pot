@@ -131,31 +131,31 @@ msgid "Organization WebSite URL"
 msgstr ""
 
 #: lib/gettext-pro.php:12 lib/gpl/admin/org-general.php:80
-#: lib/pro/admin/org-general.php:101 lib/submenu/org-general.php:119
+#: lib/pro/admin/org-general.php:101 lib/submenu/org-general.php:124
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr ""
 
 #: lib/gettext-pro.php:13 lib/gpl/admin/org-general.php:84
-#: lib/pro/admin/org-general.php:105 lib/submenu/org-general.php:123
+#: lib/pro/admin/org-general.php:105 lib/submenu/org-general.php:129
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr ""
 
 #: lib/gettext-pro.php:14 lib/gpl/admin/org-general.php:88
-#: lib/pro/admin/org-general.php:109 lib/submenu/org-general.php:127
+#: lib/pro/admin/org-general.php:109 lib/submenu/org-general.php:134
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
 #: lib/gettext-pro.php:15 lib/gpl/admin/org-general.php:92
-#: lib/pro/admin/org-general.php:113 lib/submenu/org-general.php:131
+#: lib/pro/admin/org-general.php:113 lib/submenu/org-general.php:139
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr ""
 
 #: lib/gettext-pro.php:16 lib/gpl/admin/org-general.php:97
-#: lib/pro/admin/org-general.php:119 lib/submenu/org-general.php:136
+#: lib/pro/admin/org-general.php:119 lib/submenu/org-general.php:144
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
@@ -189,17 +189,17 @@ msgctxt "option label"
 msgid "WebSite Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:107
+#: lib/submenu/org-general.php:108
 msgctxt "option label"
 msgid "WebSite Alternate Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:110
+#: lib/submenu/org-general.php:113
 msgctxt "option label"
 msgid "WebSite Description"
 msgstr ""
 
-#: lib/submenu/org-general.php:115
+#: lib/submenu/org-general.php:118
 msgctxt "option label"
 msgid "WebSite URL"
 msgstr ""

@@ -100,36 +100,44 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 							'https://developers.google.com/structured-data/customize/social-profiles' ) . '</p></td>';
 
 					$table_rows['site_name'] = $this->form->get_tr_hide( 'basic', $site_name_key ) . 
-					$this->form->get_th_html( _x( 'WebSite Name', 'option label', 'wpsso-organization' ), '', 'site_name', $atts_locale ) . 
+					$this->form->get_th_html( _x( 'WebSite Name', 'option label', 'wpsso-organization' ),
+						$css_class = '', $css_id = 'site_name', $atts_locale ) . 
 					'<td>' . $this->form->get_input( $site_name_key, 'long_name', '', 0, $def_site_name ) . '</td>';
 
 					$table_rows['site_name_alt'] = $this->form->get_tr_hide( 'basic', $site_name_alt_key ) . 
-					$this->form->get_th_html( _x( 'WebSite Alternate Name', 'option label', 'wpsso-organization' ), '', 'site_name_alt', $atts_locale ) . 
+					$this->form->get_th_html( _x( 'WebSite Alternate Name', 'option label', 'wpsso-organization' ),
+						$css_class = '', $css_id = 'site_name_alt', $atts_locale ) . 
 					'<td>' . $this->form->get_input( $site_name_alt_key, 'long_name' ) . '</td>';
 
-					$table_rows['site_desc'] = $this->form->get_th_html( _x( 'WebSite Description',
-						'option label', 'wpsso-organization' ), '', 'site_desc', $atts_locale ) . 
+					$table_rows['site_desc'] = '' . 
+					$this->form->get_th_html( _x( 'WebSite Description', 'option label', 'wpsso-organization' ),
+						$css_class = '', $css_id = 'site_desc', $atts_locale ) . 
 					'<td>' . $this->form->get_textarea( $site_desc_key, '', '', 0, $def_site_desc ) . '</td>';
 
 					$table_rows['site_url'] = $this->form->get_tr_hide( 'basic', $site_url_key ) . 
-					$this->form->get_th_html( _x( 'WebSite URL', 'option label', 'wpsso-organization' ), '', 'site_url', $atts_locale ) . 
+					$this->form->get_th_html( _x( 'WebSite URL', 'option label', 'wpsso-organization' ),
+						$css_class = '', $css_id = 'site_url', $atts_locale ) . 
 					'<td>' . $this->form->get_input( $site_url_key, 'wide', '', 0, $def_site_url ) . '</td>';
 
-					$table_rows['schema_logo_url'] = $this->form->get_th_html( 
-						'<a href="https://developers.google.com/structured-data/customize/logos">' . _x( 'Organization Logo URL',
-							'option label', 'wpsso-organization' ) . '</a>', '', 'schema_logo_url', $atts_locale ) . 
+					$table_rows['schema_logo_url'] = '' .
+					$this->form->get_th_html( '<a href="https://developers.google.com/structured-data/customize/logos">' .
+					_x( 'Organization Logo URL', 'option label', 'wpsso-organization' ) . '</a>',
+						$css_class = '', $css_id = 'schema_logo_url', $atts_locale ) . 
 					'<td>' . $this->form->get_input( SucomUtil::get_key_locale( 'schema_logo_url', $this->p->options ), 'wide' ) . '</td>';
 
-					$table_rows['schema_banner_url'] = $this->form->get_th_html( _x( 'Organization Banner URL',
-						'option label', 'wpsso-organization' ), '', 'schema_banner_url', $atts_locale ) . 
+					$table_rows['schema_banner_url'] = '' .
+					$this->form->get_th_html( _x( 'Organization Banner URL', 'option label', 'wpsso-organization' ),
+						$css_class = '', $css_id = 'schema_banner_url', $atts_locale ) . 
 					'<td>' . $this->form->get_input( SucomUtil::get_key_locale( 'schema_banner_url', $this->p->options ), 'wide' ) . '</td>';
 
-					$table_rows['site_org_schema_type'] = $this->form->get_th_html( _x( 'Organization Schema Type',
-						'option label', 'wpsso-organization' ), '', 'site_org_schema_type' ) . 
+					$table_rows['site_org_schema_type'] = '' .
+					$this->form->get_th_html( _x( 'Organization Schema Type', 'option label', 'wpsso-organization' ),
+						$css_class = '', $css_id = 'site_org_schema_type' ) . 
 					'<td>' . $this->form->get_select( 'site_org_schema_type', $org_types_select, 'schema_type' ) . '</td>';
 
-					$table_rows['site_place_id'] = $this->form->get_th_html( _x( 'Organization Place / Location',
-						'option label', 'wpsso-organization' ), '', 'site_place_id' ) . 
+					$table_rows['site_place_id'] = '' .
+					$this->form->get_th_html( _x( 'Organization Place / Location', 'option label', 'wpsso-organization' ),
+						$css_class = '', $css_id = 'site_place_id' ) . 
 					'<td>' . $this->form->get_select( 'site_place_id', $plm_place_names, 'long_name', '', true, $plm_disable ) . $plm_req_msg . '</td>';
 
 					$table_rows['subsection_google_knowledgegraph'] = '<td colspan="2" class="subsection"><h4>' . 
