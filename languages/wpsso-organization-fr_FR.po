@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup 1.4.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2018-12-21 19:18-0600\n"
-"PO-Revision-Date: 2018-12-21 19:19-0600\n"
+"POT-Creation-Date: 2018-12-22 10:37-0600\n"
+"PO-Revision-Date: 2018-12-22 10:37-0600\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -79,8 +79,8 @@ msgstr "Organisation"
 
 #: lib/gettext-config.php:7
 msgctxt "plugin description"
-msgid "WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph."
-msgstr "Ajout WPSSO Core pour gérer des organisations et propriétés de Schéma supplémentaires (organisateur, interprète, éditeur, etc.) pour Google Rich Cards / Knowledge Graph."
+msgid "WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, performer, etc.)."
+msgstr "Ajout WPSSO Core pour personnaliser le balisage Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, interprète, etc.)"
 
 #: lib/gettext-pro.php:6 lib/gpl/admin/org-general.php:51
 #: lib/pro/admin/org-general.php:67
@@ -213,8 +213,8 @@ msgid "https://wpsso.com/extend/plugins/wpsso-organization/"
 msgstr "https://wpsso.com/extend/plugins/wpsso-organization/"
 
 #. Description of the plugin/theme
-msgid "WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph."
-msgstr "Ajout WPSSO Core pour gérer des organisations et propriétés de Schéma supplémentaires (organisateur, interprète, éditeur, etc.) pour Google Rich Cards / Knowledge Graph."
+msgid "WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, performer, etc.)."
+msgstr "Ajout WPSSO Core pour personnaliser le balisage Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, interprète, etc.)"
 
 #. Author of the plugin/theme
 msgid "JS Morisset"
