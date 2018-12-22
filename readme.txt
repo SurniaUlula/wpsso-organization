@@ -13,7 +13,7 @@ Requires At Least: 3.8
 Tested Up To: 5.0
 Stable Tag: 1.4.5
 
-WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publishers, etc.).
+WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, etc.).
 
 == Description ==
 
