@@ -4,4 +4,4 @@
  * Extract of translatable text strings from the static config array.
  */
 _x( 'Organization', 'lib file description', 'wpsso-organization' );
-_x( 'WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph.', 'plugin description', 'wpsso-organization' );
+_x( 'WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, performer, etc.).', 'plugin description', 'wpsso-organization' );
