@@ -1,4 +1,4 @@
-=== WPSSO Organization Markup - Customize Schema WebSite Properties and Other Organizations ===
+=== WPSSO Organization Markup to Customize Schema WebSite and Manage Additional Organizations ===
 Plugin Name: WPSSO Organization Markup
 Plugin Slug: wpsso-organization
 Text Domain: wpsso-organization
@@ -13,25 +13,28 @@ Requires At Least: 3.8
 Tested Up To: 5.0
 Stable Tag: 1.4.5
 
-WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.).
+WPSSO Core add-on to customize the home page Schema WebSite markup and manage additional Schema Organizations (publishers, etc.).
 
 == Description ==
 
 <p style="margin:0;"><img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png"></p>
 
-Customize your Organization name, alternate name, description, and WebSite URL for each WordPress locale / language / region.
+**Customize the Schema WebSite markup for your home page:**
 
-Select an Organization logo and banner for the Schema Articles markup.
+Edit your Schema Organization name, alternate name, description, and WebSite URL for each WordPress locale / language / region.
 
-Select an Schema Organization sub-type for Google's Knowledge Graph (Corporation, Educational, NGO, Performing Group, etc.).
+Select an Organization logo and banner for the Schema Article type and its sub-types.
 
-Select an optional place / location / address for the Schema Organization markup.
+Select an Schema Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.) for Google's Knowledge Graph.
+
+Select an optional place / location / address for your home page and/or each additional Organization.
 
 Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
 
 * Select a different Publisher for Schema CreativeWork markup.
 * Select an Organizer or Performer for Schema Event markup.
 * Select a Hiring Organization for Schema JobPosting markup.
+* And more.
 
 <h3>WPSSO ORG Standard Features</h3>
 
