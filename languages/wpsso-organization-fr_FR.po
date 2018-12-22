@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup 1.4.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2018-10-30 07:38-0600\n"
-"PO-Revision-Date: 2018-10-30 07:38-0600\n"
+"POT-Creation-Date: 2018-12-21 19:18-0600\n"
+"PO-Revision-Date: 2018-12-21 19:19-0600\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -14,16 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#: lib/config-gettext-extract.php:3
-msgctxt "lib file description"
-msgid "Organization"
-msgstr "Organisation"
-
-#: lib/config-gettext-extract.php:4
-msgctxt "plugin description"
-msgid "WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph."
-msgstr "Extension d'ajout WPSSO Core pour gérer des organisations et propriétés Schéma supplémentaires (organisateur, interprète, éditeur, etc.) pour Google Rich Cards / Knowledge Graph."
 
 #: lib/filters.php:162
 msgctxt "option value"
@@ -78,66 +68,82 @@ msgstr "L'URL du site Web de l'organisation."
 msgid "You may optionally choose a different Schema type for the organization (default is Organization)."
 msgstr "Vous pouvez sélectionner un type de Schéma différent pour l'organisation (valeur par défaut est Organization)."
 
-#: lib/filters.php:309
+#: lib/filters.php:308
 msgid "Select an optional Place / Location for this Organization (requires the %s add-on)."
 msgstr "Choisissez une place / position optionnel pour cette organisation (requiert l'ajout %s)."
 
-#: lib/gpl/admin/org-general.php:51 lib/pro/admin/org-general.php:67
+#: lib/gettext-config.php:6
+msgctxt "lib file description"
+msgid "Organization"
+msgstr "Organisation"
+
+#: lib/gettext-config.php:7
+msgctxt "plugin description"
+msgid "WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph."
+msgstr "Ajout WPSSO Core pour gérer des organisations et propriétés de Schéma supplémentaires (organisateur, interprète, éditeur, etc.) pour Google Rich Cards / Knowledge Graph."
+
+#: lib/gettext-pro.php:6 lib/gpl/admin/org-general.php:51
+#: lib/pro/admin/org-general.php:67
 msgctxt "option label"
 msgid "Edit an Organization"
 msgstr "Modifier une organisation"
 
-#: lib/gpl/admin/org-general.php:60 lib/pro/admin/org-general.php:81
+#: lib/gettext-pro.php:7 lib/gpl/admin/org-general.php:60
+#: lib/pro/admin/org-general.php:81
 msgctxt "option comment"
 msgid "delete this organization"
 msgstr "supprimer cette organisation"
 
-#: lib/gpl/admin/org-general.php:62 lib/pro/admin/org-general.php:83
+#: lib/gettext-pro.php:8 lib/gpl/admin/org-general.php:62
+#: lib/pro/admin/org-general.php:83
 msgctxt "option label"
 msgid "Organization Name"
 msgstr "Nom de l'organisation"
 
-#: lib/gpl/admin/org-general.php:66 lib/pro/admin/org-general.php:87
+#: lib/gettext-pro.php:9 lib/gpl/admin/org-general.php:66
+#: lib/pro/admin/org-general.php:87
 msgctxt "option label"
 msgid "Organization Alternate Name"
 msgstr "Autre nom de l'organisation"
 
-#: lib/gpl/admin/org-general.php:70 lib/pro/admin/org-general.php:91
+#: lib/gettext-pro.php:10 lib/gpl/admin/org-general.php:70
+#: lib/pro/admin/org-general.php:91
 msgctxt "option label"
 msgid "Organization Description"
 msgstr "Description de l'organisation"
 
-#: lib/gpl/admin/org-general.php:74 lib/pro/admin/org-general.php:95
+#: lib/gettext-pro.php:11 lib/gpl/admin/org-general.php:74
+#: lib/pro/admin/org-general.php:95
 msgctxt "option label"
 msgid "Organization WebSite URL"
 msgstr "URL du site de l'organisation"
 
-#: lib/gpl/admin/org-general.php:80 lib/pro/admin/org-general.php:101
-#: lib/submenu/org-general.php:119
+#: lib/gettext-pro.php:12 lib/gpl/admin/org-general.php:80
+#: lib/pro/admin/org-general.php:101 lib/submenu/org-general.php:124
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr "URL logo de organisation"
 
-#: lib/gpl/admin/org-general.php:84 lib/pro/admin/org-general.php:105
-#: lib/submenu/org-general.php:123
+#: lib/gettext-pro.php:13 lib/gpl/admin/org-general.php:84
+#: lib/pro/admin/org-general.php:105 lib/submenu/org-general.php:129
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr "URL bannière d'organisation"
 
-#: lib/gpl/admin/org-general.php:88 lib/pro/admin/org-general.php:109
-#: lib/submenu/org-general.php:127
+#: lib/gettext-pro.php:14 lib/gpl/admin/org-general.php:88
+#: lib/pro/admin/org-general.php:109 lib/submenu/org-general.php:134
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr "Type de Schéma d'organisation"
 
-#: lib/gpl/admin/org-general.php:92 lib/pro/admin/org-general.php:113
-#: lib/submenu/org-general.php:131
+#: lib/gettext-pro.php:15 lib/gpl/admin/org-general.php:92
+#: lib/pro/admin/org-general.php:113 lib/submenu/org-general.php:139
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr "Place / position de l'organisation"
 
-#: lib/gpl/admin/org-general.php:97 lib/pro/admin/org-general.php:119
-#: lib/submenu/org-general.php:136
+#: lib/gettext-pro.php:16 lib/gpl/admin/org-general.php:97
+#: lib/pro/admin/org-general.php:119 lib/submenu/org-general.php:144
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr "Knowledge Graph de Google"
@@ -171,30 +177,30 @@ msgctxt "option label"
 msgid "WebSite Name"
 msgstr "Nom du site Web"
 
-#: lib/submenu/org-general.php:107
+#: lib/submenu/org-general.php:108
 msgctxt "option label"
 msgid "WebSite Alternate Name"
 msgstr "Autre nom du site Web"
 
-#: lib/submenu/org-general.php:110
+#: lib/submenu/org-general.php:113
 msgctxt "option label"
 msgid "WebSite Description"
 msgstr "Description du site Web"
 
-#: lib/submenu/org-general.php:115
+#: lib/submenu/org-general.php:118
 msgctxt "option label"
 msgid "WebSite URL"
 msgstr "URL du site Web"
 
-#: wpsso-organization.php:96
+#: wpsso-organization.php:100
 msgid "%1$s is an add-on for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s."
 msgstr "%1$s est un ajout pour l'extension %2$s &mdash; SVP installer et activer l'extension %3$s avant d'activer %4$s."
 
-#: wpsso-organization.php:98
+#: wpsso-organization.php:102
 msgid "The %1$s add-on requires the %2$s plugin &mdash; install and activate the %3$s plugin or <a href=\"%4$s\">deactivate the %5$s add-on</a>."
 msgstr "L'ajout %1$s requiert l'extension %2$s &mdash; installer et activer l'extension %3$s ou <a href=\"%4$s\">désactiver l'ajout %5$s</a>."
 
-#: wpsso-organization.php:197
+#: wpsso-organization.php:201
 msgid "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version %5$s is currently installed)."
 msgstr "L'ajout %1$s version %2$s requiert %3$s version %4$s ou plus récente (version %5$s est actuellement installée)."
 
@@ -208,7 +214,7 @@ msgstr "https://wpsso.com/extend/plugins/wpsso-organization/"
 
 #. Description of the plugin/theme
 msgid "WPSSO Core add-on to manage Organizations and additional Schema markup properties (Organizer, Performer, Publisher, etc.) for Google Rich Cards / Knowledge Graph."
-msgstr "Extension d'ajout WPSSO Core pour gérer des organisations et propriétés Schéma supplémentaires (organisateur, interprète, éditeur, etc.) pour Google Rich Cards / Knowledge Graph."
+msgstr "Ajout WPSSO Core pour gérer des organisations et propriétés de Schéma supplémentaires (organisateur, interprète, éditeur, etc.) pour Google Rich Cards / Knowledge Graph."
 
 #. Author of the plugin/theme
 msgid "JS Morisset"
