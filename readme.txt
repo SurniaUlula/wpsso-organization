@@ -1,5 +1,5 @@
 === WPSSO Organization Markup to Customize Schema Organization and Manage Additional Organizations ===
-Plugin Name: WPSSO Organization Markup
+Plugin Name: WPSSO Organization Markup [Add-on]
 Plugin Slug: wpsso-organization
 Text Domain: wpsso-organization
 Domain Path: /languages
