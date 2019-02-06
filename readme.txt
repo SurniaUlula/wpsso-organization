@@ -52,7 +52,6 @@ Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https
 	* Organization Place / Location ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) add-on required) 
 	* Google's Knowledge Graph Social Profile URLs:
 		* Facebook Business Page URL (localized)
-		* Google+ Business Page URL (localized)
 		* Instagram Business Page URL (localized)
 		* LinkedIn Company Page URL (localized)
 		* Myspace Business Page URL (localized)

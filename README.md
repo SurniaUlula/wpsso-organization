@@ -53,7 +53,6 @@
 
 <ul>
 <li>Facebook Business Page URL (localized)</li>
-<li>Google+ Business Page URL (localized)</li>
 <li>Instagram Business Page URL (localized)</li>
 <li>LinkedIn Company Page URL (localized)</li>
 <li>Myspace Business Page URL (localized)</li>
