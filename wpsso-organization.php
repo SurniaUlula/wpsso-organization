@@ -13,7 +13,7 @@
  * Description: WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, performer, etc.).
  * Requires PHP: 5.5
  * Requires At Least: 3.8
- * Tested Up To: 5.0
+ * Tested Up To: 5.1
  * Version: 1.4.6
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
