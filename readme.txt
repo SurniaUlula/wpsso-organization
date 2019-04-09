@@ -10,7 +10,7 @@ Tags: publisher, organization, local seo, local business, schema, schema.org, ma
 Contributors: jsmoriss
 Requires At Least: 3.8
 Tested Up To: 5.1.1
-Stable Tag: 1.4.6
+Stable Tag: 1.4.7
 
 WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, etc.).
 
