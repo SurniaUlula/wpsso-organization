@@ -105,31 +105,20 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.4.6 (2019/01/31)**
-
-* *New Features*
-	* None.
-* *Improvements*
-	* Maintenance release for WPSSO Core v4.22.0.
-* *Bugfixes*
-	* None.
-* *Developer Notes*
-	* Updated the required minimum PHP version from 5.4 to 5.5.
-
-**Version 1.4.5 (2018/12/10)**
+**Version 1.4.7 (2019/04/09)**
 
 * *New Features*
 	* None.
 * *Improvements*
 	* None.
 * *Bugfixes*
-	* Fixed an incorrect filter hook name for the SSO &gt; Organization &gt; Other Organizations tab (Pro version).
-* *Developer Notes*
 	* None.
+* *Developer Notes*
+	* Maintenance release for WPSSO Core v4.27.2 config array updates.
 
 == Upgrade Notice ==
 
-= 1.4.6 =
+= 1.4.7 =
 
-(2019/01/31) Maintenance release for WPSSO Core v4.22.0.
+(2019/04/09) Maintenance release for WPSSO Core v4.27.2 config array updates.
 
