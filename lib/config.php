@@ -48,7 +48,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 								'org-general' => 'Extend Organization Settings',
 							),
 						),
-						'submenu' => array(	// Note that submenu elements must have unique keys.
+						'submenu' => array(
 							'org-general' => 'Organization',
 						),
 					),
