@@ -38,9 +38,6 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 						),
 					),
 					'lib' => array(
-						'submenu' => array(	// Note that submenu elements must have unique keys.
-							'org-general' => 'Organization',
-						),
 						'gpl' => array(
 							'admin' => array(
 								'org-general' => 'Extend Organization Settings',
@@ -50,6 +47,9 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 							'admin' => array(
 								'org-general' => 'Extend Organization Settings',
 							),
+						),
+						'submenu' => array(	// Note that submenu elements must have unique keys.
+							'org-general' => 'Organization',
 						),
 					),
 				),
