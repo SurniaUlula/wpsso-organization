@@ -52,7 +52,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 		public function filter_json_array_schema_type_ids( $type_ids, $mod ) {
 
-			if ( $mod['is_home'] ) {
+			if ( $mod[ 'is_home' ] ) {
 
 				/**
 				 * If we have a site organization type defined, and it's not "organization",
@@ -62,9 +62,9 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				if ( ! empty( $this->p->options[ 'site_org_schema_type' ] ) &&
 					$this->p->options[ 'site_org_schema_type' ] !== 'organization' ) {
 
-					$type_ids[ $this->p->options[ 'site_org_schema_type' ] ] = $this->p->options['schema_add_home_organization'];
+					$type_ids[ $this->p->options[ 'site_org_schema_type' ] ] = $this->p->options[ 'schema_add_home_organization' ];
 
-					unset( $type_ids['organization'] );
+					unset( $type_ids[ 'organization' ] );
 				}
 			}
 
@@ -121,7 +121,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 					break;
 
-				case ( strpos( $base_key, '_url' ) && isset( $this->p->cf['form']['social_accounts'][substr( $base_key, 4 )] ) ? true : false ):
+				case ( strpos( $base_key, '_url' ) && isset( $this->p->cf[ 'form' ][ 'social_accounts' ][substr( $base_key, 4 )] ) ? true : false ):
 
 					return 'url';
 
@@ -144,10 +144,10 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 				$name = trim( $name );
 
-				if ( ! empty( $opts['org_delete_' . $num] ) || ( $name === '' && $num === $org_last_num ) ) {	// Remove the empty "New Address".
+				if ( ! empty( $opts[ 'org_delete_' . $num] ) || ( $name === '' && $num === $org_last_num ) ) {	// Remove the empty "New Address".
 
-					if ( isset( $opts['org_id'] ) && $opts['org_id'] === $num ) {
-						unset( $opts['org_id'] );
+					if ( isset( $opts[ 'org_id' ] ) && $opts[ 'org_id' ] === $num ) {
+						unset( $opts[ 'org_id' ] );
 					}
 
 					/**
@@ -159,10 +159,10 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				}
 
 				if ( $name === '' ) {	// Just in case.
-					$opts['org_name_' . $num] = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $num );
+					$opts[ 'org_name_' . $num] = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $num );
 				}
 				
-				$opts['org_name_' . $num] = $name;
+				$opts[ 'org_name_' . $num] = $name;
 			}
 
 			return $opts;
@@ -220,7 +220,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			if ( ! empty( $og_single_image_url ) ) {
 
 				$image_href    = '<a href="' . $og_single_image_url . '">' . $og_single_image_url . '</a>';
-				$image_dims    = $og_single_image['og:image:width'] . 'x' . $og_single_image['og:image:height'] . 'px';
+				$image_dims    = $og_single_image[ 'og:image:width' ] . 'x' . $og_single_image[ 'og:image:height' ] . 'px';
 				$required_dims = '600x60px';
 
 				if ( $image_dims !== $required_dims ) {
