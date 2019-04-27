@@ -9,7 +9,7 @@ Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
 Tags: publisher, organization, local seo, local business, schema, schema.org, markup, article, event, location, knowledge graph, seo
 Contributors: jsmoriss
 Requires At Least: 3.8
-Tested Up To: 5.1.1
+Tested Up To: 5.2
 Stable Tag: 1.4.7
 
 WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, etc.).
