@@ -26,6 +26,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$this->p->util->add_plugin_filters( $this, array( 
 				'json_array_schema_type_ids' => 2,
 				'get_organization_options'   => 3,
+				'rename_options_keys'        => 1,
 			) );
 
 			if ( is_admin() ) {
@@ -80,6 +81,21 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			} else {
 				return $opts;
 			}
+		}
+
+		public function filter_rename_options_keys( $options_keys ) {
+
+			if ( $this->p->debug->enabled ) {
+				$this->p->debug->mark();
+			}
+
+			$options_keys[ 'wpssoorg' ] = array(
+				2 => array(
+					'org_alt_name' => 'org_name_alt',
+				),
+			);
+
+			return $options_keys;
 		}
 
 		public function filter_option_type( $type, $base_key ) {

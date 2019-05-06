@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 1.4.7\n"
+"Project-Id-Version: WPSSO Organization Markup 2.0.0-dev.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2019-MO-DA HO:MI+ZONE\n"
@@ -13,69 +13,69 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: lib/filters.php:162
+#: lib/filters.php:178
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:195
+#: lib/filters.php:211
 msgid "organization \"%s\""
 msgstr ""
 
-#: lib/filters.php:230
+#: lib/filters.php:246
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr ""
 
-#: lib/filters.php:233
+#: lib/filters.php:249
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr ""
 
-#: lib/filters.php:238
+#: lib/filters.php:254
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions are %2$s and must be "
 "exactly %3$s."
 msgstr ""
 
-#: lib/filters.php:241
+#: lib/filters.php:257
 msgid "Please correct the banner image at %s."
 msgstr ""
 
-#: lib/filters.php:262
+#: lib/filters.php:278
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:268
+#: lib/filters.php:284
 msgid "Select an organization to edit."
 msgstr ""
 
-#: lib/filters.php:274
+#: lib/filters.php:290
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:280
+#: lib/filters.php:296
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:286
+#: lib/filters.php:302
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:292
+#: lib/filters.php:308
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:298
+#: lib/filters.php:314
 msgid ""
 "You may optionally choose a different Schema type for the organization "
 "(default is Organization)."
 msgstr ""
 
-#: lib/filters.php:308
+#: lib/filters.php:324
 msgid ""
 "Select an optional Place / Location for this Organization (requires the %s "
 "add-on)."
