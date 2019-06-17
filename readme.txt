@@ -64,7 +64,7 @@ Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https
 
 * Select an optional place / location / address for your Schema Organization markup when used with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
 
-<h3>WPSSO ORG Additional Features (Pro version)</h3>
+<h3>WPSSO ORG Pro / Premium Features</h3>
 
 * Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
 
@@ -72,7 +72,7 @@ Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the [WPSSO Core Plugin](https://wordpress.org/plugins/wpsso/) (Free or Pro version).
+WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the [WPSSO Core Plugin](https://wordpress.org/plugins/wpsso/).
 
 The [WPSSO ORG Pro add-on](https://wpsso.com/extend/plugins/wpsso-organization/) uses WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
 
@@ -107,6 +107,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 2.0.0-dev.1 (2019/06/17)**
+
+* *New Features*
+	* None.
+* *Improvements*
+	* None.
+* *Bugfixes*
+	* None.
+* *Developer Notes*
+	* Maintenance release for WPSSO Core v5.0.0.
+
 **Version 1.5.0 (2019/05/20)**
 
 * *New Features*
@@ -119,6 +130,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Update for code changes in WPSSO Core v4.31.0.
 
 == Upgrade Notice ==
+
+= 2.0.0-dev.1 =
+
+(2019/06/17) Maintenance release for WPSSO Core v5.0.0.
 
 = 1.5.0 =
 
