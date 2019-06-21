@@ -34,7 +34,7 @@
 <li>And more.</li>
 </ul>
 
-<h3>WPSSO ORG Standard Features</h3>
+<h3>WPSSO ORG Free / Standard Features</h3>
 
 <ul>
 <li><p>Extends the features of the WPSSO Core Free or Pro plugin.</p></li>

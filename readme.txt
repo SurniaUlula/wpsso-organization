@@ -35,7 +35,7 @@ Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https
 * Select a Hiring Organization for Schema JobPosting markup.
 * And more.
 
-<h3>WPSSO ORG Standard Features</h3>
+<h3>WPSSO ORG Free / Standard Features</h3>
 
 * Extends the features of the WPSSO Core Free or Pro plugin.
 
