@@ -66,15 +66,11 @@ Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https
 
 <h3>WPSSO ORG Pro / Premium Features</h3>
 
-* Extends the features of WPSSO Core Pro (requires an active and licensed <a href="https://wpsso.com/">WPSSO Core Pro plugin</a>).
-
 * Provides a selection of Organizations for the [WPSSO Schema JSON-LD Markup](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on property values (Publisher, Event Organizer, etc.).
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the [WPSSO Core Plugin](https://wordpress.org/plugins/wpsso/).
-
-The [WPSSO ORG Pro add-on](https://wpsso.com/extend/plugins/wpsso-organization/) uses WPSSO Core Pro features and requires an active and licensed [WPSSO Core Pro plugin](https://wpsso.com/).
+WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) (Standard or Premium version).
 
 == Installation ==
 
