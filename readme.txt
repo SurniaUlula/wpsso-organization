@@ -64,9 +64,9 @@ Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https
 
 * Select an optional place / location / address for your Schema Organization markup when used with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
 
-<h3>WPSSO ORG Pro / Premium Features</h3>
+<h3>WPSSO ORG Premium Features</h3>
 
-* Provides a selection of Organizations for the [WPSSO Schema JSON-LD Markup](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on property values (Publisher, Event Organizer, etc.).
+* Provides a selection of Organizations for the [WPSSO Schema JSON-LD Markup add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) publisher, event organizer, event performer, job hiring organization, etc. Schema property values.
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
@@ -96,7 +96,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * {bugfix} = Backwards-compatible bug fixes or small improvements.
 * {stage}.{level} = Pre-production release: dev < a (alpha) < b (beta) < rc (release candidate).
 
-<h3>Free / Standard Version Repositories</h3>
+<h3>Free / Standard Add-on Repositories</h3>
 
 * [GitHub](https://surniaulula.github.io/wpsso-organization/)
 * [WordPress.org](https://plugins.trac.wordpress.org/browser/wpsso-organization/)
