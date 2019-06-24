@@ -47,7 +47,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				$first_names[ 'site' ] = $wpsso->cf['form']['org_select']['site'];
 			}
 
-			if ( $wpsso->check->pp( 'wpssoorg', true, $wpsso->avail[ '*' ][ 'p_dir' ] ) ) {
+			if ( $wpsso->check->pp( 'wpssoorg' ) ) {
 
 				if ( $wpsso->debug->enabled ) {
 					$wpsso->debug->log( 'getting multi keys for org_name' );
@@ -127,7 +127,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 
 				return WpssoSchema::get_site_organization( $mixed );
 
-			} elseif ( is_numeric( $org_id ) && $wpsso->check->pp( 'wpssoorg', true, $wpsso->avail[ '*' ][ 'p_dir' ] ) ) {
+			} elseif ( is_numeric( $org_id ) && $wpsso->check->pp( 'wpssoorg' ) ) {
 
 				static $local_cache = array();	// Cache for single page load.
 
