@@ -70,7 +70,7 @@ Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https
 
 <h3>WPSSO Core Plugin Prerequisite</h3>
 
-WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) (Standard or Premium version).
+WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
 
 == Installation ==
 
