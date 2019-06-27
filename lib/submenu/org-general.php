@@ -93,11 +93,20 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					$org_types_select = $this->p->util->get_form_cache( 'org_types_select' );
 
+					$org_social = '<a href="https://developers.google.com/search/docs/guides/enhance-site#add-your-sites-name-logo-and-social-links">' .
+						// translators: Please ignore - translation uses a different text domain.
+						__( 'Organization Social Profile', 'wpsso' ) . '</a>';
+
 					$table_rows[ 'schema_knowledge_graph' ] = '' . 
-					$this->form->get_th_html( _x( 'Google\'s Knowledge Graph', 'option label', 'wpsso-organization' ), '', 'org_json' ) . 
-					'<td><p>' . $this->form->get_checkbox( 'schema_add_home_organization' ) . 
-						sprintf( __( ' Include <a href="%s">Organization Social Profile</a>', 'wpsso-organization' ),
-							'https://developers.google.com/structured-data/customize/social-profiles' ) . '</p></td>';
+					// translators: Please ignore - translation uses a different text domain.
+					$this->form->get_th_html( _x( 'Knowledge Graph for Home Page', 'option label', 'wpsso' ), '', 'schema_knowledge_graph' ) . 
+					'<td>' .
+					'<p>' .
+						$this->form->get_checkbox( 'schema_add_home_organization' ) . 
+						// translators: Please ignore - translation uses a different text domain.
+						sprintf( __( 'Include %s for a Business Site', 'wpsso' ), $org_social ) .
+					'</p>' .
+					'</td>';
 
 					$table_rows[ 'site_name' ] = $this->form->get_tr_hide( 'basic', $site_name_key ) . 
 					$this->form->get_th_html( _x( 'WebSite Name', 'option label', 'wpsso-organization' ),
