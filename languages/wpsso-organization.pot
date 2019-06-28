@@ -187,7 +187,7 @@ msgstr ""
 
 #. translators: Please ignore - translation uses a different text domain.
 #: lib/submenu/org-general.php:107
-msgid "Include %s for a Business Site"
+msgid "Include %s for a Business Website"
 msgstr ""
 
 #: lib/submenu/org-general.php:112

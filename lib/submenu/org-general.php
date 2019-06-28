@@ -104,7 +104,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					'<p>' .
 						$this->form->get_checkbox( 'schema_add_home_organization' ) . 
 						// translators: Please ignore - translation uses a different text domain.
-						sprintf( __( 'Include %s for a Business Site', 'wpsso' ), $org_social ) .
+						sprintf( __( 'Include %s for a Business Website', 'wpsso' ), $org_social ) .
 					'</p>' .
 					'</td>';
 
