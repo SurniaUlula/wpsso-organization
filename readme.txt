@@ -10,7 +10,7 @@ Tags: publisher, organization, local seo, local business, schema, schema.org, ma
 Contributors: jsmoriss
 Requires At Least: 3.8
 Tested Up To: 5.2.2
-Stable Tag: 2.0.0
+Stable Tag: 2.0.1
 
 WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, etc.).
 
@@ -132,8 +132,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 2.0.1 =
 
 (2019/06/29) Updated the WebSite (Front Page) Knowledge Graph option label and link.
-
-= 2.0.0 =
-
-(2019/06/24) Maintenance release for WPSSO Core v5.0.0.
 
