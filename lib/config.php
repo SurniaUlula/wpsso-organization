@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(			// Plugin acronym.
-					'version'     => '2.0.1-rc.1',	// Plugin version.
+					'version'     => '2.0.1',	// Plugin version.
 					'opt_version' => '3',		// Increment when changing default option values.
 					'short'       => 'WPSSO ORG',	// Short plugin name.
 					'name'        => 'WPSSO Organization Markup',
@@ -29,7 +29,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					'req'         => array(
 						'short'       => 'WPSSO Core',
 						'name'        => 'WPSSO Core',
-						'min_version' => '5.0.0',
+						'min_version' => '5.0.1',
 					),
 					'assets' => array(
 						'icons' => array(
