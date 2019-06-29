@@ -103,7 +103,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.0.1-rc.1 (2019/06/28)**
+**Version 2.0.1 (2019/06/29)**
 
 * *New Features*
 	* None.
@@ -129,9 +129,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 2.0.1-rc.1 =
+= 2.0.1 =
 
-(2019/06/28) Updated the WebSite (Front Page) Knowledge Graph option label and link.
+(2019/06/29) Updated the WebSite (Front Page) Knowledge Graph option label and link.
 
 = 2.0.0 =
 
