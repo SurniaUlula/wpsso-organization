@@ -127,6 +127,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 		}
 
 		public static function wpsso_init_textdomain() {
+
 			load_plugin_textdomain( 'wpsso-organization', false, 'wpsso-organization/languages/' );
 		}
 
@@ -138,7 +139,9 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			$info = WpssoOrgConfig::$cf[ 'plugin' ][ 'wpssoorg' ];
 
 			if ( version_compare( $plugin_version, $info[ 'req' ][ 'min_version' ], '<' ) ) {
+
 				$this->have_req_min = false;
+
 				return $cf;
 			}
 
@@ -157,14 +160,16 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			}
 
 			if ( ! $this->have_req_min ) {
-				$this->p->avail['p_ext']['org'] = false;	// Signal that this extension / add-on is not available.
+
+				$this->p->avail[ 'p_ext' ][ 'org' ] = false;	// Signal that this extension / add-on is not available.
+
 				return;
 			}
 
-			$this->p->avail['p_ext']['org'] = true;	// Signal that this extension / add-on is available.
+			$this->p->avail[ 'p_ext' ][ 'org' ] = true;		// Signal that this extension / add-on is available.
 
 			if ( is_admin() ) {
-				$this->p->avail['admin']['org-general'] = true;
+				$this->p->avail[ 'admin' ][ 'org-general' ] = true;
 			}
 		}
 
