@@ -105,25 +105,25 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 **Version 2.0.1 (2019/06/29)**
 
-* *New Features*
+* **New Features**
 	* None.
-* *Improvements*
+* **Improvements**
 	* Updated the WebSite (Front Page) Knowledge Graph option label and link.
-* *Bugfixes*
+* **Bugfixes**
 	* None.
-* *Developer Notes*
+* **Developer Notes**
 	* None.
 
 **Version 2.0.0 (2019/06/24)**
 
-* *New Features*
+* **New Features**
 	* None.
-* *Improvements*
+* **Improvements**
 	* Renamed "Pro" distribution to "Premium".
 	* Renamed "Free" distribution to "Standard".
-* *Bugfixes*
+* **Bugfixes**
 	* None.
-* *Developer Notes*
+* **Developer Notes**
 	* Renamed the 'gpl' library sub-folder to 'std'.
 	* Maintenance release for WPSSO Core v5.0.0.
 
