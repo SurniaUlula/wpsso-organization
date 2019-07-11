@@ -211,7 +211,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$context_transl     = sprintf( __( 'organization "%s"', 'wpsso-organization' ), $org_name );
 			$settings_page_link = $this->p->util->get_admin_url( 'org-general#sucom-tabset_organization-tab_other' );
 
-			$this->p->notice->set_ref( $settings_page_link, null, $context_transl );
+			$this->p->notice->set_ref( $settings_page_link, false, $context_transl );
 
 			/**
 			 * Returns an image array:
@@ -225,7 +225,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			 *	'og:image:alt'     => null,
 			 * );
 			 */
-			$og_single_image     = $this->p->media->get_opts_single_image( $opts, $size_name, $opt_img_pre, $org_num );
+			$og_single_image = $this->p->media->get_opts_single_image( $opts, $size_name, $opt_img_pre, $org_num );
 
 			if ( $this->p->debug->enabled ) {
 				$this->p->debug->log_arr( '$og_single_image', $og_single_image );
