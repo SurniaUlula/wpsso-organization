@@ -13,7 +13,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 	class WpssoOrgFilters {
 
-		protected $p;
+		private $p;
 
 		public function __construct( &$plugin ) {
 
