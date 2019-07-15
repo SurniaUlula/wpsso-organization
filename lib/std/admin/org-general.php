@@ -34,15 +34,12 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 				$this->p->debug->mark();
 			}
 
-			$plm_req_msg     = $this->p->admin->get_ext_required_msg( 'plm' );
+			$plm_req_msg     = $this->p->msgs->maybe_ext_required( 'wpssoplm' );
 			$plm_disable     = empty( $plm_req_msg ) ? false : true;
 			$plm_place_names = $this->p->util->get_form_cache( 'place_names', $add_none = true );
 
 			$org_names_new    = array( 0 => $this->p->cf[ 'form' ][ 'org_select' ][ 'new' ] );
-			$org_first_num    = SucomUtil::get_first_num( $org_names_new );
 			$org_types_select = $this->p->util->get_form_cache( 'org_types_select' );
-
-			$form->defaults[ 'org_id' ] = $org_first_num;	// Set default value.
 
 			unset( $form->options[ 'org_id' ] );
 
@@ -93,7 +90,8 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 
 			$table_rows[ 'org_place_id_' . $id ] = $form->get_th_html( _x( 'Organization Place / Location',
 				'option label', 'wpsso-organization' ), '', 'org_place_id' ) . 
-			'<td class="blank">' . $form->get_no_select( 'org_place_id_' . $id, $plm_place_names, 'long_name' ) . $plm_req_msg . '</td>';
+			'<td class="blank">' . $form->get_no_select( 'org_place_id_' . $id, $plm_place_names,
+				$css_class = 'long_name' ) . $plm_req_msg . '</td>';
 
 			$table_rows[ 'subsection_google_knowledgegraph' ] = '<td colspan="2" class="subsection"><h4>' . 
 				_x( 'Google\'s Knowledge Graph', 'metabox title', 'wpsso-organization' ) . '</h4></td>';

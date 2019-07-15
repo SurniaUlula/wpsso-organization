@@ -87,7 +87,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$site_desc_key     = SucomUtil::get_key_locale( 'site_desc', $this->form->options );
 					$site_url_key      = SucomUtil::get_key_locale( 'site_url', $this->form->options );
 
-					$plm_req_msg     = $this->p->admin->get_ext_required_msg( 'plm' );
+					$plm_req_msg     = $this->p->msgs->maybe_ext_required( 'wpssoplm' );
 					$plm_disable     = empty( $plm_req_msg ) ? false : true;
 					$plm_place_names = $this->p->util->get_form_cache( 'place_names', true );
 
@@ -108,12 +108,12 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					'</p>' .
 					'</td>';
 
-					$table_rows[ 'site_name' ] = $this->form->get_tr_hide( 'basic', $site_name_key ) . 
+					$table_rows[ 'site_name' ] = '' .
 					$this->form->get_th_html( _x( 'WebSite Name', 'option label', 'wpsso-organization' ),
 						$css_class = '', $css_id = 'site_name', $atts_locale ) . 
 					'<td>' . $this->form->get_input( $site_name_key, 'long_name', '', 0, $def_site_name ) . '</td>';
 
-					$table_rows[ 'site_name_alt' ] = $this->form->get_tr_hide( 'basic', $site_name_alt_key ) . 
+					$table_rows[ 'site_name_alt' ] = '' .
 					$this->form->get_th_html( _x( 'WebSite Alternate Name', 'option label', 'wpsso-organization' ),
 						$css_class = '', $css_id = 'site_name_alt', $atts_locale ) . 
 					'<td>' . $this->form->get_input( $site_name_alt_key, 'long_name' ) . '</td>';
@@ -147,7 +147,8 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$table_rows[ 'site_place_id' ] = '' .
 					$this->form->get_th_html( _x( 'Organization Place / Location', 'option label', 'wpsso-organization' ),
 						$css_class = '', $css_id = 'site_place_id' ) . 
-					'<td>' . $this->form->get_select( 'site_place_id', $plm_place_names, 'long_name', '', true, $plm_disable ) . $plm_req_msg . '</td>';
+					'<td>' . $this->form->get_select( 'site_place_id', $plm_place_names,
+						$css_class = 'long_name', $css_id = '', $is_assoc = true, $plm_disable ) . $plm_req_msg . '</td>';
 
 					$table_rows[ 'subsection_google_knowledgegraph' ] = '<td colspan="2" class="subsection"><h4>' . 
 						_x( 'Google\'s Knowledge Graph', 'metabox title', 'wpsso-organization' ) . '</h4></td>';

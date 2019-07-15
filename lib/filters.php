@@ -149,36 +149,49 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 		public function filter_save_options( $opts, $options_name, $network, $doing_upgrade ) {
 
+			if ( $this->p->debug->enabled ) {
+				$this->p->debug->mark();
+			}
+
 			if ( $network ) {
 				return $opts;	// Nothing to do.
 			}
 
-			$org_names    = SucomUtil::get_multi_key_locale( 'org_name', $opts, false );	// $add_none is false.
+			$org_names    = SucomUtil::get_multi_key_locale( 'org_name', $opts, $add_none = false );
 			$org_last_num = SucomUtil::get_last_num( $org_names );
 
-			foreach ( $org_names as $num => $name ) {
+			foreach ( $org_names as $org_id => $name ) {
 
 				$name = trim( $name );
 
-				if ( ! empty( $opts[ 'org_delete_' . $num] ) || ( $name === '' && $num === $org_last_num ) ) {	// Remove the empty "New Address".
+				/**
+				 * Remove empty "New Organization".
+				 */
+				if ( ! empty( $opts[ 'org_delete_' . $org_id ] ) || ( $name === '' && $org_id === $org_last_num ) ) {
 
-					if ( isset( $opts[ 'org_id' ] ) && $opts[ 'org_id' ] === $num ) {
+					/**
+					 * Maybe reset the currently selected organization ID.
+					 */
+					if ( isset( $opts[ 'org_id' ] ) && $opts[ 'org_id' ] === $org_id ) {
 						unset( $opts[ 'org_id' ] );
 					}
 
 					/**
 					 * Remove the organization, including all localized keys.
 					 */
-					$opts = SucomUtil::preg_grep_keys( '/^org_.*_' . $num . '(#.*)?$/', $opts, true );	// $invert is true.
+					$opts = SucomUtil::preg_grep_keys( '/^org_.*_' . $org_id . '(#.*)?$/', $opts, true );	// $invert is true.
 
 					continue;	// Check the next organization.
 				}
 
+				/**
+				 * Make sure each organization has a name.
+				 */
 				if ( $name === '' ) {	// Just in case.
-					$opts[ 'org_name_' . $num] = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $num );
+					$name = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $org_id );
 				}
 				
-				$opts[ 'org_name_' . $num] = $name;
+				$opts[ 'org_name_' . $org_id ] = $name;
 			}
 
 			return $opts;
@@ -194,8 +207,8 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 				$org_names = WpssoOrgOrganization::get_names();
 
-				foreach ( $org_names as $num => $name ) {
-					$this->check_banner_image_size( $opts, 'org', $num, $name );
+				foreach ( $org_names as $org_id => $name ) {
+					$this->check_banner_image_size( $opts, 'org', $org_id, $name );
 				}
 			}
 		}
