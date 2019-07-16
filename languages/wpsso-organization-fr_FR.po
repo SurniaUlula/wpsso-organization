@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 2.0.1\n"
+"Project-Id-Version: WPSSO Organization Markup 2.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2019-06-29 10:47-0700\n"
-"PO-Revision-Date: 2019-06-29 10:47-0700\n"
+"POT-Creation-Date: 2019-07-16 10:12-0700\n"
+"PO-Revision-Date: 2019-07-16 10:12-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -15,60 +15,60 @@ msgstr ""
 "X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: lib/filters.php:178
+#: lib/filters.php:191
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr "Organisation #%d"
 
-#: lib/filters.php:211
+#: lib/filters.php:224
 msgid "organization \"%s\""
 msgstr "organisation \"%s\""
 
-#: lib/filters.php:246
+#: lib/filters.php:259
 msgid "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr "Les dimensions de l'image pour l'URL de la bannière d'organisation \"%1$s\" ne peuvent pas être déterminées."
 
-#: lib/filters.php:249
+#: lib/filters.php:262
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr "Assurez-vous que ce site peut accéder à l'image bannière à %1$s."
 
-#: lib/filters.php:254
+#: lib/filters.php:267
 msgid "The \"%1$s\" organization banner URL image dimensions are %2$s and must be exactly %3$s."
 msgstr "Les dimensions de l'image pour l'URL de la bannière d'organisation \"%1$s\" sont %2$s et doivent être exactement %3$s."
 
-#: lib/filters.php:257
+#: lib/filters.php:270
 msgid "Please correct the banner image at %s."
 msgstr "Veuillez corriger l'image bannière à %s."
 
-#: lib/filters.php:278
+#: lib/filters.php:291
 msgid "Include Organization schema markup in the front page for Google's Knowledge Graph."
 msgstr "Inclure le balisage Schéma Organisation dans la page d'avant pour le Knowledge Graph de Google."
 
-#: lib/filters.php:284
+#: lib/filters.php:297
 msgid "Select an organization to edit."
 msgstr "Sélectionnez une organisation à modifier."
 
-#: lib/filters.php:290
+#: lib/filters.php:303
 msgid "The complete name for the organization."
 msgstr "Le nom complet de l'organisation."
 
-#: lib/filters.php:296
+#: lib/filters.php:309
 msgid "An alternate name for the organization that you would like Google to consider."
 msgstr "Un autre nom pour l’organisation que vous souhaitez que Google considère."
 
-#: lib/filters.php:302
+#: lib/filters.php:315
 msgid "A description for the organization."
 msgstr "Une description de l'organisation."
 
-#: lib/filters.php:308
+#: lib/filters.php:321
 msgid "The website URL for the organization."
 msgstr "L'URL du site Web de l'organisation."
 
-#: lib/filters.php:314
+#: lib/filters.php:327
 msgid "You may optionally choose a different Schema type for the organization (default is Organization)."
 msgstr "Vous pouvez sélectionner un type de Schéma différent pour l'organisation (valeur par défaut est Organization)."
 
-#: lib/filters.php:324
+#: lib/filters.php:337
 msgid "Select an optional Place / Location for this Organization (requires the %s add-on)."
 msgstr "Choisissez une place / position optionnel pour cette organisation (requiert l'ajout %s)."
 
@@ -82,68 +82,68 @@ msgctxt "plugin description"
 msgid "WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, performer, etc.)."
 msgstr "Ajout WPSSO Core pour personnaliser le balisage Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, interprète, etc.)"
 
-#: lib/gettext-pro.php:6 lib/pro/admin/org-general.php:67
-#: lib/std/admin/org-general.php:51
+#: lib/gettext-pro.php:6 lib/pro/admin/org-general.php:57
+#: lib/std/admin/org-general.php:50
 msgctxt "option label"
 msgid "Edit an Organization"
 msgstr "Modifier une organisation"
 
-#: lib/gettext-pro.php:7 lib/pro/admin/org-general.php:81
-#: lib/std/admin/org-general.php:60
+#: lib/gettext-pro.php:7 lib/pro/admin/org-general.php:71
+#: lib/std/admin/org-general.php:59
 msgctxt "option comment"
 msgid "delete this organization"
 msgstr "supprimer cette organisation"
 
-#: lib/gettext-pro.php:8 lib/pro/admin/org-general.php:83
-#: lib/std/admin/org-general.php:62
+#: lib/gettext-pro.php:8 lib/pro/admin/org-general.php:74
+#: lib/std/admin/org-general.php:61
 msgctxt "option label"
 msgid "Organization Name"
 msgstr "Nom de l'organisation"
 
-#: lib/gettext-pro.php:9 lib/pro/admin/org-general.php:87
-#: lib/std/admin/org-general.php:66
+#: lib/gettext-pro.php:9 lib/pro/admin/org-general.php:79
+#: lib/std/admin/org-general.php:65
 msgctxt "option label"
 msgid "Organization Alternate Name"
 msgstr "Autre nom de l'organisation"
 
-#: lib/gettext-pro.php:10 lib/pro/admin/org-general.php:91
-#: lib/std/admin/org-general.php:70
+#: lib/gettext-pro.php:10 lib/pro/admin/org-general.php:84
+#: lib/std/admin/org-general.php:69
 msgctxt "option label"
 msgid "Organization Description"
 msgstr "Description de l'organisation"
 
-#: lib/gettext-pro.php:11 lib/pro/admin/org-general.php:95
-#: lib/std/admin/org-general.php:74
+#: lib/gettext-pro.php:11 lib/pro/admin/org-general.php:89
+#: lib/std/admin/org-general.php:73
 msgctxt "option label"
 msgid "Organization WebSite URL"
 msgstr "URL du site de l'organisation"
 
-#: lib/gettext-pro.php:12 lib/pro/admin/org-general.php:101
-#: lib/std/admin/org-general.php:80 lib/submenu/org-general.php:133
+#: lib/gettext-pro.php:12 lib/pro/admin/org-general.php:96
+#: lib/std/admin/org-general.php:79 lib/submenu/org-general.php:133
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr "URL logo de organisation"
 
-#: lib/gettext-pro.php:13 lib/pro/admin/org-general.php:105
-#: lib/std/admin/org-general.php:84 lib/submenu/org-general.php:138
+#: lib/gettext-pro.php:13 lib/pro/admin/org-general.php:101
+#: lib/std/admin/org-general.php:83 lib/submenu/org-general.php:138
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr "URL bannière d'organisation"
 
-#: lib/gettext-pro.php:14 lib/pro/admin/org-general.php:109
-#: lib/std/admin/org-general.php:88 lib/submenu/org-general.php:143
+#: lib/gettext-pro.php:14 lib/pro/admin/org-general.php:106
+#: lib/std/admin/org-general.php:87 lib/submenu/org-general.php:143
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr "Type de Schéma d'organisation"
 
-#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:113
-#: lib/std/admin/org-general.php:92 lib/submenu/org-general.php:148
+#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:111
+#: lib/std/admin/org-general.php:91 lib/submenu/org-general.php:148
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr "Place / position de l'organisation"
 
-#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:119
-#: lib/std/admin/org-general.php:97 lib/submenu/org-general.php:153
+#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:118
+#: lib/std/admin/org-general.php:97 lib/submenu/org-general.php:154
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr "Knowledge Graph de Google"
@@ -199,15 +199,15 @@ msgctxt "option label"
 msgid "WebSite URL"
 msgstr "URL du site Web"
 
-#: wpsso-organization.php:99
+#: wpsso-organization.php:105
 msgid "%1$s is an add-on for the %2$s plugin &mdash; please install and activate the %3$s plugin before activating %4$s."
 msgstr "%1$s est un ajout pour l'extension %2$s &mdash; SVP installer et activer l'extension %3$s avant d'activer %4$s."
 
-#: wpsso-organization.php:101
+#: wpsso-organization.php:107
 msgid "The %1$s add-on requires the %2$s plugin &mdash; install and activate the %3$s plugin or <a href=\"%4$s\">deactivate the %5$s add-on</a>."
 msgstr "L'ajout %1$s requiert l'extension %2$s &mdash; installer et activer l'extension %3$s ou <a href=\"%4$s\">désactiver l'ajout %5$s</a>."
 
-#: wpsso-organization.php:200
+#: wpsso-organization.php:211
 msgid "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version %5$s is currently installed)."
 msgstr "L'ajout %1$s version %2$s requiert %3$s version %4$s ou plus récente (version %5$s est actuellement installée)."
 
