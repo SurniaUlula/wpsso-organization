@@ -108,11 +108,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **New Features**
 	* None.
 * **Improvements**
-	* None.
+	* Optimized the "Organization Schema Type" option with jQuery to load the selects as needed.
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* Maintenance release for WPSSO Core v5.3.0.
+	* None.
 
 **Version 2.0.1 (2019/06/29)**
 
@@ -142,7 +142,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 2.1.0-rc.1 =
 
-(2019/07/18) Maintenance release for WPSSO Core v5.3.0.
+(2019/07/18) Optimized the "Organization Schema Type" option with jQuery to load the selects as needed.
 
 = 2.0.1 =
 
