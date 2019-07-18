@@ -103,7 +103,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.0-rc.1 (2019/07/18)**
+**Version 2.1.0 (2019/07/18)**
 
 * **New Features**
 	* None.
@@ -140,11 +140,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 2.1.0-rc.1 =
+= 2.1.0 =
 
 (2019/07/18) Optimized the "Organization Schema Type" option with jQuery to load the selects as needed.
-
-= 2.0.1 =
-
-(2019/06/29) Updated the WebSite (Front Page) Knowledge Graph option label and link.
 
