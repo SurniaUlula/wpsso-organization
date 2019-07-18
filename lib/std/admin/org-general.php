@@ -86,7 +86,9 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 
 			$table_rows[ 'org_schema_type_' . $id ] = $form->get_th_html( _x( 'Organization Schema Type',
 				'option label', 'wpsso-organization' ), '', 'org_schema_type' ) . 
-			'<td class="blank">' . $form->get_no_select( 'org_schema_type_' . $id, $org_types_select, 'schema_type' ) . '</td>';
+			'<td class="blank">' . $form->get_no_select( 'org_schema_type_' . $id, $org_types_select,
+				$css_class = 'schema_type', $css_id = '', $is_assoc = true, $is_disabled = false,
+					$selected = false, $event_name = 'on_focus_load_json', $event_args = 'schema_org_types' ) . '</td>';
 
 			$table_rows[ 'org_place_id_' . $id ] = $form->get_th_html( _x( 'Organization Place / Location',
 				'option label', 'wpsso-organization' ), '', 'org_place_id' ) . 
