@@ -1,4 +1,4 @@
-<h1>WPSSO Organization Markup to Customize Schema Organization and Manage Additional Organizations</h1>
+<h1>WPSSO Organization Markup</h1>
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Organization Markup</td></tr>

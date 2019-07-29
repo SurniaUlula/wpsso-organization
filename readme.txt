@@ -1,4 +1,4 @@
-=== WPSSO Organization Markup to Customize Schema Organization and Manage Additional Organizations ===
+=== WPSSO Organization Markup ===
 Plugin Name: WPSSO Organization Markup
 Plugin Slug: wpsso-organization
 Text Domain: wpsso-organization
