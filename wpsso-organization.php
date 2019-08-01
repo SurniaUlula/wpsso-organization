@@ -199,7 +199,9 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			}
 
 			if ( ! $this->have_req_min ) {
+
 				$this->min_version_notice();
+
 				return;	// stop here
 			}
 		}
