@@ -1,4 +1,4 @@
-=== WPSSO Organization Markup ===
+=== Organization Markup | WPSSO Add-on ===
 Plugin Name: WPSSO Organization Markup
 Plugin Slug: wpsso-organization
 Text Domain: wpsso-organization
@@ -12,7 +12,7 @@ Requires At Least: 3.8
 Tested Up To: 5.2.2
 Stable Tag: 2.1.0
 
-WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, etc.).
+Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
 
 == Description ==
 
