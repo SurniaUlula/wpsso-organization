@@ -4,4 +4,4 @@
  * Extract of translatable text strings from the static config array.
  */
 _x( 'Organization', 'lib file description', 'wpsso-organization' );
-_x( 'WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, performer, etc.).', 'plugin description', 'wpsso-organization' );
+_x( 'Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).', 'plugin description', 'wpsso-organization' );

@@ -89,8 +89,8 @@ msgstr ""
 #: lib/gettext-config.php:7
 msgctxt "plugin description"
 msgid ""
-"WPSSO Core add-on to customize the home page Schema Organization markup and "
-"manage additional Organizations (publisher, organizer, performer, etc.)."
+"Customize home page Schema Organization markup and manage additional "
+"Organizations (publisher, organizer, etc.)."
 msgstr ""
 
 #: lib/gettext-pro.php:6 lib/pro/admin/org-general.php:57
