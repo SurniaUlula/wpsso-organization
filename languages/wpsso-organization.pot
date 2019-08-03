@@ -238,8 +238,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"WPSSO Core add-on to customize the home page Schema Organization markup and "
-"manage additional Organizations (publisher, organizer, performer, etc.)."
+"Customize home page Schema Organization markup and manage additional "
+"Organizations (publisher, organizer, etc.)."
 msgstr ""
 
 #. Author of the plugin/theme

@@ -10,7 +10,7 @@
  * Author URI: https://wpsso.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Description: WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, performer, etc.).
+ * Description: Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
  * Requires At Least: 3.8
  * Tested Up To: 5.2.2
  * Version: 2.1.0
