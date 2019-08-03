@@ -28,7 +28,7 @@ Select an Schema Organization sub-type (Corporation, Educational, NGO, Performin
 
 Select an optional place / location / address for your home page Organization and/or each additional Organization you create.
 
-Provide an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
+Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
 
 * Select a different Publisher for Schema CreativeWork markup.
 * Select an Organizer or Performer for Schema Event markup.

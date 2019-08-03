@@ -25,7 +25,7 @@
 
 <p>Select an optional place / location / address for your home page Organization and/or each additional Organization you create.</p>
 
-<p>Provide an Organization selector for the <a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup Pro</a> add-on:</p>
+<p>Provides an Organization selector for the <a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup Pro</a> add-on:</p>
 
 <ul>
 <li>Select a different Publisher for Schema CreativeWork markup.</li>
