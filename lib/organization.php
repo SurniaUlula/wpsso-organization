@@ -143,11 +143,11 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				/**
 				 * Get the list of non-localized option names.
 				 */
-				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*_)' . $org_id . '(#.*)?$/', $wpsso->options, false, '$1' ) as $opt_prefix => $value ) {
+				foreach ( SucomUtil::preg_grep_keys( '/^(org_.*_)' . $org_id . '(#.*)?$/', $wpsso->options, false, '$1' ) as $opt_pre => $value ) {
 
-					$opt_key = rtrim( $opt_prefix, '_' );
+					$opt_key = rtrim( $opt_pre, '_' );
 
-					$org_opts[ $opt_key ] = SucomUtil::get_key_value( $opt_prefix . $org_id, $wpsso->options, $mixed );	// Localized value.
+					$org_opts[ $opt_key ] = SucomUtil::get_key_value( $opt_pre . $org_id, $wpsso->options, $mixed );	// Localized value.
 				}
 
 				if ( $wpsso->debug->enabled ) {
