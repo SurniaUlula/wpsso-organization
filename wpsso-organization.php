@@ -13,7 +13,7 @@
  * Description: Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
  * Requires At Least: 3.8
  * Tested Up To: 5.2.2
- * Version: 2.1.0
+ * Version: 2.1.1-dev.1
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -173,10 +173,6 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			}
 
 			$this->p->avail[ 'p_ext' ][ 'org' ] = true;		// Signal that this extension / add-on is available.
-
-			if ( is_admin() ) {
-				$this->p->avail[ 'admin' ][ 'org-general' ] = true;
-			}
 		}
 
 		public function wpsso_init_objects() {
