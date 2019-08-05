@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 2.1.0\n"
+"Project-Id-Version: WPSSO Organization Markup 2.1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2019-07-16 10:12-0700\n"
-"PO-Revision-Date: 2019-07-16 10:12-0700\n"
+"POT-Creation-Date: 2019-08-05 08:54-0700\n"
+"PO-Revision-Date: 2019-08-05 08:54-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -79,8 +79,8 @@ msgstr "Organisation"
 
 #: lib/gettext-config.php:7
 msgctxt "plugin description"
-msgid "WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, performer, etc.)."
-msgstr "Ajout WPSSO Core pour personnaliser le balisage Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, interprète, etc.)"
+msgid "Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.)."
+msgstr "Personnaliser le balisage Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, etc.)"
 
 #: lib/gettext-pro.php:6 lib/pro/admin/org-general.php:57
 #: lib/std/admin/org-general.php:50
@@ -136,14 +136,14 @@ msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr "Type de Schéma d'organisation"
 
-#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:111
-#: lib/std/admin/org-general.php:91 lib/submenu/org-general.php:148
+#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:113
+#: lib/std/admin/org-general.php:93 lib/submenu/org-general.php:150
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr "Place / position de l'organisation"
 
-#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:118
-#: lib/std/admin/org-general.php:97 lib/submenu/org-general.php:154
+#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:120
+#: lib/std/admin/org-general.php:99 lib/submenu/org-general.php:156
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr "Knowledge Graph de Google"
@@ -207,7 +207,7 @@ msgstr "%1$s est un ajout pour l'extension %2$s &mdash; SVP installer et activer
 msgid "The %1$s add-on requires the %2$s plugin &mdash; install and activate the %3$s plugin or <a href=\"%4$s\">deactivate the %5$s add-on</a>."
 msgstr "L'ajout %1$s requiert l'extension %2$s &mdash; installer et activer l'extension %3$s ou <a href=\"%4$s\">désactiver l'ajout %5$s</a>."
 
-#: wpsso-organization.php:211
+#: wpsso-organization.php:209
 msgid "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version %5$s is currently installed)."
 msgstr "L'ajout %1$s version %2$s requiert %3$s version %4$s ou plus récente (version %5$s est actuellement installée)."
 
@@ -220,8 +220,8 @@ msgid "https://wpsso.com/extend/plugins/wpsso-organization/"
 msgstr "https://wpsso.com/extend/plugins/wpsso-organization/"
 
 #. Description of the plugin/theme
-msgid "WPSSO Core add-on to customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, performer, etc.)."
-msgstr "Ajout WPSSO Core pour personnaliser le balisage Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, interprète, etc.)"
+msgid "Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.)."
+msgstr "Personnaliser le balisage Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, etc.)"
 
 #. Author of the plugin/theme
 msgid "JS Morisset"
