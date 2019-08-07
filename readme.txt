@@ -103,7 +103,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.1-rc.1 (2019/08/07)**
+**Version 2.1.1 (2019/08/07)**
 
 * **New Features**
 	* None.
@@ -127,11 +127,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 2.1.1-rc.1 =
+= 2.1.1 =
 
 (2019/08/07) Minor update for "fr_FR" translations. Simplified and optimized loading of admin library modules for WPSSO Core v5.5.1.
-
-= 2.1.0 =
-
-(2019/07/18) Optimized the "Organization Schema Type" option with jQuery to load the selects as needed.
 
