@@ -60,7 +60,7 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 
 			$table_rows[ 'org_name_' . $id ] = $form->get_th_html( _x( 'Organization Name',
 				'option label', 'wpsso-organization' ), '', 'org_name', array( 'is_locale' => true ) ) .  
-			'<td class="blank">' . $form->get_no_input_value( '', 'long_name required' ) . '</td>';
+			'<td class="blank">' . $form->get_no_input_value( '', 'long_name value_req' ) . '</td>';
 
 			$table_rows[ 'org_name_alt_' . $id ] = $form->get_th_html( _x( 'Organization Alternate Name',
 				'option label', 'wpsso-organization' ), '', 'org_name_alt', array( 'is_locale' => true ) ) .  
