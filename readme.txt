@@ -103,6 +103,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 2.1.2-b.2 (2019/08/09)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Changed the "required" input field CSS class name to "value_req".
+
 **Version 2.1.1 (2019/08/07)**
 
 * **New Features**
@@ -126,6 +137,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None.
 
 == Upgrade Notice ==
+
+= 2.1.2-b.2 =
+
+(2019/08/09) Changed the "required" input field CSS class name to "value_req".
 
 = 2.1.1 =
 
