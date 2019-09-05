@@ -12,7 +12,7 @@
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
  * Requires At Least: 3.9
- * Tested Up To: 5.2.2
+ * Tested Up To: 5.2.3
  * Version: 2.1.2
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
@@ -88,6 +88,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 		}
 
 		public static function required_check() {
+
 			if ( ! class_exists( 'Wpsso' ) ) {
 				add_action( 'all_admin_notices', array( __CLASS__, 'required_notice' ) );
 			}
@@ -112,7 +113,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 					require_once trailingslashit( ABSPATH ) . 'wp-admin/includes/plugin.php';
 				}
 
-				deactivate_plugins( $info[ 'base' ], true );	// $silent is true
+				deactivate_plugins( $info[ 'base' ], $silent = true );
 
 				wp_die( '<p>' . sprintf( $die_msg, $info[ 'name' ], $info[ 'req' ][ 'name' ], $info[ 'req' ][ 'short' ], $info[ 'short' ] ) . '</p>' );
 
