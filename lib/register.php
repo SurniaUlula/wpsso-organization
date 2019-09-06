@@ -105,9 +105,6 @@ if ( ! class_exists( 'WpssoOrgRegister' ) ) {
 
 					WpssoUtil::save_all_times( 'wpssoorg', $version );
 				}
-
-			} else {
-				WpssoOrg::required_notice( $deactivate = true );
 			}
 		}
 
