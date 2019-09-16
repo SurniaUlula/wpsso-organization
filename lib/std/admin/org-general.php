@@ -74,10 +74,8 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 				'option label', 'wpsso-organization' ), '', 'org_url', array( 'is_locale' => true ) ) . 
 			'<td class="blank">' . $form->get_no_input_value( '', 'wide' ) . '</td>';
 
-			$table_rows[ 'org_logo_url_' . $id ] = $form->get_th_html( 
-				'<a href="https://developers.google.com/structured-data/customize/logos">' . 
-				_x( 'Organization Logo URL', 'option label', 'wpsso-organization' ) . '</a>',
-					'', 'schema_logo_url', array( 'is_locale' => true ) ) . 
+			$table_rows[ 'org_logo_url_' . $id ] = $form->get_th_html( '<a href="https://developers.google.com/structured-data/customize/logos">' . 
+			_x( 'Organization Logo URL', 'option label', 'wpsso-organization' ) . '</a>', '', 'schema_logo_url', array( 'is_locale' => true ) ) . 
 			'<td class="blank">' . $form->get_no_input_value( '', 'wide' ) . '</td>';
 
 			$table_rows[ 'org_banner_url_' . $id ] = $form->get_th_html( _x( 'Organization Banner URL',

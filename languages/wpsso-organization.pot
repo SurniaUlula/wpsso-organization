@@ -22,60 +22,60 @@ msgstr ""
 msgid "organization \"%s\""
 msgstr ""
 
-#: lib/filters.php:259
+#: lib/filters.php:260
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr ""
 
-#: lib/filters.php:262
+#: lib/filters.php:263
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr ""
 
-#: lib/filters.php:267
+#: lib/filters.php:268
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions are %2$s and must be "
 "exactly %3$s."
 msgstr ""
 
-#: lib/filters.php:270
+#: lib/filters.php:271
 msgid "Please correct the banner image at %s."
 msgstr ""
 
-#: lib/filters.php:291
+#: lib/filters.php:292
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:297
+#: lib/filters.php:298
 msgid "Select an organization to edit."
 msgstr ""
 
-#: lib/filters.php:303
+#: lib/filters.php:304
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:309
+#: lib/filters.php:310
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:315
+#: lib/filters.php:316
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:321
+#: lib/filters.php:322
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:327
+#: lib/filters.php:328
 msgid ""
 "You may optionally choose a different Schema type for the organization "
 "(default is Organization)."
 msgstr ""
 
-#: lib/filters.php:337
+#: lib/filters.php:338
 msgid ""
 "Select an optional Place / Location for this Organization (requires the %s "
 "add-on)."
@@ -129,32 +129,32 @@ msgctxt "option label"
 msgid "Organization WebSite URL"
 msgstr ""
 
-#: lib/gettext-pro.php:12 lib/pro/admin/org-general.php:96
-#: lib/std/admin/org-general.php:79 lib/submenu/org-general.php:133
+#: lib/gettext-pro.php:12 lib/pro/admin/org-general.php:95
+#: lib/std/admin/org-general.php:78 lib/submenu/org-general.php:133
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr ""
 
-#: lib/gettext-pro.php:13 lib/pro/admin/org-general.php:101
-#: lib/std/admin/org-general.php:83 lib/submenu/org-general.php:138
+#: lib/gettext-pro.php:13 lib/pro/admin/org-general.php:99
+#: lib/std/admin/org-general.php:81 lib/submenu/org-general.php:138
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr ""
 
-#: lib/gettext-pro.php:14 lib/pro/admin/org-general.php:106
-#: lib/std/admin/org-general.php:87 lib/submenu/org-general.php:143
+#: lib/gettext-pro.php:14 lib/pro/admin/org-general.php:104
+#: lib/std/admin/org-general.php:85 lib/submenu/org-general.php:143
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
-#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:113
-#: lib/std/admin/org-general.php:93 lib/submenu/org-general.php:150
+#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:111
+#: lib/std/admin/org-general.php:91 lib/submenu/org-general.php:150
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr ""
 
-#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:120
-#: lib/std/admin/org-general.php:99 lib/submenu/org-general.php:156
+#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:118
+#: lib/std/admin/org-general.php:97 lib/submenu/org-general.php:156
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
