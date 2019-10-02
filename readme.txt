@@ -10,7 +10,7 @@ Tags: publisher, organization, local seo, local business, schema, schema.org, ma
 Contributors: jsmoriss
 Requires At Least: 3.9
 Tested Up To: 5.2.3
-Stable Tag: 2.1.3
+Stable Tag: 2.1.4
 
 Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
 
@@ -103,7 +103,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.3 (2019/10/02)**
+**Version 2.1.4 (2019/10/02)**
 
 * **New Features**
 	* None.
@@ -116,7 +116,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 2.1.3 =
+= 2.1.4 =
 
 (2019/10/02) Fixed a save options filter hook that wasn't returning correctly.
 
