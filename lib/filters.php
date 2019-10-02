@@ -199,11 +199,15 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 		public function filter_check_options( $opts, $options_name, $network, $doing_upgrade ) {
 
+			if ( $network ) {
+				return $opts;	// Nothing to do.
+			}
+
 			/**
 			 * Get the banner image and issue an error if the image is not 600x60px. Only check
 			 * on a manual save, not an options upgrade action (ie. when a new add-on is activated).
 			 */
-			if ( ! $network && ! $doing_upgrade ) {
+			if ( ! $doing_upgrade ) {
 
 				$org_names = WpssoOrgOrganization::get_names();
 
@@ -211,6 +215,8 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					$this->check_banner_image_size( $opts, 'org', $org_id, $name );
 				}
 			}
+
+			return $opts;
 		}
 
 		private function check_banner_image_size( $opts, $opt_pre, $org_num, $org_name ) {
