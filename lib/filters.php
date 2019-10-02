@@ -31,24 +31,12 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 			if ( is_admin() ) {
 				$this->p->util->add_plugin_filters( $this, array( 
-					'option_type'               => 2,
-					'check_options'             => 4,
-					'save_options'              => 4,
-					'messages_tooltip'          => 2,
 					'form_cache_org_site_names' => 1,
+					'option_type'               => 2,
+					'save_options'              => 3,
+					'messages_tooltip'          => 2,
 				) );
 			}
-		}
-
-		public function filter_form_cache_org_site_names( $mixed ) {
-
-			$ret = WpssoOrgOrganization::get_names();
-
-			if ( is_array( $mixed ) ) {
-				$ret = $mixed + $ret;
-			}
-
-			return $ret;
 		}
 
 		public function filter_json_array_schema_type_ids( $type_ids, $mod ) {
@@ -96,6 +84,17 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			);
 
 			return $options_keys;
+		}
+
+		public function filter_form_cache_org_site_names( $mixed ) {
+
+			$ret = WpssoOrgOrganization::get_names();
+
+			if ( is_array( $mixed ) ) {
+				$ret = $mixed + $ret;
+			}
+
+			return $ret;
 		}
 
 		public function filter_option_type( $type, $base_key ) {
@@ -147,7 +146,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			return $type;
 		}
 
-		public function filter_save_options( $opts, $options_name, $network, $doing_upgrade ) {
+		public function filter_save_options( $opts, $options_name, $network ) {
 
 			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
@@ -160,14 +159,14 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$org_names    = SucomUtil::get_multi_key_locale( 'org_name', $opts, $add_none = false );
 			$org_last_num = SucomUtil::get_last_num( $org_names );
 
-			foreach ( $org_names as $org_id => $name ) {
+			foreach ( $org_names as $org_id => $org_name ) {
 
-				$name = trim( $name );
+				$org_name = trim( $org_name );
 
 				/**
 				 * Remove empty "New Organization".
 				 */
-				if ( ! empty( $opts[ 'org_delete_' . $org_id ] ) || ( $name === '' && $org_id === $org_last_num ) ) {
+				if ( ! empty( $opts[ 'org_delete_' . $org_id ] ) || ( $org_name === '' && $org_id === $org_last_num ) ) {
 
 					/**
 					 * Maybe reset the currently selected organization ID.
@@ -187,33 +186,13 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				/**
 				 * Make sure each organization has a name.
 				 */
-				if ( $name === '' ) {	// Just in case.
-					$name = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $org_id );
+				if ( $org_name === '' ) {	// Just in case.
+					$org_name = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $org_id );
 				}
 				
-				$opts[ 'org_name_' . $org_id ] = $name;
-			}
+				$opts[ 'org_name_' . $org_id ] = $org_name;
 
-			return $opts;
-		}
-
-		public function filter_check_options( $opts, $options_name, $network, $doing_upgrade ) {
-
-			if ( $network ) {
-				return $opts;	// Nothing to do.
-			}
-
-			/**
-			 * Get the banner image and issue an error if the image is not 600x60px. Only check
-			 * on a manual save, not an options upgrade action (ie. when a new add-on is activated).
-			 */
-			if ( ! $doing_upgrade ) {
-
-				$org_names = WpssoOrgOrganization::get_names();
-
-				foreach ( $org_names as $org_id => $name ) {
-					$this->check_banner_image_size( $opts, 'org', $org_id, $name );
-				}
+				$this->check_banner_image_size( $opts, 'org', $org_id, $org_name );
 			}
 
 			return $opts;
