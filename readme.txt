@@ -103,42 +103,20 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.2 (2019/08/10)**
+**Version 2.1.3 (2019/10/02)**
 
 * **New Features**
 	* None.
 * **Improvements**
 	* None.
 * **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Changed the "required" input field CSS class name to "value_req".
-
-**Version 2.1.1 (2019/08/07)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Minor update for "fr_FR" translations.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Simplified and optimized loading of admin library modules for WPSSO Core v5.5.1.
-
-**Version 2.1.0 (2019/07/18)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Optimized the "Organization Schema Type" option with jQuery to load the selects as needed.
-* **Bugfixes**
-	* None.
+	* Fixed a save options filter hook that wasn't returning correctly.
 * **Developer Notes**
 	* None.
 
 == Upgrade Notice ==
 
-= 2.1.2 =
+= 2.1.3 =
 
-(2019/08/10) Changed the "required" input field CSS class name to "value_req".
+(2019/10/02) Fixed a save options filter hook that wasn't returning correctly.
 
