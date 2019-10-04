@@ -103,35 +103,20 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.5-rc.1 (2019/10/03)**
+**Version 2.1.5 (2019/10/04)**
 
 * **New Features**
 	* None.
 * **Improvements**
-	* Maintenance release for WPSSO Core v6.6.1.
+	* Maintenance release for WPSSO Core v6.7.0.
 * **Bugfixes**
 	* None.
-* **Developer Notes**
-	* None.
-
-**Version 2.1.4 (2019/10/02)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* Fixed a save options filter hook that wasn't returning correctly.
 * **Developer Notes**
 	* None.
 
 == Upgrade Notice ==
 
-= 2.1.5-rc.1 =
+= 2.1.5 =
 
-(2019/10/03) Maintenance release for WPSSO Core v6.6.1.
-
-= 2.1.4 =
-
-(2019/10/02) Fixed a save options filter hook that wasn't returning correctly.
+(2019/10/04) Maintenance release for WPSSO Core v6.7.0.
 
