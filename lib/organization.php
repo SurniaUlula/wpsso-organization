@@ -26,6 +26,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 
 		/**
 		 * Return an associative array of organization IDs and names.
+		 *
 		 * Optionally add 'none', 'new', and 'site' at the top of the array.
 		 */
 		public static function get_names( $schema_type = '', $add_none = false, $add_new = false, $add_site = false ) {
