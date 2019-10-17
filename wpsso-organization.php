@@ -12,7 +12,7 @@
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
  * Requires At Least: 3.9
- * Tested Up To: 5.2.4
+ * Tested Up To: 5.3
  * Version: 2.1.5
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
