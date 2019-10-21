@@ -103,7 +103,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.6-dev.2 (2019/10/21)**
+**Version 2.1.6-b.1 (2019/10/21)**
 
 * **New Features**
 	* None.
@@ -127,7 +127,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 2.1.6-dev.2 =
+= 2.1.6-b.1 =
 
 (2019/10/21) Update method arguments for SucomForm::get_select() in WPSSO Core v6.9.0.
 
