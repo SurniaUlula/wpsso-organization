@@ -84,14 +84,11 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 
 			$table_rows[ 'org_schema_type_' . $id ] = $form->get_th_html( _x( 'Organization Schema Type',
 				'option label', 'wpsso-organization' ), '', 'org_schema_type' ) . 
-			'<td class="blank">' . $form->get_no_select( 'org_schema_type_' . $id, $org_types_select,
-				$css_class = 'schema_type', $css_id = '', $is_assoc = true, $is_disabled = false,
-					$selected = false, $event_name = 'on_focus_load_json', $event_args = 'schema_org_types' ) . '</td>';
+			'<td class="blank">' . $form->get_no_select( 'org_schema_type_' . $id, $org_types_select, $css_class = 'schema_type' ) . '</td>';
 
 			$table_rows[ 'org_place_id_' . $id ] = $form->get_th_html( _x( 'Organization Place / Location',
 				'option label', 'wpsso-organization' ), '', 'org_place_id' ) . 
-			'<td class="blank">' . $form->get_no_select( 'org_place_id_' . $id, $plm_place_names,
-				$css_class = 'long_name' ) . $plm_req_msg . '</td>';
+			'<td class="blank">' . $form->get_no_select( 'org_place_id_' . $id, $plm_place_names, $css_class = 'long_name' ) . $plm_req_msg . '</td>';
 
 			$table_rows[ 'subsection_google_knowledgegraph' ] = '<td colspan="2" class="subsection"><h4>' . 
 				_x( 'Google\'s Knowledge Graph', 'metabox title', 'wpsso-organization' ) . '</h4></td>';

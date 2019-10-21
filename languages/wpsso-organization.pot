@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 2.1.5\n"
+"Project-Id-Version: WPSSO Organization Markup 2.1.6-dev.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2019-MO-DA HO:MI+ZONE\n"
@@ -147,14 +147,14 @@ msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
-#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:113
-#: lib/std/admin/org-general.php:91 lib/submenu/org-general.php:150
+#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:116
+#: lib/std/admin/org-general.php:89 lib/submenu/org-general.php:153
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr ""
 
-#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:120
-#: lib/std/admin/org-general.php:97 lib/submenu/org-general.php:156
+#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:123
+#: lib/std/admin/org-general.php:94 lib/submenu/org-general.php:159
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
