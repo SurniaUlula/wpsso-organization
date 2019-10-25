@@ -62,7 +62,7 @@ Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](http
 	
 * Select a more specific Schema Organization sub-type for Google's Knowlege Graph and Organization markup.
 
-* Select an optional place / location / address for your Schema Organization markup when used with the [WPSSO Place / Location and Local Business Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
+* Select an optional place / location / address for your Schema Organization markup when used with the [WPSSO Place / Location and Local SEO Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
 
 <h3>WPSSO ORG Premium Features</h3>
 
