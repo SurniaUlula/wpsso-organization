@@ -63,8 +63,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 
 		public static function get_version( $add_slug = false ) {
 
-			$ext  = 'wpssoorg';
-			$info =& self::$cf[ 'plugin' ][$ext];
+			$info =& self::$cf[ 'plugin' ][ 'wpssoorg' ];
 
 			return $add_slug ? $info[ 'slug' ] . '-' . $info[ 'version' ] : $info[ 'version' ];
 		}
@@ -75,12 +74,17 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 				return;
 			}
 
+			$info =& self::$cf[ 'plugin' ][ 'wpssoorg' ];
+
+			/**
+			 * Define fixed constants.
+			 */
 			define( 'WPSSOORG_FILEPATH', $plugin_filepath );						
-			define( 'WPSSOORG_PLUGINBASE', self::$cf[ 'plugin' ][ 'wpssoorg' ][ 'base' ] );	// wpsso-organization/wpsso-organization.php
+			define( 'WPSSOORG_PLUGINBASE', $info[ 'base' ] );	// Example: wpsso-organization/wpsso-organization.php
 			define( 'WPSSOORG_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_filepath ) ) ) );
-			define( 'WPSSOORG_PLUGINSLUG', self::$cf[ 'plugin' ][ 'wpssoorg' ][ 'slug' ] );	// wpsso-organization
+			define( 'WPSSOORG_PLUGINSLUG', $info[ 'slug' ] );	// Example: wpsso-organization
 			define( 'WPSSOORG_URLPATH', trailingslashit( plugins_url( '', $plugin_filepath ) ) );
-			define( 'WPSSOORG_VERSION', self::$cf[ 'plugin' ][ 'wpssoorg' ][ 'version' ] );						
+			define( 'WPSSOORG_VERSION', $info[ 'version' ] );						
 		}
 
 		public static function require_libs( $plugin_filepath ) {
