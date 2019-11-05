@@ -112,11 +112,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* Update method arguments for SucomForm::get_select() in WPSSO Core v6.9.0.
+	* Update method arguments for SucomForm->get_select() in WPSSO Core v6.9.0.
 
 == Upgrade Notice ==
 
 = 2.1.6 =
 
-(2019/10/22) Update method arguments for SucomForm::get_select() in WPSSO Core v6.9.0.
+(2019/10/22) Update method arguments for SucomForm->get_select() in WPSSO Core v6.9.0.
 
