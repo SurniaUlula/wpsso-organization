@@ -26,7 +26,7 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	die( 'These aren\'t the droids you\'re looking for...' );
+	die( 'These aren\'t the droids you\'re looking for.' );
 }
 
 if ( ! class_exists( 'WpssoOrg' ) ) {
@@ -53,9 +53,10 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 
 		public function __construct() {
 
-			require_once ( dirname( __FILE__ ) . '/lib/config.php' );
+			require_once dirname( __FILE__ ) . '/lib/config.php';
 
 			WpssoOrgConfig::set_constants( __FILE__ );
+
 			WpssoOrgConfig::require_libs( __FILE__ );	// Includes the register.php class library.
 
 			$this->reg = new WpssoOrgRegister();		// activate, deactivate, uninstall hooks
