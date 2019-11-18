@@ -103,7 +103,7 @@ if ( ! class_exists( 'WpssoOrgRegister' ) ) {
 
 					$version = WpssoOrgConfig::$cf[ 'plugin' ][ 'wpssoorg' ][ 'version' ];
 
-					WpssoUtil::save_all_times( 'wpssoorg', $version );
+					WpssoUtil::register_ext_version( 'wpssoorg', $version );
 				}
 			}
 		}
