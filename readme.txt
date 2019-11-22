@@ -112,7 +112,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* Updated WpssoOrgRegister->activate_plugin() for the new WpssoUtilReg class in WPSSO Core v6.13.0.
+	* Updated `WpssoOrgRegister->activate_plugin()` for the new WpssoUtilReg class in WPSSO Core v6.13.0.
 
 **Version 2.1.6 (2019/10/22)**
 
@@ -123,7 +123,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* Update method arguments for SucomForm->get_select() in WPSSO Core v6.9.0.
+	* Update method arguments for `SucomForm->get_select()` in WPSSO Core v6.9.0.
 
 == Upgrade Notice ==
 
@@ -133,5 +133,5 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 2.1.6 =
 
-(2019/10/22) Update method arguments for SucomForm->get_select() in WPSSO Core v6.9.0.
+(2019/10/22) Update method arguments for `SucomForm->get_select()` in WPSSO Core v6.9.0.
 
