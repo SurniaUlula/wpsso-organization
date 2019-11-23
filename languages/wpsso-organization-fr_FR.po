@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 2.1.6\n"
+"Project-Id-Version: WPSSO Organization Markup 2.1.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2019-10-21 12:01-0700\n"
-"PO-Revision-Date: 2019-10-25 13:24-0700\n"
+"POT-Creation-Date: 2019-11-23 11:17-0800\n"
+"PO-Revision-Date: 2019-11-23 11:17-0800\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -82,67 +82,67 @@ msgctxt "plugin description"
 msgid "Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.)."
 msgstr "Personnaliser le balisage de Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, etc.)"
 
-#: lib/gettext-pro.php:6 lib/pro/admin/org-general.php:57
+#: lib/gettext-pro.php:6 lib/pro/admin/org-general.php:51
 #: lib/std/admin/org-general.php:50
 msgctxt "option label"
 msgid "Edit an Organization"
 msgstr "Modifier une organisation"
 
-#: lib/gettext-pro.php:7 lib/pro/admin/org-general.php:73
+#: lib/gettext-pro.php:7 lib/pro/admin/org-general.php:67
 #: lib/std/admin/org-general.php:59
 msgctxt "option comment"
 msgid "delete this organization"
 msgstr "supprimer cette organisation"
 
-#: lib/gettext-pro.php:8 lib/pro/admin/org-general.php:76
+#: lib/gettext-pro.php:8 lib/pro/admin/org-general.php:70
 #: lib/std/admin/org-general.php:61
 msgctxt "option label"
 msgid "Organization Name"
 msgstr "Nom de l'organisation"
 
-#: lib/gettext-pro.php:9 lib/pro/admin/org-general.php:81
+#: lib/gettext-pro.php:9 lib/pro/admin/org-general.php:75
 #: lib/std/admin/org-general.php:65
 msgctxt "option label"
 msgid "Organization Alternate Name"
 msgstr "Autre nom de l'organisation"
 
-#: lib/gettext-pro.php:10 lib/pro/admin/org-general.php:86
+#: lib/gettext-pro.php:10 lib/pro/admin/org-general.php:80
 #: lib/std/admin/org-general.php:69
 msgctxt "option label"
 msgid "Organization Description"
 msgstr "Description de l'organisation"
 
-#: lib/gettext-pro.php:11 lib/pro/admin/org-general.php:91
+#: lib/gettext-pro.php:11 lib/pro/admin/org-general.php:85
 #: lib/std/admin/org-general.php:73
 msgctxt "option label"
 msgid "Organization WebSite URL"
 msgstr "URL du site de l'organisation"
 
-#: lib/gettext-pro.php:12 lib/pro/admin/org-general.php:97
+#: lib/gettext-pro.php:12 lib/pro/admin/org-general.php:91
 #: lib/std/admin/org-general.php:78 lib/submenu/org-general.php:133
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr "URL logo de organisation"
 
-#: lib/gettext-pro.php:13 lib/pro/admin/org-general.php:101
+#: lib/gettext-pro.php:13 lib/pro/admin/org-general.php:95
 #: lib/std/admin/org-general.php:81 lib/submenu/org-general.php:138
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr "URL bannière d'organisation"
 
-#: lib/gettext-pro.php:14 lib/pro/admin/org-general.php:106
+#: lib/gettext-pro.php:14 lib/pro/admin/org-general.php:100
 #: lib/std/admin/org-general.php:85 lib/submenu/org-general.php:143
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr "Type de Schéma d'organisation"
 
-#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:116
+#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:110
 #: lib/std/admin/org-general.php:89 lib/submenu/org-general.php:153
 msgctxt "option label"
 msgid "Organization Place / Location"
 msgstr "Place / position de l'organisation"
 
-#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:123
+#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:117
 #: lib/std/admin/org-general.php:94 lib/submenu/org-general.php:159
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
@@ -199,11 +199,11 @@ msgctxt "option label"
 msgid "WebSite URL"
 msgstr "URL du site Web"
 
-#: wpsso-organization.php:103
+#: wpsso-organization.php:104
 msgid "The %1$s add-on requires the %2$s plugin &mdash; install and activate the %3$s plugin or <a href=\"%4$s\">deactivate the %5$s add-on</a>."
 msgstr "L'ajout %1$s requiert l'extension %2$s &mdash; installer et activer l'extension %3$s ou <a href=\"%4$s\">désactiver l'ajout %5$s</a>."
 
-#: wpsso-organization.php:192
+#: wpsso-organization.php:197
 msgid "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version %5$s is currently installed)."
 msgstr "L'ajout %1$s version %2$s requiert %3$s version %4$s ou plus récente (version %5$s est actuellement installée)."
 
