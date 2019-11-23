@@ -10,7 +10,7 @@ Tags: publisher, organization, local seo, local business, schema, schema.org, ma
 Contributors: jsmoriss
 Requires At Least: 3.9
 Tested Up To: 5.3
-Stable Tag: 2.1.6
+Stable Tag: 2.1.7
 
 Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
 
@@ -130,8 +130,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 2.1.7 =
 
 (2019/11/23) Update for the new WpssoUtilReg class in WPSSO Core v6.13.0.
-
-= 2.1.6 =
-
-(2019/10/22) Update method arguments for `SucomForm->get_select()` in WPSSO Core v6.9.0.
 
