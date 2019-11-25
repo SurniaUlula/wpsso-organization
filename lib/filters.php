@@ -30,10 +30,11 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			) );
 
 			if ( is_admin() ) {
+
 				$this->p->util->add_plugin_filters( $this, array( 
 					'form_cache_org_site_names' => 1,
+					'save_options'              => 4,
 					'option_type'               => 2,
-					'save_options'              => 3,
 					'messages_tooltip'          => 2,
 				) );
 			}
@@ -146,7 +147,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			return $type;
 		}
 
-		public function filter_save_options( $opts, $options_name, $network ) {
+		public function filter_save_options( $opts, $options_name, $network, $doing_upgrade ) {
 
 			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
