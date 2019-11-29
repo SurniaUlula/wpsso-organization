@@ -68,7 +68,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 			return $add_slug ? $info[ 'slug' ] . '-' . $info[ 'version' ] : $info[ 'version' ];
 		}
 
-		public static function set_constants( $plugin_filepath ) { 
+		public static function set_constants( $plugin_file_path ) { 
 
 			if ( defined( 'WPSSOORG_VERSION' ) ) {	// Define constants only once.
 				return;
@@ -79,15 +79,15 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 			/**
 			 * Define fixed constants.
 			 */
-			define( 'WPSSOORG_FILEPATH', $plugin_filepath );						
+			define( 'WPSSOORG_FILEPATH', $plugin_file_path );						
 			define( 'WPSSOORG_PLUGINBASE', $info[ 'base' ] );	// Example: wpsso-organization/wpsso-organization.php
-			define( 'WPSSOORG_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_filepath ) ) ) );
+			define( 'WPSSOORG_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_file_path ) ) ) );
 			define( 'WPSSOORG_PLUGINSLUG', $info[ 'slug' ] );	// Example: wpsso-organization
-			define( 'WPSSOORG_URLPATH', trailingslashit( plugins_url( '', $plugin_filepath ) ) );
+			define( 'WPSSOORG_URLPATH', trailingslashit( plugins_url( '', $plugin_file_path ) ) );
 			define( 'WPSSOORG_VERSION', $info[ 'version' ] );						
 		}
 
-		public static function require_libs( $plugin_filepath ) {
+		public static function require_libs( $plugin_file_path ) {
 
 			require_once WPSSOORG_PLUGINDIR . 'lib/filters.php';
 			require_once WPSSOORG_PLUGINDIR . 'lib/organization.php';
@@ -100,11 +100,11 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 
 			if ( false === $ret && ! empty( $filespec ) ) {
 
-				$filepath = WPSSOORG_PLUGINDIR . 'lib/' . $filespec . '.php';
+				$file_path = WPSSOORG_PLUGINDIR . 'lib/' . $filespec . '.php';
 
-				if ( file_exists( $filepath ) ) {
+				if ( file_exists( $file_path ) ) {
 
-					require_once $filepath;
+					require_once $file_path;
 
 					if ( empty( $classname ) ) {
 						return SucomUtil::sanitize_classname( 'wpssoorg' . $filespec, $allow_underscore = false );
