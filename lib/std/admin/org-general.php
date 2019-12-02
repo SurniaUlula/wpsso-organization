@@ -60,7 +60,7 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 
 			$table_rows[ 'org_name_' . $id ] = $form->get_th_html( _x( 'Organization Name',
 				'option label', 'wpsso-organization' ), '', 'org_name', array( 'is_locale' => true ) ) .  
-			'<td class="blank">' . $form->get_no_input_value( '', 'long_name value_req' ) . '</td>';
+			'<td class="blank">' . $form->get_no_input_value( '', 'long_name is_required' ) . '</td>';
 
 			$table_rows[ 'org_name_alt_' . $id ] = $form->get_th_html( _x( 'Organization Alternate Name',
 				'option label', 'wpsso-organization' ), '', 'org_name_alt', array( 'is_locale' => true ) ) .  
@@ -76,11 +76,11 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 
 			$table_rows[ 'org_logo_url_' . $id ] = $form->get_th_html( '<a href="https://developers.google.com/structured-data/customize/logos">' . 
 			_x( 'Organization Logo URL', 'option label', 'wpsso-organization' ) . '</a>', '', 'schema_logo_url', array( 'is_locale' => true ) ) . 
-			'<td class="blank">' . $form->get_no_input_value( '', 'wide' ) . '</td>';
+			'<td class="blank">' . $form->get_no_input_value( '', 'wide is_required' ) . '</td>';
 
 			$table_rows[ 'org_banner_url_' . $id ] = $form->get_th_html( _x( 'Organization Banner URL',
 				'option label', 'wpsso-organization' ), '', 'schema_banner_url', array( 'is_locale' => true ) ) . 
-			'<td class="blank">' . $form->get_no_input_value( '', 'wide' ) . '</td>';
+			'<td class="blank">' . $form->get_no_input_value( '', 'wide is_required' ) . '</td>';
 
 			$table_rows[ 'org_schema_type_' . $id ] = $form->get_th_html( _x( 'Organization Schema Type',
 				'option label', 'wpsso-organization' ), '', 'org_schema_type' ) . 
