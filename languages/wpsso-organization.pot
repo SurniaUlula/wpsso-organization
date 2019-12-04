@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 2.1.7\n"
+"Project-Id-Version: WPSSO Organization Markup 2.1.8-dev.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2019-MO-DA HO:MI+ZONE\n"
@@ -83,7 +83,7 @@ msgstr ""
 
 #: lib/gettext-config.php:6
 msgctxt "lib file description"
-msgid "Organization"
+msgid "Organizations"
 msgstr ""
 
 #: lib/gettext-config.php:7
