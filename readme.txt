@@ -66,6 +66,8 @@ Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](http
 
 <h3>WPSSO ORG Premium Features</h3>
 
+The Standard version is designed to satisfy the requirements of most standard WordPress sites / blogs. If your site requires the management of multiple organizations, then you may want the Premium version for those additional features.
+
 * Provides a selection of Organizations for the [WPSSO Schema JSON-LD Markup add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) publisher, event organizer, event performer, job hiring organization, etc. Schema property values.
 
 <h3>WPSSO Core Plugin Required</h3>
