@@ -13,7 +13,7 @@
  * Description: Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
  * Requires At Least: 3.9
  * Tested Up To: 5.3
- * Version: 2.1.8-dev.1
+ * Version: 2.1.8-dev.2
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
