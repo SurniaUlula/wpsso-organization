@@ -105,7 +105,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.8-dev.3 (2019/12/06)**
+**Version 2.1.8-b.1 (2019/12/07)**
 
 * **New Features**
 	* None.
@@ -140,9 +140,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 2.1.8-dev.3 =
+= 2.1.8-b.1 =
 
-(2019/12/06) Renamed the SSO menu item "Organization" to "Organizations".
+(2019/12/07) Renamed the SSO menu item "Organization" to "Organizations".
 
 = 2.1.7 =
 
