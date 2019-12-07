@@ -59,7 +59,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 
 			WpssoOrgConfig::require_libs( __FILE__ );	// Includes the register.php class library.
 
-			$this->reg = new WpssoOrgRegister();		// activate, deactivate, uninstall hooks
+			$this->reg = new WpssoOrgRegister();		// Activate, deactivate, uninstall hooks.
 
 			if ( is_admin() ) {
 				add_action( 'admin_init', array( __CLASS__, 'required_check' ) );
