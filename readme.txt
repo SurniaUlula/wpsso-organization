@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.5
 Requires At Least: 3.9
 Tested Up To: 5.3
-Stable Tag: 2.1.7
+Stable Tag: 2.1.8
 
 Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
 
@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.8 (2019/12/07)**
+**Version 2.1.8 (2019/12/08)**
 
 * **New Features**
 	* None.
@@ -136,5 +136,5 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 2.1.8 =
 
-(2019/12/07) Renamed the SSO menu item "Organization" to "Organizations".
+(2019/12/08) Renamed the SSO menu item "Organization" to "Organizations".
 
