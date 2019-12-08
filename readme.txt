@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.1.8-rc.1 (2019/12/07)**
+**Version 2.1.8 (2019/12/07)**
 
 * **New Features**
 	* None.
@@ -119,7 +119,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v5.5.
 	* WordPress v3.9.
-	* WPSSO Core v6.15.0-rc.1.
+	* WPSSO Core v6.15.0.
 
 **Version 2.1.7 (2019/11/23)**
 
@@ -132,24 +132,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Developer Notes**
 	* Updated `WpssoOrgRegister->activate_plugin()` for the new WpssoUtilReg class in WPSSO Core v6.13.1.
 
-**Version 2.1.6 (2019/10/22)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Update method arguments for `SucomForm->get_select()` in WPSSO Core v6.9.0.
-
 == Upgrade Notice ==
 
-= 2.1.8-rc.1 =
+= 2.1.8 =
 
 (2019/12/07) Renamed the SSO menu item "Organization" to "Organizations".
-
-= 2.1.7 =
-
-(2019/11/23) Update for the new WpssoUtilReg class in WPSSO Core v6.13.1.
 
