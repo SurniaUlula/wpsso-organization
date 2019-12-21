@@ -12,7 +12,7 @@
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
  * Requires PHP: 5.5
- * Requires At Least: 3.9
+ * Requires At Least: 4.0
  * Tested Up To: 5.3.2
  * Version: 2.1.8
  * 
