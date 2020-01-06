@@ -27,7 +27,7 @@ Select an Organization logo and banner for the Schema Article type and its sub-t
 
 Select an Schema Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.) for Google's Knowledge Graph.
 
-Select an optional place / location / address for your home page Organization and/or each additional Organization you create.
+Select an optional location (ie. place or address) for your home page Organization and/or each additional Organization you create.
 
 Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
 
@@ -49,7 +49,7 @@ Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](http
 	* Organization Logo Image URL
 	* Organization Banner (600x60) URL
 	* Organization Schema Type
-	* Organization Place ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) add-on required) 
+	* Organization Location ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) add-on required) 
 	* Google's Knowledge Graph Social Profile URLs:
 		* Facebook Business Page URL (localized)
 		* Instagram Business Page URL (localized)
@@ -63,7 +63,7 @@ Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](http
 	
 * Select a more specific Schema Organization sub-type for Google's Knowlege Graph and Organization markup.
 
-* Select an optional place / location / address for your Schema Organization markup when used with the [WPSSO Place and Local SEO Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
+* Select an optional location (ie. place or address) for your Schema Organization markup when used with the [WPSSO Place and Local SEO Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
 
 <h3>WPSSO ORG Premium Features</h3>
 
@@ -86,7 +86,7 @@ WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the [WPSSO Core plugi
 
 == Screenshots ==
 
-01. The WPSSO ORG settings page includes options for the WebSite name, alternate name, description, URL, logo image, banner image (for Articles), the Organization type, an optional place / location, and social page URLs for Google's Knowledge Graph.
+01. The WPSSO ORG settings page includes options for the WebSite name, alternate name, description, URL, logo image, banner image (for Articles), the Organization type, an optional location, and social page URLs for Google's Knowledge Graph.
 
 == Changelog ==
 

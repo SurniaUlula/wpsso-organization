@@ -24,7 +24,7 @@
 
 <p>Select an Schema Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.) for Google's Knowledge Graph.</p>
 
-<p>Select an optional place / location / address for your home page Organization and/or each additional Organization you create.</p>
+<p>Select an optional location (ie. place or address) for your home page Organization and/or each additional Organization you create.</p>
 
 <p>Provides an Organization selector for the <a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup Pro</a> add-on:</p>
 
@@ -49,7 +49,7 @@
 <li>Organization Logo Image URL</li>
 <li>Organization Banner (600x60) URL</li>
 <li>Organization Schema Type</li>
-<li>Organization Place (<a href="https://wordpress.org/plugins/wpsso-plm/">WPSSO PLM</a> add-on required) </li>
+<li>Organization Location (<a href="https://wordpress.org/plugins/wpsso-plm/">WPSSO PLM</a> add-on required) </li>
 <li>Google's Knowledge Graph Social Profile URLs:
 
 <ul>
@@ -65,7 +65,7 @@
 </ul></li>
 </ul></li>
 <li><p>Select a more specific Schema Organization sub-type for Google's Knowlege Graph and Organization markup.</p></li>
-<li><p>Select an optional place / location / address for your Schema Organization markup when used with the <a href="https://wordpress.org/plugins/wpsso-plm/">WPSSO Place and Local SEO Meta</a> add-on.</p></li>
+<li><p>Select an optional location (ie. place or address) for your Schema Organization markup when used with the <a href="https://wordpress.org/plugins/wpsso-plm/">WPSSO Place and Local SEO Meta</a> add-on.</p></li>
 </ul>
 
 <h3>WPSSO ORG Premium Features</h3>
