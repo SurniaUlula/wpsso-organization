@@ -49,7 +49,7 @@ Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](http
 	* Organization Logo Image URL
 	* Organization Banner (600x60) URL
 	* Organization Schema Type
-	* Organization Place / Location ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) add-on required) 
+	* Organization Place ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) add-on required) 
 	* Google's Knowledge Graph Social Profile URLs:
 		* Facebook Business Page URL (localized)
 		* Instagram Business Page URL (localized)
@@ -63,7 +63,7 @@ Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](http
 	
 * Select a more specific Schema Organization sub-type for Google's Knowlege Graph and Organization markup.
 
-* Select an optional place / location / address for your Schema Organization markup when used with the [WPSSO Place / Location and Local SEO Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
+* Select an optional place / location / address for your Schema Organization markup when used with the [WPSSO Place and Local SEO Meta](https://wordpress.org/plugins/wpsso-plm/) add-on.
 
 <h3>WPSSO ORG Premium Features</h3>
 
