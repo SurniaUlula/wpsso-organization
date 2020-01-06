@@ -75,10 +75,9 @@ msgid ""
 "(default is Organization)."
 msgstr ""
 
-#: lib/filters.php:324
+#: lib/filters.php:325
 msgid ""
-"Select an optional Place / Location for this Organization (requires the %s "
-"add-on)."
+"Select an optional Place for this Organization (requires the %s add-on)."
 msgstr ""
 
 #: lib/gettext-config.php:6
@@ -150,7 +149,7 @@ msgstr ""
 #: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:112
 #: lib/std/admin/org-general.php:89 lib/submenu/org-general.php:155
 msgctxt "option label"
-msgid "Organization Place / Location"
+msgid "Organization Place"
 msgstr ""
 
 #: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:119

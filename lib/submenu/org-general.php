@@ -152,7 +152,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					'</td>';
 
 					$table_rows[ 'site_place_id' ] = '' .
-					$this->form->get_th_html( _x( 'Organization Place / Location', 'option label', 'wpsso-organization' ),
+					$this->form->get_th_html( _x( 'Organization Place', 'option label', 'wpsso-organization' ),
 						$css_class = '', $css_id = 'site_place_id' ) . 
 					'<td>' . $this->form->get_select( 'site_place_id', $plm_place_names,
 						$css_class = 'long_name', $css_id = '', $is_assoc = true, $plm_disable ) . $plm_req_msg . '</td>';
