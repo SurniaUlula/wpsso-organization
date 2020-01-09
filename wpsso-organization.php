@@ -14,7 +14,7 @@
  * Requires PHP: 5.5
  * Requires At Least: 4.0
  * Tested Up To: 5.3.2
- * Version: 3.0.0-dev.1
+ * Version: 3.0.0-dev.2
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -43,7 +43,10 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 		 * Library class object variables.
 		 */
 		public $filters;	// WpssoOrgFilters
+		public $post;		// WpssoOrgPost
 		public $reg;		// WpssoOrgRegister
+		public $style;		// WpssoOrgStyle
+		public $term;		// WpssoOrgTerm
 
 		/**
 		 * Reference Variables (config, options, modules, etc.).
@@ -171,6 +174,9 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 			}
 
 			$this->filters = new WpssoOrgFilters( $this->p );
+			$this->post    = new WpssoOrgPost( $this->p );
+			$this->style   = new WpssoOrgStyle( $this->p );
+			$this->term    = new WpssoOrgTerm( $this->p );
 		}
 
 		public function wpsso_init_plugin() {

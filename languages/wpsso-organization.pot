@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 3.0.0-dev.1\n"
+"Project-Id-Version: WPSSO Organization Markup 3.0.0-dev.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
@@ -158,6 +158,225 @@ msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
 
+#: lib/register.php:148
+msgid "Categories"
+msgstr ""
+
+#: lib/register.php:149
+msgid "Category"
+msgstr ""
+
+#: lib/register.php:150
+msgctxt "Admin menu name"
+msgid "Categories"
+msgstr ""
+
+#: lib/register.php:151
+msgid "All Categories"
+msgstr ""
+
+#: lib/register.php:152
+msgid "Edit Category"
+msgstr ""
+
+#: lib/register.php:153
+msgid "View Category"
+msgstr ""
+
+#: lib/register.php:154
+msgid "Update Category"
+msgstr ""
+
+#: lib/register.php:155
+msgid "Add New Category"
+msgstr ""
+
+#: lib/register.php:156
+msgid "New Category Name"
+msgstr ""
+
+#: lib/register.php:157
+msgid "Parent Category"
+msgstr ""
+
+#: lib/register.php:158
+msgid "Parent Category:"
+msgstr ""
+
+#: lib/register.php:159
+msgid "Search Categories"
+msgstr ""
+
+#: lib/register.php:160
+msgid "Popular Categories"
+msgstr ""
+
+#: lib/register.php:161
+msgid "Separate categories with commas"
+msgstr ""
+
+#: lib/register.php:162
+msgid "Add or remove categories"
+msgstr ""
+
+#: lib/register.php:163
+msgid "Choose from the most used"
+msgstr ""
+
+#: lib/register.php:164
+msgid "Not categories found."
+msgstr ""
+
+#: lib/register.php:165
+msgid "← Back to categories"
+msgstr ""
+
+#: lib/register.php:169
+msgctxt "Taxonomy label"
+msgid "Categories"
+msgstr ""
+
+#: lib/register.php:180
+msgctxt "Taxonomy description"
+msgid "Categories for Organizations"
+msgstr ""
+
+#: lib/register.php:191
+msgid "Organizations"
+msgstr ""
+
+#: lib/register.php:192
+msgid "Organization"
+msgstr ""
+
+#: lib/register.php:193
+msgid "Add New"
+msgstr ""
+
+#: lib/register.php:194
+msgid "Add New Organization"
+msgstr ""
+
+#: lib/register.php:195
+msgid "Edit Organization"
+msgstr ""
+
+#: lib/register.php:196
+msgid "New Organization"
+msgstr ""
+
+#: lib/register.php:197
+msgid "View Organization"
+msgstr ""
+
+#: lib/register.php:198
+msgid "View Organizations"
+msgstr ""
+
+#: lib/register.php:199
+msgid "Search Organizations"
+msgstr ""
+
+#: lib/register.php:200
+msgid "No organizations found"
+msgstr ""
+
+#: lib/register.php:201
+msgid "No organizations found in Trash"
+msgstr ""
+
+#: lib/register.php:202
+msgid "Parent Organization:"
+msgstr ""
+
+#: lib/register.php:203
+msgid "All Organizations"
+msgstr ""
+
+#: lib/register.php:204
+msgid "Organization Archives"
+msgstr ""
+
+#: lib/register.php:205
+msgid "Organization Attributes"
+msgstr ""
+
+#: lib/register.php:206
+msgid "Insert into answer"
+msgstr ""
+
+#: lib/register.php:207
+msgid "Uploaded to this organization"
+msgstr ""
+
+#: lib/register.php:208
+msgid "Organization Image"
+msgstr ""
+
+#: lib/register.php:209
+msgid "Set organization image"
+msgstr ""
+
+#: lib/register.php:210
+msgid "Remove organization image"
+msgstr ""
+
+#: lib/register.php:211
+msgid "Use as organization image"
+msgstr ""
+
+#: lib/register.php:212
+msgctxt "Admin menu name"
+msgid "Organizations"
+msgstr ""
+
+#: lib/register.php:213
+msgid "Filter organizations"
+msgstr ""
+
+#: lib/register.php:214
+msgid "Organizations list navigation"
+msgstr ""
+
+#: lib/register.php:215
+msgid "Organizations list"
+msgstr ""
+
+#: lib/register.php:216
+msgctxt "Admin bar name"
+msgid "Organization"
+msgstr ""
+
+#: lib/register.php:217
+msgid "Organization published."
+msgstr ""
+
+#: lib/register.php:218
+msgid "Organization published privately."
+msgstr ""
+
+#: lib/register.php:219
+msgid "Organization reverted to draft."
+msgstr ""
+
+#: lib/register.php:220
+msgid "Organization scheduled."
+msgstr ""
+
+#: lib/register.php:221
+msgid "Organization updated."
+msgstr ""
+
+#: lib/register.php:225
+msgctxt "Post type label"
+msgid "Organization"
+msgstr ""
+
+#: lib/register.php:227
+msgctxt "Post type description"
+msgid "Organization"
+msgstr ""
+
 #: lib/submenu/org-general.php:38
 msgctxt "metabox title"
 msgid "Organizations and Knowledge Graph"
@@ -209,13 +428,13 @@ msgctxt "option label"
 msgid "WebSite URL"
 msgstr ""
 
-#: wpsso-organization.php:105
+#: wpsso-organization.php:108
 msgid ""
 "The %1$s add-on requires the %2$s plugin &mdash; install and activate the "
 "%3$s plugin or <a href=\"%4$s\">deactivate the %5$s add-on</a>."
 msgstr ""
 
-#: wpsso-organization.php:198
+#: wpsso-organization.php:204
 msgid ""
 "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version "
 "%5$s is currently installed)."

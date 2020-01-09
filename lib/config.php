@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(			// Plugin acronym.
-					'version'     => '3.0.0-dev.1',	// Plugin version.
+					'version'     => '3.0.0-dev.2',	// Plugin version.
 					'opt_version' => '3',		// Increment when changing default option values.
 					'short'       => 'WPSSO ORG',	// Short plugin name.
 					'name'        => 'WPSSO Organization Markup',
@@ -85,13 +85,58 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 			define( 'WPSSOORG_PLUGINSLUG', $info[ 'slug' ] );	// Example: wpsso-organization
 			define( 'WPSSOORG_URLPATH', trailingslashit( plugins_url( '', $plugin_file_path ) ) );
 			define( 'WPSSOORG_VERSION', $info[ 'version' ] );						
+
+			define( 'WPSSOORG_CATEGORY_TAXONOMY', 'org_category' );
+			define( 'WPSSOORG_ORGANIZATION_POST_TYPE', 'organization' );
+
+			/**
+			 * Define variable constants.
+			 */
+			self::set_variable_constants();
+		}
+
+		public static function set_variable_constants( $var_const = null ) {
+
+			if ( null === $var_const ) {
+				$var_const = self::get_variable_constants();
+			}
+
+			/**
+			 * Define the variable constants, if not already defined.
+			 */
+			foreach ( $var_const as $name => $value ) {
+
+				if ( ! defined( $name ) ) {
+					define( $name, $value );
+				}
+			}
+		}
+
+		public static function get_variable_constants() { 
+
+			$var_const = array();
+
+			/**
+			 * Maybe override the default constant value with a pre-defined constant value.
+			 */
+			foreach ( $var_const as $name => $value ) {
+
+				if ( defined( $name ) ) {
+					$var_const[$name] = constant( $name );
+				}
+			}
+
+			return $var_const;
 		}
 
 		public static function require_libs( $plugin_file_path ) {
 
 			require_once WPSSOORG_PLUGINDIR . 'lib/filters.php';
+			require_once WPSSOORG_PLUGINDIR . 'lib/post.php';
 			require_once WPSSOORG_PLUGINDIR . 'lib/organization.php';
 			require_once WPSSOORG_PLUGINDIR . 'lib/register.php';
+			require_once WPSSOORG_PLUGINDIR . 'lib/style.php';
+			require_once WPSSOORG_PLUGINDIR . 'lib/term.php';
 
 			add_filter( 'wpssoorg_load_lib', array( 'WpssoOrgConfig', 'load_lib' ), 10, 3 );
 		}
