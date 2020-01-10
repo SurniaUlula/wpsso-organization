@@ -14,6 +14,8 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 	class WpssoOrgFilters {
 
 		private $p;
+		private $msgs;		// WpssoOrgFiltersMessages class object.
+		private $upg;		// WpssoOrgFiltersUpgrade class object.
 
 		public function __construct( &$plugin ) {
 
@@ -23,7 +25,18 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				$this->p->debug->mark();
 			}
 
+			/**
+			 * Instantiate the WpssoOrgFiltersUpgrade class object.
+			 */
+			if ( ! class_exists( 'WpssoOrgFiltersUpgrade' ) ) {
+				require_once WPSSOORG_PLUGINDIR . 'lib/filters-upgrade.php';
+			}
+
+			$this->upg = new WpssoOrgFiltersUpgrade( $plugin );
+
 			$this->p->util->add_plugin_filters( $this, array( 
+				'save_options'               => 4,
+				'option_type'                => 2,
 				'json_array_schema_type_ids' => 2,
 				'get_organization_options'   => 3,
 				'rename_options_keys'        => 1,
@@ -31,13 +44,120 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 			if ( is_admin() ) {
 
+				/**
+				 * Instantiate the WpssoOrgFiltersMessages class object.
+				 */
+				if ( ! class_exists( 'WpssoOrgFiltersMessages' ) ) {
+					require_once WPSSOORG_PLUGINDIR . 'lib/filters-messages.php';
+				}
+
+				$this->msgs = new WpssoOrgFiltersMessages( $plugin );
+
 				$this->p->util->add_plugin_filters( $this, array( 
 					'form_cache_org_site_names' => 1,
-					'save_options'              => 4,
-					'option_type'               => 2,
-					'messages_tooltip'          => 2,
 				) );
 			}
+		}
+
+		public function filter_save_options( $opts, $options_name, $network, $doing_upgrade ) {
+
+			if ( $this->p->debug->enabled ) {
+				$this->p->debug->mark();
+			}
+
+			if ( $network ) {
+				return $opts;	// Nothing to do.
+			}
+
+			$org_names    = SucomUtil::get_multi_key_locale( 'org_name', $opts, $add_none = false );
+			$org_last_num = SucomUtil::get_last_num( $org_names );
+
+			foreach ( $org_names as $org_id => $org_name ) {
+
+				$org_name = trim( $org_name );
+
+				/**
+				 * Remove empty "New Organization".
+				 */
+				if ( ! empty( $opts[ 'org_delete_' . $org_id ] ) || ( $org_name === '' && $org_id === $org_last_num ) ) {
+
+					/**
+					 * Maybe reset the currently selected organization ID.
+					 */
+					if ( isset( $opts[ 'org_id' ] ) && $opts[ 'org_id' ] === $org_id ) {
+						unset( $opts[ 'org_id' ] );
+					}
+
+					/**
+					 * Remove the organization, including all localized keys.
+					 */
+					$opts = SucomUtil::preg_grep_keys( '/^org_.*_' . $org_id . '(#.*)?$/', $opts, true );	// $invert is true.
+
+					continue;	// Check the next organization.
+				}
+
+				/**
+				 * Make sure each organization has a name.
+				 */
+				if ( $org_name === '' ) {	// Just in case.
+					$org_name = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $org_id );
+				}
+				
+				$opts[ 'org_name_' . $org_id ] = $org_name;
+
+				$this->check_banner_image_size( $opts, 'org', $org_id, $org_name );
+			}
+
+			return $opts;
+		}
+
+		public function filter_option_type( $type, $base_key ) {
+
+			if ( ! empty( $type ) ) {
+				return $type;
+			} elseif ( strpos( $base_key, 'org_' ) !== 0 ) {
+				return $type;
+			}
+
+			switch ( $base_key ) {
+
+				case 'org_id':
+
+					return 'numeric';
+
+					break;
+
+				case 'org_name':
+				case 'org_name_alt':
+				case 'org_desc':
+
+					return 'ok_blank';
+
+					break;
+
+				case 'org_schema_type':
+				case 'org_place_id':
+
+					return 'not_blank';
+
+					break;
+
+				case 'org_url':
+				case 'org_logo_url':
+				case 'org_banner_url':
+
+					return 'url';
+
+					break;
+
+				case ( strpos( $base_key, '_url' ) && isset( $this->p->cf[ 'form' ][ 'social_accounts' ][substr( $base_key, 4 )] ) ? true : false ):
+
+					return 'url';
+
+					break;
+			}
+
+			return $type;
 		}
 
 		public function filter_json_array_schema_type_ids( $type_ids, $mod ) {
@@ -96,107 +216,6 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			}
 
 			return $ret;
-		}
-
-		public function filter_option_type( $type, $base_key ) {
-
-			if ( ! empty( $type ) ) {
-				return $type;
-			} elseif ( strpos( $base_key, 'org_' ) !== 0 ) {
-				return $type;
-			}
-
-			switch ( $base_key ) {
-
-				case 'org_id':
-
-					return 'numeric';
-
-					break;
-
-				case 'org_name':
-				case 'org_name_alt':
-				case 'org_desc':
-
-					return 'ok_blank';
-
-					break;
-
-				case 'org_schema_type':
-				case 'org_place_id':
-
-					return 'not_blank';
-
-					break;
-
-				case 'org_url':
-				case 'org_logo_url':
-				case 'org_banner_url':
-
-					return 'url';
-
-					break;
-
-				case ( strpos( $base_key, '_url' ) && isset( $this->p->cf[ 'form' ][ 'social_accounts' ][substr( $base_key, 4 )] ) ? true : false ):
-
-					return 'url';
-
-					break;
-			}
-
-			return $type;
-		}
-
-		public function filter_save_options( $opts, $options_name, $network, $doing_upgrade ) {
-
-			if ( $this->p->debug->enabled ) {
-				$this->p->debug->mark();
-			}
-
-			if ( $network ) {
-				return $opts;	// Nothing to do.
-			}
-
-			$org_names    = SucomUtil::get_multi_key_locale( 'org_name', $opts, $add_none = false );
-			$org_last_num = SucomUtil::get_last_num( $org_names );
-
-			foreach ( $org_names as $org_id => $org_name ) {
-
-				$org_name = trim( $org_name );
-
-				/**
-				 * Remove empty "New Organization".
-				 */
-				if ( ! empty( $opts[ 'org_delete_' . $org_id ] ) || ( $org_name === '' && $org_id === $org_last_num ) ) {
-
-					/**
-					 * Maybe reset the currently selected organization ID.
-					 */
-					if ( isset( $opts[ 'org_id' ] ) && $opts[ 'org_id' ] === $org_id ) {
-						unset( $opts[ 'org_id' ] );
-					}
-
-					/**
-					 * Remove the organization, including all localized keys.
-					 */
-					$opts = SucomUtil::preg_grep_keys( '/^org_.*_' . $org_id . '(#.*)?$/', $opts, true );	// $invert is true.
-
-					continue;	// Check the next organization.
-				}
-
-				/**
-				 * Make sure each organization has a name.
-				 */
-				if ( $org_name === '' ) {	// Just in case.
-					$org_name = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $org_id );
-				}
-				
-				$opts[ 'org_name_' . $org_id ] = $org_name;
-
-				$this->check_banner_image_size( $opts, 'org', $org_id, $org_name );
-			}
-
-			return $opts;
 		}
 
 		private function check_banner_image_size( $opts, $opt_pre, $org_num, $org_name ) {
@@ -263,72 +282,6 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			}
 
 			$this->p->notice->unset_ref( $settings_page_link );
-		}
-
-		public function filter_messages_tooltip( $text, $msg_key ) {
-
-			if ( strpos( $msg_key, 'tooltip-org_' ) !== 0 ) {
-				return $text;
-			}
-
-			switch ( $msg_key ) {
-
-				case 'tooltip-org_json':
-
-					$text = __( 'Include Organization schema markup in the front page for Google\'s Knowledge Graph.', 'wpsso-organization' );
-
-					break;
-
-				case 'tooltip-org_id':
-
-					$text = __( 'Select an organization to edit.', 'wpsso-organization' );
-
-					break;
-
-				case 'tooltip-org_name':
-
-					$text = __( 'The complete name for the organization.', 'wpsso-organization' );
-
-					break;
-
-				case 'tooltip-org_name_alt':
-
-					$text = __( 'An alternate name for the organization that you would like Google to consider.', 'wpsso-organization' );
-
-					break;
-
-				case 'tooltip-org_desc':
-
-					$text = __( 'A description for the organization.', 'wpsso-organization' );
-
-					break;
-
-				case 'tooltip-org_url':
-
-					$text = __( 'The website URL for the organization.', 'wpsso-organization' );
-
-					break;
-
-				case 'tooltip-org_schema_type':
-
-					$text = __( 'You may optionally choose a different Schema type for the organization (default is Organization).',
-						'wpsso-organization' );
-
-					break;
-
-				case 'tooltip-org_place_id':
-
-					$plm_info = $this->p->cf[ 'plugin' ][ 'wpssoplm' ];
-
-					$plm_addon_link = $this->p->util->get_admin_url( 'addons#wpssoplm', $plm_info[ 'short' ] );
-
-					$text = sprintf( __( 'Select an optional location for this organization (requires the %s add-on).',
-						'wpsso-organization' ), $plm_addon_link );
-
-					break;
-			}
-
-			return $text;
 		}
 	}
 }

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 3.0.0-dev.2\n"
+"Project-Id-Version: WPSSO Organization Markup 3.0.0-dev.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
@@ -13,71 +13,71 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: lib/filters.php:191
-msgctxt "option value"
-msgid "Organization #%d"
-msgstr ""
-
-#: lib/filters.php:210
-msgid "organization \"%s\""
-msgstr ""
-
-#: lib/filters.php:246
-msgid ""
-"The \"%1$s\" organization banner URL image dimensions cannot be determined."
-msgstr ""
-
-#: lib/filters.php:249
-msgid "Please make sure this site can access the banner image at %1$s."
-msgstr ""
-
-#: lib/filters.php:254
-msgid ""
-"The \"%1$s\" organization banner URL image dimensions are %2$s and must be "
-"exactly %3$s."
-msgstr ""
-
-#: lib/filters.php:257
-msgid "Please correct the banner image at %s."
-msgstr ""
-
-#: lib/filters.php:278
+#: lib/filters-messages.php:47
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters.php:284
+#: lib/filters-messages.php:53
 msgid "Select an organization to edit."
 msgstr ""
 
-#: lib/filters.php:290
+#: lib/filters-messages.php:59
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters.php:296
+#: lib/filters-messages.php:65
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters.php:302
+#: lib/filters-messages.php:71
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters.php:308
+#: lib/filters-messages.php:77
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters.php:314
+#: lib/filters-messages.php:83
 msgid ""
 "You may optionally choose a different Schema type for the organization "
 "(default is Organization)."
 msgstr ""
 
-#: lib/filters.php:325
+#: lib/filters-messages.php:94
 msgid ""
 "Select an optional location for this organization (requires the %s add-on)."
+msgstr ""
+
+#: lib/filters.php:103
+msgctxt "option value"
+msgid "Organization #%d"
+msgstr ""
+
+#: lib/filters.php:229
+msgid "organization \"%s\""
+msgstr ""
+
+#: lib/filters.php:265
+msgid ""
+"The \"%1$s\" organization banner URL image dimensions cannot be determined."
+msgstr ""
+
+#: lib/filters.php:268
+msgid "Please make sure this site can access the banner image at %1$s."
+msgstr ""
+
+#: lib/filters.php:273
+msgid ""
+"The \"%1$s\" organization banner URL image dimensions are %2$s and must be "
+"exactly %3$s."
+msgstr ""
+
+#: lib/filters.php:276
+msgid "Please correct the banner image at %s."
 msgstr ""
 
 #: lib/gettext-config.php:6
