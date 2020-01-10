@@ -106,16 +106,17 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.0.0-dev.2 (TBD)**
+**Version 3.0.0-dev.3 (TBD)**
 
 * **New Features**
-	* None.
+	* Added an "Organizations" post type menu.
 * **Improvements**
-	* Renamed the SSO menu item "Organization" to "Organizations".
+	* None.
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* None.
+	* Added lib/filters-messages.php.
+	* Added lib/filters-upgrade.php.
 * **Requires At Least**
 	* PHP v5.5.
 	* WordPress v4.0.
@@ -135,17 +136,6 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* PHP v5.5.
 	* WordPress v4.0.
 	* WPSSO Core v6.16.2.
-
-**Version 2.1.7 (2019/11/23)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Updated `WpssoOrgRegister->activate_plugin()` for the new WpssoUtilReg class in WPSSO Core v6.13.1.
 
 == Upgrade Notice ==
 
