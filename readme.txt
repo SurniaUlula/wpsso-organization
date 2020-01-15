@@ -106,10 +106,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.0.0-dev.3 (TBD)**
+**Version 2.2.0-b.1 (2020/01/15)**
 
 * **New Features**
-	* Added an "Organizations" post type menu.
+	* None.
 * **Improvements**
 	* None.
 * **Bugfixes**
@@ -120,7 +120,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v5.5.
 	* WordPress v4.0.
-	* WPSSO Core v6.16.2.
+	* WPSSO Core v6.17.0.
 
 **Version 2.1.8 (2019/12/08)**
 
@@ -138,6 +138,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WPSSO Core v6.16.2.
 
 == Upgrade Notice ==
+
+= 2.2.0-b.1 =
+
+(2020/01/15) Added lib/filters-messages.php and added lib/filters-upgrade.php. Requires at least WPSSO Core v6.17.0.
 
 = 2.1.8 =
 
