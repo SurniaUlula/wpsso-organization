@@ -27,15 +27,15 @@ if ( ! class_exists( 'WpssoOrgRegister' ) ) {
 			}
 
 			/**
-			 * Priorities:
+			 * Add-on hook priorities:
 			 *
 			 * 	FAQs = 10
 			 * 	Organizations = 20
 			 * 	Places = 30
 			 */
-			add_action( 'wpsso_init_options', array( $this, 'register_taxonomy_org_category' ), 20 );
+			//add_action( 'wpsso_init_options', array( $this, 'register_taxonomy_org_category' ), 20 );
 
-			add_action( 'wpsso_init_options', array( $this, 'register_post_type_organization' ), 20 );
+			//add_action( 'wpsso_init_options', array( $this, 'register_post_type_organization' ), 20 );
 		}
 
 		/**
@@ -122,21 +122,21 @@ if ( ! class_exists( 'WpssoOrgRegister' ) ) {
 					WpssoUtilReg::update_ext_version( 'wpssoorg', $version );
 				}
 
-				$this->register_taxonomy_org_category();
+				//$this->register_taxonomy_org_category();
 
-				$this->register_post_type_organization();
+				//$this->register_post_type_organization();
 
-				flush_rewrite_rules();
+				//flush_rewrite_rules();
 			}
 		}
 
 		private function deactivate_plugin() {
 
-			unregister_taxonomy( WPSSOORG_CATEGORY_TAXONOMY );
+			//unregister_taxonomy( WPSSOORG_CATEGORY_TAXONOMY );
 
-			unregister_post_type( WPSSOORG_ORGANIZATION_POST_TYPE );
+			//unregister_post_type( WPSSOORG_ORGANIZATION_POST_TYPE );
 
-			flush_rewrite_rules();
+			//flush_rewrite_rules();
 		}
 
 		private static function uninstall_plugin() {
@@ -161,7 +161,7 @@ if ( ! class_exists( 'WpssoOrgRegister' ) ) {
 				'separate_items_with_commas' => __( 'Separate categories with commas', 'wpsso-organization' ),
 				'add_or_remove_items'        => __( 'Add or remove categories', 'wpsso-organization' ),
 				'choose_from_most_used'      => __( 'Choose from the most used', 'wpsso-organization' ),
-				'not_found'                  => __( 'Not categories found.', 'wpsso-organization' ),
+				'not_found'                  => __( 'No categories found.', 'wpsso-organization' ),
 				'back_to_items'              => __( '← Back to categories', 'wpsso-organization' ),
 			);
 
@@ -203,7 +203,7 @@ if ( ! class_exists( 'WpssoOrgRegister' ) ) {
 				'all_items'                => __( 'All Organizations', 'wpsso-organization' ),
 				'archives'                 => __( 'Organization Archives', 'wpsso-organization' ),
 				'attributes'               => __( 'Organization Attributes', 'wpsso-organization' ),
-				'insert_into_item'         => __( 'Insert into answer', 'wpsso-organization' ),
+				'insert_into_item'         => __( 'Insert into organization', 'wpsso-organization' ),
 				'uploaded_to_this_item'    => __( 'Uploaded to this organization', 'wpsso-organization' ),
 				'featured_image'           => __( 'Organization Image', 'wpsso-organization' ),
 				'set_featured_image'       => __( 'Set organization image', 'wpsso-organization' ),

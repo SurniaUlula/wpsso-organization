@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 2.1.8\n"
+"Project-Id-Version: WPSSO Organization Markup 2.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2020-01-06 11:40-0800\n"
-"PO-Revision-Date: 2020-01-06 11:40-0800\n"
+"POT-Creation-Date: 2020-01-15 07:58-0800\n"
+"PO-Revision-Date: 2020-01-15 07:59-0800\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -15,62 +15,62 @@ msgstr ""
 "X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: lib/filters.php:191
+#: lib/filters-messages.php:47
+msgid "Include Organization schema markup in the front page for Google's Knowledge Graph."
+msgstr "Inclure le balisage de Schéma Organisation dans la page d'avant pour le Knowledge Graph de Google."
+
+#: lib/filters-messages.php:53
+msgid "Select an organization to edit."
+msgstr "Sélectionnez une organisation à modifier."
+
+#: lib/filters-messages.php:59
+msgid "The complete name for the organization."
+msgstr "Le nom complet de l'organisation."
+
+#: lib/filters-messages.php:65
+msgid "An alternate name for the organization that you would like Google to consider."
+msgstr "Un autre nom pour l’organisation que vous souhaitez que Google considère."
+
+#: lib/filters-messages.php:71
+msgid "A description for the organization."
+msgstr "Une description de l'organisation."
+
+#: lib/filters-messages.php:77
+msgid "The website URL for the organization."
+msgstr "L'URL du site Web de l'organisation."
+
+#: lib/filters-messages.php:83
+msgid "You may optionally choose a different Schema type for the organization (default is Organization)."
+msgstr "Vous pouvez sélectionner un type de Schéma différent pour l'organisation (valeur par défaut est Organization)."
+
+#: lib/filters-messages.php:94
+msgid "Select an optional location for this organization (requires the %s add-on)."
+msgstr "Choisissez un emplacement optionnel pour cette organisation (requiert l'ajout %s)."
+
+#: lib/filters.php:103
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr "Organisation #%d"
 
-#: lib/filters.php:210
+#: lib/filters.php:229
 msgid "organization \"%s\""
 msgstr "organisation \"%s\""
 
-#: lib/filters.php:246
+#: lib/filters.php:265
 msgid "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr "Les dimensions de l'image pour l'URL de la bannière d'organisation \"%1$s\" ne peuvent pas être déterminées."
 
-#: lib/filters.php:249
+#: lib/filters.php:268
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr "Assurez-vous que ce site peut accéder à l'image bannière à %1$s."
 
-#: lib/filters.php:254
+#: lib/filters.php:273
 msgid "The \"%1$s\" organization banner URL image dimensions are %2$s and must be exactly %3$s."
 msgstr "Les dimensions de l'image pour l'URL de la bannière d'organisation \"%1$s\" sont %2$s et doivent être exactement %3$s."
 
-#: lib/filters.php:257
+#: lib/filters.php:276
 msgid "Please correct the banner image at %s."
 msgstr "Veuillez corriger l'image bannière à %s."
-
-#: lib/filters.php:278
-msgid "Include Organization schema markup in the front page for Google's Knowledge Graph."
-msgstr "Inclure le balisage de Schéma Organisation dans la page d'avant pour le Knowledge Graph de Google."
-
-#: lib/filters.php:284
-msgid "Select an organization to edit."
-msgstr "Sélectionnez une organisation à modifier."
-
-#: lib/filters.php:290
-msgid "The complete name for the organization."
-msgstr "Le nom complet de l'organisation."
-
-#: lib/filters.php:296
-msgid "An alternate name for the organization that you would like Google to consider."
-msgstr "Un autre nom pour l’organisation que vous souhaitez que Google considère."
-
-#: lib/filters.php:302
-msgid "A description for the organization."
-msgstr "Une description de l'organisation."
-
-#: lib/filters.php:308
-msgid "The website URL for the organization."
-msgstr "L'URL du site Web de l'organisation."
-
-#: lib/filters.php:314
-msgid "You may optionally choose a different Schema type for the organization (default is Organization)."
-msgstr "Vous pouvez sélectionner un type de Schéma différent pour l'organisation (valeur par défaut est Organization)."
-
-#: lib/filters.php:325
-msgid "Select an optional location for this organization (requires the %s add-on)."
-msgstr "Choisissez un emplacement optionnel pour cette organisation (requiert l'ajout %s)."
 
 #: lib/gettext-config.php:6
 msgctxt "lib file description"
@@ -147,6 +147,225 @@ msgstr "Emplacement de l'organisation"
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr "Knowledge Graph de Google"
+
+#: lib/register.php:148
+msgid "Categories"
+msgstr "Catégories"
+
+#: lib/register.php:149
+msgid "Category"
+msgstr "Catégorie"
+
+#: lib/register.php:150
+msgctxt "Admin menu name"
+msgid "Categories"
+msgstr "Catégories"
+
+#: lib/register.php:151
+msgid "All Categories"
+msgstr "Toutes catégories"
+
+#: lib/register.php:152
+msgid "Edit Category"
+msgstr "Modifier la catégorie"
+
+#: lib/register.php:153
+msgid "View Category"
+msgstr "Voir la catégorie"
+
+#: lib/register.php:154
+msgid "Update Category"
+msgstr "Mettre à jour la catégorie"
+
+#: lib/register.php:155
+msgid "Add New Category"
+msgstr "Ajouter une nouvelle catégorie"
+
+#: lib/register.php:156
+msgid "New Category Name"
+msgstr "Nom de la nouvelle catégorie"
+
+#: lib/register.php:157
+msgid "Parent Category"
+msgstr "Catégorie parente"
+
+#: lib/register.php:158
+msgid "Parent Category:"
+msgstr "Catégorie parente:"
+
+#: lib/register.php:159
+msgid "Search Categories"
+msgstr "Rechercher dans les catégories"
+
+#: lib/register.php:160
+msgid "Popular Categories"
+msgstr "Catégories populaires"
+
+#: lib/register.php:161
+msgid "Separate categories with commas"
+msgstr "Séparez les catégories avec des virgules"
+
+#: lib/register.php:162
+msgid "Add or remove categories"
+msgstr "Ajouter ou retirer des catégories"
+
+#: lib/register.php:163
+msgid "Choose from the most used"
+msgstr "Choisir parmi les plus utilisées"
+
+#: lib/register.php:164
+msgid "No categories found."
+msgstr "Aucune catégorie trouvée."
+
+#: lib/register.php:165
+msgid "← Back to categories"
+msgstr "← Retour aux catégories"
+
+#: lib/register.php:169
+msgctxt "Taxonomy label"
+msgid "Categories"
+msgstr "Catégories"
+
+#: lib/register.php:180
+msgctxt "Taxonomy description"
+msgid "Categories for Organizations"
+msgstr "Catégories pour les organisations"
+
+#: lib/register.php:191
+msgid "Organizations"
+msgstr "Organisations"
+
+#: lib/register.php:192
+msgid "Organization"
+msgstr "Organisation"
+
+#: lib/register.php:193
+msgid "Add New"
+msgstr "Ajouter"
+
+#: lib/register.php:194
+msgid "Add New Organization"
+msgstr "Ajouter une nouvelle organisation"
+
+#: lib/register.php:195
+msgid "Edit Organization"
+msgstr "Modifier l'organisation"
+
+#: lib/register.php:196
+msgid "New Organization"
+msgstr "Nouvelle organisation"
+
+#: lib/register.php:197
+msgid "View Organization"
+msgstr "Voir l'organisation"
+
+#: lib/register.php:198
+msgid "View Organizations"
+msgstr "Voir les organisations"
+
+#: lib/register.php:199
+msgid "Search Organizations"
+msgstr "Rechercher dans les organisations"
+
+#: lib/register.php:200
+msgid "No organizations found"
+msgstr "Aucune organisation trouvée"
+
+#: lib/register.php:201
+msgid "No organizations found in Trash"
+msgstr "Aucune organisation trouvée dans corbeille"
+
+#: lib/register.php:202
+msgid "Parent Organization:"
+msgstr "Organisation parente:"
+
+#: lib/register.php:203
+msgid "All Organizations"
+msgstr "Toutes les organisations"
+
+#: lib/register.php:204
+msgid "Organization Archives"
+msgstr "Archives d'organisations"
+
+#: lib/register.php:205
+msgid "Organization Attributes"
+msgstr "Attributs de l'organisation"
+
+#: lib/register.php:206
+msgid "Insert into organization"
+msgstr "Insérer dans l'organisation"
+
+#: lib/register.php:207
+msgid "Uploaded to this organization"
+msgstr "Téléchargé à cette organisation"
+
+#: lib/register.php:208
+msgid "Organization Image"
+msgstr "Image de l'organisation"
+
+#: lib/register.php:209
+msgid "Set organization image"
+msgstr "Définir l'image de l'organisation"
+
+#: lib/register.php:210
+msgid "Remove organization image"
+msgstr "Supprimer l'image de l'organisation"
+
+#: lib/register.php:211
+msgid "Use as organization image"
+msgstr "Utiliser comme image d'organisation"
+
+#: lib/register.php:212
+msgctxt "Admin menu name"
+msgid "Organizations"
+msgstr "Organisations"
+
+#: lib/register.php:213
+msgid "Filter organizations"
+msgstr "Filtrer les organisations"
+
+#: lib/register.php:214
+msgid "Organizations list navigation"
+msgstr "Navigation de la liste des organisations"
+
+#: lib/register.php:215
+msgid "Organizations list"
+msgstr "Liste des organisations"
+
+#: lib/register.php:216
+msgctxt "Admin bar name"
+msgid "Organization"
+msgstr "Organisation"
+
+#: lib/register.php:217
+msgid "Organization published."
+msgstr "Organisation publiée."
+
+#: lib/register.php:218
+msgid "Organization published privately."
+msgstr "Organisation publiée en privé."
+
+#: lib/register.php:219
+msgid "Organization reverted to draft."
+msgstr "Organisation remis en brouillon."
+
+#: lib/register.php:220
+msgid "Organization scheduled."
+msgstr "Organisation planifiée."
+
+#: lib/register.php:221
+msgid "Organization updated."
+msgstr "Organisation mise à jour."
+
+#: lib/register.php:225
+msgctxt "Post type label"
+msgid "Organization"
+msgstr "Organisation"
+
+#: lib/register.php:227
+msgctxt "Post type description"
+msgid "Organization"
+msgstr "Organisation"
 
 #: lib/submenu/org-general.php:38
 msgctxt "metabox title"
