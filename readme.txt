@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.5
 Requires At Least: 4.0
 Tested Up To: 5.3.2
-Stable Tag: 2.1.8
+Stable Tag: 2.2.0
 
 Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
 
