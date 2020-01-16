@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.2.0-rc.1 (2020/01/16)**
+**Version 2.2.0 (2020/01/16)**
 
 * **New Features**
 	* None.
@@ -122,28 +122,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WordPress v4.0.
 	* WPSSO Core v6.17.0.
 
-**Version 2.1.8 (2019/12/08)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Renamed the SSO menu item "Organization" to "Organizations".
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* None.
-* **Requires At Least**
-	* PHP v5.5.
-	* WordPress v4.0.
-	* WPSSO Core v6.16.2.
-
 == Upgrade Notice ==
 
-= 2.2.0-rc.1 =
+= 2.2.0 =
 
 (2020/01/16) Added lib/filters-messages.php and added lib/filters-upgrade.php. Requires at least WPSSO Core v6.17.0.
-
-= 2.1.8 =
-
-(2019/12/08) Renamed the SSO menu item "Organization" to "Organizations".
 
