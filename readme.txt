@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.2.0-b.1 (2020/01/15)**
+**Version 2.2.0-rc.1 (2020/01/16)**
 
 * **New Features**
 	* None.
@@ -139,9 +139,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 2.2.0-b.1 =
+= 2.2.0-rc.1 =
 
-(2020/01/15) Added lib/filters-messages.php and added lib/filters-upgrade.php. Requires at least WPSSO Core v6.17.0.
+(2020/01/16) Added lib/filters-messages.php and added lib/filters-upgrade.php. Requires at least WPSSO Core v6.17.0.
 
 = 2.1.8 =
 
