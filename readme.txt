@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.5
 Requires At Least: 4.0
 Tested Up To: 5.3.2
-Stable Tag: 2.2.0
+Stable Tag: 2.2.1
 
 Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
 
@@ -106,7 +106,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 2.2.0 (2020/01/16)**
+**Version 2.2.1 (2020/01/16)**
 
 * **New Features**
 	* None.
@@ -124,7 +124,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 2.2.0 =
+= 2.2.1 =
 
 (2020/01/16) Added lib/filters-messages.php and added lib/filters-upgrade.php. Requires at least WPSSO Core v6.17.0.
 
