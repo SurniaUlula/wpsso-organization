@@ -19,6 +19,17 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 		public function __construct( &$plugin ) {
 
+			/**
+			 * Just in case - prevent filters from being hooked and executed more than once.
+			 */
+			static $do_once = null;
+
+			if ( true === $do_once ) {
+				return;	// Stop here.
+			}
+
+			$do_once = true;
+
 			$this->p =& $plugin;
 
 			if ( $this->p->debug->enabled ) {
@@ -35,8 +46,8 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$this->upg = new WpssoOrgFiltersUpgrade( $plugin );
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'save_options'               => 4,
 				'option_type'                => 2,
+				'save_options'               => 4,
 				'json_array_schema_type_ids' => 2,
 				'get_organization_options'   => 3,
 				'rename_options_keys'        => 1,
@@ -57,6 +68,55 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					'form_cache_org_site_names' => 1,
 				) );
 			}
+		}
+
+		public function filter_option_type( $type, $base_key ) {
+
+			if ( ! empty( $type ) ) {
+				return $type;
+			} elseif ( strpos( $base_key, 'org_' ) !== 0 ) {
+				return $type;
+			}
+
+			switch ( $base_key ) {
+
+				case 'org_id':
+
+					return 'numeric';
+
+					break;
+
+				case 'org_name':
+				case 'org_name_alt':
+				case 'org_desc':
+
+					return 'ok_blank';
+
+					break;
+
+				case 'org_schema_type':
+				case 'org_place_id':
+
+					return 'not_blank';
+
+					break;
+
+				case 'org_url':
+				case 'org_logo_url':
+				case 'org_banner_url':
+
+					return 'url';
+
+					break;
+
+				case ( strpos( $base_key, '_url' ) && isset( $this->p->cf[ 'form' ][ 'social_accounts' ][substr( $base_key, 4 )] ) ? true : false ):
+
+					return 'url';
+
+					break;
+			}
+
+			return $type;
 		}
 
 		public function filter_save_options( $opts, $options_name, $network, $doing_upgrade ) {
@@ -109,55 +169,6 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			}
 
 			return $opts;
-		}
-
-		public function filter_option_type( $type, $base_key ) {
-
-			if ( ! empty( $type ) ) {
-				return $type;
-			} elseif ( strpos( $base_key, 'org_' ) !== 0 ) {
-				return $type;
-			}
-
-			switch ( $base_key ) {
-
-				case 'org_id':
-
-					return 'numeric';
-
-					break;
-
-				case 'org_name':
-				case 'org_name_alt':
-				case 'org_desc':
-
-					return 'ok_blank';
-
-					break;
-
-				case 'org_schema_type':
-				case 'org_place_id':
-
-					return 'not_blank';
-
-					break;
-
-				case 'org_url':
-				case 'org_logo_url':
-				case 'org_banner_url':
-
-					return 'url';
-
-					break;
-
-				case ( strpos( $base_key, '_url' ) && isset( $this->p->cf[ 'form' ][ 'social_accounts' ][substr( $base_key, 4 )] ) ? true : false ):
-
-					return 'url';
-
-					break;
-			}
-
-			return $type;
 		}
 
 		public function filter_json_array_schema_type_ids( $type_ids, $mod ) {
