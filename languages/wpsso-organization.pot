@@ -146,14 +146,14 @@ msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
-#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:112
-#: lib/std/admin/org-general.php:89 lib/submenu/org-general.php:155
+#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:111
+#: lib/std/admin/org-general.php:89 lib/submenu/org-general.php:154
 msgctxt "option label"
 msgid "Organization Location"
 msgstr ""
 
-#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:119
-#: lib/std/admin/org-general.php:94 lib/submenu/org-general.php:161
+#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:118
+#: lib/std/admin/org-general.php:94 lib/submenu/org-general.php:160
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
