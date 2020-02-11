@@ -231,6 +231,9 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 		private function check_banner_image_size( $opts, $opt_pre, $org_num, $org_name ) {
 
+			/**
+			 * Skip if notices have already been shown.
+			 */
 			if ( ! $this->p->notice->is_admin_pre_notices() ) {
 				return;
 			}
