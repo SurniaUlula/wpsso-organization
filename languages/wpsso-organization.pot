@@ -57,26 +57,26 @@ msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:243
+#: lib/filters.php:242
 msgid "organization \"%s\""
 msgstr ""
 
-#: lib/filters.php:279
+#: lib/filters.php:278
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr ""
 
-#: lib/filters.php:282
+#: lib/filters.php:281
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr ""
 
-#: lib/filters.php:287
+#: lib/filters.php:286
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions are %2$s and must be "
 "exactly %3$s."
 msgstr ""
 
-#: lib/filters.php:290
+#: lib/filters.php:289
 msgid "Please correct the banner image at %s."
 msgstr ""
 

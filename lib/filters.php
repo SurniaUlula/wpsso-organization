@@ -176,9 +176,8 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			if ( $mod[ 'is_home' ] ) {
 
 				/**
-				 * If we have a site organization type defined, and it's not "organization",
-				 * then add that schema type to the list of schema ids for the home page,
-				 * and remove the default "organization" type.
+				 * If we have a site organization type defined, and it's not "organization", then add that schema
+				 * type to the list of schema ids for the home page, and remove the default "organization" type.
 				 */
 				if ( ! empty( $this->p->options[ 'site_org_schema_type' ] ) &&
 					$this->p->options[ 'site_org_schema_type' ] !== 'organization' ) {
