@@ -120,7 +120,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v5.5.
 	* WordPress v4.0.
-	* WPSSO Core v6.17.0.
+	* WPSSO Core v6.21.2.
 
 == Upgrade Notice ==
 
