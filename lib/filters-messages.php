@@ -91,7 +91,7 @@ if ( ! class_exists( 'WpssoOrgFiltersMessages' ) ) {
 
 				case 'tooltip-org_schema_type':
 
-					$text = __( 'You may optionally choose a different Schema type for the organization (default is Organization).',
+					$text = __( 'You may optionally choose a more accurate Schema type for this organization (default is Organization).',
 						'wpsso-organization' );
 
 					break;

@@ -43,7 +43,7 @@ msgstr ""
 
 #: lib/filters-messages.php:94
 msgid ""
-"You may optionally choose a different Schema type for the organization "
+"You may optionally choose a more accurate Schema type for this organization "
 "(default is Organization)."
 msgstr ""
 
