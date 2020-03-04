@@ -8,7 +8,7 @@ License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
 Tags: publisher, organization, local seo, local business, schema, schema.org, markup, article, event, location, knowledge graph, seo
 Contributors: jsmoriss
-Requires PHP: 5.5
+Requires PHP: 5.6
 Requires At Least: 4.0
 Tested Up To: 5.4
 Stable Tag: 2.2.1
@@ -118,9 +118,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* Added lib/filters-messages.php.
 	* Added lib/filters-upgrade.php.
 * **Requires At Least**
-	* PHP v5.5.
+	* PHP v5.6.
 	* WordPress v4.0.
-	* WPSSO Core v6.21.2.
+	* WPSSO Core v6.23.1.
 
 == Upgrade Notice ==
 
