@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 2.2.1\n"
+"Project-Id-Version: WPSSO Organization Markup 2.3.0-b.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
@@ -129,31 +129,31 @@ msgid "Organization WebSite URL"
 msgstr ""
 
 #: lib/gettext-pro.php:12 lib/pro/admin/org-general.php:91
-#: lib/std/admin/org-general.php:78 lib/submenu/org-general.php:133
+#: lib/std/admin/org-general.php:78 lib/submenu/org-general.php:142
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr ""
 
 #: lib/gettext-pro.php:13 lib/pro/admin/org-general.php:96
-#: lib/std/admin/org-general.php:81 lib/submenu/org-general.php:139
+#: lib/std/admin/org-general.php:81 lib/submenu/org-general.php:148
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr ""
 
 #: lib/gettext-pro.php:14 lib/pro/admin/org-general.php:102
-#: lib/std/admin/org-general.php:85 lib/submenu/org-general.php:145
+#: lib/std/admin/org-general.php:85 lib/submenu/org-general.php:154
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
 #: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:111
-#: lib/std/admin/org-general.php:89 lib/submenu/org-general.php:154
+#: lib/std/admin/org-general.php:89 lib/submenu/org-general.php:163
 msgctxt "option label"
 msgid "Organization Location"
 msgstr ""
 
 #: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:118
-#: lib/std/admin/org-general.php:94 lib/submenu/org-general.php:160
+#: lib/std/admin/org-general.php:94 lib/submenu/org-general.php:169
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
@@ -393,37 +393,37 @@ msgid "Other Organizations"
 msgstr ""
 
 #. translators: Please ignore - translation uses a different text domain.
-#: lib/submenu/org-general.php:98
+#: lib/submenu/org-general.php:107
 msgid "Organization Social Profile"
 msgstr ""
 
 #. translators: Please ignore - translation uses a different text domain.
-#: lib/submenu/org-general.php:102
+#: lib/submenu/org-general.php:111
 msgctxt "option label"
 msgid "Knowledge Graph for Home Page"
 msgstr ""
 
 #. translators: Please ignore - translation uses a different text domain.
-#: lib/submenu/org-general.php:107
+#: lib/submenu/org-general.php:116
 msgid "Include %s for a Business Website"
 msgstr ""
 
-#: lib/submenu/org-general.php:112
+#: lib/submenu/org-general.php:121
 msgctxt "option label"
 msgid "WebSite Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:117
+#: lib/submenu/org-general.php:126
 msgctxt "option label"
 msgid "WebSite Alternate Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:122
+#: lib/submenu/org-general.php:131
 msgctxt "option label"
 msgid "WebSite Description"
 msgstr ""
 
-#: lib/submenu/org-general.php:127
+#: lib/submenu/org-general.php:136
 msgctxt "option label"
 msgid "WebSite URL"
 msgstr ""
