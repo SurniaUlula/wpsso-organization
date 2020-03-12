@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WPSSO Organization Markup 2.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2020-03-10 15:06-0700\n"
-"PO-Revision-Date: 2020-03-10 15:06-0700\n"
+"POT-Creation-Date: 2020-03-12 14:21-0700\n"
+"PO-Revision-Date: 2020-03-12 14:21-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -79,8 +79,8 @@ msgstr "Organisations"
 
 #: lib/gettext-config.php:7
 msgctxt "plugin description"
-msgid "Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.)."
-msgstr "Personnaliser le balisage de Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, etc.)"
+msgid "Customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.)."
+msgstr "Personnaliser le balisage de Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, etc.)."
 
 #: lib/gettext-pro.php:6 lib/pro/admin/org-general.php:51
 #: lib/std/admin/org-general.php:50
@@ -435,8 +435,8 @@ msgid "https://wpsso.com/extend/plugins/wpsso-organization/"
 msgstr "https://wpsso.com/extend/plugins/wpsso-organization/"
 
 #. Description of the plugin/theme
-msgid "Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.)."
-msgstr "Personnaliser le balisage de Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, etc.)"
+msgid "Customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.)."
+msgstr "Personnaliser le balisage de Schéma Organisation de la page d'accueil et de gérer des organisations supplémentaires (éditeur, organisateur, etc.)."
 
 #. Author of the plugin/theme
 msgid "JS Morisset"
