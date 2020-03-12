@@ -88,7 +88,7 @@ msgstr ""
 #: lib/gettext-config.php:7
 msgctxt "plugin description"
 msgid ""
-"Customize home page Schema Organization markup and manage additional "
+"Customize the home page Schema Organization markup and manage additional "
 "Organizations (publisher, organizer, etc.)."
 msgstr ""
 
@@ -450,7 +450,7 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Customize home page Schema Organization markup and manage additional "
+"Customize the home page Schema Organization markup and manage additional "
 "Organizations (publisher, organizer, etc.)."
 msgstr ""
 

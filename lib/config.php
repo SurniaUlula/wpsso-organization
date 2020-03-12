@@ -20,7 +20,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					'opt_version' => '3',		// Increment when changing default option values.
 					'short'       => 'WPSSO ORG',	// Short plugin name.
 					'name'        => 'WPSSO Organization Markup',
-					'desc'        => 'Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).',
+					'desc'        => 'Customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).',
 					'slug'        => 'wpsso-organization',
 					'base'        => 'wpsso-organization/wpsso-organization.php',
 					'update_auth' => 'tid',
