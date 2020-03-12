@@ -13,7 +13,7 @@ Requires At Least: 4.0
 Tested Up To: 5.4
 Stable Tag: 2.3.0
 
-Customize home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
+Customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
 
 == Description ==
 
@@ -21,20 +21,18 @@ Customize home page Schema Organization markup and manage additional Organizatio
 
 **Customize the Schema Organization markup for your home page:**
 
-Edit your Schema Organization name, alternate name, description, and WebSite URL for each WordPress locale / language / region.
-
-Select an Organization logo and banner for the Schema Article type and its sub-types.
+Edit your Schema Organization name, alternate name, description, WebSite URL, banner and logo for each WordPress locale / language / region.
 
 Select an Schema Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.) for Google's Knowledge Graph.
 
 Select an optional location (ie. place or address) for your home page Organization and/or each additional Organization you create.
 
-Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
+Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Premium](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
 
 * Select a different Publisher for Schema CreativeWork markup.
 * Select an Organizer or Performer for Schema Event markup.
 * Select a Hiring Organization for Schema JobPosting markup.
-* And more.
+* etc.
 
 <h3>WPSSO ORG Standard Features</h3>
 
@@ -46,10 +44,10 @@ Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](http
 	* WebSite Alternate Name (localized)
 	* WebSite Description (localized)
 	* WebSite URL (localized)
-	* Organization Logo Image URL
-	* Organization Banner (600x60) URL
+	* Organization Logo Image URL (localized)
+	* Organization Banner (600x60) URL (localized)
 	* Organization Schema Type
-	* Organization Location ([WPSSO PLM](https://wordpress.org/plugins/wpsso-plm/) add-on required) 
+	* Organization Location
 	* Google's Knowledge Graph Social Profile URLs:
 		* Facebook Business Page URL (localized)
 		* Instagram Business Page URL (localized)
@@ -69,7 +67,7 @@ Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Pro](http
 
 The Standard version is designed to satisfy the requirements of most standard WordPress sites / blogs. If your site requires the management of multiple organizations, then you may want the Premium version for those additional features.
 
-* Provides a selection of Organizations for the [WPSSO Schema JSON-LD Markup add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) publisher, event organizer, event performer, job hiring organization, etc. Schema property values.
+* Provides a selection of Organizations for the [WPSSO Schema JSON-LD Markup add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) publisher, event organizer, event performer, job hiring organization, and related Schema property values.
 
 <h3>WPSSO Core Plugin Required</h3>
 
