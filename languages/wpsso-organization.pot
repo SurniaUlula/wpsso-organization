@@ -384,7 +384,7 @@ msgstr ""
 
 #: lib/submenu/org-general.php:55
 msgctxt "metabox tab"
-msgid "WebSite (Front Page)"
+msgid "WebSite (Homepage)"
 msgstr ""
 
 #: lib/submenu/org-general.php:56
