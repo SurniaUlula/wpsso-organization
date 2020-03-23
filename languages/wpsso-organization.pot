@@ -92,68 +92,68 @@ msgid ""
 "Organizations (publisher, organizer, etc.)."
 msgstr ""
 
-#: lib/gettext-pro.php:6 lib/pro/admin/org-general.php:51
-#: lib/std/admin/org-general.php:50
+#: lib/gettext-pro.php:6 lib/pro/admin/org-general.php:53
+#: lib/std/admin/org-general.php:52
 msgctxt "option label"
 msgid "Edit an Organization"
 msgstr ""
 
-#: lib/gettext-pro.php:7 lib/pro/admin/org-general.php:67
-#: lib/std/admin/org-general.php:59
+#: lib/gettext-pro.php:7 lib/pro/admin/org-general.php:69
+#: lib/std/admin/org-general.php:62
 msgctxt "option comment"
 msgid "delete this organization"
 msgstr ""
 
-#: lib/gettext-pro.php:8 lib/pro/admin/org-general.php:70
-#: lib/std/admin/org-general.php:61
+#: lib/gettext-pro.php:8 lib/pro/admin/org-general.php:72
+#: lib/std/admin/org-general.php:65
 msgctxt "option label"
 msgid "Organization Name"
 msgstr ""
 
-#: lib/gettext-pro.php:9 lib/pro/admin/org-general.php:75
-#: lib/std/admin/org-general.php:65
+#: lib/gettext-pro.php:9 lib/pro/admin/org-general.php:78
+#: lib/std/admin/org-general.php:70
 msgctxt "option label"
 msgid "Organization Alternate Name"
 msgstr ""
 
-#: lib/gettext-pro.php:10 lib/pro/admin/org-general.php:80
-#: lib/std/admin/org-general.php:69
+#: lib/gettext-pro.php:10 lib/pro/admin/org-general.php:84
+#: lib/std/admin/org-general.php:75
 msgctxt "option label"
 msgid "Organization Description"
 msgstr ""
 
-#: lib/gettext-pro.php:11 lib/pro/admin/org-general.php:85
-#: lib/std/admin/org-general.php:73
+#: lib/gettext-pro.php:11 lib/pro/admin/org-general.php:89
+#: lib/std/admin/org-general.php:80
 msgctxt "option label"
 msgid "Organization WebSite URL"
 msgstr ""
 
-#: lib/gettext-pro.php:12 lib/pro/admin/org-general.php:91
-#: lib/std/admin/org-general.php:78 lib/submenu/org-general.php:142
+#: lib/gettext-pro.php:12 lib/pro/admin/org-general.php:96
+#: lib/std/admin/org-general.php:86 lib/submenu/org-general.php:142
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr ""
 
-#: lib/gettext-pro.php:13 lib/pro/admin/org-general.php:96
-#: lib/std/admin/org-general.php:81 lib/submenu/org-general.php:148
+#: lib/gettext-pro.php:13 lib/pro/admin/org-general.php:103
+#: lib/std/admin/org-general.php:92 lib/submenu/org-general.php:149
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr ""
 
-#: lib/gettext-pro.php:14 lib/pro/admin/org-general.php:102
-#: lib/std/admin/org-general.php:85 lib/submenu/org-general.php:154
+#: lib/gettext-pro.php:14 lib/pro/admin/org-general.php:109
+#: lib/std/admin/org-general.php:97 lib/submenu/org-general.php:155
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
-#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:111
-#: lib/std/admin/org-general.php:89 lib/submenu/org-general.php:163
+#: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:118
+#: lib/std/admin/org-general.php:103 lib/submenu/org-general.php:164
 msgctxt "option label"
 msgid "Organization Location"
 msgstr ""
 
-#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:118
-#: lib/std/admin/org-general.php:94 lib/submenu/org-general.php:169
+#: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:125
+#: lib/std/admin/org-general.php:109 lib/submenu/org-general.php:170
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
@@ -434,7 +434,7 @@ msgid ""
 "%3$s plugin or <a href=\"%4$s\">deactivate the %5$s add-on</a>."
 msgstr ""
 
-#: wpsso-organization.php:198
+#: wpsso-organization.php:201
 msgid ""
 "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version "
 "%5$s is currently installed)."

@@ -81,11 +81,11 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 			$table_rows = array();
 
+			$atts_locale = array( 'is_locale' => true );
+
 			switch ( $metabox_id . '-' . $tab_key ) {
 
 				case 'organization-site':
-
-					$atts_locale = array( 'is_locale' => true );
 
 					$def_site_name = get_bloginfo( 'name' );
 					$def_site_desc = get_bloginfo( 'description' );
@@ -142,13 +142,14 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					_x( 'Organization Logo URL', 'option label', 'wpsso-organization' ) . '</a>',
 						$css_class = '', $css_id = 'schema_logo_url', $atts_locale ) . 
 					'<td>' . $this->form->get_input( SucomUtil::get_key_locale( 'schema_logo_url', $this->p->options ),
-						'wide is_required' ) . '</td>';
+						$css_class = 'wide is_required' ) . '</td>';
 
 					$table_rows[ 'schema_banner_url' ] = '' .
-					$this->form->get_th_html( _x( 'Organization Banner URL', 'option label', 'wpsso-organization' ),
+					$this->form->get_th_html( '<a href="https://developers.google.com/search/docs/data-types/article#logo-guidelines">' .
+					_x( 'Organization Banner URL', 'option label', 'wpsso-organization' ) . '</a>',
 						$css_class = '', $css_id = 'schema_banner_url', $atts_locale ) . 
 					'<td>' . $this->form->get_input( SucomUtil::get_key_locale( 'schema_banner_url', $this->p->options ),
-						'wide is_required' ) . '</td>';
+						$css_class = 'wide is_required' ) . '</td>';
 
 					$table_rows[ 'site_org_schema_type' ] = '' .
 					$this->form->get_th_html( _x( 'Organization Schema Type', 'option label', 'wpsso-organization' ),
