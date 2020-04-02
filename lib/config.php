@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(			// Plugin acronym.
-					'version'     => '2.4.0',	// Plugin version.
+					'version'     => '2.5.0-dev.1',	// Plugin version.
 					'opt_version' => '3',		// Increment when changing default option values.
 					'short'       => 'WPSSO ORG',	// Short plugin name.
 					'name'        => 'WPSSO Organization Markup',
@@ -26,17 +26,31 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					'update_auth' => 'tid',
 					'text_domain' => 'wpsso-organization',
 					'domain_path' => '/languages',
-					'req'         => array(
-						'short'       => 'WPSSO Core',
-						'name'        => 'WPSSO Core',
-						'min_version' => '6.27.1',
+
+					/**
+					 * Required plugin and its version.
+					 */
+					'req' => array(
+						'wpsso' => array(
+							'class'       => 'Wpsso',
+							'name'        => 'WPSSO Core',
+							'min_version' => '6.27.1',
+						),
 					),
+
+					/**
+					 * Relative paths to asset images.
+					 */
 					'assets' => array(
 						'icons' => array(
 							'low'  => 'images/icon-128x128.png',
 							'high' => 'images/icon-256x256.png',
 						),
 					),
+
+					/**
+					 * Library files loaded and instantiated by WPSSO.
+					 */
 					'lib' => array(
 						'pro' => array(
 							'admin' => array(
@@ -54,6 +68,10 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					),
 				),
 			),
+
+			/**
+			 * Additional add-on setting options.
+			 */
 			'opt' => array(
 				'defaults' => array(
 					'org_id' => 0,
