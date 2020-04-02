@@ -428,13 +428,13 @@ msgctxt "option label"
 msgid "WebSite URL"
 msgstr ""
 
-#: wpsso-organization.php:112
+#: wpsso-organization.php:118
 msgid ""
 "The %1$s add-on requires the %2$s plugin &mdash; install and activate the "
 "plugin or <a href=\"%3$s\">deactivate this add-on</a>."
 msgstr ""
 
-#: wpsso-organization.php:213
+#: wpsso-organization.php:219
 msgid ""
 "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version "
 "%5$s is currently installed)."
