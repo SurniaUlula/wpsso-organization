@@ -23,16 +23,7 @@ Customize the home page Schema Organization markup and manage additional Organiz
 
 Edit your Schema Organization name, alternate name, description, WebSite URL, banner and logo for each WordPress locale / language / region.
 
-Select an Schema Organization sub-type (Corporation, Educational, NGO, Performing Group, etc.) for Google's Knowledge Graph.
-
 Select an optional location (ie. place or address) for your home page Organization and/or each additional Organization you create.
-
-Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Premium](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on:
-
-* Select a different Publisher for Schema CreativeWork markup.
-* Select an Organizer or Performer for Schema Event markup.
-* Select a Hiring Organization for Schema JobPosting markup.
-* etc.
 
 <h3>WPSSO ORG Standard Features</h3>
 
@@ -59,15 +50,11 @@ Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Premium](
 		* Twitter Business @username (localized)
 		* YouTube Business Channel URL (localized)
 	
-* Select a more specific Schema Organization sub-type for Google's Knowlege Graph and Organization markup.
-
-* Select an optional location (ie. place or address) for your Schema Organization markup when used with the [WPSSO Place and Local SEO Markup](https://wordpress.org/plugins/wpsso-plm/) add-on.
-
 <h3>WPSSO ORG Premium Features</h3>
 
 The Standard version is designed to satisfy the requirements of most standard WordPress sites / blogs. If your site requires the management of multiple organizations, then you may want the Premium version for those additional features.
 
-* Provides a selection of Organizations for the [WPSSO Schema JSON-LD Markup add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) publisher, event organizer, event performer, job hiring organization, and related Schema property values.
+* Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Premium](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on (to select an alternate publisher, service provider, event organizer, event performer, hiring organization, and more).
 
 <h3>WPSSO Core Plugin Required</h3>
 
@@ -104,21 +91,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.0.0-b.1 (2020/04/04)**
+**Version 3.0.0-rc.1 (2020/04/05)**
 
 * **New Features**
-	* None.
+	* The WebSite Organization Schema Type option is now fixed to "Organization" since Google does not recognize all Schema Organization sub-types as valid organization and publisher types. The WebSite organization type ID should be "organization" unless you are confident that Google will recognize your preferred Schema Organization sub-type as a valid organization. To select a different organization type ID for your WebSite, define the `WPSSO_SCHEMA_ORGANIZATION_TYPE_ID` constant with your preferred type ID (the type ID, not the Schema type URL).
 * **Improvements**
 	* Updated "Requires At Least" to WordPress v4.2.
-	* The WebSite Organization Schema Type option is now fixed to "Organization" since Google does not recognize all Schema Organization sub-types as valid organization and publisher types. The WebSite organization type ID should be "organization" unless you are confident that Google will recognize your preferred Schema Organization sub-type as a valid organization. To select a different organization type ID for your WebSite, define the `WPSSO_SCHEMA_ORGANIZATION_TYPE_ID` constant with your preferred type ID (not the Schema type URL).
 * **Bugfixes**
 	* None.
 * **Developer Notes**
 	* Refactored WPSSO Core active and minimum version dependency checks.
+	* Removed the 'wpsso_json_array_schema_page_type_ids' filter (no longer required).
 * **Requires At Least**
 	* PHP v5.6.
 	* WordPress v4.2.
-	* WPSSO Core v6.28.0-b.1.
+	* WPSSO Core v6.28.0-rc.1.
 
 **Version 2.4.0 (2020/03/27)**
 
@@ -152,9 +139,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.0.0-b.1 =
+= 3.0.0-rc.1 =
 
-(2020/04/04) Updated "Requires At Least" to WordPress v4.2. The WebSite Organization Schema Type option is now fixed to "Organization" (see changelog for details).
+(2020/04/05) Updated "Requires At Least" to WordPress v4.2. The WebSite Organization Schema Type option is now fixed to "Organization" (see changelog for details).
 
 = 2.4.0 =
 
