@@ -104,7 +104,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.0.0-dev.4 (2020/04/04)**
+**Version 3.0.0-b.1 (2020/04/04)**
 
 * **New Features**
 	* None.
@@ -118,7 +118,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v5.6.
 	* WordPress v4.2.
-	* WPSSO Core v6.28.0-dev.4.
+	* WPSSO Core v6.28.0-b.1.
 
 **Version 2.4.0 (2020/03/27)**
 
@@ -152,7 +152,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.0.0-dev.4 =
+= 3.0.0-b.1 =
 
 (2020/04/04) Updated "Requires At Least" to WordPress v4.2. The WebSite Organization Schema Type option is now fixed to "Organization" (see changelog for details).
 
