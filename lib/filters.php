@@ -48,7 +48,6 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$this->p->util->add_plugin_filters( $this, array( 
 				'option_type'                => 2,
 				'save_options'               => 4,
-				'json_array_schema_type_ids' => 2,
 				'get_organization_options'   => 3,
 				'rename_options_keys'        => 1,
 			) );
@@ -169,26 +168,6 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			}
 
 			return $opts;
-		}
-
-		public function filter_json_array_schema_type_ids( $type_ids, $mod ) {
-
-			if ( $mod[ 'is_home' ] ) {
-
-				/**
-				 * If we have a site organization type defined, and it's not "organization", then add that schema
-				 * type to the list of schema ids for the home page, and remove the default "organization" type.
-				 */
-				if ( ! empty( $this->p->options[ 'site_org_schema_type' ] ) &&
-					$this->p->options[ 'site_org_schema_type' ] !== 'organization' ) {
-
-					$type_ids[ $this->p->options[ 'site_org_schema_type' ] ] = $this->p->options[ 'schema_add_home_organization' ];
-
-					unset( $type_ids[ 'organization' ] );
-				}
-			}
-
-			return $type_ids;
 		}
 
 		public function filter_get_organization_options( $opts, $mod, $org_id ) {

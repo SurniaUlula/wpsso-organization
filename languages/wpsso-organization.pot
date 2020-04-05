@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 3.0.0-b.1\n"
+"Project-Id-Version: WPSSO Organization Markup 3.0.0-rc.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
@@ -52,31 +52,31 @@ msgid ""
 "Select an optional location for this organization (requires the %s add-on)."
 msgstr ""
 
-#: lib/filters.php:163
+#: lib/filters.php:162
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:242
+#: lib/filters.php:221
 msgid "organization \"%s\""
 msgstr ""
 
-#: lib/filters.php:278
+#: lib/filters.php:257
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr ""
 
-#: lib/filters.php:281
+#: lib/filters.php:260
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr ""
 
-#: lib/filters.php:286
+#: lib/filters.php:265
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions are %2$s and must be "
 "exactly %3$s."
 msgstr ""
 
-#: lib/filters.php:289
+#: lib/filters.php:268
 msgid "Please correct the banner image at %s."
 msgstr ""
 
