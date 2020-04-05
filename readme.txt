@@ -13,7 +13,7 @@ Requires At Least: 4.2
 Tested Up To: 5.4
 Stable Tag: 2.4.0
 
-Customize the home page Schema Organization markup and manage additional Organizations (publisher, organizer, etc.).
+Customize the Home Page Schema Organization Markup and Manage Additional Organizations (Publisher, Organizer, etc.).
 
 == Description ==
 
