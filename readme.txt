@@ -91,7 +91,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.0.0-rc.3 (2020/04/06)**
+**Version 3.0.0 (2020/04/06)**
 
 * **New Features**
 	* The WebSite Organization Schema Type option is now fixed to "Organization" since Google does not recognize all Schema Organization sub-types as valid organization and publisher types. The WebSite organization type ID should be "organization" unless you are confident that Google will recognize your preferred Schema Organization sub-type as a valid organization. To select a different organization type ID for your WebSite, define the `WPSSO_SCHEMA_ORGANIZATION_TYPE_ID` constant with your preferred type ID (the type ID, not the Schema type URL).
@@ -105,7 +105,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v5.6.
 	* WordPress v4.2.
-	* WPSSO Core v6.28.0-rc.3.
+	* WPSSO Core v6.28.0.
 
 **Version 2.4.0 (2020/03/27)**
 
@@ -139,7 +139,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.0.0-rc.3 =
+= 3.0.0 =
 
 (2020/04/06) Updated "Requires At Least" to WordPress v4.2. The WebSite Organization Schema Type option is now fixed to "Organization" (see changelog for details).
 
