@@ -34,7 +34,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 			$this->maybe_show_language_notice();
 
-			$metabox_id      = 'general';
+			$metabox_id      = 'org';
 			$metabox_title   = _x( 'Organizations and Knowledge Graph', 'metabox title', 'wpsso-organization' );
 			$metabox_screen  = $this->pagehook;
 			$metabox_context = 'normal';
@@ -43,13 +43,13 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 			);
 
 			add_meta_box( $this->pagehook . '_' . $metabox_id, $metabox_title,
-				array( $this, 'show_metabox_general' ), $metabox_screen,
+				array( $this, 'show_metabox_' . $metabox_id ), $metabox_screen,
 					$metabox_context, $metabox_prio, $callback_args );
 		}
 
-		public function show_metabox_general() {
+		public function show_metabox_org() {
 
-			$metabox_id = 'organization';
+			$metabox_id = 'org';
 
 			$tabs = apply_filters( $this->p->lca . '_' . $metabox_id . '_tabs', array( 
 				'site'                => _x( 'WebSite (Homepage)', 'metabox tab', 'wpsso-organization' ),
@@ -85,7 +85,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 			switch ( $metabox_id . '-' . $tab_key ) {
 
-				case 'organization-site':
+				case 'org-site':
 
 					$def_site_name = get_bloginfo( 'name' );
 					$def_site_desc = get_bloginfo( 'description' );

@@ -24,11 +24,11 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 			}
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'organization_other_organizations_rows' => 2,
+				'org_other_organizations_rows' => 2,
 			) );
 		}
 
-		public function filter_organization_other_organizations_rows( $table_rows, $form ) {
+		public function filter_org_other_organizations_rows( $table_rows, $form ) {
 
 			if ( $this->p->debug->enabled ) {
 				$this->p->debug->mark();
