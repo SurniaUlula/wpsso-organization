@@ -91,7 +91,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.1.0-dev.3 (2020/04/23)**
+**Version 3.1.0-dev.4 (2020/04/23)**
 
 * **New Features**
 	* None.
@@ -154,7 +154,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.1.0-dev.3 =
+= 3.1.0-dev.4 =
 
 (2020/04/23) Updated the "Knowledge Graph for Home Page" option label to match the WPSSO Core option label.
 
