@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 3.0.0\n"
+"Project-Id-Version: WPSSO Organization Markup 3.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2020-04-05 15:45-0700\n"
-"PO-Revision-Date: 2020-04-05 15:45-0700\n"
+"POT-Creation-Date: 2020-04-23 11:59-0700\n"
+"PO-Revision-Date: 2020-04-23 12:00-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -119,250 +119,250 @@ msgid "Organization WebSite URL"
 msgstr "URL du site de l'organisation"
 
 #: lib/gettext-pro.php:12 lib/pro/admin/org-general.php:96
-#: lib/std/admin/org-general.php:86 lib/submenu/org-general.php:142
+#: lib/std/admin/org-general.php:86 lib/submenu/org-general.php:135
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr "URL logo de organisation"
 
 #: lib/gettext-pro.php:13 lib/pro/admin/org-general.php:103
-#: lib/std/admin/org-general.php:92 lib/submenu/org-general.php:149
+#: lib/std/admin/org-general.php:92 lib/submenu/org-general.php:142
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr "URL bannière d'organisation"
 
 #: lib/gettext-pro.php:14 lib/pro/admin/org-general.php:109
-#: lib/std/admin/org-general.php:97 lib/submenu/org-general.php:155
+#: lib/std/admin/org-general.php:97 lib/submenu/org-general.php:148
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr "Type de Schéma d'organisation"
 
 #: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:118
-#: lib/std/admin/org-general.php:103 lib/submenu/org-general.php:164
+#: lib/std/admin/org-general.php:103 lib/submenu/org-general.php:157
 msgctxt "option label"
 msgid "Organization Location"
 msgstr "Emplacement de l'organisation"
 
 #: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:125
-#: lib/std/admin/org-general.php:109 lib/submenu/org-general.php:170
+#: lib/std/admin/org-general.php:109 lib/submenu/org-general.php:163
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr "Knowledge Graph de Google"
 
-#: lib/register.php:148
+#: lib/register.php:141
 msgid "Categories"
 msgstr "Catégories"
 
-#: lib/register.php:149
+#: lib/register.php:142
 msgid "Category"
 msgstr "Catégorie"
 
-#: lib/register.php:150
+#: lib/register.php:143
 msgctxt "Admin menu name"
 msgid "Categories"
 msgstr "Catégories"
 
-#: lib/register.php:151
+#: lib/register.php:144
 msgid "All Categories"
 msgstr "Toutes catégories"
 
-#: lib/register.php:152
+#: lib/register.php:145
 msgid "Edit Category"
 msgstr "Modifier la catégorie"
 
-#: lib/register.php:153
+#: lib/register.php:146
 msgid "View Category"
 msgstr "Voir la catégorie"
 
-#: lib/register.php:154
+#: lib/register.php:147
 msgid "Update Category"
 msgstr "Mettre à jour la catégorie"
 
-#: lib/register.php:155
+#: lib/register.php:148
 msgid "Add New Category"
 msgstr "Ajouter une nouvelle catégorie"
 
-#: lib/register.php:156
+#: lib/register.php:149
 msgid "New Category Name"
 msgstr "Nom de la nouvelle catégorie"
 
-#: lib/register.php:157
+#: lib/register.php:150
 msgid "Parent Category"
 msgstr "Catégorie parente"
 
-#: lib/register.php:158
+#: lib/register.php:151
 msgid "Parent Category:"
 msgstr "Catégorie parente:"
 
-#: lib/register.php:159
+#: lib/register.php:152
 msgid "Search Categories"
 msgstr "Rechercher dans les catégories"
 
-#: lib/register.php:160
+#: lib/register.php:153
 msgid "Popular Categories"
 msgstr "Catégories populaires"
 
-#: lib/register.php:161
+#: lib/register.php:154
 msgid "Separate categories with commas"
 msgstr "Séparez les catégories avec des virgules"
 
-#: lib/register.php:162
+#: lib/register.php:155
 msgid "Add or remove categories"
 msgstr "Ajouter ou retirer des catégories"
 
-#: lib/register.php:163
+#: lib/register.php:156
 msgid "Choose from the most used"
 msgstr "Choisir parmi les plus utilisées"
 
-#: lib/register.php:164
+#: lib/register.php:157
 msgid "No categories found."
 msgstr "Aucune catégorie trouvée."
 
-#: lib/register.php:165
+#: lib/register.php:158
 msgid "← Back to categories"
 msgstr "← Retour aux catégories"
 
-#: lib/register.php:169
+#: lib/register.php:162
 msgctxt "Taxonomy label"
 msgid "Categories"
 msgstr "Catégories"
 
-#: lib/register.php:180
+#: lib/register.php:173
 msgctxt "Taxonomy description"
 msgid "Categories for Organizations"
 msgstr "Catégories pour les organisations"
 
-#: lib/register.php:191
+#: lib/register.php:184
 msgid "Organizations"
 msgstr "Organisations"
 
-#: lib/register.php:192
+#: lib/register.php:185
 msgid "Organization"
 msgstr "Organisation"
 
-#: lib/register.php:193
+#: lib/register.php:186
 msgid "Add New"
 msgstr "Ajouter"
 
-#: lib/register.php:194
+#: lib/register.php:187
 msgid "Add New Organization"
 msgstr "Ajouter une nouvelle organisation"
 
-#: lib/register.php:195
+#: lib/register.php:188
 msgid "Edit Organization"
 msgstr "Modifier l'organisation"
 
-#: lib/register.php:196
+#: lib/register.php:189
 msgid "New Organization"
 msgstr "Nouvelle organisation"
 
-#: lib/register.php:197
+#: lib/register.php:190
 msgid "View Organization"
 msgstr "Voir l'organisation"
 
-#: lib/register.php:198
+#: lib/register.php:191
 msgid "View Organizations"
 msgstr "Voir les organisations"
 
-#: lib/register.php:199
+#: lib/register.php:192
 msgid "Search Organizations"
 msgstr "Rechercher dans les organisations"
 
-#: lib/register.php:200
+#: lib/register.php:193
 msgid "No organizations found"
 msgstr "Aucune organisation trouvée"
 
-#: lib/register.php:201
+#: lib/register.php:194
 msgid "No organizations found in Trash"
 msgstr "Aucune organisation trouvée dans corbeille"
 
-#: lib/register.php:202
+#: lib/register.php:195
 msgid "Parent Organization:"
 msgstr "Organisation parente:"
 
-#: lib/register.php:203
+#: lib/register.php:196
 msgid "All Organizations"
 msgstr "Toutes les organisations"
 
-#: lib/register.php:204
+#: lib/register.php:197
 msgid "Organization Archives"
 msgstr "Archives d'organisations"
 
-#: lib/register.php:205
+#: lib/register.php:198
 msgid "Organization Attributes"
 msgstr "Attributs de l'organisation"
 
-#: lib/register.php:206
+#: lib/register.php:199
 msgid "Insert into organization"
 msgstr "Insérer dans l'organisation"
 
-#: lib/register.php:207
+#: lib/register.php:200
 msgid "Uploaded to this organization"
 msgstr "Téléchargé à cette organisation"
 
-#: lib/register.php:208
+#: lib/register.php:201
 msgid "Organization Image"
 msgstr "Image de l'organisation"
 
-#: lib/register.php:209
+#: lib/register.php:202
 msgid "Set organization image"
 msgstr "Définir l'image de l'organisation"
 
-#: lib/register.php:210
+#: lib/register.php:203
 msgid "Remove organization image"
 msgstr "Supprimer l'image de l'organisation"
 
-#: lib/register.php:211
+#: lib/register.php:204
 msgid "Use as organization image"
 msgstr "Utiliser comme image d'organisation"
 
-#: lib/register.php:212
+#: lib/register.php:205
 msgctxt "Admin menu name"
 msgid "Organizations"
 msgstr "Organisations"
 
-#: lib/register.php:213
+#: lib/register.php:206
 msgid "Filter organizations"
 msgstr "Filtrer les organisations"
 
-#: lib/register.php:214
+#: lib/register.php:207
 msgid "Organizations list navigation"
 msgstr "Navigation de la liste des organisations"
 
-#: lib/register.php:215
+#: lib/register.php:208
 msgid "Organizations list"
 msgstr "Liste des organisations"
 
-#: lib/register.php:216
+#: lib/register.php:209
 msgctxt "Admin bar name"
 msgid "Organization"
 msgstr "Organisation"
 
-#: lib/register.php:217
+#: lib/register.php:210
 msgid "Organization published."
 msgstr "Organisation publiée."
 
-#: lib/register.php:218
+#: lib/register.php:211
 msgid "Organization published privately."
 msgstr "Organisation publiée en privé."
 
-#: lib/register.php:219
+#: lib/register.php:212
 msgid "Organization reverted to draft."
 msgstr "Organisation remis en brouillon."
 
-#: lib/register.php:220
+#: lib/register.php:213
 msgid "Organization scheduled."
 msgstr "Organisation planifiée."
 
-#: lib/register.php:221
+#: lib/register.php:214
 msgid "Organization updated."
 msgstr "Organisation mise à jour."
 
-#: lib/register.php:225
+#: lib/register.php:218
 msgctxt "Post type label"
 msgid "Organization"
 msgstr "Organisation"
 
-#: lib/register.php:227
+#: lib/register.php:220
 msgctxt "Post type description"
 msgid "Organization"
 msgstr "Organisation"
@@ -384,36 +384,31 @@ msgstr "Autres organisations"
 
 #. translators: Please ignore - translation uses a different text domain.
 #: lib/submenu/org-general.php:107
-msgid "Organization Social Profile"
-msgstr "profil social de l'organisation"
-
-#. translators: Please ignore - translation uses a different text domain.
-#: lib/submenu/org-general.php:111
 msgctxt "option label"
 msgid "Knowledge Graph for Home Page"
 msgstr "Knowledge Graph page d'accueil"
 
 #. translators: Please ignore - translation uses a different text domain.
-#: lib/submenu/org-general.php:116
-msgid "Include %s for a Business Website"
-msgstr "Inclure le %s pour un site Web d'entreprise"
+#: lib/submenu/org-general.php:110
+msgid "Include Schema Organization"
+msgstr "Inclure le Schéma d'organisation"
 
-#: lib/submenu/org-general.php:121
+#: lib/submenu/org-general.php:114
 msgctxt "option label"
 msgid "WebSite Name"
 msgstr "Nom du site Web"
 
-#: lib/submenu/org-general.php:126
+#: lib/submenu/org-general.php:119
 msgctxt "option label"
 msgid "WebSite Alternate Name"
 msgstr "Autre nom du site Web"
 
-#: lib/submenu/org-general.php:131
+#: lib/submenu/org-general.php:124
 msgctxt "option label"
 msgid "WebSite Description"
 msgstr "Description du site Web"
 
-#: lib/submenu/org-general.php:136
+#: lib/submenu/org-general.php:129
 msgctxt "option label"
 msgid "WebSite URL"
 msgstr "URL du site Web"
@@ -422,7 +417,7 @@ msgstr "URL du site Web"
 msgid "The %1$s add-on requires the %2$s plugin &mdash; install and activate the plugin or <a href=\"%3$s\">deactivate this add-on</a>."
 msgstr "L'ajout %1$s requiert l'extension %2$s &mdash; installer et activer l'extension ou <a href=\"%3$s\">désactiver cet ajout</a>."
 
-#: wpsso-organization.php:219
+#: wpsso-organization.php:223
 msgid "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version %5$s is currently installed)."
 msgstr "L'ajout %1$s version %2$s requiert %3$s version %4$s ou plus récente (version %5$s est actuellement installée)."
 
