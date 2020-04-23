@@ -91,6 +91,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 3.1.0-dev.3 (2020/04/23)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* Updated the "Knowledge Graph for Home Page" option label to match the WPSSO Core option label.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* None.
+* **Requires At Least**
+	* PHP v5.6.
+	* WordPress v4.2.
+	* WPSSO Core v7.0.1.
+
 **Version 3.0.0 (2020/04/06)**
 
 * **New Features**
@@ -138,6 +153,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WPSSO Core v6.24.0.
 
 == Upgrade Notice ==
+
+= 3.1.0-dev.3 =
+
+(2020/04/23) Updated the "Knowledge Graph for Home Page" option label to match the WPSSO Core option label.
 
 = 3.0.0 =
 
