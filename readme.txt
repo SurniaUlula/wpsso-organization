@@ -91,7 +91,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.1.0-b.1 (2020/04/23)**
+**Version 3.1.0-b.1 (2020/04/24)**
 
 * **New Features**
 	* None.
@@ -100,7 +100,8 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* None.
+	* Changed `get_input()` for multilingual options to `get_input_locale()` (available since WPSSO Core v7.1.0).
+	* Changed `get_th_html()` for multilingual options to `get_th_html_locale()` (available since WPSSO Core v7.1.0).
 * **Requires At Least**
 	* PHP v5.6.
 	* WordPress v4.2.
@@ -156,7 +157,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 3.1.0-b.1 =
 
-(2020/04/23) Updated the "Knowledge Graph for Home Page" option label to match the WPSSO Core option label.
+(2020/04/24) Updated the "Knowledge Graph for Home Page" option label to match the WPSSO Core option label. Updated multilingual option method calls for optimized methods in WPSSO Core v7.1.0.
 
 = 3.0.0 =
 
