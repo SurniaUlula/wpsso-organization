@@ -34,8 +34,6 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 				$this->p->debug->mark();
 			}
 
-			$atts_locale = array( 'is_locale' => true );
-
 			$plm_req_msg     = $this->p->msgs->maybe_ext_required( 'wpssoplm' );
 			$plm_disable     = empty( $plm_req_msg ) ? false : true;
 			$plm_place_names = $this->p->util->get_form_cache( 'place_names', $add_none = true );
@@ -62,35 +60,35 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 			_x( 'delete this organization', 'option comment', 'wpsso-organization' ) . '</em></td>';
 
 			$table_rows[ 'org_name_' . $id ] = '' .
-			$form->get_th_html( _x( 'Organization Name', 'option label', 'wpsso-organization' ),
-				$css_class = '', $css_id = 'org_name', $atts_locale ) .  
+			$form->get_th_html_locale( _x( 'Organization Name', 'option label', 'wpsso-organization' ),
+				$css_class = '', $css_id = 'org_name' ) .  
 			'<td class="blank">' . $form->get_no_input_value( '', $css_class = 'long_name is_required' ) . '</td>';
 
 			$table_rows[ 'org_name_alt_' . $id ] = '' .
-			$form->get_th_html( _x( 'Organization Alternate Name', 'option label', 'wpsso-organization' ),
-				$css_class = '', $css_id = 'org_name_alt', $atts_locale ) .  
+			$form->get_th_html_locale( _x( 'Organization Alternate Name', 'option label', 'wpsso-organization' ),
+				$css_class = '', $css_id = 'org_name_alt' ) .  
 			'<td class="blank">' . $form->get_no_input_value( '', $css_class = 'long_name' ) . '</td>';
 
 			$table_rows[ 'org_desc_' . $id ] = '' .
-			$form->get_th_html( _x( 'Organization Description', 'option label', 'wpsso-organization' ),
-				$css_class = '', $css_id = 'org_desc', $atts_locale ) .  
+			$form->get_th_html_locale( _x( 'Organization Description', 'option label', 'wpsso-organization' ),
+				$css_class = '', $css_id = 'org_desc' ) .  
 			'<td class="blank">' . $form->get_no_textarea_value() . '</td>';
 
 			$table_rows[ 'org_url_' . $id ] = '' .
-			$form->get_th_html( _x( 'Organization WebSite URL', 'option label', 'wpsso-organization' ),
-				$css_class = '', $css_id = 'org_url', $atts_locale ) . 
+			$form->get_th_html_locale( _x( 'Organization WebSite URL', 'option label', 'wpsso-organization' ),
+				$css_class = '', $css_id = 'org_url' ) . 
 			'<td class="blank">' . $form->get_no_input_value( '', $css_class = 'wide' ) . '</td>';
 
 			$table_rows[ 'org_logo_url_' . $id ] = '' .
-			$form->get_th_html( '<a href="https://developers.google.com/structured-data/customize/logos">' . 
+			$form->get_th_html_locale( '<a href="https://developers.google.com/structured-data/customize/logos">' . 
 			_x( 'Organization Logo URL', 'option label', 'wpsso-organization' ) . '</a>',
-				$css_class = '', $css_id = 'schema_logo_url', $atts_locale ) . 
+				$css_class = '', $css_id = 'schema_logo_url' ) . 
 			'<td class="blank">' . $form->get_no_input_value( '', $css_class = 'wide is_required' ) . '</td>';
 
 			$table_rows[ 'org_banner_url_' . $id ] = '' .
-			$form->get_th_html( '<a href="https://developers.google.com/search/docs/data-types/article#logo-guidelines">' .
+			$form->get_th_html_locale( '<a href="https://developers.google.com/search/docs/data-types/article#logo-guidelines">' .
 			_x( 'Organization Banner URL', 'option label', 'wpsso-organization' ) . '</a>',
-				$css_class = '', $css_id = 'schema_banner_url', $atts_locale ) . 
+				$css_class = '', $css_id = 'schema_banner_url' ) . 
 			'<td class="blank">' . $form->get_no_input_value( '', $css_class = 'wide is_required' ) . '</td>';
 
 			$table_rows[ 'org_schema_type_' . $id ] = '' .
@@ -117,8 +115,9 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 				$org_key_id = 'org_sameas_' . $key . '_' . $id;
 
 				$table_rows[ $org_key_id ] = '' .
-				$form->get_th_html( _x( $label, 'option value', 'wpsso-organization' ), $css_class = 'nowrap', $org_key_id, $atts_locale ) . 
-				'<td class="blank">' . $form->get_no_input_value( '', ( strpos( $org_key_id, '_url' ) ? 'wide' : '' ) ) . '</td>';
+				$form->get_th_html_locale( _x( $label, 'option value', 'wpsso-organization' ),
+					$css_class = 'nowrap', $org_key_id ) . 
+				'<td class="blank">' . $form->get_no_input_value( '', strpos( $org_key_id, '_url' ) ? 'wide' : '' ) . '</td>';
 			}
 
 			return $table_rows;

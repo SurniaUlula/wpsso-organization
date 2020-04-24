@@ -81,8 +81,6 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 			$table_rows = array();
 
-			$atts_locale = array( 'is_locale' => true );
-
 			switch ( $metabox_id . '-' . $tab_key ) {
 
 				case 'org-site':
@@ -111,38 +109,36 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					'</td>';
 
 					$table_rows[ 'site_name' ] = '' .
-					$this->form->get_th_html( _x( 'WebSite Name', 'option label', 'wpsso-organization' ),
-						$css_class = '', $css_id = 'site_name', $atts_locale ) . 
+					$this->form->get_th_html_locale( _x( 'WebSite Name', 'option label', 'wpsso-organization' ),
+						$css_class = '', $css_id = 'site_name' ) . 
 					'<td>' . $this->form->get_input( $site_name_key, 'long_name', '', 0, $def_site_name ) . '</td>';
 
 					$table_rows[ 'site_name_alt' ] = '' .
-					$this->form->get_th_html( _x( 'WebSite Alternate Name', 'option label', 'wpsso-organization' ),
-						$css_class = '', $css_id = 'site_name_alt', $atts_locale ) . 
+					$this->form->get_th_html_locale( _x( 'WebSite Alternate Name', 'option label', 'wpsso-organization' ),
+						$css_class = '', $css_id = 'site_name_alt' ) . 
 					'<td>' . $this->form->get_input( $site_name_alt_key, 'long_name' ) . '</td>';
 
 					$table_rows[ 'site_desc' ] = '' . 
-					$this->form->get_th_html( _x( 'WebSite Description', 'option label', 'wpsso-organization' ),
-						$css_class = '', $css_id = 'site_desc', $atts_locale ) . 
+					$this->form->get_th_html_locale( _x( 'WebSite Description', 'option label', 'wpsso-organization' ),
+						$css_class = '', $css_id = 'site_desc' ) . 
 					'<td>' . $this->form->get_textarea( $site_desc_key, '', '', 0, $def_site_desc ) . '</td>';
 
 					$table_rows[ 'site_url' ] = $this->form->get_tr_hide( 'basic', $site_url_key ) . 
-					$this->form->get_th_html( _x( 'WebSite URL', 'option label', 'wpsso-organization' ),
-						$css_class = '', $css_id = 'site_url', $atts_locale ) . 
+					$this->form->get_th_html_locale( _x( 'WebSite URL', 'option label', 'wpsso-organization' ),
+						$css_class = '', $css_id = 'site_url' ) . 
 					'<td>' . $this->form->get_input( $site_url_key, 'wide', '', 0, $def_site_url ) . '</td>';
 
 					$table_rows[ 'schema_logo_url' ] = '' .
-					$this->form->get_th_html( '<a href="https://developers.google.com/structured-data/customize/logos">' .
+					$this->form->get_th_html_locale( '<a href="https://developers.google.com/structured-data/customize/logos">' .
 					_x( 'Organization Logo URL', 'option label', 'wpsso-organization' ) . '</a>',
-						$css_class = '', $css_id = 'schema_logo_url', $atts_locale ) . 
-					'<td>' . $this->form->get_input( SucomUtil::get_key_locale( 'schema_logo_url', $this->p->options ),
-						$css_class = 'wide is_required' ) . '</td>';
+						$css_class = '', $css_id = 'schema_logo_url' ) . 
+					'<td>' . $this->form->get_input_locale( 'schema_logo_url', $css_class = 'wide is_required' ) . '</td>';
 
 					$table_rows[ 'schema_banner_url' ] = '' .
-					$this->form->get_th_html( '<a href="https://developers.google.com/search/docs/data-types/article#logo-guidelines">' .
+					$this->form->get_th_html_locale( '<a href="https://developers.google.com/search/docs/data-types/article#logo-guidelines">' .
 					_x( 'Organization Banner URL', 'option label', 'wpsso-organization' ) . '</a>',
-						$css_class = '', $css_id = 'schema_banner_url', $atts_locale ) . 
-					'<td>' . $this->form->get_input( SucomUtil::get_key_locale( 'schema_banner_url', $this->p->options ),
-						$css_class = 'wide is_required' ) . '</td>';
+						$css_class = '', $css_id = 'schema_banner_url' ) . 
+					'<td>' . $this->form->get_input_locale( 'schema_banner_url', $css_class = 'wide is_required' ) . '</td>';
 
 					$table_rows[ 'site_org_schema_type' ] = '' .
 					$this->form->get_th_html( _x( 'Organization Schema Type', 'option label', 'wpsso-organization' ),
@@ -169,10 +165,9 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					foreach ( $social_accounts as $opt_key => $opt_label ) {
 
 						$table_rows[ $opt_key ] = '' .
-						$this->form->get_th_html( _x( $opt_label, 'option value', 'wpsso-organization' ),
-							'nowrap', $opt_key, $atts_locale ) . 
-						'<td>' . $this->form->get_input( SucomUtil::get_key_locale( $opt_key, $this->p->options ),
-							( strpos( $opt_key, '_url' ) ? 'wide' : '' ) ) . '</td>';
+						$this->form->get_th_html_locale( _x( $opt_label, 'option value', 'wpsso-organization' ),
+							$css_class = 'nowrap', $opt_key ) . 
+						'<td>' . $this->form->get_input_locale( $opt_key, strpos( $opt_key, '_url' ) ? 'wide' : '' ) . '</td>';
 					}
 
 					break;
