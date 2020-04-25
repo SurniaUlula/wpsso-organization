@@ -64,8 +64,8 @@ WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the [WPSSO Core plugi
 
 <h3 class="top">Install and Uninstall</h3>
 
-* [Install the WPSSO ORG Add-on](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/)
-* [Uninstall the WPSSO ORG Add-on](https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/)
+* [Install the WPSSO Organization Markup add-on](https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/).
+* [Uninstall the WPSSO Organization Markup add-on](https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/).
 
 == Frequently Asked Questions ==
 

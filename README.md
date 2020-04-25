@@ -71,8 +71,8 @@
 <h3 class="top">Install and Uninstall</h3>
 
 <ul>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/">Install the WPSSO ORG Add-on</a></li>
-<li><a href="https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/">Uninstall the WPSSO ORG Add-on</a></li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-organization/installation/install-the-plugin/">Install the WPSSO Organization Markup add-on</a>.</li>
+<li><a href="https://wpsso.com/docs/plugins/wpsso-organization/installation/uninstall-the-plugin/">Uninstall the WPSSO Organization Markup add-on</a>.</li>
 </ul>
 
 
