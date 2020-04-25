@@ -89,11 +89,6 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$def_site_desc = get_bloginfo( 'description' );
 					$def_site_url  = get_bloginfo( 'url' );
 
-					$site_name_key     = SucomUtil::get_key_locale( 'site_name', $this->form->options );
-					$site_name_alt_key = SucomUtil::get_key_locale( 'site_name_alt', $this->form->options );
-					$site_desc_key     = SucomUtil::get_key_locale( 'site_desc', $this->form->options );
-					$site_url_key      = SucomUtil::get_key_locale( 'site_url', $this->form->options );
-
 					$plm_req_msg     = $this->p->msgs->maybe_ext_required( 'wpssoplm' );
 					$plm_disable     = empty( $plm_req_msg ) ? false : true;
 					$plm_place_names = $this->p->util->get_form_cache( 'place_names', true );
@@ -111,22 +106,25 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$table_rows[ 'site_name' ] = '' .
 					$this->form->get_th_html_locale( _x( 'WebSite Name', 'option label', 'wpsso-organization' ),
 						$css_class = '', $css_id = 'site_name' ) . 
-					'<td>' . $this->form->get_input( $site_name_key, 'long_name', '', 0, $def_site_name ) . '</td>';
+					'<td>' . $this->form->get_input_locale( 'site_name', $css_class = 'long_name', $css_id = '',
+						$len = 0, $def_site_name ) . '</td>';
 
 					$table_rows[ 'site_name_alt' ] = '' .
 					$this->form->get_th_html_locale( _x( 'WebSite Alternate Name', 'option label', 'wpsso-organization' ),
 						$css_class = '', $css_id = 'site_name_alt' ) . 
-					'<td>' . $this->form->get_input( $site_name_alt_key, 'long_name' ) . '</td>';
+					'<td>' . $this->form->get_input_locale( 'site_name_alt', $css_class = 'long_name' ) . '</td>';
 
 					$table_rows[ 'site_desc' ] = '' . 
 					$this->form->get_th_html_locale( _x( 'WebSite Description', 'option label', 'wpsso-organization' ),
 						$css_class = '', $css_id = 'site_desc' ) . 
-					'<td>' . $this->form->get_textarea( $site_desc_key, '', '', 0, $def_site_desc ) . '</td>';
+					'<td>' . $this->form->get_textarea_locale( 'site_desc', $css_class = '', $css_id = '',
+						$len = 0, $def_site_desc ) . '</td>';
 
-					$table_rows[ 'site_url' ] = $this->form->get_tr_hide( 'basic', $site_url_key ) . 
+					$table_rows[ 'site_url' ] = $this->form->get_tr_hide( 'basic', 'site_url' ) . 
 					$this->form->get_th_html_locale( _x( 'WebSite URL', 'option label', 'wpsso-organization' ),
 						$css_class = '', $css_id = 'site_url' ) . 
-					'<td>' . $this->form->get_input( $site_url_key, 'wide', '', 0, $def_site_url ) . '</td>';
+					'<td>' . $this->form->get_input_locale( 'site_url', $css_class = 'wide', $css_id = '',
+						$len = 0, $def_site_url ) . '</td>';
 
 					$table_rows[ 'schema_logo_url' ] = '' .
 					$this->form->get_th_html_locale( '<a href="https://developers.google.com/structured-data/customize/logos">' .
@@ -140,7 +138,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 						$css_class = '', $css_id = 'schema_banner_url' ) . 
 					'<td>' . $this->form->get_input_locale( 'schema_banner_url', $css_class = 'wide is_required' ) . '</td>';
 
-					$table_rows[ 'site_org_schema_type' ] = '' .
+					$table_rows[ 'site_org_schema_type' ] = $this->form->get_tr_hide( 'basic', 'site_org_schema_type' ) .
 					$this->form->get_th_html( _x( 'Organization Schema Type', 'option label', 'wpsso-organization' ),
 						$css_class = '', $css_id = 'site_org_schema_type' ) . 
 					'<td>' .

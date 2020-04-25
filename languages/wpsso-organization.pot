@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 3.1.0-rc.1\n"
+"Project-Id-Version: WPSSO Organization Markup 3.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
@@ -129,31 +129,31 @@ msgid "Organization WebSite URL"
 msgstr ""
 
 #: lib/gettext-pro.php:12 lib/pro/admin/org-general.php:91
-#: lib/std/admin/org-general.php:84 lib/submenu/org-general.php:133
+#: lib/std/admin/org-general.php:84 lib/submenu/org-general.php:131
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr ""
 
 #: lib/gettext-pro.php:13 lib/pro/admin/org-general.php:97
-#: lib/std/admin/org-general.php:90 lib/submenu/org-general.php:139
+#: lib/std/admin/org-general.php:90 lib/submenu/org-general.php:137
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr ""
 
 #: lib/gettext-pro.php:14 lib/pro/admin/org-general.php:102
-#: lib/std/admin/org-general.php:95 lib/submenu/org-general.php:144
+#: lib/std/admin/org-general.php:95 lib/submenu/org-general.php:142
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
 #: lib/gettext-pro.php:15 lib/pro/admin/org-general.php:111
-#: lib/std/admin/org-general.php:101 lib/submenu/org-general.php:153
+#: lib/std/admin/org-general.php:101 lib/submenu/org-general.php:151
 msgctxt "option label"
 msgid "Organization Location"
 msgstr ""
 
 #: lib/gettext-pro.php:16 lib/pro/admin/org-general.php:118
-#: lib/std/admin/org-general.php:107 lib/submenu/org-general.php:159
+#: lib/std/admin/org-general.php:107 lib/submenu/org-general.php:157
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
@@ -393,32 +393,32 @@ msgid "Other Organizations"
 msgstr ""
 
 #. translators: Please ignore - translation uses a different text domain.
-#: lib/submenu/org-general.php:105
+#: lib/submenu/org-general.php:100
 msgctxt "option label"
 msgid "Knowledge Graph for Home Page"
 msgstr ""
 
 #. translators: Please ignore - translation uses a different text domain.
-#: lib/submenu/org-general.php:108
+#: lib/submenu/org-general.php:103
 msgid "Include Schema Organization"
 msgstr ""
 
-#: lib/submenu/org-general.php:112
+#: lib/submenu/org-general.php:107
 msgctxt "option label"
 msgid "WebSite Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:117
+#: lib/submenu/org-general.php:113
 msgctxt "option label"
 msgid "WebSite Alternate Name"
 msgstr ""
 
-#: lib/submenu/org-general.php:122
+#: lib/submenu/org-general.php:118
 msgctxt "option label"
 msgid "WebSite Description"
 msgstr ""
 
-#: lib/submenu/org-general.php:127
+#: lib/submenu/org-general.php:124
 msgctxt "option label"
 msgid "WebSite URL"
 msgstr ""
