@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.6
 Requires At Least: 4.2
 Tested Up To: 5.4
-Stable Tag: 3.0.0
+Stable Tag: 3.1.0
 
 Customize the Home Page Schema Organization Markup and Manage Additional Organizations (Publisher, Organizer, etc.).
 
@@ -124,36 +124,6 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WordPress v4.2.
 	* WPSSO Core v7.0.1.
 
-**Version 2.4.0 (2020/03/27)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Minor improvements to code style.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.0.
-	* WPSSO Core v6.27.1.
-
-**Version 2.3.0 (2020/03/11)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Added support for a new WPSSO_SCHEMA_MARKUP_DISABLE constant.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.0.
-	* WPSSO Core v6.24.0.
-
 == Upgrade Notice ==
 
 = 3.1.0 =
@@ -163,12 +133,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 3.0.0 =
 
 (2020/04/06) Updated "Requires At Least" to WordPress v4.2. The WebSite Organization Schema Type option is now fixed to "Organization" (see changelog for details).
-
-= 2.4.0 =
-
-(2020/03/27) Minor improvements to code style.
-
-= 2.3.0 =
-
-(2020/03/11) Added support for a new WPSSO_SCHEMA_MARKUP_DISABLE constant.
 
