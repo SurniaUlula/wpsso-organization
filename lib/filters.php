@@ -46,10 +46,10 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$this->upg = new WpssoOrgFiltersUpgrade( $plugin );
 
 			$this->p->util->add_plugin_filters( $this, array( 
-				'option_type'                => 2,
-				'save_options'               => 4,
-				'get_organization_options'   => 3,
-				'rename_options_keys'        => 1,
+				'option_type'              => 2,
+				'save_options'             => 4,
+				'get_organization_options' => 3,
+				'rename_options_keys'      => 1,
 			) );
 
 			if ( is_admin() ) {
