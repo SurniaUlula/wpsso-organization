@@ -128,7 +128,8 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				return $opts;	// Nothing to do.
 			}
 
-			$org_names    = SucomUtil::get_multi_key_locale( 'org_name', $opts, $add_none = false );
+			$org_names = SucomUtil::get_multi_key_locale( 'org_name', $opts, $add_none = false );
+
 			$org_last_num = SucomUtil::get_last_num( $org_names );
 
 			foreach ( $org_names as $org_id => $org_name ) {
