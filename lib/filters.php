@@ -83,36 +83,29 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 					return 'numeric';
 
-					break;
-
+				case 'org_desc':
 				case 'org_name':
 				case 'org_name_alt':
-				case 'org_desc':
 
 					return 'ok_blank';
 
-					break;
+				case 'org_banner_url':
+				case 'org_logo_url':
 
-				case 'org_schema_type':
+					return 'img_url';
+
 				case 'org_place_id':
+				case 'org_schema_type':
 
 					return 'not_blank';
 
-					break;
-
 				case 'org_url':
-				case 'org_logo_url':
-				case 'org_banner_url':
 
 					return 'url';
-
-					break;
 
 				case ( strpos( $base_key, '_url' ) && isset( $this->p->cf[ 'form' ][ 'social_accounts' ][substr( $base_key, 4 )] ) ? true : false ):
 
 					return 'url';
-
-					break;
 			}
 
 			return $type;
