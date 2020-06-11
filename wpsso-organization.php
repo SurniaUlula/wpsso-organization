@@ -13,7 +13,7 @@
  * Description: Customize the Home Page Schema Organization Markup and Manage Additional Organizations (Publisher, Organizer, etc.).
  * Requires PHP: 5.6
  * Requires At Least: 4.2
- * Tested Up To: 5.4.1
+ * Tested Up To: 5.4.2
  * Version: 3.2.0
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
