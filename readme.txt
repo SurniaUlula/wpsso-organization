@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.6
 Requires At Least: 4.2
 Tested Up To: 5.4.2
-Stable Tag: 3.2.0
+Stable Tag: 3.3.0
 
 Customize the Home Page Schema Organization Markup and Manage Additional Organizations (Publisher, Organizer, etc.).
 
@@ -159,16 +159,4 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 = 3.3.0 =
 
 (2020/06/12) Updated the Organization banner and logo URL option type from 'url' to 'img_url'.
-
-= 3.2.0 =
-
-(2020/05/09) Refactored the required plugin check to (optionally) check the class name and a version constant.
-
-= 3.1.0 =
-
-(2020/04/25) Updated the "Knowledge Graph for Home Page" option label to match the WPSSO Core option label. Updated multilingual option method calls for optimized methods in WPSSO Core v7.1.0.
-
-= 3.0.0 =
-
-(2020/04/06) Updated "Requires At Least" to WordPress v4.2. The WebSite Organization Schema Type option is now fixed to "Organization" (see changelog for details).
 
