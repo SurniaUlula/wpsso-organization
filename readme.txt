@@ -91,7 +91,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.3.0-dev.3 (2020/06/11)**
+**Version 3.3.0-b.1 (2020/06/12)**
 
 * **New Features**
 	* None.
@@ -104,7 +104,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v5.6.
 	* WordPress v4.2.
-	* WPSSO Core v7.9.0-dev.3.
+	* WPSSO Core v7.9.0-b.1.
 
 **Version 3.2.0 (2020/05/09)**
 
@@ -156,9 +156,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.3.0-dev.3 =
+= 3.3.0-b.1 =
 
-(2020/06/11) Updated the Organization banner and logo URL option type from 'url' to 'img_url'.
+(2020/06/12) Updated the Organization banner and logo URL option type from 'url' to 'img_url'.
 
 = 3.2.0 =
 
