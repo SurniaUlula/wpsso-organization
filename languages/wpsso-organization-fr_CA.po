@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WPSSO Organization Markup (WPSSO ORG) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 3.2.0\n"
+"Project-Id-Version: WPSSO Organization Markup 3.3.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2020-05-08 08:05-0700\n"
-"PO-Revision-Date: 2020-05-08 08:06-0700\n"
+"POT-Creation-Date: 2020-06-12 07:15-0700\n"
+"PO-Revision-Date: 2020-06-12 07:15-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -47,28 +47,28 @@ msgstr "Vous pouvez aussi choisir un type de schéma plus précis pour cette org
 msgid "Select an optional location for this organization (requires the %s add-on)."
 msgstr "Choisissez un emplacement optionnel pour cette organisation (requiert l'ajout %s)."
 
-#: lib/filters.php:162
+#: lib/filters.php:156
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr "Organisation #%d"
 
-#: lib/filters.php:221
+#: lib/filters.php:215
 msgid "organization \"%s\""
 msgstr "organisation \"%s\""
 
-#: lib/filters.php:257
+#: lib/filters.php:251
 msgid "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr "Les dimensions de l'image pour l'URL de la bannière d'organisation \"%1$s\" ne peuvent pas être déterminées."
 
-#: lib/filters.php:260
+#: lib/filters.php:254
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr "Assurez-vous que ce site peut accéder à l'image bannière à %1$s."
 
-#: lib/filters.php:265
+#: lib/filters.php:259
 msgid "The \"%1$s\" organization banner URL image dimensions are %2$s and must be exactly %3$s."
 msgstr "Les dimensions de l'image pour l'URL de la bannière d'organisation \"%1$s\" sont %2$s et doivent être exactement %3$s."
 
-#: lib/filters.php:268
+#: lib/filters.php:262
 msgid "Please correct the banner image at %s."
 msgstr "Veuillez corriger l'image bannière à %s."
 
