@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 5.6
 Requires At Least: 4.2
 Tested Up To: 5.4.2
-Stable Tag: 3.4.0
+Stable Tag: 3.4.1
 
 Customize the Home Page Schema Organization Markup and Manage Additional Organizations (Publisher, Organizer, etc.).
 
@@ -91,7 +91,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.4.0 (2020/06/20)**
+**Version 3.4.1 (2020/06/23)**
 
 * **New Features**
 	* None.
@@ -106,76 +106,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WordPress v4.2.
 	* WPSSO Core v7.10.1.
 
-**Version 3.3.0 (2020/06/12)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Updated the Organization banner and logo URL option type from 'url' to 'img_url' (new in WPSSO Core v7.9.0).
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* None.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.2.
-	* WPSSO Core v7.9.0.
-
-**Version 3.2.0 (2020/05/09)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Refactored the required plugin check to (optionally) check the class name and a version constant.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.2.
-	* WPSSO Core v7.5.0.
-
-**Version 3.1.0 (2020/04/25)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Updated the "Knowledge Graph for Home Page" option label to match the WPSSO Core option label.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Changed `get_input()` for multilingual options to `get_input_locale()` (available since WPSSO Core v7.1.0).
-	* Changed `get_textarea()` for multilingual options to `get_textarea_locale()` (available since WPSSO Core v7.1.0).
-	* Changed `get_th_html()` for multilingual options to `get_th_html_locale()` (available since WPSSO Core v7.1.0).
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.2.
-	* WPSSO Core v7.3.0.
-
-**Version 3.0.0 (2020/04/06)**
-
-* **New Features**
-	* The WebSite Organization Schema Type option is now fixed to "Organization" since Google does not recognize all Schema Organization sub-types as valid organization and publisher types. The WebSite organization type ID should be "organization" unless you are confident that Google will recognize your preferred Schema Organization sub-type as a valid organization. To select a different organization type ID for your WebSite, define the `WPSSO_SCHEMA_ORGANIZATION_TYPE_ID` constant with your preferred type ID (the type ID, not the Schema type URL).
-* **Improvements**
-	* Updated "Requires At Least" to WordPress v4.2.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Refactored WPSSO Core active and minimum version dependency checks.
-	* Removed the 'wpsso_json_array_schema_page_type_ids' filter (no longer required).
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.2.
-	* WPSSO Core v7.0.1.
-
 == Upgrade Notice ==
 
-= 3.4.0 =
+= 3.4.1 =
 
-(2020/06/20) Replaced the 'wpsso_save_options' filter with 'wpsso_save_setting_options'.
-
-= 3.3.0 =
-
-(2020/06/12) Updated the Organization banner and logo URL option type from 'url' to 'img_url'.
+(2020/06/23) Replaced the 'wpsso_save_options' filter with 'wpsso_save_setting_options'.
 
