@@ -2,7 +2,7 @@
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Organization Markup</td></tr>
-<tr><th align="right" valign="top" nowrap>Summary</th><td>Customize the Home Page Schema Organization Markup and Manage Additional Organizations (Publisher, Organizer, etc.).</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>Customize the Schema Organization Markup for your WebSite and Manage Additional Organizations (Publisher, Organizer, etc.).</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>3.4.1</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires PHP</th><td>5.6 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>4.2 or newer</td></tr>
@@ -18,15 +18,15 @@
 
 <p><strong>Customize the Schema Organization markup for your home page:</strong></p>
 
-<p>Edit your Schema Organization name, alternate name, description, WebSite URL, banner and logo for each WordPress locale / language / region.</p>
+<p>Customize your Schema Organization name, alternate name, description, WebSite URL, banner, logo, and social page URLs for each installed WordPress language / locale.</p>
 
-<p>Select an optional location (ie. place or address) for your home page Organization and/or each additional Organization you create.</p>
+<p>Select an optional physical location (ie. place or address) for your WebSite Organization and/or each additional Organization you create.</p>
 
 <h3>WPSSO ORG Standard Features</h3>
 
 <ul>
 <li><p>Extends the features of the WPSSO Core plugin.</p></li>
-<li><p>Customize Schema Organization properies for Google's Knowledge Graph, including different values for each WordPress locale / language / region:</p>
+<li><p>Customize your Schema Organization properties for Google's Knowledge Graph, including different values for each installed WordPress language / locale:</p>
 
 <ul>
 <li>WebSite Name (localized)</li>
@@ -48,6 +48,7 @@
 <li>Soundcloud Business Page URL (localized)</li>
 <li>Tumblr Business Page URL (localized)</li>
 <li>Twitter Business @username (localized)</li>
+<li>Wikipedia Organization Page URL (localized)</li>
 <li>YouTube Business Channel URL (localized)</li>
 </ul></li>
 </ul></li>

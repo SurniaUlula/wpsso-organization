@@ -13,7 +13,7 @@ Requires At Least: 4.2
 Tested Up To: 5.4.2
 Stable Tag: 3.4.1
 
-Customize the Home Page Schema Organization Markup and Manage Additional Organizations (Publisher, Organizer, etc.).
+Customize the Schema Organization Markup for your WebSite and Manage Additional Organizations (Publisher, Organizer, etc.).
 
 == Description ==
 
@@ -21,15 +21,15 @@ Customize the Home Page Schema Organization Markup and Manage Additional Organiz
 
 **Customize the Schema Organization markup for your home page:**
 
-Edit your Schema Organization name, alternate name, description, WebSite URL, banner and logo for each WordPress locale / language / region.
+Customize your Schema Organization name, alternate name, description, WebSite URL, banner, logo, and social page URLs for each installed WordPress language / locale.
 
-Select an optional location (ie. place or address) for your home page Organization and/or each additional Organization you create.
+Select an optional physical location (ie. place or address) for your WebSite Organization and/or each additional Organization you create.
 
 <h3>WPSSO ORG Standard Features</h3>
 
 * Extends the features of the WPSSO Core plugin.
 
-* Customize Schema Organization properies for Google's Knowledge Graph, including different values for each WordPress locale / language / region:
+* Customize your Schema Organization properties for Google's Knowledge Graph, including different values for each installed WordPress language / locale:
 
 	* WebSite Name (localized)
 	* WebSite Alternate Name (localized)
@@ -48,6 +48,7 @@ Select an optional location (ie. place or address) for your home page Organizati
 		* Soundcloud Business Page URL (localized)
 		* Tumblr Business Page URL (localized)
 		* Twitter Business @username (localized)
+		* Wikipedia Organization Page URL (localized)
 		* YouTube Business Channel URL (localized)
 	
 <h3>WPSSO ORG Premium Features</h3>
@@ -91,6 +92,24 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 3.5.0-dev.1 (2020/07/02)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* Removed the "Knowledge Graph for Home Page" option.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Renamed setting option keys for WPSSO Core v7.12.0:
+		* 'schema_logo_url' to 'site_org_logo_url'
+		* 'schema_banner_url' to 'site_org_banner_url'
+		* 'site_place_id' to 'site_org_place_id'
+* **Requires At Least**
+	* PHP v5.6.
+	* WordPress v4.2.
+	* WPSSO Core v7.10.1.
+
 **Version 3.4.1 (2020/06/23)**
 
 * **New Features**
@@ -107,6 +126,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WPSSO Core v7.10.1.
 
 == Upgrade Notice ==
+
+= 3.5.0-dev.1 =
+
+(2020/07/02) Removed the "Knowledge Graph for Home Page" option.
 
 = 3.4.1 =
 
