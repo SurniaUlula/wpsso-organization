@@ -10,11 +10,11 @@
  * Author URI: https://wpsso.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Description: Customize the Home Page Schema Organization Markup and Manage Additional Organizations (Publisher, Organizer, etc.).
+ * Description: Customize the Schema Organization Markup for your WebSite and Manage Additional Organizations (Publisher, Organizer, etc.).
  * Requires PHP: 5.6
  * Requires At Least: 4.2
  * Tested Up To: 5.4.2
- * Version: 3.4.1
+ * Version: 3.5.0-dev.1
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *

@@ -52,7 +52,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 			$metabox_id = 'org';
 
 			$tabs = apply_filters( $this->p->lca . '_' . $metabox_id . '_tabs', array( 
-				'site'                => _x( 'WebSite (Homepage)', 'metabox tab', 'wpsso-organization' ),
+				'site'                => _x( 'WebSite Organization', 'metabox tab', 'wpsso-organization' ),
 				'other_organizations' => _x( 'Other Organizations', 'metabox tab', 'wpsso-organization' ),
 			) );
 
@@ -95,14 +95,6 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 					$org_types_select = $this->p->util->get_form_cache( 'org_types_select' );
 
-					$table_rows[ 'schema_knowledge_graph' ] = '' . 
-					// translators: Please ignore - translation uses a different text domain.
-					$this->form->get_th_html( _x( 'Knowledge Graph for Home Page', 'option label', 'wpsso' ), '', 'schema_knowledge_graph' ) . 
-					'<td>' .
-					// translators: Please ignore - translation uses a different text domain.
-					'<p>' . $this->form->get_checkbox( 'schema_add_home_organization' ) . __( 'Include Schema Organization', 'wpsso' ) . '</p>' .
-					'</td>';
-
 					$table_rows[ 'site_name' ] = '' .
 					$this->form->get_th_html_locale( _x( 'WebSite Name', 'option label', 'wpsso-organization' ),
 						$css_class = '', $css_id = 'site_name' ) . 
@@ -126,17 +118,17 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					'<td>' . $this->form->get_input_locale( 'site_url', $css_class = 'wide', $css_id = '',
 						$len = 0, $def_site_url ) . '</td>';
 
-					$table_rows[ 'schema_logo_url' ] = '' .
+					$table_rows[ 'site_org_logo_url' ] = '' .
 					$this->form->get_th_html_locale( '<a href="https://developers.google.com/structured-data/customize/logos">' .
 					_x( 'Organization Logo URL', 'option label', 'wpsso-organization' ) . '</a>',
-						$css_class = '', $css_id = 'schema_logo_url' ) . 
-					'<td>' . $this->form->get_input_locale( 'schema_logo_url', $css_class = 'wide is_required' ) . '</td>';
+						$css_class = '', $css_id = 'site_org_logo_url' ) . 
+					'<td>' . $this->form->get_input_locale( 'site_org_logo_url', $css_class = 'wide is_required' ) . '</td>';
 
-					$table_rows[ 'schema_banner_url' ] = '' .
+					$table_rows[ 'site_org_banner_url' ] = '' .
 					$this->form->get_th_html_locale( '<a href="https://developers.google.com/search/docs/data-types/article#logo-guidelines">' .
 					_x( 'Organization Banner URL', 'option label', 'wpsso-organization' ) . '</a>',
-						$css_class = '', $css_id = 'schema_banner_url' ) . 
-					'<td>' . $this->form->get_input_locale( 'schema_banner_url', $css_class = 'wide is_required' ) . '</td>';
+						$css_class = '', $css_id = 'site_org_banner_url' ) . 
+					'<td>' . $this->form->get_input_locale( 'site_org_banner_url', $css_class = 'wide is_required' ) . '</td>';
 
 					$table_rows[ 'site_org_schema_type' ] = $this->form->get_tr_hide( 'basic', 'site_org_schema_type' ) .
 					$this->form->get_th_html( _x( 'Organization Schema Type', 'option label', 'wpsso-organization' ),
@@ -147,10 +139,10 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 							$event_args = 'schema_org_types' ) .
 					'</td>';
 
-					$table_rows[ 'site_place_id' ] = '' .
+					$table_rows[ 'site_org_place_id' ] = '' .
 					$this->form->get_th_html( _x( 'Organization Location', 'option label', 'wpsso-organization' ),
-						$css_class = '', $css_id = 'site_place_id' ) . 
-					'<td>' . $this->form->get_select( 'site_place_id', $plm_place_names,
+						$css_class = '', $css_id = 'site_org_place_id' ) . 
+					'<td>' . $this->form->get_select( 'site_org_place_id', $plm_place_names,
 						$css_class = 'long_name', $css_id = '', $is_assoc = true, $plm_disable ) . $plm_req_msg . '</td>';
 
 					$table_rows[ 'subsection_google_knowledgegraph' ] = '<td colspan="2" class="subsection"><h4>' . 

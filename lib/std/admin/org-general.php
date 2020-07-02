@@ -51,8 +51,7 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 			'<td class="blank">' . $form->get_no_select( 'org_id', $org_names_new, 'long_name', '', true ) . '</td>';
 
 			$form->defaults[ 'org_schema_type_' . $id ] = $form->defaults[ 'site_org_schema_type' ];	// Set default value.
-
-			$form->defaults[ 'org_place_id_' . $id ] = $form->defaults[ 'site_place_id' ];	// Set default value.
+			$form->defaults[ 'org_place_id_' . $id ]    = $form->defaults[ 'site_org_place_id' ];		// Set default value.
 
 			$table_rows[ 'org_delete_' . $id ] = '' .
 			$form->get_th_html() . 
@@ -82,13 +81,13 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 			$table_rows[ 'org_logo_url_' . $id ] = '' .
 			$form->get_th_html_locale( '<a href="https://developers.google.com/structured-data/customize/logos">' . 
 			_x( 'Organization Logo URL', 'option label', 'wpsso-organization' ) . '</a>',
-				$css_class = '', $css_id = 'schema_logo_url' ) . 
+				$css_class = '', $css_id = 'org_logo_url' ) . 
 			'<td class="blank">' . $form->get_no_input_value( '', $css_class = 'wide is_required' ) . '</td>';
 
 			$table_rows[ 'org_banner_url_' . $id ] = '' .
 			$form->get_th_html_locale( '<a href="https://developers.google.com/search/docs/data-types/article#logo-guidelines">' .
 			_x( 'Organization Banner URL', 'option label', 'wpsso-organization' ) . '</a>',
-				$css_class = '', $css_id = 'schema_banner_url' ) . 
+				$css_class = '', $css_id = 'org_banner_url' ) . 
 			'<td class="blank">' . $form->get_no_input_value( '', $css_class = 'wide is_required' ) . '</td>';
 
 			$table_rows[ 'org_schema_type_' . $id ] = '' .

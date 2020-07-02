@@ -16,11 +16,11 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(			// Plugin acronym.
-					'version'     => '3.4.1',	// Plugin version.
-					'opt_version' => '3',		// Increment when changing default option values.
+					'version'     => '3.5.0-dev.1',	// Plugin version.
+					'opt_version' => '4',		// Increment when changing default option values.
 					'short'       => 'WPSSO ORG',	// Short plugin name.
 					'name'        => 'WPSSO Organization Markup',
-					'desc'        => 'Customize the Home Page Schema Organization Markup and Manage Additional Organizations (Publisher, Organizer, etc.).',
+					'desc'        => 'Customize the Schema Organization Markup for your WebSite and Manage Additional Organizations (Publisher, Organizer, etc.).',
 					'slug'        => 'wpsso-organization',
 					'base'        => 'wpsso-organization/wpsso-organization.php',
 					'update_auth' => 'tid',
@@ -36,7 +36,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 							'home'          => 'https://wordpress.org/plugins/wpsso/',
 							'plugin_class'  => 'Wpsso',
 							'version_const' => 'WPSSO_VERSION',
-							'min_version'   => '7.10.1',
+							'min_version'   => '7.12.0-dev.1',
 						),
 					),
 
