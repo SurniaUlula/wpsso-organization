@@ -108,7 +108,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v5.6.
 	* WordPress v4.2.
-	* WPSSO Core v7.10.1.
+	* WPSSO Core v7.12.0-rc.1.
 
 **Version 3.4.1 (2020/06/23)**
 
