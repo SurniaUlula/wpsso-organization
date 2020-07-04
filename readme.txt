@@ -92,7 +92,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.5.0-dev.2 (2020/07/03)**
+**Version 3.5.0-dev.3 (2020/07/04)**
 
 * **New Features**
 	* None.
@@ -127,9 +127,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.5.0-dev.2 =
+= 3.5.0-dev.3 =
 
-(2020/07/03) Removed the "Knowledge Graph for Home Page" option.
+(2020/07/04) Removed the "Knowledge Graph for Home Page" option.
 
 = 3.4.1 =
 
