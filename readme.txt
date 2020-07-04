@@ -92,7 +92,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.5.0-rc.1 (2020/07/04)**
+**Version 3.5.0 (2020/07/04)**
 
 * **New Features**
 	* None.
@@ -108,30 +108,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v5.6.
 	* WordPress v4.2.
-	* WPSSO Core v7.12.0-rc.1.
-
-**Version 3.4.1 (2020/06/23)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Replaced the 'wpsso_save_options' filter with 'wpsso_save_setting_options' (new in WPSSO Core v7.10.1).
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.2.
-	* WPSSO Core v7.10.1.
+	* WPSSO Core v7.12.0.
 
 == Upgrade Notice ==
 
-= 3.5.0-rc.1 =
+= 3.5.0 =
 
 (2020/07/04) Removed the "Knowledge Graph for Home Page" option.
-
-= 3.4.1 =
-
-(2020/06/23) Replaced the 'wpsso_save_options' filter with 'wpsso_save_setting_options'.
 
