@@ -9,7 +9,7 @@
 <tr><th align="right" valign="top" nowrap>Tested Up To WordPress</th><td>5.4.2</td></tr>
 <tr><th align="right" valign="top" nowrap>Contributors</th><td>jsmoriss</td></tr>
 <tr><th align="right" valign="top" nowrap>License</th><td><a href="https://www.gnu.org/licenses/gpl.txt">GPLv3</a></td></tr>
-<tr><th align="right" valign="top" nowrap>Tags / Keywords</th><td>publisher, organization, local seo, local business, schema, schema.org, markup, article, event, location, knowledge graph, seo</td></tr>
+<tr><th align="right" valign="top" nowrap>Tags / Keywords</th><td>local seo, local business, publisher, organization, schema, schema.org, markup, article, event, location, knowledge graph, seo</td></tr>
 </table>
 
 <h2>Description</h2>

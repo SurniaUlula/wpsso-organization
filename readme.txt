@@ -6,7 +6,7 @@ Domain Path: /languages
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://surniaulula.github.io/wpsso-organization/assets/
-Tags: publisher, organization, local seo, local business, schema, schema.org, markup, article, event, location, knowledge graph, seo
+Tags: local seo, local business, publisher, organization, schema, schema.org, markup, article, event, location, knowledge graph, seo
 Contributors: jsmoriss
 Requires PHP: 5.6
 Requires At Least: 4.2
