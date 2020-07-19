@@ -55,7 +55,9 @@ Select an optional physical location (ie. place or address) for your WebSite Org
 
 The Standard version is designed to satisfy the requirements of most standard WordPress sites / blogs. If your site requires the management of multiple organizations, then you may want the Premium version for those additional features.
 
-* Provides an Organization selector for the [WPSSO Schema JSON-LD Markup Premium](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on (to select an alternate publisher, service provider, event organizer, event performer, hiring organization, and more).
+* Manage the details of multiple organizations.
+
+* Offers an organization selector for the [WPSSO Schema JSON-LD Markup Premium](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on to optionally select a different publisher, service provider, event organizer, event performer, hiring organization, etc.
 
 <h3>WPSSO Core Plugin Required</h3>
 
