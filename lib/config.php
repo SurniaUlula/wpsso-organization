@@ -56,12 +56,12 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					'lib' => array(
 						'pro' => array(
 							'admin' => array(
-								'org-general' => 'Extend Organization Settings',
+								'org-general' => 'Organizations Filters',
 							),
 						),
 						'std' => array(
 							'admin' => array(
-								'org-general' => 'Extend Organization Settings',
+								'org-general' => 'Organizations Filters',
 							),
 						),
 						'submenu' => array(

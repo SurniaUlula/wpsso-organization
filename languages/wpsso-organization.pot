@@ -80,17 +80,12 @@ msgstr ""
 msgid "Please correct the banner image at %s."
 msgstr ""
 
-#: lib/gettext-config.php:6 lib/gettext-config.php:7
-msgctxt "lib file description"
-msgid "Extend Organization Settings"
-msgstr ""
-
-#: lib/gettext-config.php:8
+#: lib/gettext-config.php:6
 msgctxt "lib file description"
 msgid "Organizations"
 msgstr ""
 
-#: lib/gettext-config.php:9
+#: lib/gettext-config.php:7
 msgctxt "plugin description"
 msgid ""
 "Customize the Schema Organization Markup for your WebSite and Manage "
