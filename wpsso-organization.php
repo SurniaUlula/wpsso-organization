@@ -13,7 +13,7 @@
  * Description: Customize the Schema Organization Markup for your WebSite and Manage Additional Organizations (Publisher, Organizer, etc.).
  * Requires PHP: 5.6
  * Requires At Least: 4.2
- * Tested Up To: 5.4.2
+ * Tested Up To: 5.5
  * Version: 3.5.0
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
