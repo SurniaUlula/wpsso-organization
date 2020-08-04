@@ -412,13 +412,13 @@ msgctxt "option label"
 msgid "WebSite URL"
 msgstr ""
 
-#: wpsso-organization.php:249
+#: wpsso-organization.php:270
 msgid ""
 "The %1$s version %2$s add-on requires the %3$s plugin &mdash; please "
 "activate the missing plugin."
 msgstr ""
 
-#: wpsso-organization.php:252
+#: wpsso-organization.php:283
 msgid ""
 "The %1$s version %2$s add-on requires %3$s version %4$s or newer (version "
 "%5$s is currently installed)."
