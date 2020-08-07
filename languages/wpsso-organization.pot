@@ -52,31 +52,31 @@ msgid ""
 "Select an optional location for this organization (requires the %s add-on)."
 msgstr ""
 
-#: lib/filters.php:159
+#: lib/filters.php:171
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:218
+#: lib/filters.php:238
 msgid "organization \"%s\""
 msgstr ""
 
-#: lib/filters.php:254
+#: lib/filters.php:275
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions cannot be determined."
 msgstr ""
 
-#: lib/filters.php:257
+#: lib/filters.php:278
 msgid "Please make sure this site can access the banner image at %1$s."
 msgstr ""
 
-#: lib/filters.php:262
+#: lib/filters.php:283
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions are %2$s and must be "
 "exactly %3$s."
 msgstr ""
 
-#: lib/filters.php:265
+#: lib/filters.php:286
 msgid "Please correct the banner image at %s."
 msgstr ""
 

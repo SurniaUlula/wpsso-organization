@@ -6,6 +6,7 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
+
 	die( 'These aren\'t the droids you\'re looking for.' );
 }
 
@@ -25,6 +26,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			static $do_once = null;
 
 			if ( true === $do_once ) {
+
 				return;	// Stop here.
 			}
 
@@ -33,6 +35,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$this->p =& $plugin;
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 
@@ -40,6 +43,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			 * Instantiate the WpssoOrgFiltersUpgrade class object.
 			 */
 			if ( ! class_exists( 'WpssoOrgFiltersUpgrade' ) ) {
+
 				require_once WPSSOORG_PLUGINDIR . 'lib/filters-upgrade.php';
 			}
 
@@ -58,6 +62,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				 * Instantiate the WpssoOrgFiltersMessages class object.
 				 */
 				if ( ! class_exists( 'WpssoOrgFiltersMessages' ) ) {
+
 					require_once WPSSOORG_PLUGINDIR . 'lib/filters-messages.php';
 				}
 
@@ -72,8 +77,11 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		public function filter_option_type( $type, $base_key ) {
 
 			if ( ! empty( $type ) ) {
+
 				return $type;
+
 			} elseif ( strpos( $base_key, 'org_' ) !== 0 ) {
+
 				return $type;
 			}
 
@@ -117,10 +125,12 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		public function filter_save_setting_options( array $opts, $network, $upgrading ) {
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 
 			if ( $network ) {
+
 				return $opts;	// Nothing to do.
 			}
 
@@ -141,6 +151,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 					 * Maybe reset the currently selected organization ID.
 					 */
 					if ( isset( $opts[ 'org_id' ] ) && $opts[ 'org_id' ] === $org_id ) {
+
 						unset( $opts[ 'org_id' ] );
 					}
 
@@ -156,6 +167,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				 * Make sure each organization has a name.
 				 */
 				if ( $org_name === '' ) {	// Just in case.
+
 					$org_name = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $org_id );
 				}
 				
@@ -170,10 +182,15 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		public function filter_get_organization_options( $opts, $mod, $org_id ) {
 
 			if ( false !== $opts ) {	// First come, first served.
+
 				return $opts;
+
 			} elseif ( $org_id === 'site' || is_numeric( $org_id ) ) {
+
 				return WpssoOrgOrganization::get_id( $org_id, $mod );	// Returns localized values.
+
 			} else {
+
 				return $opts;
 			}
 		}
@@ -181,6 +198,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		public function filter_rename_options_keys( $options_keys ) {
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 
@@ -198,6 +216,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$ret = WpssoOrgOrganization::get_names();
 
 			if ( is_array( $mixed ) ) {
+
 				$ret = $mixed + $ret;
 			}
 
@@ -210,6 +229,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			 * Skip if notices have already been shown.
 			 */
 			if ( ! $this->p->notice->is_admin_pre_notices() ) {
+
 				return;
 			}
 
@@ -233,18 +253,19 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			 *	'og:image:size_name' => null,
 			 * );
 			 */
-			$og_single_image = $this->p->media->get_opts_single_image( $opts, $size_name, $opt_img_pre, $org_num );
+			$mt_single_image = $this->p->media->get_opts_single_image( $opts, $size_name, $opt_img_pre, $org_num );
 
 			if ( $this->p->debug->enabled ) {
-				$this->p->debug->log_arr( '$og_single_image', $og_single_image );
+
+				$this->p->debug->log_arr( '$mt_single_image', $mt_single_image );
 			}
 
-			$og_single_image_url = SucomUtil::get_mt_media_url( $og_single_image );
+			$mt_single_image_url = SucomUtil::get_mt_media_url( $mt_single_image );
 
-			if ( ! empty( $og_single_image_url ) ) {
+			if ( ! empty( $mt_single_image_url ) ) {
 
-				$image_href    = '<a href="' . $og_single_image_url . '">' . $og_single_image_url . '</a>';
-				$image_dims    = $og_single_image[ 'og:image:width' ] . 'x' . $og_single_image[ 'og:image:height' ] . 'px';
+				$image_href    = '<a href="' . $mt_single_image_url . '">' . $mt_single_image_url . '</a>';
+				$image_dims    = $mt_single_image[ 'og:image:width' ] . 'x' . $mt_single_image[ 'og:image:height' ] . 'px';
 				$required_dims = '600x60px';
 
 				if ( $image_dims !== $required_dims ) {

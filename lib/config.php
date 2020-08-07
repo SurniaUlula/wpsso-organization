@@ -162,9 +162,9 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 			add_filter( 'wpssoorg_load_lib', array( 'WpssoOrgConfig', 'load_lib' ), 10, 3 );
 		}
 
-		public static function load_lib( $ret = false, $filespec = '', $classname = '' ) {
+		public static function load_lib( $success = false, $filespec = '', $classname = '' ) {
 
-			if ( false === $ret && ! empty( $filespec ) ) {
+			if ( false === $success && ! empty( $filespec ) ) {
 
 				$file_path = WPSSOORG_PLUGINDIR . 'lib/' . $filespec . '.php';
 
@@ -173,14 +173,15 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 					require_once $file_path;
 
 					if ( empty( $classname ) ) {
+
 						return SucomUtil::sanitize_classname( 'wpssoorg' . $filespec, $allow_underscore = false );
-					} else {
-						return $classname;
 					}
+
+					return $classname;
 				}
 			}
 
-			return $ret;
+			return $success;
 		}
 	}
 }
