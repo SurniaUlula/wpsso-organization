@@ -57,7 +57,7 @@ The Standard version is designed to satisfy the requirements of most standard Wo
 
 * Manage the details of multiple organizations.
 
-* Offers an organization selector for the [WPSSO Schema JSON-LD Markup Premium](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) add-on to optionally select a different publisher, service provider, event organizer, event performer, hiring organization, etc.
+* Offers an organization selector for the [WPSSO Schema JSON-LD Markup Premium add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) to optionally select a different publisher, service provider, event organizer, event performer, hiring organization, etc.
 
 <h3>WPSSO Core Plugin Required</h3>
 

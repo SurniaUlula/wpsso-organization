@@ -60,7 +60,7 @@
 
 <ul>
 <li><p>Manage the details of multiple organizations.</p></li>
-<li><p>Offers an organization selector for the <a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup Premium</a> add-on to optionally select a different publisher, service provider, event organizer, event performer, hiring organization, etc.</p></li>
+<li><p>Offers an organization selector for the <a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup Premium add-on</a> to optionally select a different publisher, service provider, event organizer, event performer, hiring organization, etc.</p></li>
 </ul>
 
 <h3>WPSSO Core Plugin Required</h3>
