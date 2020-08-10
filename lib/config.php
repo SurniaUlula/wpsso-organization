@@ -16,7 +16,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssoorg' => array(			// Plugin acronym.
-					'version'     => '3.7.0-dev.9',	// Plugin version.
+					'version'     => '3.7.0-dev.10',	// Plugin version.
 					'opt_version' => '4',		// Increment when changing default option values.
 					'short'       => 'WPSSO ORG',	// Short plugin name.
 					'name'        => 'WPSSO Organization Markup',
@@ -36,7 +36,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 							'home'          => 'https://wordpress.org/plugins/wpsso/',
 							'plugin_class'  => 'Wpsso',
 							'version_const' => 'WPSSO_VERSION',
-							'min_version'   => '8.0.0-dev.9',
+							'min_version'   => '8.0.0-dev.10',
 						),
 					),
 
@@ -122,6 +122,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 		public static function set_variable_constants( $var_const = null ) {
 
 			if ( ! is_array( $var_const ) ) {
+
 				$var_const = (array) self::get_variable_constants();
 			}
 
@@ -131,6 +132,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 			foreach ( $var_const as $name => $value ) {
 
 				if ( ! defined( $name ) ) {
+
 					define( $name, $value );
 				}
 			}
@@ -146,6 +148,7 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 			foreach ( $var_const as $name => $value ) {
 
 				if ( defined( $name ) ) {
+
 					$var_const[$name] = constant( $name );
 				}
 			}

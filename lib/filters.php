@@ -173,7 +173,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				
 				$opts[ 'org_name_' . $org_id ] = $org_name;
 
-				$this->check_banner_image_size( $opts, 'org', $org_id, $org_name );
+				$this->check_banner_image_size( $opts, $img_pre = 'org_banner', $org_id, $org_name );
 			}
 
 			return $opts;
@@ -223,7 +223,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			return $ret;
 		}
 
-		private function check_banner_image_size( $opts, $opt_pre, $org_num, $org_name ) {
+		private function check_banner_image_size( $opts, $img_pre, $org_id, $org_name ) {
 
 			/**
 			 * Skip if notices have already been shown.
@@ -233,9 +233,8 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				return;
 			}
 
-			$size_name          = false;	// Only check banner urls - skip any banner image id options.
-			$opt_img_pre        = $opt_pre . '_banner';
-			$context_transl     = sprintf( __( 'organization "%s"', 'wpsso-organization' ), $org_name );
+			$context_transl = sprintf( __( 'organization "%s"', 'wpsso-organization' ), $org_name );
+
 			$settings_page_link = $this->p->util->get_admin_url( 'org-general#sucom-tabset_org-tab_other' );
 
 			$this->p->notice->set_ref( $settings_page_link, false, $context_transl );
@@ -253,18 +252,13 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			 *	'og:image:size_name' => null,
 			 * );
 			 */
-			$mt_single_image = $this->p->media->get_opts_single_image( $opts, $size_name, $opt_img_pre, $org_num );
+			$mt_single_image = $this->p->media->get_opts_single_image( $opts, $size_names = false, $img_pre, $org_id );
 
-			if ( $this->p->debug->enabled ) {
+			$image_url = SucomUtil::get_first_mt_media_url( $mt_single_image );
 
-				$this->p->debug->log_arr( '$mt_single_image', $mt_single_image );
-			}
+			if ( ! empty( $image_url ) ) {
 
-			$mt_single_image_url = SucomUtil::get_mt_media_url( $mt_single_image );
-
-			if ( ! empty( $mt_single_image_url ) ) {
-
-				$image_href    = '<a href="' . $mt_single_image_url . '">' . $mt_single_image_url . '</a>';
+				$image_href    = '<a href="' . $image_url . '">' . $image_url . '</a>';
 				$image_dims    = $mt_single_image[ 'og:image:width' ] . 'x' . $mt_single_image[ 'og:image:height' ] . 'px';
 				$required_dims = '600x60px';
 
@@ -272,10 +266,10 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 					if ( $image_dims === '-1x-1px' ) {
 
-						$error_msg = sprintf( __( 'The "%1$s" organization banner URL image dimensions cannot be determined.',
+						$error_msg = sprintf( __( 'The "%s" organization banner URL image dimensions cannot be determined.',
 							'wpsso-organization' ), $org_name ) . ' ';
 
-						$error_msg .= sprintf( __( 'Please make sure this site can access the banner image at %1$s.',
+						$error_msg .= sprintf( __( 'Please make sure this site can access %s using the PHP getimagesize() function.',
 							'wpsso-organization' ), $image_href );
 
 					} else {
@@ -283,8 +277,8 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 						$error_msg = sprintf( __( 'The "%1$s" organization banner URL image dimensions are %2$s and must be exactly %3$s.',
 							'wpsso-organization' ), $org_name, $image_dims, $required_dims ) . ' ';
 
-						$error_msg .= sprintf( __( 'Please correct the banner image at %s.',
-							'wpsso' ), $image_href );
+						$error_msg .= sprintf( __( 'Please correct the %s banner image.',
+							'wpsso-organization' ), $image_href );
 					}
 
 					$this->p->notice->err( $error_msg );
