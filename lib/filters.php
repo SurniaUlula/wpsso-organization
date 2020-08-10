@@ -223,7 +223,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			return $ret;
 		}
 
-		private function check_banner_image_size( $opts, $img_pre, $org_id, $org_name ) {
+		private function check_banner_image_size( $opts, $img_pre = 'org_banner', $org_id, $org_name ) {
 
 			/**
 			 * Skip if notices have already been shown.
@@ -252,7 +252,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			 *	'og:image:size_name' => null,
 			 * );
 			 */
-			$mt_single_image = $this->p->media->get_opts_single_image( $opts, $size_names = false, $img_pre, $org_id );
+			$mt_single_image = $this->p->media->get_mt_img_pre_url( $opts, $img_pre, $org_id );
 
 			$image_url = SucomUtil::get_first_mt_media_url( $mt_single_image );
 
