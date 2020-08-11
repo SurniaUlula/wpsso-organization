@@ -94,7 +94,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.7.0-rc.1 (2020/08/11)**
+**Version 3.7.0 (2020/08/11)**
 
 * **New Features**
 	* None.
@@ -108,48 +108,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v5.6.
 	* WordPress v4.2.
-	* WPSSO Core v8.0.0-rc.1.
-
-**Version 3.6.0 (2020/08/02)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Tested with WordPress v5.5.
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.2.
-	* WPSSO Core v7.15.0.
-
-**Version 3.5.0 (2020/07/04)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Removed the "Knowledge Graph for Home Page" option.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Renamed setting option keys for WPSSO Core v7.12.0:
-		* 'schema_logo_url' to 'site_org_logo_url'
-		* 'schema_banner_url' to 'site_org_banner_url'
-		* 'site_place_id' to 'site_org_place_id'
-* **Requires At Least**
-	* PHP v5.6.
-	* WordPress v4.2.
-	* WPSSO Core v7.12.0.
+	* WPSSO Core v8.0.0.
 
 == Upgrade Notice ==
 
-= 3.7.0-rc.1 =
+= 3.7.0 =
 
 (2020/08/11) Added support for the new WpssoUtilMetabox class in WPSSO Core v8.0.0.
-
-= 3.6.0 =
-
-(2020/08/02) Tested with WordPress v5.5.
 
