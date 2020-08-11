@@ -264,7 +264,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 				if ( $image_dims !== $required_dims ) {
 
-					if ( $image_dims === '-1x-1px' ) {
+					if ( '-1x-1px' === $image_dims ) {
 
 						$error_msg = sprintf( __( 'The "%s" organization banner URL image dimensions cannot be determined.',
 							'wpsso-organization' ), $org_name ) . ' ';
