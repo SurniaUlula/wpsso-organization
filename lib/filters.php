@@ -234,7 +234,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 			$settings_page_link = $this->p->util->get_admin_url( 'org-general#sucom-tabset_org-tab_other' );
 
-			$this->p->notice->set_ref( $settings_page_link, false, $context_transl );
+			$this->p->util->maybe_set_ref( $settings_page_link, $mod = false, $context_transl );
 
 			/**
 			 * Returns an image array:
@@ -282,7 +282,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 				}
 			}
 
-			$this->p->notice->unset_ref( $settings_page_link );
+			$this->p->util->maybe_unset_ref( $settings_page_link );
 		}
 	}
 }
