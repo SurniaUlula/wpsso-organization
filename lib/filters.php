@@ -108,7 +108,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 					return 'url';
 
-				case ( strpos( $base_key, '_url' ) && isset( $this->p->cf[ 'form' ][ 'social_accounts' ][substr( $base_key, 4 )] ) ? true : false ):
+				case ( strpos( $base_key, '_url' ) && isset( $this->p->cf[ 'form' ][ 'social_accounts' ][ substr( $base_key, 4 ) ] ) ? true : false ):
 
 					return 'url';
 			}
