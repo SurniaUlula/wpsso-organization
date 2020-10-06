@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 3.7.1\n"
+"Project-Id-Version: WPSSO Organization Markup 3.8.0-dev.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
@@ -94,6 +94,18 @@ msgstr ""
 #: lib/std/admin/org-general.php:106 lib/submenu/org-general.php:149
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
+msgstr ""
+
+#: lib/abstracts/com/add-on.php:155
+msgid ""
+"The %1$s add-on requires the %2$s plugin &mdash; please activate the missing "
+"plugin."
+msgstr ""
+
+#: lib/abstracts/com/add-on.php:169
+msgid ""
+"The %1$s add-on requires %2$s version %3$s or newer (version %4$s is "
+"currently installed)."
 msgstr ""
 
 #: lib/filters-messages.php:55
@@ -417,18 +429,6 @@ msgstr ""
 #: lib/submenu/org-general.php:116
 msgctxt "option label"
 msgid "WebSite URL"
-msgstr ""
-
-#: wpsso-organization.php:270
-msgid ""
-"The %1$s version %2$s add-on requires the %3$s plugin &mdash; please "
-"activate the missing plugin."
-msgstr ""
-
-#: wpsso-organization.php:283
-msgid ""
-"The %1$s version %2$s add-on requires %3$s version %4$s or newer (version "
-"%5$s is currently installed)."
 msgstr ""
 
 #. Plugin Name of the plugin/theme

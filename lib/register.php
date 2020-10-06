@@ -26,9 +26,9 @@ if ( ! class_exists( 'WpssoOrgRegister' ) ) {
 				add_action( 'wpmu_activate_blog', array( $this, 'wpmu_activate_blog' ), 10, 5 );
 			}
 
-			//add_action( 'wpsso_init_options', array( $this, 'register_taxonomy_org_category' ), 20 );
+			//add_action( 'wpsso_init_options', array( $this, 'register_taxonomy_org_category' ), 20, 0 );
 
-			//add_action( 'wpsso_init_options', array( $this, 'register_post_type_organization' ), 20 );
+			//add_action( 'wpsso_init_options', array( $this, 'register_post_type_organization' ), 20, 0 );
 		}
 
 		/**
