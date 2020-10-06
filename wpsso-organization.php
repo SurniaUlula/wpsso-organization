@@ -40,19 +40,9 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 
 	class WpssoOrg extends WpssoAddOn {
 
-		/**
-		 * Library class object variables.
-		 */
 		public $filters;	// WpssoOrgFilters class.
-		public $reg;		// WpssoOrgRegister class.
 
-		/**
-		 * Reference Variables (config, options, modules, etc.).
-		 */
 		protected $p;
-		protected $ext   = 'wpssoorg';
-		protected $p_ext = 'org';
-		protected $cf    = array();
 
 		private static $instance = null;
 
