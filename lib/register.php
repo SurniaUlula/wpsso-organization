@@ -132,8 +132,7 @@ if ( ! class_exists( 'WpssoOrgRegister' ) ) {
 			//flush_rewrite_rules();
 		}
 
-		private static function uninstall_plugin() {
-		}
+		private static function uninstall_plugin() {}
 
 		public function register_taxonomy_org_category() {
 
