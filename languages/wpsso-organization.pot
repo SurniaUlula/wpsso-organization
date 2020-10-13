@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 3.8.0-dev.3\n"
+"Project-Id-Version: WPSSO Organization Markup 3.8.0-dev.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
@@ -108,41 +108,41 @@ msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
 
-#: lib/filters-messages.php:55
+#: lib/filters-messages.php:59
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters-messages.php:61
+#: lib/filters-messages.php:65
 msgid "Select an organization to edit."
 msgstr ""
 
-#: lib/filters-messages.php:67
+#: lib/filters-messages.php:71
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters-messages.php:73
+#: lib/filters-messages.php:77
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters-messages.php:79
+#: lib/filters-messages.php:83
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters-messages.php:85
+#: lib/filters-messages.php:89
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters-messages.php:91
+#: lib/filters-messages.php:95
 msgid ""
 "You may optionally choose a more accurate Schema type for this organization "
 "(default is Organization)."
 msgstr ""
 
-#: lib/filters-messages.php:102
+#: lib/filters-messages.php:106
 msgid ""
 "Select an optional location for this organization (requires the %s add-on)."
 msgstr ""
