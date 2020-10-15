@@ -13,7 +13,7 @@ Requires At Least: 4.4
 Tested Up To: 5.5.1
 Stable Tag: 3.7.1
 
-Customize the Schema Organization Markup for your WebSite and Manage Additional Organizations (Publisher, Organizer, etc.).
+Customize the Schema Organization markup for your website and create additional Schema Organizations (publisher, organizer, etc.).
 
 == Description ==
 
@@ -62,6 +62,8 @@ The Standard version is designed to satisfy the requirements of most standard Wo
 <h3>WPSSO Core Plugin Required</h3>
 
 WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
+
+WPSSO Core and its add-ons make sure your content looks great on social sites and in search results, no matter how your URLs are crawled, shared, re-shared, posted, or embedded.
 
 == Installation ==
 

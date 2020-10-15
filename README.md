@@ -2,7 +2,7 @@
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Organization Markup</td></tr>
-<tr><th align="right" valign="top" nowrap>Summary</th><td>Customize the Schema Organization Markup for your WebSite and Manage Additional Organizations (Publisher, Organizer, etc.).</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>Customize the Schema Organization markup for your website and create additional Schema Organizations (publisher, organizer, etc.).</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>3.7.1</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires PHP</th><td>5.6 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>4.4 or newer</td></tr>
@@ -66,6 +66,8 @@
 <h3>WPSSO Core Plugin Required</h3>
 
 <p>WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>.</p>
+
+<p>WPSSO Core and its add-ons make sure your content looks great on social sites and in search results, no matter how your URLs are crawled, shared, re-shared, posted, or embedded.</p>
 
 
 <h2>Installation</h2>
