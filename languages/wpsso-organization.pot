@@ -38,8 +38,8 @@ msgstr ""
 #: gettext/gettext-lib-config.php:8
 msgctxt "plugin description"
 msgid ""
-"Customize the Schema Organization Markup for your WebSite and Manage "
-"Additional Organizations (Publisher, Organizer, etc.)."
+"Customize the Schema Organization markup for your website and create "
+"additional Schema Organizations (publisher, organizer, etc.)."
 msgstr ""
 
 #: gettext/gettext-lib-pro.php:6 lib/pro/admin/org-general.php:51
@@ -441,8 +441,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Customize the Schema Organization Markup for your WebSite and Manage "
-"Additional Organizations (Publisher, Organizer, etc.)."
+"Customize the Schema Organization markup for your website and create "
+"additional Schema Organizations (publisher, organizer, etc.)."
 msgstr ""
 
 #. Author of the plugin/theme

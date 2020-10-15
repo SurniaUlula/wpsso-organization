@@ -5,4 +5,4 @@
  */
 _x( 'Organizations', 'lib file description', 'wpsso-organization' );
 _x( 'WPSSO Organization Markup', 'plugin name', 'wpsso-organization' );
-_x( 'Customize the Schema Organization Markup for your WebSite and Manage Additional Organizations (Publisher, Organizer, etc.).', 'plugin description', 'wpsso-organization' );
+_x( 'Customize the Schema Organization markup for your website and create additional Schema Organizations (publisher, organizer, etc.).', 'plugin description', 'wpsso-organization' );
