@@ -167,7 +167,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 					$org_name = sprintf( _x( 'Organization #%d', 'option value', 'wpsso-organization' ), $org_id );
 				}
-				
+
 				$opts[ 'org_name_' . $org_id ] = $org_name;
 
 				$this->check_banner_image_size( $opts, $img_pre = 'org_banner', $org_id, $org_name );

@@ -174,7 +174,6 @@ if ( ! class_exists( 'WpssoOrgRegister' ) ) {
 			);
 
 			register_taxonomy( WPSSOORG_CATEGORY_TAXONOMY, array( WPSSOORG_ORGANIZATION_POST_TYPE ), $args );
-		
 		}
 
 		public function register_post_type_organization() {
