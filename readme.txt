@@ -50,7 +50,7 @@ Select an optional physical location (ie. place or address) for your WebSite Org
 		* Twitter Business @username (localized)
 		* Wikipedia Organization Page URL (localized)
 		* YouTube Business Channel URL (localized)
-	
+
 <h3>WPSSO ORG Premium Features</h3>
 
 The Standard version is designed to satisfy the requirements of most standard WordPress sites / blogs. If your site requires the management of multiple organizations, then you may want the Premium version for those additional features.
