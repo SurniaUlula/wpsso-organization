@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 3.8.0\n"
+"Project-Id-Version: WPSSO Organization Markup 3.8.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-organization\n"
-"POT-Creation-Date: 2020-10-07 16:25-0700\n"
-"PO-Revision-Date: 2020-10-07 16:25-0700\n"
+"POT-Creation-Date: 2020-10-17 11:38-0700\n"
+"PO-Revision-Date: 2020-10-17 11:38-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -13,11 +13,11 @@ msgstr ""
 "X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: gettext/gettext-lib-abstracts-com.php:6 lib/abstracts/com/add-on.php:157
+#: gettext/gettext-lib-abstracts-com.php:6 lib/abstracts/com/add-on.php:161
 msgid "The %1$s add-on requires the %2$s plugin &mdash; please activate the missing plugin."
 msgstr "L'ajout %1$s nécessite l'extension %2$s &mdash; veuillez activer l'extension manquante."
 
-#: gettext/gettext-lib-abstracts-com.php:7 lib/abstracts/com/add-on.php:171
+#: gettext/gettext-lib-abstracts-com.php:7 lib/abstracts/com/add-on.php:179
 msgid "The %1$s add-on requires %2$s version %3$s or newer (version %4$s is currently installed)."
 msgstr "L'ajout %1$s nécessite %2$s version %3$s ou plus récente (la version %4$s est actuellement installée)."
 
@@ -33,8 +33,8 @@ msgstr "WPSSO balisage d'organisation"
 
 #: gettext/gettext-lib-config.php:8
 msgctxt "plugin description"
-msgid "Customize the Schema Organization Markup for your WebSite and Manage Additional Organizations (Publisher, Organizer, etc.)."
-msgstr "Personnaliser le balisage de Schéma Organisation pour votre site Web et de gérer des organisations supplémentaires (éditeur, organisateur, etc.)."
+msgid "Customize the Schema Organization markup for your website and create additional Schema Organizations (publisher, organizer, etc.)."
+msgstr "Personnaliser le balisage de Schéma Organisation pour votre site Web et et créez des organisations supplémentaires (éditeur, organisateur, etc.)."
 
 #: gettext/gettext-lib-pro.php:6 lib/pro/admin/org-general.php:51
 #: lib/std/admin/org-general.php:50
@@ -102,35 +102,35 @@ msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr "Knowledge Graph de Google"
 
-#: lib/filters-messages.php:55
+#: lib/filters-messages.php:59
 msgid "Include Organization schema markup in the front page for Google's Knowledge Graph."
 msgstr "Inclure le balisage de Schéma Organisation dans la page d'avant pour le Knowledge Graph de Google."
 
-#: lib/filters-messages.php:61
+#: lib/filters-messages.php:65
 msgid "Select an organization to edit."
 msgstr "Sélectionnez une organisation à modifier."
 
-#: lib/filters-messages.php:67
+#: lib/filters-messages.php:71
 msgid "The complete name for the organization."
 msgstr "Le nom complet de l'organisation."
 
-#: lib/filters-messages.php:73
+#: lib/filters-messages.php:77
 msgid "An alternate name for the organization that you would like Google to consider."
 msgstr "Un autre nom pour l’organisation que vous souhaitez que Google considère."
 
-#: lib/filters-messages.php:79
+#: lib/filters-messages.php:83
 msgid "A description for the organization."
 msgstr "Une description de l'organisation."
 
-#: lib/filters-messages.php:85
+#: lib/filters-messages.php:89
 msgid "The website URL for the organization."
 msgstr "L'URL du site Web de l'organisation."
 
-#: lib/filters-messages.php:91
+#: lib/filters-messages.php:95
 msgid "You may optionally choose a more accurate Schema type for this organization (default is Organization)."
 msgstr "Vous pouvez aussi choisir un type de schéma plus précis pour cette organisation (la valeur par défaut est Organisation)."
 
-#: lib/filters-messages.php:102
+#: lib/filters-messages.php:106
 msgid "Select an optional location for this organization (requires the %s add-on)."
 msgstr "Choisissez un emplacement optionnel pour cette organisation (requiert l'ajout %s)."
 
@@ -242,138 +242,138 @@ msgctxt "Taxonomy description"
 msgid "Categories for Organizations"
 msgstr "Catégories pour les organisations"
 
-#: lib/register.php:183
+#: lib/register.php:182
 msgid "Organizations"
 msgstr "Organisations"
 
-#: lib/register.php:184
+#: lib/register.php:183
 msgid "Organization"
 msgstr "Organisation"
 
-#: lib/register.php:185
+#: lib/register.php:184
 msgid "Add New"
 msgstr "Ajouter"
 
-#: lib/register.php:186
+#: lib/register.php:185
 msgid "Add New Organization"
 msgstr "Ajouter une nouvelle organisation"
 
-#: lib/register.php:187
+#: lib/register.php:186
 msgid "Edit Organization"
 msgstr "Modifier l'organisation"
 
-#: lib/register.php:188
+#: lib/register.php:187
 msgid "New Organization"
 msgstr "Nouvelle organisation"
 
-#: lib/register.php:189
+#: lib/register.php:188
 msgid "View Organization"
 msgstr "Voir l'organisation"
 
-#: lib/register.php:190
+#: lib/register.php:189
 msgid "View Organizations"
 msgstr "Voir les organisations"
 
-#: lib/register.php:191
+#: lib/register.php:190
 msgid "Search Organizations"
 msgstr "Rechercher dans les organisations"
 
-#: lib/register.php:192
+#: lib/register.php:191
 msgid "No organizations found"
 msgstr "Aucune organisation trouvée"
 
-#: lib/register.php:193
+#: lib/register.php:192
 msgid "No organizations found in Trash"
 msgstr "Aucune organisation trouvée dans corbeille"
 
-#: lib/register.php:194
+#: lib/register.php:193
 msgid "Parent Organization:"
 msgstr "Organisation parente:"
 
-#: lib/register.php:195
+#: lib/register.php:194
 msgid "All Organizations"
 msgstr "Toutes les organisations"
 
-#: lib/register.php:196
+#: lib/register.php:195
 msgid "Organization Archives"
 msgstr "Archives d'organisations"
 
-#: lib/register.php:197
+#: lib/register.php:196
 msgid "Organization Attributes"
 msgstr "Attributs de l'organisation"
 
-#: lib/register.php:198
+#: lib/register.php:197
 msgid "Insert into organization"
 msgstr "Insérer dans l'organisation"
 
-#: lib/register.php:199
+#: lib/register.php:198
 msgid "Uploaded to this organization"
 msgstr "Téléchargé à cette organisation"
 
-#: lib/register.php:200
+#: lib/register.php:199
 msgid "Organization Image"
 msgstr "Image de l'organisation"
 
-#: lib/register.php:201
+#: lib/register.php:200
 msgid "Set organization image"
 msgstr "Définir l'image de l'organisation"
 
-#: lib/register.php:202
+#: lib/register.php:201
 msgid "Remove organization image"
 msgstr "Supprimer l'image de l'organisation"
 
-#: lib/register.php:203
+#: lib/register.php:202
 msgid "Use as organization image"
 msgstr "Utiliser comme image d'organisation"
 
-#: lib/register.php:204
+#: lib/register.php:203
 msgctxt "Admin menu name"
 msgid "Organizations"
 msgstr "Organisations"
 
-#: lib/register.php:205
+#: lib/register.php:204
 msgid "Filter organizations"
 msgstr "Filtrer les organisations"
 
-#: lib/register.php:206
+#: lib/register.php:205
 msgid "Organizations list navigation"
 msgstr "Navigation de la liste des organisations"
 
-#: lib/register.php:207
+#: lib/register.php:206
 msgid "Organizations list"
 msgstr "Liste des organisations"
 
-#: lib/register.php:208
+#: lib/register.php:207
 msgctxt "Admin bar name"
 msgid "Organization"
 msgstr "Organisation"
 
-#: lib/register.php:209
+#: lib/register.php:208
 msgid "Organization published."
 msgstr "Organisation publiée."
 
-#: lib/register.php:210
+#: lib/register.php:209
 msgid "Organization published privately."
 msgstr "Organisation publiée en privé."
 
-#: lib/register.php:211
+#: lib/register.php:210
 msgid "Organization reverted to draft."
 msgstr "Organisation remis en brouillon."
 
-#: lib/register.php:212
+#: lib/register.php:211
 msgid "Organization scheduled."
 msgstr "Organisation planifiée."
 
-#: lib/register.php:213
+#: lib/register.php:212
 msgid "Organization updated."
 msgstr "Organisation mise à jour."
 
-#: lib/register.php:217
+#: lib/register.php:216
 msgctxt "Post type label"
 msgid "Organization"
 msgstr "Organisation"
 
-#: lib/register.php:219
+#: lib/register.php:218
 msgctxt "Post type description"
 msgid "Organization"
 msgstr "Organisation"
@@ -422,8 +422,8 @@ msgid "https://wpsso.com/extend/plugins/wpsso-organization/"
 msgstr "https://wpsso.com/extend/plugins/wpsso-organization/"
 
 #. Description of the plugin/theme
-msgid "Customize the Schema Organization Markup for your WebSite and Manage Additional Organizations (Publisher, Organizer, etc.)."
-msgstr "Personnaliser le balisage de Schéma Organisation pour votre site Web et de gérer des organisations supplémentaires (éditeur, organisateur, etc.)."
+msgid "Customize the Schema Organization markup for your website and create additional Schema Organizations (publisher, organizer, etc.)."
+msgstr "Personnaliser le balisage de Schéma Organisation pour votre site Web et et créez des organisations supplémentaires (éditeur, organisateur, etc.)."
 
 #. Author of the plugin/theme
 msgid "JS Morisset"
