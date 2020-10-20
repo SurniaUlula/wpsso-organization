@@ -105,12 +105,12 @@ if ( ! class_exists( 'WpssoOrgConfig' ) ) {
 			/**
 			 * Define fixed constants.
 			 */
-			define( 'WPSSOORG_FILEPATH', $plugin_file );						
+			define( 'WPSSOORG_FILEPATH', $plugin_file );
 			define( 'WPSSOORG_PLUGINBASE', $info[ 'base' ] );	// Example: wpsso-organization/wpsso-organization.php
 			define( 'WPSSOORG_PLUGINDIR', trailingslashit( realpath( dirname( $plugin_file ) ) ) );
 			define( 'WPSSOORG_PLUGINSLUG', $info[ 'slug' ] );	// Example: wpsso-organization
 			define( 'WPSSOORG_URLPATH', trailingslashit( plugins_url( '', $plugin_file ) ) );
-			define( 'WPSSOORG_VERSION', $info[ 'version' ] );						
+			define( 'WPSSOORG_VERSION', $info[ 'version' ] );
 
 			define( 'WPSSOORG_CATEGORY_TAXONOMY', 'org_category' );
 			define( 'WPSSOORG_ORGANIZATION_POST_TYPE', 'organization' );

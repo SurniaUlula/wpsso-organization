@@ -6,6 +6,7 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
+
 	die( 'These aren\'t the droids you\'re looking for.' );
 }
 
@@ -20,6 +21,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			$this->p =& $plugin;
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 		}
@@ -34,6 +36,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			$wpsso =& Wpsso::get_instance();
 
 			if ( $wpsso->debug->enabled ) {
+
 				$wpsso->debug->mark();
 			}
 
@@ -41,16 +44,19 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			$org_names   = array();
 
 			if ( $add_none ) {
+
 				$first_names[ 'none' ] = $wpsso->cf['form']['org_select']['none'];
 			}
 
 			if ( $add_site ) {
+
 				$first_names[ 'site' ] = $wpsso->cf['form']['org_select']['site'];
 			}
 
 			if ( $wpsso->check->pp( 'wpssoorg' ) ) {
 
 				if ( $wpsso->debug->enabled ) {
+
 					$wpsso->debug->log( 'getting multi keys for org_name' );
 				}
 
@@ -59,6 +65,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				if ( ! empty( $schema_type ) && is_string( $schema_type) ) {
 
 					if ( $wpsso->debug->enabled ) {
+
 						$wpsso->debug->log( 'removing organizations not in org type: ' . $schema_type );
 					}
 
@@ -80,6 +87,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 					}
 
 				} elseif ( $wpsso->debug->enabled ) {
+
 					$wpsso->debug->log( 'org type not provided - keeping all organizations' );
 				}
 			}
@@ -95,6 +103,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			}
 
 			if ( ! empty( $first_names ) ) {
+
 				$org_names = $first_names + $org_names;	// Combine arrays, preserving numeric key associations.
 			}
 
@@ -112,6 +121,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			$wpsso =& Wpsso::get_instance();
 
 			if ( $wpsso->debug->enabled ) {
+
 				$wpsso->debug->log_args( array( 
 					'org_id' => $org_id,
 					'mixed'  => $mixed,
@@ -135,6 +145,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				if ( isset( $local_cache[ $org_id ] ) ) {
 
 					if ( $wpsso->debug->enabled ) {
+
 						$wpsso->debug->log( 'returning options from static cache array for org ID ' . $org_id );
 					}
 
@@ -152,6 +163,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 				}
 
 				if ( $wpsso->debug->enabled ) {
+
 					$wpsso->debug->log( 'saving options to static cache array for org ID ' . $org_id );
 				}
 
@@ -159,10 +171,11 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 			}
 
 			if ( empty( $org_opts ) ) {
-				return false; 
-			} else {
-				return $org_opts;
+
+				return false;
 			}
+
+			return $org_opts;
 		}
 	}
 }
