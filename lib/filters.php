@@ -14,9 +14,9 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 	class WpssoOrgFilters {
 
-		private $p;
-		private $msgs;		// WpssoOrgFiltersMessages class object.
-		private $upg;		// WpssoOrgFiltersUpgrade class object.
+		private $p;	// Wpsso class object.
+		private $msgs;	// WpssoOrgFiltersMessages class object.
+		private $upg;	// WpssoOrgFiltersUpgrade class object.
 
 		public function __construct( &$plugin ) {
 
