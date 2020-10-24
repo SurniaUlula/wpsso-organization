@@ -6,6 +6,7 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
+
 	die( 'These aren\'t the droids you\'re looking for.' );
 }
 
@@ -20,6 +21,7 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 			$this->p =& $plugin;
 
 			if ( $this->p->debug->enabled ) {
+
 				$this->p->debug->mark();
 			}
 
@@ -29,10 +31,6 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 		}
 
 		public function filter_org_other_organizations_rows( $table_rows, $form ) {
-
-			if ( $this->p->debug->enabled ) {
-				$this->p->debug->mark();
-			}
 
 			$plm_req_msg     = $this->p->msgs->maybe_ext_required( 'wpssoplm' );
 			$plm_disable     = empty( $plm_req_msg ) ? false : true;
@@ -107,7 +105,7 @@ if ( ! class_exists( 'WpssoOrgStdAdminOrgGeneral' ) ) {
 
 			$social_accounts = apply_filters( $this->p->lca . '_social_accounts', $this->p->cf[ 'form' ][ 'social_accounts' ] );
 
-			asort( $social_accounts );	// sort by label and maintain key association
+			asort( $social_accounts );	// Sort by label and maintain key association.
 
 			foreach ( $social_accounts as $key => $label ) {
 
