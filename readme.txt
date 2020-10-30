@@ -10,7 +10,7 @@ Tags: local seo, local business, publisher, organization, schema, schema.org, ma
 Contributors: jsmoriss
 Requires PHP: 5.6
 Requires At Least: 4.4
-Tested Up To: 5.5.2
+Tested Up To: 5.5.3
 Stable Tag: 3.8.1
 
 Customize the Schema Organization markup for your website and create additional Schema Organizations (publisher, organizer, etc.).
