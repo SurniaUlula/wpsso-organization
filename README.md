@@ -1,4 +1,4 @@
-<h1>Organization Markup</h1><h3>WPSSO Add-on</h3>
+<h1>WPSSO Organization Markup</h1>
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Organization Markup</td></tr>
