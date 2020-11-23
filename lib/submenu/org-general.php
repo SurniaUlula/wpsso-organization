@@ -53,7 +53,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 			$metabox_id = 'org';
 
-			$tabs = apply_filters( $this->p->lca . '_' . $metabox_id . '_tabs', array( 
+			$tabs = apply_filters( 'wpsso_' . $metabox_id . '_tabs', array( 
 				'site'                => _x( 'WebSite Organization', 'metabox tab', 'wpsso-organization' ),
 				'other_organizations' => _x( 'Other Organizations', 'metabox tab', 'wpsso-organization' ),
 			) );
@@ -70,7 +70,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 
 				} else {
 
-					$filter_name = $this->p->lca . '_' . $metabox_id . '_' . $tab_key . '_rows';
+					$filter_name = 'wpsso_' . $metabox_id . '_' . $tab_key . '_rows';
 
 					$table_rows[ $tab_key ] = apply_filters( $filter_name, $this->get_table_rows( $metabox_id, $tab_key ), $this->form );
 				}
@@ -150,7 +150,7 @@ if ( ! class_exists( 'WpssoOrgSubmenuOrgGeneral' ) && class_exists( 'WpssoAdmin'
 					$table_rows[ 'subsection_google_knowledgegraph' ] = '<td colspan="2" class="subsection"><h4>' . 
 						_x( 'Google\'s Knowledge Graph', 'metabox title', 'wpsso-organization' ) . '</h4></td>';
 
-					$social_accounts = apply_filters( $this->p->lca . '_social_accounts', $this->p->cf[ 'form' ][ 'social_accounts' ] );
+					$social_accounts = apply_filters( 'wpsso_social_accounts', $this->p->cf[ 'form' ][ 'social_accounts' ] );
 
 					asort( $social_accounts );	// Sort by label and maintain key association.
 
