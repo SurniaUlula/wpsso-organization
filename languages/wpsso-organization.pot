@@ -108,72 +108,72 @@ msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
 
-#: lib/filters-messages.php:59
+#: lib/filters-messages.php:50
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters-messages.php:65
+#: lib/filters-messages.php:56
 msgid "Select an organization to edit."
 msgstr ""
 
-#: lib/filters-messages.php:71
+#: lib/filters-messages.php:62
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters-messages.php:77
+#: lib/filters-messages.php:68
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters-messages.php:83
+#: lib/filters-messages.php:74
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters-messages.php:89
+#: lib/filters-messages.php:80
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters-messages.php:95
+#: lib/filters-messages.php:86
 msgid ""
 "You may optionally choose a more accurate Schema type for this organization "
 "(default is Organization)."
 msgstr ""
 
-#: lib/filters-messages.php:106
+#: lib/filters-messages.php:97
 msgid ""
 "Select an optional location for this organization (requires the %s add-on)."
 msgstr ""
 
-#: lib/filters.php:168
+#: lib/filters.php:156
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:233
+#: lib/filters.php:221
 msgid "organization \"%s\""
 msgstr ""
 
-#: lib/filters.php:266
+#: lib/filters.php:254
 msgid ""
 "The \"%s\" organization banner URL image dimensions cannot be determined."
 msgstr ""
 
-#: lib/filters.php:269
+#: lib/filters.php:257
 msgid ""
 "Please make sure this site can access %s using the PHP getimagesize() "
 "function."
 msgstr ""
 
-#: lib/filters.php:274
+#: lib/filters.php:262
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions are %2$s and must be "
 "exactly %3$s."
 msgstr ""
 
-#: lib/filters.php:277
+#: lib/filters.php:265
 msgid "Please correct the %s banner image."
 msgstr ""
 
