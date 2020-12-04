@@ -15,18 +15,15 @@ if ( ! class_exists( 'WpssoOrgFiltersUpgrade' ) ) {
 	class WpssoOrgFiltersUpgrade {
 
 		private $p;	// Wpsso class object.
+		private $a;	// WpssoOrg class object.
 
 		/**
 		 * Instantiated by WpssoOrgFilters->__construct().
 		 */
-		public function __construct( &$plugin ) {
+		public function __construct( &$plugin, &$addon ) {
 
 			$this->p =& $plugin;
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
+			$this->a =& $addon;
 
 			$this->p->util->add_plugin_filters( $this, array( 
 				'rename_options_keys'        => 1,
@@ -34,11 +31,6 @@ if ( ! class_exists( 'WpssoOrgFiltersUpgrade' ) ) {
 		}
 
 		public function filter_rename_options_keys( $options_keys ) {
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
 
 			$options_keys[ 'wpssoorg' ] = array(
 				2 => array(

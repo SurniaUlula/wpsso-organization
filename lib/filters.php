@@ -15,10 +15,14 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 	class WpssoOrgFilters {
 
 		private $p;	// Wpsso class object.
+		private $a;	// WpssoOrg class object.
 		private $msgs;	// WpssoOrgFiltersMessages class object.
 		private $upg;	// WpssoOrgFiltersUpgrade class object.
 
-		public function __construct( &$plugin ) {
+		/**
+		 * Instantiated by WpssoOrg->init_objects().
+		 */
+		public function __construct( &$plugin, &$addon ) {
 
 			static $do_once = null;
 
@@ -30,15 +34,11 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 			$do_once = true;
 
 			$this->p =& $plugin;
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
+			$this->a =& $addon;
 
 			require_once WPSSOORG_PLUGINDIR . 'lib/filters-upgrade.php';
 
-			$this->upg = new WpssoOrgFiltersUpgrade( $plugin );
+			$this->upg = new WpssoOrgFiltersUpgrade( $plugin, $addon );
 
 			$this->p->util->add_plugin_filters( $this, array( 
 				'option_type'              => 2,
@@ -51,7 +51,7 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 
 				require_once WPSSOORG_PLUGINDIR . 'lib/filters-messages.php';
 
-				$this->msgs = new WpssoOrgFiltersMessages( $plugin );
+				$this->msgs = new WpssoOrgFiltersMessages( $plugin, $addon );
 
 				$this->p->util->add_plugin_filters( $this, array( 
 					'form_cache_org_site_names' => 1,
@@ -108,11 +108,6 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		 * $network is true if saving multisite network settings.
 		 */
 		public function filter_save_setting_options( array $opts, $network, $upgrading ) {
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
 
 			if ( $network ) {
 
@@ -181,11 +176,6 @@ if ( ! class_exists( 'WpssoOrgFilters' ) ) {
 		}
 
 		public function filter_rename_options_keys( $options_keys ) {
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
 
 			$options_keys[ 'wpssoorg' ] = array(
 				2 => array(

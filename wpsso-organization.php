@@ -14,7 +14,7 @@
  * Requires PHP: 5.6
  * Requires At Least: 4.4
  * Tested Up To: 5.6
- * Version: 3.8.1
+ * Version: 3.9.0
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -83,7 +83,7 @@ if ( ! class_exists( 'WpssoOrg' ) ) {
 				return;	// Stop here.
 			}
 
-			$this->filters = new WpssoOrgFilters( $this->p );
+			$this->filters = new WpssoOrgFilters( $this->p, $this );
 		}
 	}
 

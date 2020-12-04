@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Organization Markup package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Organization Markup 3.8.1\n"
+"Project-Id-Version: WPSSO Organization Markup 3.9.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-"
 "organization\n"
 "POT-Creation-Date: 2020-MO-DA HO:MI+ZONE\n"
@@ -108,72 +108,72 @@ msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
 
-#: lib/filters-messages.php:50
+#: lib/filters-messages.php:44
 msgid ""
 "Include Organization schema markup in the front page for Google's Knowledge "
 "Graph."
 msgstr ""
 
-#: lib/filters-messages.php:56
+#: lib/filters-messages.php:50
 msgid "Select an organization to edit."
 msgstr ""
 
-#: lib/filters-messages.php:62
+#: lib/filters-messages.php:56
 msgid "The complete name for the organization."
 msgstr ""
 
-#: lib/filters-messages.php:68
+#: lib/filters-messages.php:62
 msgid ""
 "An alternate name for the organization that you would like Google to "
 "consider."
 msgstr ""
 
-#: lib/filters-messages.php:74
+#: lib/filters-messages.php:68
 msgid "A description for the organization."
 msgstr ""
 
-#: lib/filters-messages.php:80
+#: lib/filters-messages.php:74
 msgid "The website URL for the organization."
 msgstr ""
 
-#: lib/filters-messages.php:86
+#: lib/filters-messages.php:80
 msgid ""
 "You may optionally choose a more accurate Schema type for this organization "
 "(default is Organization)."
 msgstr ""
 
-#: lib/filters-messages.php:97
+#: lib/filters-messages.php:91
 msgid ""
 "Select an optional location for this organization (requires the %s add-on)."
 msgstr ""
 
-#: lib/filters.php:156
+#: lib/filters.php:151
 msgctxt "option value"
 msgid "Organization #%d"
 msgstr ""
 
-#: lib/filters.php:221
+#: lib/filters.php:211
 msgid "organization \"%s\""
 msgstr ""
 
-#: lib/filters.php:254
+#: lib/filters.php:244
 msgid ""
 "The \"%s\" organization banner URL image dimensions cannot be determined."
 msgstr ""
 
-#: lib/filters.php:257
+#: lib/filters.php:247
 msgid ""
 "Please make sure this site can access %s using the PHP getimagesize() "
 "function."
 msgstr ""
 
-#: lib/filters.php:262
+#: lib/filters.php:252
 msgid ""
 "The \"%1$s\" organization banner URL image dimensions are %2$s and must be "
 "exactly %3$s."
 msgstr ""
 
-#: lib/filters.php:265
+#: lib/filters.php:255
 msgid "Please correct the %s banner image."
 msgstr ""
 
