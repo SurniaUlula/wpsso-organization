@@ -114,7 +114,7 @@ if ( ! class_exists( 'WpssoOrgOrganization' ) ) {
 		 * Get a specific organization id. Returns an array of localized values
 		 *
 		 * $org_id = 'site' | place ID.
-		 * $mixed  = 'default' | 'current' | post ID | $mod array.
+		 * $mixed  = 'default' | 'current' | post id | $mod array.
 		 */
 		public static function get_id( $org_id, $mixed = 'current' ) {
 
