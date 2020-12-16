@@ -96,7 +96,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 3.10.0-rc.1 (2020/12/16)**
+**Version 3.10.0-rc.2 (2020/12/16)**
 
 * **New Features**
 	* None.
@@ -109,7 +109,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.0.
 	* WordPress v4.5.
-	* WPSSO Core v8.17.2-rc.1.
+	* WPSSO Core v8.17.2-rc.2.
 
 **Version 3.9.0 (2020/12/04)**
 
@@ -144,7 +144,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 3.10.0-rc.1 =
+= 3.10.0-rc.2 =
 
 (2020/12/16) Updated the 'site_url' option key to 'home_url' for WPSSO Core v8.17.2.
 
