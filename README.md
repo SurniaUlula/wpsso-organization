@@ -4,7 +4,7 @@
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Organization Markup</td></tr>
 <tr><th align="right" valign="top" nowrap>Summary</th><td>Customize the Schema Organization markup for your website and create additional Schema Organizations (publisher, organizer, etc.).</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>3.9.0</td></tr>
-<tr><th align="right" valign="top" nowrap>Requires PHP</th><td>5.6 or newer</td></tr>
+<tr><th align="right" valign="top" nowrap>Requires PHP</th><td>7.0 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>4.5 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Tested Up To WordPress</th><td>5.6</td></tr>
 <tr><th align="right" valign="top" nowrap>Contributors</th><td>jsmoriss</td></tr>
