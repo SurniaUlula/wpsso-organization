@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 7.0
 Requires At Least: 4.5
 Tested Up To: 5.6
-Stable Tag: 3.9.0
+Stable Tag: 3.10.0
 
 Customize the Schema Organization markup for your website and create additional Schema Organizations (publisher, organizer, etc.).
 
