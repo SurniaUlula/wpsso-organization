@@ -105,11 +105,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* Updated the 'site_url' option key to 'home_url' for WPSSO Core v8.17.2.
+	* Updated the 'site_url' option key to 'home_url' for WPSSO Core v8.18.0.
 * **Requires At Least**
 	* PHP v7.0.
 	* WordPress v4.5.
-	* WPSSO Core v8.17.2-rc.3.
+	* WPSSO Core v8.18.0-rc.3.
 
 **Version 3.9.0 (2020/12/04)**
 
@@ -146,7 +146,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 3.10.0-rc.3 =
 
-(2020/12/17) Updated the 'site_url' option key to 'home_url' for WPSSO Core v8.17.2.
+(2020/12/17) Updated the 'site_url' option key to 'home_url' for WPSSO Core v8.18.0.
 
 = 3.9.0 =
 
