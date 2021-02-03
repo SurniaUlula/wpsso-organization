@@ -25,7 +25,7 @@ Select an optional physical location (ie. place or address) for your WebSite Org
 
 <h3>WPSSO ORG Standard Features</h3>
 
-* Extends the features of the WPSSO Core plugin.
+* Extends the features of the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
 
 * Customize your Schema Organization properties for Google's Knowledge Graph, including different values for each installed WordPress language / locale:
 
