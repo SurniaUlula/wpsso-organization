@@ -22,9 +22,9 @@
 
 <h3>WPSSO ORG Standard Features</h3>
 
-<ul>
-<li><p>Extends the features of the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>.</p></li>
-<li><p>Customize your Schema Organization properties for Google's Knowledge Graph, including different values for each installed WordPress language / locale:</p>
+<p>Extends the features of the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a> (required plugin).</p>
+
+<p>Customize your Schema Organization properties for Google's Knowledge Graph, including different values for each installed WordPress language / locale:</p>
 
 <ul>
 <li>WebSite Name (localized)</li>
@@ -48,7 +48,6 @@
 <li>Twitter Business @username (localized)</li>
 <li>Wikipedia Organization Page URL (localized)</li>
 <li>YouTube Business Channel URL (localized)</li>
-</ul></li>
 </ul></li>
 </ul>
 

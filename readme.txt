@@ -25,29 +25,29 @@ Select an optional physical location (ie. place or address) for your WebSite Org
 
 <h3>WPSSO ORG Standard Features</h3>
 
-* Extends the features of the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
+Extends the features of the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/) (required plugin).
 
-* Customize your Schema Organization properties for Google's Knowledge Graph, including different values for each installed WordPress language / locale:
+Customize your Schema Organization properties for Google's Knowledge Graph, including different values for each installed WordPress language / locale:
 
-	* WebSite Name (localized)
-	* WebSite Alternate Name (localized)
-	* WebSite Description (localized)
-	* WebSite URL (localized)
-	* Organization Logo Image URL (localized)
-	* Organization Banner (600x60) URL (localized)
-	* Organization Schema Type
-	* Organization Location
-	* Google's Knowledge Graph Social Profile URLs:
-		* Facebook Business Page URL (localized)
-		* Instagram Business Page URL (localized)
-		* LinkedIn Company Page URL (localized)
-		* Myspace Business Page URL (localized)
-		* Pinterest Company Page URL (localized)
-		* Soundcloud Business Page URL (localized)
-		* Tumblr Business Page URL (localized)
-		* Twitter Business @username (localized)
-		* Wikipedia Organization Page URL (localized)
-		* YouTube Business Channel URL (localized)
+* WebSite Name (localized)
+* WebSite Alternate Name (localized)
+* WebSite Description (localized)
+* WebSite URL (localized)
+* Organization Logo Image URL (localized)
+* Organization Banner (600x60) URL (localized)
+* Organization Schema Type
+* Organization Location
+* Google's Knowledge Graph Social Profile URLs:
+	* Facebook Business Page URL (localized)
+	* Instagram Business Page URL (localized)
+	* LinkedIn Company Page URL (localized)
+	* Myspace Business Page URL (localized)
+	* Pinterest Company Page URL (localized)
+	* Soundcloud Business Page URL (localized)
+	* Tumblr Business Page URL (localized)
+	* Twitter Business @username (localized)
+	* Wikipedia Organization Page URL (localized)
+	* YouTube Business Channel URL (localized)
 
 <h3>WPSSO ORG Premium Features</h3>
 
