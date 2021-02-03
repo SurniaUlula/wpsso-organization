@@ -49,6 +49,8 @@ Customize your Schema Organization properties for Google's Knowledge Graph, incl
 	* Wikipedia Organization Page URL (localized)
 	* YouTube Business Channel URL (localized)
 
+The WPSSO Organization Markup Standard add-on is designed to satisfy the requirements of most standard WordPress sites. If your site requires the management of multiple organizations, then you may want to get the [WPSSO ORG Premium add-on](https://wpsso.com/extend/plugins/wpsso-organization/) for those additional features.
+
 **[Premium]** Manage the details of multiple organizations.
 
 **[Premium]** Offers an organization selector for the [WPSSO Schema JSON-LD Markup Premium add-on](https://wpsso.com/extend/plugins/wpsso-schema-json-ld/) to optionally select a different publisher, service provider, event organizer, event performer, hiring organization, etc.
