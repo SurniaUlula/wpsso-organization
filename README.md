@@ -20,7 +20,7 @@
 
 <p>Select an optional physical location (ie. place or address) for your WebSite Organization and/or each additional Organization you create.</p>
 
-<h3>WPSSO ORG Standard Features</h3>
+<h3>WPSSO ORG Add-on Features</h3>
 
 <p>Extends the features of the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a> (required plugin).</p>
 
@@ -51,20 +51,13 @@
 </ul></li>
 </ul>
 
-<h3>WPSSO ORG Premium Features</h3>
+<p><strong>[Premium]</strong> Manage the details of multiple organizations.</p>
 
-<p>The Standard version is designed to satisfy the requirements of most standard WordPress sites / blogs. If your site requires the management of multiple organizations, then you may want the Premium version for those additional features.</p>
-
-<ul>
-<li><p>Manage the details of multiple organizations.</p></li>
-<li><p>Offers an organization selector for the <a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup Premium add-on</a> to optionally select a different publisher, service provider, event organizer, event performer, hiring organization, etc.</p></li>
-</ul>
+<p><strong>[Premium]</strong> Offers an organization selector for the <a href="https://wpsso.com/extend/plugins/wpsso-schema-json-ld/">WPSSO Schema JSON-LD Markup Premium add-on</a> to optionally select a different publisher, service provider, event organizer, event performer, hiring organization, etc.</p>
 
 <h3>WPSSO Core Plugin Required</h3>
 
-<p>WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>.</p>
-
-<p>WPSSO Core and its add-ons make sure your content looks best on social sites and in search results, no matter how webpages are shared, re-shared, messaged, posted, embedded, or crawled.</p>
+<p>WPSSO Organization Markup (aka WPSSO ORG) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>. WPSSO Core and its add-ons make sure your content looks best on social sites and in search results, no matter how webpages are shared, re-shared, messaged, posted, embedded, or crawled.</p>
 
 
 <h2>Installation</h2>
