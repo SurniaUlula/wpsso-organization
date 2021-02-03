@@ -17,9 +17,7 @@ Customize the Schema Organization markup for your website and create additional 
 
 == Description ==
 
-<p style="margin:0;"><img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png"></p>
-
-**Customize the Schema Organization markup for your home page:**
+<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-organization/assets/icon-256x256.png"> <strong>Customize the Schema Organization markup for your home page:</strong></p>
 
 Customize your Schema Organization name, alternate name, description, WebSite URL, banner, logo, and social page URLs for each installed WordPress language / locale.
 
