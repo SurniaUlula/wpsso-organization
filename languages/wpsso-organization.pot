@@ -60,50 +60,50 @@ msgctxt "option label"
 msgid "Organization Name"
 msgstr ""
 
-#: gettext/gettext-lib-pro.php:9 lib/pro/admin/org-general.php:73
-#: lib/std/admin/org-general.php:65
+#: gettext/gettext-lib-pro.php:9 lib/pro/admin/org-general.php:74
+#: lib/std/admin/org-general.php:66
 msgctxt "option label"
 msgid "Organization Alternate Name"
 msgstr ""
 
-#: gettext/gettext-lib-pro.php:10 lib/pro/admin/org-general.php:78
-#: lib/std/admin/org-general.php:70
+#: gettext/gettext-lib-pro.php:10 lib/pro/admin/org-general.php:80
+#: lib/std/admin/org-general.php:72
 msgctxt "option label"
 msgid "Organization Description"
 msgstr ""
 
-#: gettext/gettext-lib-pro.php:11 lib/pro/admin/org-general.php:83
-#: lib/std/admin/org-general.php:75
+#: gettext/gettext-lib-pro.php:11 lib/pro/admin/org-general.php:85
+#: lib/std/admin/org-general.php:77
 msgctxt "option label"
 msgid "Organization WebSite URL"
 msgstr ""
 
-#: gettext/gettext-lib-pro.php:12 lib/pro/admin/org-general.php:89
-#: lib/std/admin/org-general.php:81 lib/submenu/org-general.php:125
+#: gettext/gettext-lib-pro.php:12 lib/pro/admin/org-general.php:92
+#: lib/std/admin/org-general.php:84 lib/submenu/org-general.php:125
 msgctxt "option label"
 msgid "Organization Logo URL"
 msgstr ""
 
-#: gettext/gettext-lib-pro.php:13 lib/pro/admin/org-general.php:95
-#: lib/std/admin/org-general.php:87 lib/submenu/org-general.php:131
+#: gettext/gettext-lib-pro.php:13 lib/pro/admin/org-general.php:99
+#: lib/std/admin/org-general.php:91 lib/submenu/org-general.php:131
 msgctxt "option label"
 msgid "Organization Banner URL"
 msgstr ""
 
-#: gettext/gettext-lib-pro.php:14 lib/pro/admin/org-general.php:100
-#: lib/std/admin/org-general.php:92 lib/submenu/org-general.php:136
+#: gettext/gettext-lib-pro.php:14 lib/pro/admin/org-general.php:105
+#: lib/std/admin/org-general.php:97 lib/submenu/org-general.php:136
 msgctxt "option label"
 msgid "Organization Schema Type"
 msgstr ""
 
-#: gettext/gettext-lib-pro.php:15 lib/pro/admin/org-general.php:109
-#: lib/std/admin/org-general.php:98 lib/submenu/org-general.php:145
+#: gettext/gettext-lib-pro.php:15 lib/pro/admin/org-general.php:114
+#: lib/std/admin/org-general.php:103 lib/submenu/org-general.php:145
 msgctxt "option label"
 msgid "Organization Location"
 msgstr ""
 
-#: gettext/gettext-lib-pro.php:16 lib/pro/admin/org-general.php:116
-#: lib/std/admin/org-general.php:104 lib/submenu/org-general.php:151
+#: gettext/gettext-lib-pro.php:16 lib/pro/admin/org-general.php:121
+#: lib/std/admin/org-general.php:109 lib/submenu/org-general.php:151
 msgctxt "metabox title"
 msgid "Google's Knowledge Graph"
 msgstr ""
