@@ -186,7 +186,7 @@ msgid "Category"
 msgstr ""
 
 #: lib/register.php:142
-msgctxt "Admin menu name"
+msgctxt "admin menu name"
 msgid "Categories"
 msgstr ""
 
@@ -345,7 +345,7 @@ msgid "Use as organization image"
 msgstr ""
 
 #: lib/register.php:203
-msgctxt "Admin menu name"
+msgctxt "admin menu name"
 msgid "Organizations"
 msgstr ""
 
@@ -362,7 +362,7 @@ msgid "Organizations list"
 msgstr ""
 
 #: lib/register.php:207
-msgctxt "Admin bar name"
+msgctxt "admin bar name"
 msgid "Organization"
 msgstr ""
 
